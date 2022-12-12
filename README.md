@@ -1,6 +1,10 @@
-# SuperQuizzer
+<p align="center" width="100%">
+<img src="https://user-images.githubusercontent.com/97402494/207168649-0dc62762-69ea-4c94-a929-18dad6113796.png">
 
-SuperQuizzer is a quiz taking application made in Kotlin. You can test your knowledge by taking quizzes of various topics and forms through this application.
+
+
+
+**SuperQuizzer is a quiz taking application made in Kotlin. You can test your knowledge by creating an account, setting up your user profile  and start taking quizzes of various topics and forms like Science, Sports, Trivia etc. through this  application.**</p>
 
 ## Getting Started
 
@@ -40,3 +44,10 @@ Please help us follow the best practice to make it easy for the reviewer as well
 ## Communicate
 
 Whether you are working on an issue or facing a doubt please feel free to ask us on our [discord](https://discord.gg/9McHvjbz) channel. We will be happy to help you out. 
+
+## Resources
+
+- Kotlin official Documentation: https://kotlinlang.org/docs/home.html
+- Firebase official Documentation: https://firebase.google.com/docs
+- Git/GItHub Tutorial for beginners: https://www.freecodecamp.org/news/git-and-github-for-beginners/
+
