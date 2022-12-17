@@ -4,7 +4,7 @@
 
 
 
-**SuperQuizzer is a quiz taking application made in Kotlin. You can test your knowledge by creating an account, setting up your user profile  and start taking quizzes of various topics and forms like Science, Sports, Trivia etc. through this  application.**</p>
+**SuperQuizzer is a quiz taking application made in Kotlin. You can test your knowledge by creating an account, setting up your user profile  and start taking quizzes of various topics and forms  through this  application.**</p>
 
 ## Getting Started
 
