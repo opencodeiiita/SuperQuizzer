@@ -40,6 +40,10 @@
         "source": "com.example.superquizzer.app-main-31:/mipmap-mdpi/ic_launcher.webp"
     },
     {
+        "merged": "com.example.superquizzer.app-merged_res-29:/layout_activity_register.xml.flat",
+        "source": "com.example.superquizzer.app-main-31:/layout/activity_register.xml"
+    },
+    {
         "merged": "com.example.superquizzer.app-merged_res-29:/drawable_ic_launcher_background.xml.flat",
         "source": "com.example.superquizzer.app-main-31:/drawable/ic_launcher_background.xml"
     },

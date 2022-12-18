@@ -4,7 +4,7 @@
             "outputFile": "com.example.superquizzer.app-mergeDebugResources-27:/values-watch-v20/values-watch-v20.xml",
             "map": [
                 {
-                    "source": "/home/suhail/.gradle/caches/transforms-3/e276f94e9a8f9de3172d1494c48c3fd5/transformed/appcompat-1.5.1/res/values-watch-v20/values-watch-v20.xml",
+                    "source": "C:\\Users\\DigiCraze\\.gradle\\caches\\transforms-3\\e276f94e9a8f9de3172d1494c48c3fd5\\transformed\\appcompat-1.5.1\\res\\values-watch-v20\\values-watch-v20.xml",
                     "from": {
                         "startLines": "2,5,8",
                         "startColumns": "4,4,4",
