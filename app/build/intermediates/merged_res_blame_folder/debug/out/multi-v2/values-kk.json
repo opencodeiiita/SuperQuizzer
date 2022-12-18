@@ -4,24 +4,7 @@
             "outputFile": "com.example.superquizzer.app-mergeDebugResources-27:/values-kk/values-kk.xml",
             "map": [
                 {
-                    "source": "/home/suhail/.gradle/caches/transforms-3/065dfa018132f0a621878cd66243e674/transformed/core-1.8.0/res/values-kk/values-kk.xml",
-                    "from": {
-                        "startLines": "2",
-                        "startColumns": "4",
-                        "startOffsets": "55",
-                        "endColumns": "100",
-                        "endOffsets": "151"
-                    },
-                    "to": {
-                        "startLines": "91",
-                        "startColumns": "4",
-                        "startOffsets": "7590",
-                        "endColumns": "100",
-                        "endOffsets": "7686"
-                    }
-                },
-                {
-                    "source": "/home/suhail/.gradle/caches/transforms-3/e276f94e9a8f9de3172d1494c48c3fd5/transformed/appcompat-1.5.1/res/values-kk/values-kk.xml",
+                    "source": "C:\\Users\\shubh\\.gradle\\caches\\transforms-3\\e276f94e9a8f9de3172d1494c48c3fd5\\transformed\\appcompat-1.5.1\\res\\values-kk\\values-kk.xml",
                     "from": {
                         "startLines": "2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26,27,28,29",
                         "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4",
@@ -38,7 +21,7 @@
                     }
                 },
                 {
-                    "source": "/home/suhail/.gradle/caches/transforms-3/eb9182e005d31b4290fa147c5f840933/transformed/material-1.7.0/res/values-kk/values-kk.xml",
+                    "source": "C:\\Users\\shubh\\.gradle\\caches\\transforms-3\\eb9182e005d31b4290fa147c5f840933\\transformed\\material-1.7.0\\res\\values-kk\\values-kk.xml",
                     "from": {
                         "startLines": "2,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26,27,28,29,30,31,32,33,34,35,36,37,38,39,40,41,42,43,44,45,46,47,48,49,50,51,52,53,54,55,56,57,58,59,60,61,62",
                         "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4",
@@ -54,6 +37,23 @@
                         "endLines": "5,33,34,35,36,37,38,39,40,41,42,43,44,45,46,47,48,49,50,51,52,53,54,55,56,57,58,59,60,61,62,63,64,65,66,67,68,69,70,71,72,73,74,75,76,77,78,79,80,81,82,83,84,85,86,87,88,89",
                         "endColumns": "12,78,91,111,81,63,94,69,62,106,66,60,66,61,53,113,58,60,53,74,125,87,88,141,71,72,88,56,55,65,70,76,85,71,75,80,69,86,71,90,92,73,74,91,51,65,83,85,61,63,62,103,99,93,100,60,59,83",
                         "endOffsets": "318,3088,3180,3292,3374,3438,3533,3603,3666,3773,3840,3901,3968,4030,4084,4198,4257,4318,4372,4447,4573,4661,4750,4892,4964,5037,5126,5183,5239,5305,5376,5453,5539,5611,5687,5768,5838,5925,5997,6088,6181,6255,6330,6422,6474,6540,6624,6710,6772,6836,6899,7003,7103,7197,7298,7359,7419,7503"
+                    }
+                },
+                {
+                    "source": "C:\\Users\\shubh\\.gradle\\caches\\transforms-3\\065dfa018132f0a621878cd66243e674\\transformed\\core-1.8.0\\res\\values-kk\\values-kk.xml",
+                    "from": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endColumns": "100",
+                        "endOffsets": "151"
+                    },
+                    "to": {
+                        "startLines": "91",
+                        "startColumns": "4",
+                        "startOffsets": "7590",
+                        "endColumns": "100",
+                        "endOffsets": "7686"
                     }
                 }
             ]
