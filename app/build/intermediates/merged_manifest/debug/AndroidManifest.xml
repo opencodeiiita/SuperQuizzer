@@ -21,6 +21,9 @@
         android:testOnly="true"
         android:theme="@style/Theme.SuperQuizzer" >
         <activity
+            android:name="com.example.superquizzer.RegisterActivity"
+            android:exported="false" />
+        <activity
             android:name="com.example.superquizzer.SplashActivity"
             android:exported="true" >
             <intent-filter>

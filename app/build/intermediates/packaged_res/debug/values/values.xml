@@ -2,13 +2,34 @@
 <resources xmlns:ns1="http://schemas.android.com/tools">
     <color name="alternative">#8075FF</color>
     <color name="ashgray">#CAD5CA</color>
+    <color name="background">#80CCFF</color>
+    <color name="black">#FF000000</color>
+    <color name="btn_color"> #0000e6</color>
+    <color name="btnback">#1976D2</color>
     <color name="light">#F8F0FB</color>
+    <color name="myback">#B3E5FC</color>
     <color name="primary">#211A1D</color>
+    <color name="purple_200">#FFBB86FC</color>
+    <color name="purple_500">#FF6200EE</color>
+    <color name="purple_700">#FF3700B3</color>
+    <color name="register">#2b11f9</color>
     <color name="secondary">#6320EE</color>
+    <color name="teal_200">#FF03DAC5</color>
+    <color name="teal_700">#FF018786</color>
+    <color name="tint">#cccccc</color>
+    <color name="white">#FFFFFFFF</color>
+    <string name="already_have_an_account_login">Already have an account? Login</string>
     <string name="app_name">SuperQuizzer</string>
-    <style name="Theme.SuperQuizzer" parent="Theme.MaterialComponents.DayNight.DarkActionBar">
+    <string name="confirm_password">Confirm Password</string>
+    <string name="create_account">Create Account</string>
+    <string name="email_id">Email Id</string>
+    <string name="first_name">First Name</string>
+    <string name="last_name">Last name</string>
+    <string name="password">Password</string>
+    <string name="register">REGISTER</string>
+    <style name="Theme.SuperQuizzer" parent="Theme.MaterialComponents.Light.NoActionBar">
         
-        <item name="colorPrimary">@color/primary</item>
+        <item name="colorPrimary">@color/btnback</item>
         <item name="colorPrimaryVariant">@color/secondary</item>
         <item name="colorOnPrimary">@color/alternative</item>
         
