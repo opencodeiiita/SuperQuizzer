@@ -21,8 +21,21 @@
         android:testOnly="true"
         android:theme="@style/Theme.SuperQuizzer" >
         <activity
+            android:name="com.example.superquizzer.LoginActivity"
+            android:exported="false" >
+            <meta-data
+                android:name="android.app.lib_name"
+                android:value="" />
+        </activity>
+        <activity
             android:name="com.example.superquizzer.RegisterActivity"
-            android:exported="false" />
+            android:exported="true" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
         <activity
             android:name="com.example.superquizzer.SplashActivity"
             android:exported="true" >

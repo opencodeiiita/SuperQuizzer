@@ -18,13 +18,16 @@
     <color name="teal_700">#FF018786</color>
     <color name="tint">#cccccc</color>
     <color name="white">#FFFFFFFF</color>
+    <string name="already_have_an_account">Already have an account ?</string>
     <string name="already_have_an_account_login">Already have an account? Login</string>
+    <string name="app_icon">app_icon</string>
     <string name="app_name">SuperQuizzer</string>
     <string name="confirm_password">Confirm Password</string>
     <string name="create_account">Create Account</string>
     <string name="email_id">Email Id</string>
     <string name="first_name">First Name</string>
     <string name="last_name">Last name</string>
+    <string name="login">Login</string>
     <string name="password">Password</string>
     <string name="register">REGISTER</string>
     <style name="Theme.SuperQuizzer" parent="Theme.MaterialComponents.Light.NoActionBar">
