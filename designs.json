@@ -1,10 +1,10 @@
 {
-  "icon":{
-    "createdBy": "github-account",
-    "figma": "link to figma file"
+  "icon": {
+    "createdBy": "zitsav",
+    "figma": "https://www.figma.com/file/G5HaxbczBCvCzdfNRjKOTc/Super-Quizzer-logo?t=57nDrdrXPiujWPVs-1"
   },
 
-  "SplashScreen":{
+  "SplashScreen": {
     "createdBy": "github-account",
     "figma": "link to figma file"
   }
