@@ -4,7 +4,7 @@
             "outputFile": "com.example.superquizzer.app-mergeDebugResources-27:/values-mr/values-mr.xml",
             "map": [
                 {
-                    "source": "C:\\Users\\DigiCraze\\.gradle\\caches\\transforms-3\\e276f94e9a8f9de3172d1494c48c3fd5\\transformed\\appcompat-1.5.1\\res\\values-mr\\values-mr.xml",
+                    "source": "C:\\Users\\SUMIT\\.gradle\\caches\\transforms-3\\e276f94e9a8f9de3172d1494c48c3fd5\\transformed\\appcompat-1.5.1\\res\\values-mr\\values-mr.xml",
                     "from": {
                         "startLines": "2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26,27,28,29",
                         "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4",
@@ -21,7 +21,24 @@
                     }
                 },
                 {
-                    "source": "C:\\Users\\DigiCraze\\.gradle\\caches\\transforms-3\\eb9182e005d31b4290fa147c5f840933\\transformed\\material-1.7.0\\res\\values-mr\\values-mr.xml",
+                    "source": "C:\\Users\\SUMIT\\.gradle\\caches\\transforms-3\\065dfa018132f0a621878cd66243e674\\transformed\\core-1.8.0\\res\\values-mr\\values-mr.xml",
+                    "from": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endColumns": "100",
+                        "endOffsets": "151"
+                    },
+                    "to": {
+                        "startLines": "91",
+                        "startColumns": "4",
+                        "startOffsets": "7540",
+                        "endColumns": "100",
+                        "endOffsets": "7636"
+                    }
+                },
+                {
+                    "source": "C:\\Users\\SUMIT\\.gradle\\caches\\transforms-3\\eb9182e005d31b4290fa147c5f840933\\transformed\\material-1.7.0\\res\\values-mr\\values-mr.xml",
                     "from": {
                         "startLines": "2,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26,27,28,29,30,31,32,33,34,35,36,37,38,39,40,41,42,43,44,45,46,47,48,49,50,51,52,53,54,55,56,57,58,59,60,61,62",
                         "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4",
@@ -37,23 +54,6 @@
                         "endLines": "5,33,34,35,36,37,38,39,40,41,42,43,44,45,46,47,48,49,50,51,52,53,54,55,56,57,58,59,60,61,62,63,64,65,66,67,68,69,70,71,72,73,74,75,76,77,78,79,80,81,82,83,84,85,86,87,88,89",
                         "endColumns": "12,82,99,115,81,62,90,64,58,87,61,59,66,62,53,113,56,60,53,69,118,80,84,134,76,76,85,55,51,65,69,77,86,69,75,70,68,95,73,97,95,73,69,101,54,66,86,92,62,63,62,99,102,93,103,59,55,77",
                         "endOffsets": "304,3077,3177,3293,3375,3438,3529,3594,3653,3741,3803,3863,3930,3993,4047,4161,4218,4279,4333,4403,4522,4603,4688,4823,4900,4977,5063,5119,5171,5237,5307,5385,5472,5542,5618,5689,5758,5854,5928,6026,6122,6196,6266,6368,6423,6490,6577,6670,6733,6797,6860,6960,7063,7157,7261,7321,7377,7455"
-                    }
-                },
-                {
-                    "source": "C:\\Users\\DigiCraze\\.gradle\\caches\\transforms-3\\065dfa018132f0a621878cd66243e674\\transformed\\core-1.8.0\\res\\values-mr\\values-mr.xml",
-                    "from": {
-                        "startLines": "2",
-                        "startColumns": "4",
-                        "startOffsets": "55",
-                        "endColumns": "100",
-                        "endOffsets": "151"
-                    },
-                    "to": {
-                        "startLines": "91",
-                        "startColumns": "4",
-                        "startOffsets": "7540",
-                        "endColumns": "100",
-                        "endOffsets": "7636"
                     }
                 }
             ]

@@ -35,6 +35,10 @@ anim linear_indeterminate_line2_tail_interpolator
 anim mtrl_bottom_sheet_slide_in
 anim mtrl_bottom_sheet_slide_out
 anim mtrl_card_lowers_interpolator
+anim slide_in_left
+anim slide_in_right
+anim slide_out_left
+anim slide_out_right
 animator design_appbar_state_list_animator
 animator design_fab_hide_motion_spec
 animator design_fab_show_motion_spec
@@ -2553,6 +2557,8 @@ drawable abc_textfield_search_activated_mtrl_alpha
 drawable abc_textfield_search_default_mtrl_alpha
 drawable abc_textfield_search_material
 drawable abc_vector_test
+drawable app_icon_background
+drawable app_logo_background
 drawable avd_hide_password
 drawable avd_show_password
 drawable btn_checkbox_checked_mtrl
@@ -2651,6 +2657,7 @@ drawable notify_panel_notification_icon_bg
 drawable test_level_drawable
 drawable tooltip_frame_dark
 drawable tooltip_frame_light
+drawable top_bottom_shape
 id ALT
 id BOTTOM_END
 id BOTTOM_START
@@ -2731,6 +2738,7 @@ id animateToEnd
 id animateToStart
 id antiClockwise
 id anticipate
+id app_icon
 id arc
 id asConfigured
 id async
@@ -2899,6 +2907,7 @@ id line3
 id linear
 id listMode
 id list_item
+id login
 id marquee
 id masked
 id match_constraint
@@ -2995,6 +3004,7 @@ id pin
 id position
 id postLayout
 id pressed
+id progressBar4
 id progress_circular
 id progress_horizontal
 id radio
@@ -3261,6 +3271,7 @@ layout abc_search_dropdown_item_icons_2line
 layout abc_search_view
 layout abc_select_dialog_material
 layout abc_tooltip
+layout activity_login
 layout activity_main
 layout activity_register
 layout activity_splash
@@ -3338,6 +3349,12 @@ layout select_dialog_item_material
 layout select_dialog_multichoice_material
 layout select_dialog_singlechoice_material
 layout support_simple_spinner_dropdown_item
+mipmap app_icon
+mipmap app_icon_foreground
+mipmap app_icon_round
+mipmap app_logo
+mipmap app_logo_foreground
+mipmap app_logo_round
 mipmap ic_launcher
 mipmap ic_launcher_round
 plurals mtrl_badge_content_description
@@ -3368,8 +3385,10 @@ string abc_searchview_description_voice
 string abc_shareactionprovider_share_with
 string abc_shareactionprovider_share_with_application
 string abc_toolbar_collapse_description
+string already_have_an_account
 string already_have_an_account_login
 string androidx_startup
+string app_icon
 string app_name
 string appbar_scrolling_view_behavior
 string bottom_sheet_behavior
@@ -3395,6 +3414,7 @@ string hide_bottom_view_on_scroll_behavior
 string icon_content_description
 string item_view_role_description
 string last_name
+string login
 string m3_sys_motion_easing_emphasized
 string m3_sys_motion_easing_emphasized_accelerate
 string m3_sys_motion_easing_emphasized_decelerate
