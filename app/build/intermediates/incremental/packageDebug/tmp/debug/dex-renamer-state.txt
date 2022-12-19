@@ -1,4 +1,4 @@
-#Mon Dec 19 22:16:18 IST 2022
+#Mon Dec 19 22:39:14 IST 2022
 base.2=D\:\\SuperQuizzer2\\app\\build\\intermediates\\dex\\debug\\mergeProjectDexDebug\\10\\classes.dex
 path.2=10/classes.dex
 base.1=D\:\\SuperQuizzer2\\app\\build\\intermediates\\dex\\debug\\mergeProjectDexDebug\\0\\classes.dex
