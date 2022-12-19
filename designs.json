@@ -1,11 +1,14 @@
-
 {
-  "icon":{
+  "icon": {
     "createdBy": "unreasonable2003",
     "figma": "https://www.figma.com/file/zisNpV1ifqbmDdM5XUWuwE/app_splashscreen?node-id=0%3A1&t=KYB7ze03ess2rWrs-1"
   },
+  "icon": {
+    "createdBy": "zitsav",
+    "figma": "https://www.figma.com/file/G5HaxbczBCvCzdfNRjKOTc/Super-Quizzer-logo?node-id=0%3A1&t=d0MTczcyuYoB0tTB-1"
+  },
 
-  "SplashScreen":{
+  "SplashScreen": {
     "createdBy": "pragya1976",
     "figma": "https://www.figma.com/file/MQWX5XXxj6nbQE7tVNg9MV/Untitled?node-id=0%3A1&t=VwRib7FE8Kj5AX07-1"
   }
