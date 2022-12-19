@@ -37,7 +37,7 @@
         app:layout_constraintTop_toTopOf="parent" />
 
     <EditText
-        android:id="@+id/button"
+        android:id="@+id/firstName"
         android:layout_width="match_parent"
         android:layout_height="50dp"
         android:layout_marginStart="20dp"
@@ -51,7 +51,7 @@
         android:textAllCaps="false"
         android:textColor="@color/white"
         android:textColorHint="@color/tint"
-        app:layout_constraintBottom_toTopOf="@+id/button2"
+        app:layout_constraintBottom_toTopOf="@+id/lastName"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/textView2"
@@ -60,7 +60,7 @@
         android:inputType="text"/>
 
     <EditText
-        android:id="@+id/button2"
+        android:id="@+id/lastName"
         android:layout_width="match_parent"
         android:layout_height="50dp"
         android:layout_marginStart="20dp"
@@ -73,15 +73,15 @@
         android:textAllCaps="false"
         android:textColor="@color/white"
         android:textColorHint="@color/tint"
-        app:layout_constraintBottom_toTopOf="@+id/button3"
-        app:layout_constraintTop_toBottomOf="@+id/button"
+        app:layout_constraintBottom_toTopOf="@+id/emailId"
+        app:layout_constraintTop_toBottomOf="@+id/firstName"
         app:layout_constraintVertical_bias="0.5"
         tools:layout_editor_absoluteX="155dp"
         android:autofillHints="Last Name"
         android:inputType="text" />
 
     <EditText
-        android:id="@+id/button3"
+        android:id="@+id/emailId"
         android:layout_width="match_parent"
         android:layout_height="50dp"
         android:background="@color/btnback"
@@ -95,14 +95,14 @@
         android:textAllCaps="false"
         android:textColor="@color/white"
         android:textColorHint="@color/tint"
-        app:layout_constraintBottom_toTopOf="@+id/button4"
-        app:layout_constraintTop_toBottomOf="@+id/button2"
+        app:layout_constraintBottom_toTopOf="@+id/pass1"
+        app:layout_constraintTop_toBottomOf="@+id/lastName"
         app:layout_constraintVertical_bias="0.5"
         tools:layout_editor_absoluteX="157dp"
         android:autofillHints="Email Id" />
 
     <EditText
-        android:id="@+id/button4"
+        android:id="@+id/pass1"
         android:layout_width="match_parent"
         android:layout_height="50dp"
         android:layout_marginStart="20dp"
@@ -115,14 +115,14 @@
         android:textColorHint="@color/tint"
         android:background="@color/btnback"
         android:backgroundTint="@color/btnback"
-        app:layout_constraintBottom_toTopOf="@+id/button5"
-        app:layout_constraintTop_toBottomOf="@+id/button3"
+        app:layout_constraintBottom_toTopOf="@+id/pass2"
+        app:layout_constraintTop_toBottomOf="@+id/emailId"
         app:layout_constraintVertical_bias="0.5"
         tools:layout_editor_absoluteX="157dp"
         android:inputType="textPassword" />
 
     <EditText
-        android:id="@+id/button5"
+        android:id="@+id/pass2"
         android:layout_width="match_parent"
         android:layout_height="50dp"
         android:layout_marginStart="20dp"
@@ -135,23 +135,22 @@
         android:textAllCaps="false"
         android:textColor="@color/white"
         android:textColorHint="@color/tint"
-        app:layout_constraintBottom_toTopOf="@+id/button6"
-        app:layout_constraintTop_toBottomOf="@+id/button4"
+        app:layout_constraintBottom_toTopOf="@+id/registerButton"
+        app:layout_constraintTop_toBottomOf="@+id/pass1"
         app:layout_constraintVertical_bias="0.5"
         tools:layout_editor_absoluteX="157dp"
         android:inputType="textPassword" />
 
     <Button
-        android:id="@+id/button6"
+        android:id="@+id/registerButton"
         android:layout_width="match_parent"
         android:layout_height="60dp"
-        android:background="@color/btnback"
-        android:layout_marginBottom="100dp"
         android:layout_marginStart="20dp"
-        android:layout_marginEnd="20dp"
+        android:layout_marginBottom="100dp"
+        android:background="@color/btnback"
         android:text="@string/register"
-        android:textColor="@color/white"
         android:textAlignment="center"
+        android:textColor="@color/white"
         android:textSize="18sp"
         android:textStyle="bold"
         app:layout_constraintBottom_toBottomOf="parent"
@@ -175,11 +174,11 @@
         android:text="I Agree To The Terms &amp; Condition"
         android:textColor="@color/black"
         android:textSize="12sp"
-        app:layout_constraintBottom_toTopOf="@+id/button6"
+        app:layout_constraintBottom_toTopOf="@+id/registerButton"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="1.0"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/button5"
+        app:layout_constraintTop_toBottomOf="@+id/pass2"
         app:layout_constraintVertical_bias="0.5"
         tools:ignore="HardcodedText" />
 
@@ -203,7 +202,7 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.5"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/button6"
+        app:layout_constraintTop_toBottomOf="@+id/registerButton"
         app:layout_constraintVertical_bias="0.172" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
