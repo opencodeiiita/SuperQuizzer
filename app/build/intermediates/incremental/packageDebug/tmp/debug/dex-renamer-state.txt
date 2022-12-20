@@ -1,9 +1,9 @@
-#Mon Dec 19 22:48:54 IST 2022
-base.2=D\:\\SuperQuizzer2\\app\\build\\intermediates\\dex\\debug\\mergeProjectDexDebug\\10\\classes.dex
+#Tue Dec 20 19:43:31 IST 2022
+base.2=C\:\\Users\\bansa\\AndroidStudioProjects\\SuperQuizzer\\app\\build\\intermediates\\dex\\debug\\mergeProjectDexDebug\\10\\classes.dex
 path.2=10/classes.dex
-base.1=D\:\\SuperQuizzer2\\app\\build\\intermediates\\dex\\debug\\mergeProjectDexDebug\\0\\classes.dex
+base.1=C\:\\Users\\bansa\\AndroidStudioProjects\\SuperQuizzer\\app\\build\\intermediates\\dex\\debug\\mergeProjectDexDebug\\0\\classes.dex
 path.1=0/classes.dex
-base.0=D\:\\SuperQuizzer2\\app\\build\\intermediates\\dex\\debug\\mergeExtDexDebug\\classes.dex
+base.0=C\:\\Users\\bansa\\AndroidStudioProjects\\SuperQuizzer\\app\\build\\intermediates\\dex\\debug\\mergeExtDexDebug\\classes.dex
 renamed.2=classes3.dex
 renamed.1=classes2.dex
 renamed.0=classes.dex

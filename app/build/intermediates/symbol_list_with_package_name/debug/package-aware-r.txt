@@ -2654,6 +2654,8 @@ drawable notification_template_icon_bg
 drawable notification_template_icon_low_bg
 drawable notification_tile_bg
 drawable notify_panel_notification_icon_bg
+drawable superquizzer
+drawable superquizzer_logo
 drawable test_level_drawable
 drawable tooltip_frame_dark
 drawable tooltip_frame_light
@@ -2738,7 +2740,6 @@ id animateToEnd
 id animateToStart
 id antiClockwise
 id anticipate
-id app_icon
 id arc
 id asConfigured
 id async
@@ -2887,6 +2888,7 @@ id ifRoom
 id ignore
 id ignoreRequest
 id image
+id imageView3
 id immediateStop
 id included
 id indeterminate
@@ -3004,7 +3006,6 @@ id pin
 id position
 id postLayout
 id pressed
-id progressBar4
 id progress_circular
 id progress_horizontal
 id radio
