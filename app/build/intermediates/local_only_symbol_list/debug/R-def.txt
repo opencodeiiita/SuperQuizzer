@@ -68,6 +68,7 @@ string last_name
 string login
 string password
 string register
+string superquizzersplash
 style Theme.SuperQuizzer
 xml backup_rules
 xml data_extraction_rules

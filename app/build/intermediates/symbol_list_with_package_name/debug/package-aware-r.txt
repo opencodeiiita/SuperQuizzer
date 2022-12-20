@@ -3512,6 +3512,7 @@ string path_password_strike_through
 string register
 string search_menu_title
 string status_bar_notification_info_overflow
+string superquizzersplash
 style AlertDialog_AppCompat
 style AlertDialog_AppCompat_Light
 style Animation_AppCompat_Dialog
