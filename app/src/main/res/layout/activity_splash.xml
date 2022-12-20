@@ -7,29 +7,14 @@
     android:background="#385EE8"
     tools:context=".SplashActivity">
 
-
-    <ProgressBar
-        android:id="@+id/progressBar4"
-        style="?android:attr/progressBarStyleHorizontal"
-        android:layout_width="294sp"
-        android:layout_height="wrap_content"
-
-        android:layout_marginStart="58dp"
-        android:layout_marginTop="106dp"
-        android:indeterminate="true"
-        android:indeterminateTint="@android:color/white"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/app_icon" />
-
     <ImageView
-        android:id="@+id/app_icon"
-        android:layout_width="294sp"
-        android:layout_height="230sp"
-        android:layout_marginStart="58dp"
-        android:layout_marginTop="160dp"
+        android:id="@+id/imageView3"
+        android:contentDescription="@string/superquizzersplash"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:srcCompat="@mipmap/app_icon_foreground"
-        android:contentDescription="@string/app_icon" />
-
+        app:srcCompat="@drawable/superquizzer" />
 </androidx.constraintlayout.widget.ConstraintLayout>
