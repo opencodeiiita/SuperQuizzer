@@ -12,4 +12,5 @@
     <string name="app_icon">app_icon</string>
     <string name="already_have_an_account">Already have an account ?</string>
     <string name="login">Login</string>
+    <string name="superquizzersplash">SuperQuizzerSplash</string>
 </resources>
