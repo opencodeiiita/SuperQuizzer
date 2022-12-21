@@ -1,10 +1,10 @@
 {
     "logs": [
         {
-            "outputFile": "com.example.superquizzer.app-mergeDebugResources-27:/values-land/values-land.xml",
+            "outputFile": "com.example.superquizzer.app-mergeDebugResources-31:/values-land/values-land.xml",
             "map": [
                 {
-                    "source": "/home/suhail/.gradle/caches/transforms-3/5ec0d1e433c209b952d3aa2280ed0c64/transformed/material-1.7.0/res/values-land/values-land.xml",
+                    "source": "E:\\NEWS-Bucket-master\\NEWS-Bucket-master\\gradle\\caches\\transforms-3\\5ec0d1e433c209b952d3aa2280ed0c64\\transformed\\material-1.7.0\\res\\values-land\\values-land.xml",
                     "from": {
                         "startLines": "2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,26,32,37",
                         "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4",
@@ -14,22 +14,39 @@
                         "endOffsets": "125,199,272,342,414,484,549,616,686,758,827,896,978,1068,1144,1212,1279,1357,1422,1489,1661,2056,2325,2553"
                     },
                     "to": {
-                        "startLines": "5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,29,35,40",
+                        "startLines": "6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26,30,36,41",
                         "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4",
-                        "startOffsets": "264,339,413,486,556,628,698,763,830,900,972,1041,1110,1192,1282,1358,1426,1493,1571,1636,1703,1875,2270,2539",
-                        "endLines": "5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,28,34,39,42",
+                        "startOffsets": "322,397,471,544,614,686,756,821,888,958,1030,1099,1168,1250,1340,1416,1484,1551,1629,1694,1761,1933,2328,2597",
+                        "endLines": "6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,29,35,40,43",
                         "endColumns": "74,73,72,69,71,69,64,66,69,71,68,68,81,89,75,67,66,77,64,66,10,10,10,10",
-                        "endOffsets": "334,408,481,551,623,693,758,825,895,967,1036,1105,1187,1277,1353,1421,1488,1566,1631,1698,1870,2265,2534,2762"
+                        "endOffsets": "392,466,539,609,681,751,816,883,953,1025,1094,1163,1245,1335,1411,1479,1546,1624,1689,1756,1928,2323,2592,2820"
                     }
                 },
                 {
-                    "source": "/home/suhail/.gradle/caches/transforms-3/c88b00e8e120ede438720652258482d3/transformed/appcompat-1.5.1/res/values-land/values-land.xml",
+                    "source": "E:\\NEWS-Bucket-master\\NEWS-Bucket-master\\gradle\\caches\\transforms-3\\c88b00e8e120ede438720652258482d3\\transformed\\appcompat-1.5.1\\res\\values-land\\values-land.xml",
                     "from": {
                         "startLines": "2,3,4",
                         "startColumns": "4,4,4",
                         "startOffsets": "55,125,196",
                         "endColumns": "69,70,67",
                         "endOffsets": "120,191,259"
+                    }
+                },
+                {
+                    "source": "E:\\SuperQuizzer\\app\\src\\main\\res\\values-land\\dimens.xml",
+                    "from": {
+                        "startLines": "1",
+                        "startColumns": "1",
+                        "startOffsets": "13",
+                        "endColumns": "54",
+                        "endOffsets": "66"
+                    },
+                    "to": {
+                        "startLines": "5",
+                        "startColumns": "4",
+                        "startOffsets": "264",
+                        "endColumns": "57",
+                        "endOffsets": "317"
                     }
                 }
             ]

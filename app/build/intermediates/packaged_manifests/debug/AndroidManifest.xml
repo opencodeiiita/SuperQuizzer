@@ -6,7 +6,13 @@
 
     <uses-sdk
         android:minSdkVersion="21"
-        android:targetSdkVersion="32" />
+        android:targetSdkVersion="33" />
+
+    <permission
+        android:name="com.example.superquizzer.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION"
+        android:protectionLevel="signature" />
+
+    <uses-permission android:name="com.example.superquizzer.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION" />
 
     <application
         android:allowBackup="true"
@@ -22,14 +28,14 @@
         android:theme="@style/Theme.SuperQuizzer" >
         <activity
             android:name="com.example.superquizzer.LoginActivity"
-            android:exported="false" >
+            android:exported="true" >
             <meta-data
                 android:name="android.app.lib_name"
                 android:value="" />
         </activity>
         <activity
             android:name="com.example.superquizzer.RegisterActivity"
-            android:exported="false" >
+            android:exported="true" >
         </activity>
         <activity
             android:name="com.example.superquizzer.SplashActivity"
@@ -42,7 +48,12 @@
         </activity>
         <activity
             android:name="com.example.superquizzer.MainActivity"
-            android:exported="false" >
+            android:exported="true" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
         </activity>
 
         <provider
