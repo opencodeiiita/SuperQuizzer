@@ -22,8 +22,6 @@ color teal_200
 color teal_700
 color tint
 color white
-dimen activity_horizontal_margin
-dimen activity_vertical_margin
 drawable app_icon_background
 drawable app_logo1_background
 drawable app_logo2_background
@@ -100,6 +98,7 @@ string login
 string login_button
 string login_failed
 string logo
+string participant
 string password
 string password_text
 string prompt_email

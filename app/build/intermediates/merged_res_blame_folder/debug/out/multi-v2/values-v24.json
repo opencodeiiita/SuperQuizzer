@@ -4,7 +4,7 @@
             "outputFile": "com.example.superquizzer.app-mergeDebugResources-31:/values-v24/values-v24.xml",
             "map": [
                 {
-                    "source": "E:\\NEWS-Bucket-master\\NEWS-Bucket-master\\gradle\\caches\\transforms-3\\c88b00e8e120ede438720652258482d3\\transformed\\appcompat-1.5.1\\res\\values-v24\\values-v24.xml",
+                    "source": "/home/suhail/.gradle/caches/transforms-3/c88b00e8e120ede438720652258482d3/transformed/appcompat-1.5.1/res/values-v24/values-v24.xml",
                     "from": {
                         "startLines": "2,3",
                         "startColumns": "4,4",
@@ -14,7 +14,7 @@
                     }
                 },
                 {
-                    "source": "E:\\NEWS-Bucket-master\\NEWS-Bucket-master\\gradle\\caches\\transforms-3\\5ec0d1e433c209b952d3aa2280ed0c64\\transformed\\material-1.7.0\\res\\values-v24\\values-v24.xml",
+                    "source": "/home/suhail/.gradle/caches/transforms-3/5ec0d1e433c209b952d3aa2280ed0c64/transformed/material-1.7.0/res/values-v24/values-v24.xml",
                     "from": {
                         "startLines": "2,3,4,5,6,9,12,15",
                         "startColumns": "4,4,4,4,4,4,4,4",

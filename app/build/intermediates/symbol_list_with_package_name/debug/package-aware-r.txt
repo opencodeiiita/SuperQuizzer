@@ -1940,8 +1940,6 @@ dimen abc_text_size_subhead_material
 dimen abc_text_size_subtitle_material_toolbar
 dimen abc_text_size_title_material
 dimen abc_text_size_title_material_toolbar
-dimen activity_horizontal_margin
-dimen activity_vertical_margin
 dimen appcompat_dialog_background_inset
 dimen cardview_compat_inset_shadow
 dimen cardview_default_elevation
@@ -3537,6 +3535,7 @@ string mtrl_switch_track_decoration_path
 string mtrl_switch_track_path
 string mtrl_timepicker_cancel
 string mtrl_timepicker_confirm
+string participant
 string password
 string password_text
 string password_toggle_content_description

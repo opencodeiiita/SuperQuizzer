@@ -4,17 +4,7 @@
             "outputFile": "com.example.superquizzer.app-mergeDebugResources-31:/values-v16/values-v16.xml",
             "map": [
                 {
-                    "source": "E:\\NEWS-Bucket-master\\NEWS-Bucket-master\\gradle\\caches\\transforms-3\\f75202200db48fb541bf72c50f23e569\\transformed\\core-1.9.0\\res\\values-v16\\values-v16.xml",
-                    "from": {
-                        "startLines": "2",
-                        "startColumns": "4",
-                        "startOffsets": "55",
-                        "endColumns": "65",
-                        "endOffsets": "116"
-                    }
-                },
-                {
-                    "source": "E:\\NEWS-Bucket-master\\NEWS-Bucket-master\\gradle\\caches\\transforms-3\\c88b00e8e120ede438720652258482d3\\transformed\\appcompat-1.5.1\\res\\values-v16\\values-v16.xml",
+                    "source": "/home/suhail/.gradle/caches/transforms-3/c88b00e8e120ede438720652258482d3/transformed/appcompat-1.5.1/res/values-v16/values-v16.xml",
                     "from": {
                         "startLines": "2",
                         "startColumns": "4",
@@ -30,6 +20,16 @@
                         "endLines": "6",
                         "endColumns": "12",
                         "endOffsets": "289"
+                    }
+                },
+                {
+                    "source": "/home/suhail/.gradle/caches/transforms-3/f75202200db48fb541bf72c50f23e569/transformed/core-1.9.0/res/values-v16/values-v16.xml",
+                    "from": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endColumns": "65",
+                        "endOffsets": "116"
                     }
                 }
             ]

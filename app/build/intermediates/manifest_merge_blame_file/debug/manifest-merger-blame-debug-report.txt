@@ -6,118 +6,118 @@
 6
 7    <uses-sdk
 8        android:minSdkVersion="21"
-8-->E:\SuperQuizzer\app\src\main\AndroidManifest.xml
+8-->/home/suhail/Desktop/SuperQuizzer/app/src/main/AndroidManifest.xml
 9        android:targetSdkVersion="33" />
-9-->E:\SuperQuizzer\app\src\main\AndroidManifest.xml
+9-->/home/suhail/Desktop/SuperQuizzer/app/src/main/AndroidManifest.xml
 10
 11    <permission
-11-->[androidx.core:core:1.9.0] E:\NEWS-Bucket-master\NEWS-Bucket-master\gradle\caches\transforms-3\f75202200db48fb541bf72c50f23e569\transformed\core-1.9.0\AndroidManifest.xml:22:5-24:47
+11-->[androidx.core:core:1.9.0] /home/suhail/.gradle/caches/transforms-3/f75202200db48fb541bf72c50f23e569/transformed/core-1.9.0/AndroidManifest.xml:22:5-24:47
 12        android:name="com.example.superquizzer.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION"
-12-->[androidx.core:core:1.9.0] E:\NEWS-Bucket-master\NEWS-Bucket-master\gradle\caches\transforms-3\f75202200db48fb541bf72c50f23e569\transformed\core-1.9.0\AndroidManifest.xml:23:9-81
+12-->[androidx.core:core:1.9.0] /home/suhail/.gradle/caches/transforms-3/f75202200db48fb541bf72c50f23e569/transformed/core-1.9.0/AndroidManifest.xml:23:9-81
 13        android:protectionLevel="signature" />
-13-->[androidx.core:core:1.9.0] E:\NEWS-Bucket-master\NEWS-Bucket-master\gradle\caches\transforms-3\f75202200db48fb541bf72c50f23e569\transformed\core-1.9.0\AndroidManifest.xml:24:9-44
+13-->[androidx.core:core:1.9.0] /home/suhail/.gradle/caches/transforms-3/f75202200db48fb541bf72c50f23e569/transformed/core-1.9.0/AndroidManifest.xml:24:9-44
 14
 15    <uses-permission android:name="com.example.superquizzer.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION" />
-15-->[androidx.core:core:1.9.0] E:\NEWS-Bucket-master\NEWS-Bucket-master\gradle\caches\transforms-3\f75202200db48fb541bf72c50f23e569\transformed\core-1.9.0\AndroidManifest.xml:26:5-97
-15-->[androidx.core:core:1.9.0] E:\NEWS-Bucket-master\NEWS-Bucket-master\gradle\caches\transforms-3\f75202200db48fb541bf72c50f23e569\transformed\core-1.9.0\AndroidManifest.xml:26:22-94
+15-->[androidx.core:core:1.9.0] /home/suhail/.gradle/caches/transforms-3/f75202200db48fb541bf72c50f23e569/transformed/core-1.9.0/AndroidManifest.xml:26:5-97
+15-->[androidx.core:core:1.9.0] /home/suhail/.gradle/caches/transforms-3/f75202200db48fb541bf72c50f23e569/transformed/core-1.9.0/AndroidManifest.xml:26:22-94
 16
 17    <application
-17-->E:\SuperQuizzer\app\src\main\AndroidManifest.xml:6:5-46:19
+17-->/home/suhail/Desktop/SuperQuizzer/app/src/main/AndroidManifest.xml:6:5-46:19
 18        android:allowBackup="true"
-18-->E:\SuperQuizzer\app\src\main\AndroidManifest.xml:7:9-35
+18-->/home/suhail/Desktop/SuperQuizzer/app/src/main/AndroidManifest.xml:7:9-35
 19        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
-19-->[androidx.core:core:1.9.0] E:\NEWS-Bucket-master\NEWS-Bucket-master\gradle\caches\transforms-3\f75202200db48fb541bf72c50f23e569\transformed\core-1.9.0\AndroidManifest.xml:28:18-86
+19-->[androidx.core:core:1.9.0] /home/suhail/.gradle/caches/transforms-3/f75202200db48fb541bf72c50f23e569/transformed/core-1.9.0/AndroidManifest.xml:28:18-86
 20        android:dataExtractionRules="@xml/data_extraction_rules"
-20-->E:\SuperQuizzer\app\src\main\AndroidManifest.xml:8:9-65
+20-->/home/suhail/Desktop/SuperQuizzer/app/src/main/AndroidManifest.xml:8:9-65
 21        android:debuggable="true"
 22        android:fullBackupContent="@xml/backup_rules"
-22-->E:\SuperQuizzer\app\src\main\AndroidManifest.xml:9:9-54
+22-->/home/suhail/Desktop/SuperQuizzer/app/src/main/AndroidManifest.xml:9:9-54
 23        android:icon="@drawable/superquizzer_logo"
-23-->E:\SuperQuizzer\app\src\main\AndroidManifest.xml:10:9-51
+23-->/home/suhail/Desktop/SuperQuizzer/app/src/main/AndroidManifest.xml:10:9-51
 24        android:label="@string/app_name"
-24-->E:\SuperQuizzer\app\src\main\AndroidManifest.xml:11:9-41
+24-->/home/suhail/Desktop/SuperQuizzer/app/src/main/AndroidManifest.xml:11:9-41
 25        android:roundIcon="@mipmap/ic_launcher_round"
-25-->E:\SuperQuizzer\app\src\main\AndroidManifest.xml:12:9-54
+25-->/home/suhail/Desktop/SuperQuizzer/app/src/main/AndroidManifest.xml:12:9-54
 26        android:supportsRtl="true"
-26-->E:\SuperQuizzer\app\src\main\AndroidManifest.xml:13:9-35
+26-->/home/suhail/Desktop/SuperQuizzer/app/src/main/AndroidManifest.xml:13:9-35
 27        android:testOnly="true"
 28        android:theme="@style/Theme.SuperQuizzer" >
-28-->E:\SuperQuizzer\app\src\main\AndroidManifest.xml:14:9-50
+28-->/home/suhail/Desktop/SuperQuizzer/app/src/main/AndroidManifest.xml:14:9-50
 29        <activity
-29-->E:\SuperQuizzer\app\src\main\AndroidManifest.xml:16:9-22:20
+29-->/home/suhail/Desktop/SuperQuizzer/app/src/main/AndroidManifest.xml:16:9-22:20
 30            android:name="com.example.superquizzer.LoginActivity"
-30-->E:\SuperQuizzer\app\src\main\AndroidManifest.xml:17:13-42
+30-->/home/suhail/Desktop/SuperQuizzer/app/src/main/AndroidManifest.xml:17:13-42
 31            android:exported="true" >
-31-->E:\SuperQuizzer\app\src\main\AndroidManifest.xml:18:13-36
+31-->/home/suhail/Desktop/SuperQuizzer/app/src/main/AndroidManifest.xml:18:13-36
 32            <meta-data
-32-->E:\SuperQuizzer\app\src\main\AndroidManifest.xml:19:13-21:36
+32-->/home/suhail/Desktop/SuperQuizzer/app/src/main/AndroidManifest.xml:19:13-21:36
 33                android:name="android.app.lib_name"
-33-->E:\SuperQuizzer\app\src\main\AndroidManifest.xml:20:17-52
+33-->/home/suhail/Desktop/SuperQuizzer/app/src/main/AndroidManifest.xml:20:17-52
 34                android:value="" />
-34-->E:\SuperQuizzer\app\src\main\AndroidManifest.xml:21:17-33
+34-->/home/suhail/Desktop/SuperQuizzer/app/src/main/AndroidManifest.xml:21:17-33
 35        </activity>
 36        <activity
-36-->E:\SuperQuizzer\app\src\main\AndroidManifest.xml:23:9-26:20
+36-->/home/suhail/Desktop/SuperQuizzer/app/src/main/AndroidManifest.xml:23:9-26:20
 37            android:name="com.example.superquizzer.RegisterActivity"
-37-->E:\SuperQuizzer\app\src\main\AndroidManifest.xml:24:13-45
+37-->/home/suhail/Desktop/SuperQuizzer/app/src/main/AndroidManifest.xml:24:13-45
 38            android:exported="true" >
-38-->E:\SuperQuizzer\app\src\main\AndroidManifest.xml:25:13-36
+38-->/home/suhail/Desktop/SuperQuizzer/app/src/main/AndroidManifest.xml:25:13-36
 39        </activity>
 40        <activity
-40-->E:\SuperQuizzer\app\src\main\AndroidManifest.xml:27:9-35:20
+40-->/home/suhail/Desktop/SuperQuizzer/app/src/main/AndroidManifest.xml:27:9-35:20
 41            android:name="com.example.superquizzer.SplashActivity"
-41-->E:\SuperQuizzer\app\src\main\AndroidManifest.xml:28:13-43
+41-->/home/suhail/Desktop/SuperQuizzer/app/src/main/AndroidManifest.xml:28:13-43
 42            android:exported="true" >
-42-->E:\SuperQuizzer\app\src\main\AndroidManifest.xml:29:13-36
+42-->/home/suhail/Desktop/SuperQuizzer/app/src/main/AndroidManifest.xml:29:13-36
 43            <intent-filter>
-43-->E:\SuperQuizzer\app\src\main\AndroidManifest.xml:30:13-34:29
+43-->/home/suhail/Desktop/SuperQuizzer/app/src/main/AndroidManifest.xml:30:13-34:29
 44                <action android:name="android.intent.action.MAIN" />
-44-->E:\SuperQuizzer\app\src\main\AndroidManifest.xml:31:17-69
-44-->E:\SuperQuizzer\app\src\main\AndroidManifest.xml:31:25-66
+44-->/home/suhail/Desktop/SuperQuizzer/app/src/main/AndroidManifest.xml:31:17-69
+44-->/home/suhail/Desktop/SuperQuizzer/app/src/main/AndroidManifest.xml:31:25-66
 45
 46                <category android:name="android.intent.category.LAUNCHER" />
-46-->E:\SuperQuizzer\app\src\main\AndroidManifest.xml:33:17-77
-46-->E:\SuperQuizzer\app\src\main\AndroidManifest.xml:33:27-74
+46-->/home/suhail/Desktop/SuperQuizzer/app/src/main/AndroidManifest.xml:33:17-77
+46-->/home/suhail/Desktop/SuperQuizzer/app/src/main/AndroidManifest.xml:33:27-74
 47            </intent-filter>
 48        </activity>
 49        <activity
-49-->E:\SuperQuizzer\app\src\main\AndroidManifest.xml:36:9-44:20
+49-->/home/suhail/Desktop/SuperQuizzer/app/src/main/AndroidManifest.xml:36:9-44:20
 50            android:name="com.example.superquizzer.MainActivity"
-50-->E:\SuperQuizzer\app\src\main\AndroidManifest.xml:37:13-41
+50-->/home/suhail/Desktop/SuperQuizzer/app/src/main/AndroidManifest.xml:37:13-41
 51            android:exported="true" >
-51-->E:\SuperQuizzer\app\src\main\AndroidManifest.xml:38:13-36
+51-->/home/suhail/Desktop/SuperQuizzer/app/src/main/AndroidManifest.xml:38:13-36
 52            <intent-filter>
-52-->E:\SuperQuizzer\app\src\main\AndroidManifest.xml:30:13-34:29
+52-->/home/suhail/Desktop/SuperQuizzer/app/src/main/AndroidManifest.xml:30:13-34:29
 53                <action android:name="android.intent.action.MAIN" />
-53-->E:\SuperQuizzer\app\src\main\AndroidManifest.xml:31:17-69
-53-->E:\SuperQuizzer\app\src\main\AndroidManifest.xml:31:25-66
+53-->/home/suhail/Desktop/SuperQuizzer/app/src/main/AndroidManifest.xml:31:17-69
+53-->/home/suhail/Desktop/SuperQuizzer/app/src/main/AndroidManifest.xml:31:25-66
 54
 55                <category android:name="android.intent.category.LAUNCHER" />
-55-->E:\SuperQuizzer\app\src\main\AndroidManifest.xml:33:17-77
-55-->E:\SuperQuizzer\app\src\main\AndroidManifest.xml:33:27-74
+55-->/home/suhail/Desktop/SuperQuizzer/app/src/main/AndroidManifest.xml:33:17-77
+55-->/home/suhail/Desktop/SuperQuizzer/app/src/main/AndroidManifest.xml:33:27-74
 56            </intent-filter>
 57        </activity>
 58
 59        <provider
-59-->[androidx.emoji2:emoji2:1.2.0] E:\NEWS-Bucket-master\NEWS-Bucket-master\gradle\caches\transforms-3\433ef41f91b46554937a8b4111342db5\transformed\emoji2-1.2.0\AndroidManifest.xml:24:9-32:20
+59-->[androidx.emoji2:emoji2:1.2.0] /home/suhail/.gradle/caches/transforms-3/433ef41f91b46554937a8b4111342db5/transformed/emoji2-1.2.0/AndroidManifest.xml:24:9-32:20
 60            android:name="androidx.startup.InitializationProvider"
-60-->[androidx.emoji2:emoji2:1.2.0] E:\NEWS-Bucket-master\NEWS-Bucket-master\gradle\caches\transforms-3\433ef41f91b46554937a8b4111342db5\transformed\emoji2-1.2.0\AndroidManifest.xml:25:13-67
+60-->[androidx.emoji2:emoji2:1.2.0] /home/suhail/.gradle/caches/transforms-3/433ef41f91b46554937a8b4111342db5/transformed/emoji2-1.2.0/AndroidManifest.xml:25:13-67
 61            android:authorities="com.example.superquizzer.androidx-startup"
-61-->[androidx.emoji2:emoji2:1.2.0] E:\NEWS-Bucket-master\NEWS-Bucket-master\gradle\caches\transforms-3\433ef41f91b46554937a8b4111342db5\transformed\emoji2-1.2.0\AndroidManifest.xml:26:13-68
+61-->[androidx.emoji2:emoji2:1.2.0] /home/suhail/.gradle/caches/transforms-3/433ef41f91b46554937a8b4111342db5/transformed/emoji2-1.2.0/AndroidManifest.xml:26:13-68
 62            android:exported="false" >
-62-->[androidx.emoji2:emoji2:1.2.0] E:\NEWS-Bucket-master\NEWS-Bucket-master\gradle\caches\transforms-3\433ef41f91b46554937a8b4111342db5\transformed\emoji2-1.2.0\AndroidManifest.xml:27:13-37
+62-->[androidx.emoji2:emoji2:1.2.0] /home/suhail/.gradle/caches/transforms-3/433ef41f91b46554937a8b4111342db5/transformed/emoji2-1.2.0/AndroidManifest.xml:27:13-37
 63            <meta-data
-63-->[androidx.emoji2:emoji2:1.2.0] E:\NEWS-Bucket-master\NEWS-Bucket-master\gradle\caches\transforms-3\433ef41f91b46554937a8b4111342db5\transformed\emoji2-1.2.0\AndroidManifest.xml:29:13-31:52
+63-->[androidx.emoji2:emoji2:1.2.0] /home/suhail/.gradle/caches/transforms-3/433ef41f91b46554937a8b4111342db5/transformed/emoji2-1.2.0/AndroidManifest.xml:29:13-31:52
 64                android:name="androidx.emoji2.text.EmojiCompatInitializer"
-64-->[androidx.emoji2:emoji2:1.2.0] E:\NEWS-Bucket-master\NEWS-Bucket-master\gradle\caches\transforms-3\433ef41f91b46554937a8b4111342db5\transformed\emoji2-1.2.0\AndroidManifest.xml:30:17-75
+64-->[androidx.emoji2:emoji2:1.2.0] /home/suhail/.gradle/caches/transforms-3/433ef41f91b46554937a8b4111342db5/transformed/emoji2-1.2.0/AndroidManifest.xml:30:17-75
 65                android:value="androidx.startup" />
-65-->[androidx.emoji2:emoji2:1.2.0] E:\NEWS-Bucket-master\NEWS-Bucket-master\gradle\caches\transforms-3\433ef41f91b46554937a8b4111342db5\transformed\emoji2-1.2.0\AndroidManifest.xml:31:17-49
+65-->[androidx.emoji2:emoji2:1.2.0] /home/suhail/.gradle/caches/transforms-3/433ef41f91b46554937a8b4111342db5/transformed/emoji2-1.2.0/AndroidManifest.xml:31:17-49
 66            <meta-data
-66-->[androidx.lifecycle:lifecycle-process:2.4.1] E:\NEWS-Bucket-master\NEWS-Bucket-master\gradle\caches\transforms-3\60aa7f6134fa262f6ed065910011efa9\transformed\lifecycle-process-2.4.1\AndroidManifest.xml:31:13-33:52
+66-->[androidx.lifecycle:lifecycle-process:2.4.1] /home/suhail/.gradle/caches/transforms-3/60aa7f6134fa262f6ed065910011efa9/transformed/lifecycle-process-2.4.1/AndroidManifest.xml:31:13-33:52
 67                android:name="androidx.lifecycle.ProcessLifecycleInitializer"
-67-->[androidx.lifecycle:lifecycle-process:2.4.1] E:\NEWS-Bucket-master\NEWS-Bucket-master\gradle\caches\transforms-3\60aa7f6134fa262f6ed065910011efa9\transformed\lifecycle-process-2.4.1\AndroidManifest.xml:32:17-78
+67-->[androidx.lifecycle:lifecycle-process:2.4.1] /home/suhail/.gradle/caches/transforms-3/60aa7f6134fa262f6ed065910011efa9/transformed/lifecycle-process-2.4.1/AndroidManifest.xml:32:17-78
 68                android:value="androidx.startup" />
-68-->[androidx.lifecycle:lifecycle-process:2.4.1] E:\NEWS-Bucket-master\NEWS-Bucket-master\gradle\caches\transforms-3\60aa7f6134fa262f6ed065910011efa9\transformed\lifecycle-process-2.4.1\AndroidManifest.xml:33:17-49
+68-->[androidx.lifecycle:lifecycle-process:2.4.1] /home/suhail/.gradle/caches/transforms-3/60aa7f6134fa262f6ed065910011efa9/transformed/lifecycle-process-2.4.1/AndroidManifest.xml:33:17-49
 69        </provider>
 70    </application>
 71

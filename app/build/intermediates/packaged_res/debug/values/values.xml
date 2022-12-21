@@ -18,8 +18,6 @@
     <color name="teal_700">#FF018786</color>
     <color name="tint">#cccccc</color>
     <color name="white">#FFFFFFFF</color>
-    <dimen name="activity_horizontal_margin">16dp</dimen>
-    <dimen name="activity_vertical_margin">16dp</dimen>
     <string name="action_sign_in">Sign in or register</string>
     <string name="action_sign_in_short">Sign in</string>
     <string name="already_have_an_account">Already have an account ?</string>
@@ -40,6 +38,15 @@
     <string name="login_button">Login</string>
     <string name="login_failed">"Login failed"</string>
     <string name="logo">logo?</string>
+    <item name="participant" type="string">
+        <participant>
+            <name>Suhail Ahmad Khan</name>
+            <github_id>SuhailAhmadKhan</github_id>
+        </participant>
+
+
+        
+    </item>
     <string name="password">Password</string>
     <string name="password_text">Password</string>
     <string name="prompt_email">Email</string>
