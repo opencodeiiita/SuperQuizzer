@@ -4,24 +4,7 @@
             "outputFile": "com.example.superquizzer.app-mergeDebugResources-27:/values-ja/values-ja.xml",
             "map": [
                 {
-                    "source": "/home/suhail/.gradle/caches/transforms-3/e0ca399ee2a2fd9c332a0e4ad2b06502/transformed/core-1.8.0/res/values-ja/values-ja.xml",
-                    "from": {
-                        "startLines": "2",
-                        "startColumns": "4",
-                        "startOffsets": "55",
-                        "endColumns": "100",
-                        "endOffsets": "151"
-                    },
-                    "to": {
-                        "startLines": "91",
-                        "startColumns": "4",
-                        "startOffsets": "6995",
-                        "endColumns": "100",
-                        "endOffsets": "7091"
-                    }
-                },
-                {
-                    "source": "/home/suhail/.gradle/caches/transforms-3/c88b00e8e120ede438720652258482d3/transformed/appcompat-1.5.1/res/values-ja/values-ja.xml",
+                    "source": "C:\\Users\\SUMIT\\.gradle\\caches\\transforms-3\\c88b00e8e120ede438720652258482d3\\transformed\\appcompat-1.5.1\\res\\values-ja\\values-ja.xml",
                     "from": {
                         "startLines": "2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26,27,28,29",
                         "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4",
@@ -38,7 +21,24 @@
                     }
                 },
                 {
-                    "source": "/home/suhail/.gradle/caches/transforms-3/5ec0d1e433c209b952d3aa2280ed0c64/transformed/material-1.7.0/res/values-ja/values-ja.xml",
+                    "source": "C:\\Users\\SUMIT\\.gradle\\caches\\transforms-3\\e0ca399ee2a2fd9c332a0e4ad2b06502\\transformed\\core-1.8.0\\res\\values-ja\\values-ja.xml",
+                    "from": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endColumns": "100",
+                        "endOffsets": "151"
+                    },
+                    "to": {
+                        "startLines": "91",
+                        "startColumns": "4",
+                        "startOffsets": "6995",
+                        "endColumns": "100",
+                        "endOffsets": "7091"
+                    }
+                },
+                {
+                    "source": "C:\\Users\\SUMIT\\.gradle\\caches\\transforms-3\\5ec0d1e433c209b952d3aa2280ed0c64\\transformed\\material-1.7.0\\res\\values-ja\\values-ja.xml",
                     "from": {
                         "startLines": "2,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26,27,28,29,30,31,32,33,34,35,36,37,38,39,40,41,42,43,44,45,46,47,48,49,50,51,52,53,54,55,56,57,58,59,60,61,62",
                         "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4",

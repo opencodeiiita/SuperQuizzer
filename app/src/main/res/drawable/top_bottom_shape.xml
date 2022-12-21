@@ -6,9 +6,4 @@
         android:startColor="@color/secondary"
         android:endColor="@color/secondary"
         />
-    <corners
-        android:topLeftRadius="100sp"
-        android:bottomLeftRadius="100sp"
-        />
-
 </shape>

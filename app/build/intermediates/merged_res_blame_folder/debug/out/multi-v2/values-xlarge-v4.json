@@ -4,7 +4,7 @@
             "outputFile": "com.example.superquizzer.app-mergeDebugResources-27:/values-xlarge-v4/values-xlarge-v4.xml",
             "map": [
                 {
-                    "source": "/home/suhail/.gradle/caches/transforms-3/c88b00e8e120ede438720652258482d3/transformed/appcompat-1.5.1/res/values-xlarge-v4/values-xlarge-v4.xml",
+                    "source": "C:\\Users\\SUMIT\\.gradle\\caches\\transforms-3\\c88b00e8e120ede438720652258482d3\\transformed\\appcompat-1.5.1\\res\\values-xlarge-v4\\values-xlarge-v4.xml",
                     "from": {
                         "startLines": "2,3,4,5,6,7",
                         "startColumns": "4,4,4,4,4,4",

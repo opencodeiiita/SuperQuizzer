@@ -79,7 +79,7 @@
                                             <option name="values">
                                               <map>
                                                 <entry key="color" value="000000" />
-                                                <entry key="imagePath" value="D:\curiosity-search-concept-illustration\applogo.png" />
+                                                <entry key="imagePath" value="D:\curiosity-search-concept-illustration\Union.png" />
                                               </map>
                                             </option>
                                           </PersistentState>
@@ -111,7 +111,7 @@
                                   </option>
                                   <option name="values">
                                     <map>
-                                      <entry key="outputName" value="app_logo" />
+                                      <entry key="outputName" value="app_logo2" />
                                     </map>
                                   </option>
                                 </PersistentState>
@@ -280,6 +280,44 @@
                                 </PersistentState>
                               </value>
                             </entry>
+                          </map>
+                        </option>
+                      </PersistentState>
+                    </value>
+                  </entry>
+                </map>
+              </option>
+            </PersistentState>
+          </value>
+        </entry>
+        <entry key="vectorWizard">
+          <value>
+            <PersistentState>
+              <option name="children">
+                <map>
+                  <entry key="vectorAssetStep">
+                    <value>
+                      <PersistentState>
+                        <option name="children">
+                          <map>
+                            <entry key="clipartAsset">
+                              <value>
+                                <PersistentState>
+                                  <option name="values">
+                                    <map>
+                                      <entry key="url" value="file:/$USER_HOME$/AppData/Local/Android/Sdk/sdk1/icons/material/materialicons/lock/baseline_lock_24.xml" />
+                                    </map>
+                                  </option>
+                                </PersistentState>
+                              </value>
+                            </entry>
+                          </map>
+                        </option>
+                        <option name="values">
+                          <map>
+                            <entry key="color" value="19258e" />
+                            <entry key="outputName" value="ic_baseline_lock_24" />
+                            <entry key="sourceFile" value="E:\SuperQuizzer" />
                           </map>
                         </option>
                       </PersistentState>
