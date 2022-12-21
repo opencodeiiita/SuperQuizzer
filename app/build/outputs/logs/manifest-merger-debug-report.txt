@@ -4,6 +4,8 @@ ADDED from E:\SuperQuizzer\app\src\main\AndroidManifest.xml:2:1-48:12
 INJECTED from E:\SuperQuizzer\app\src\main\AndroidManifest.xml:2:1-48:12
 INJECTED from E:\SuperQuizzer\app\src\main\AndroidManifest.xml:2:1-48:12
 INJECTED from E:\SuperQuizzer\app\src\main\AndroidManifest.xml:2:1-48:12
+MERGED from [androidx.databinding:viewbinding:7.3.1] E:\NEWS-Bucket-master\NEWS-Bucket-master\gradle\caches\transforms-3\bb03361fc94f63f04e830bfb768766d4\transformed\viewbinding-7.3.1\AndroidManifest.xml:2:1-9:12
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-ktx:2.5.1] E:\NEWS-Bucket-master\NEWS-Bucket-master\gradle\caches\transforms-3\0ffe6568f64c1aa7696684a2306f65b4\transformed\lifecycle-viewmodel-ktx-2.5.1\AndroidManifest.xml:17:1-24:12
 MERGED from [com.google.android.material:material:1.7.0] E:\NEWS-Bucket-master\NEWS-Bucket-master\gradle\caches\transforms-3\5ec0d1e433c209b952d3aa2280ed0c64\transformed\material-1.7.0\AndroidManifest.xml:17:1-26:12
 MERGED from [androidx.constraintlayout:constraintlayout:2.1.4] E:\NEWS-Bucket-master\NEWS-Bucket-master\gradle\caches\transforms-3\9d935435672fd0f94bd9610641897f15\transformed\constraintlayout-2.1.4\AndroidManifest.xml:2:1-11:12
 MERGED from [androidx.appcompat:appcompat-resources:1.5.1] E:\NEWS-Bucket-master\NEWS-Bucket-master\gradle\caches\transforms-3\1415348b45aacbbeda2e7b919cde0ded\transformed\appcompat-resources-1.5.1\AndroidManifest.xml:17:1-22:12
@@ -16,8 +18,7 @@ MERGED from [androidx.legacy:legacy-support-core-utils:1.0.0] E:\NEWS-Bucket-mas
 MERGED from [androidx.loader:loader:1.0.0] E:\NEWS-Bucket-master\NEWS-Bucket-master\gradle\caches\transforms-3\d1a3165601e4f3cb6a1001c637ab4b3c\transformed\loader-1.0.0\AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.5.1] E:\NEWS-Bucket-master\NEWS-Bucket-master\gradle\caches\transforms-3\384e7e72eaf7e27ff6197692c575a9a9\transformed\lifecycle-viewmodel-2.5.1\AndroidManifest.xml:17:1-24:12
 MERGED from [androidx.lifecycle:lifecycle-viewmodel-savedstate:2.5.1] E:\NEWS-Bucket-master\NEWS-Bucket-master\gradle\caches\transforms-3\56416ca12ad8c308a0672179665e8f9f\transformed\lifecycle-viewmodel-savedstate-2.5.1\AndroidManifest.xml:17:1-24:12
-MERGED from [androidx.core:core-ktx:1.8.0] E:\NEWS-Bucket-master\NEWS-Bucket-master\gradle\caches\transforms-3\f7796d316c1fa4222c91a583257aaf27\transformed\core-ktx-1.8.0\AndroidManifest.xml:2:1-9:12
-MERGED from [androidx.savedstate:savedstate:1.2.0] E:\NEWS-Bucket-master\NEWS-Bucket-master\gradle\caches\transforms-3\4d2c2cae42c545bdc964fd94b06026a7\transformed\savedstate-1.2.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.lifecycle:lifecycle-livedata-ktx:2.5.1] E:\NEWS-Bucket-master\NEWS-Bucket-master\gradle\caches\transforms-3\79a3e01d0349497208f2fdbd7b342fb9\transformed\lifecycle-livedata-ktx-2.5.1\AndroidManifest.xml:17:1-24:12
 MERGED from [androidx.emoji2:emoji2-views-helper:1.2.0] E:\NEWS-Bucket-master\NEWS-Bucket-master\gradle\caches\transforms-3\bd172e13d72450ee313562f969738d51\transformed\emoji2-views-helper-1.2.0\AndroidManifest.xml:2:1-7:12
 MERGED from [androidx.emoji2:emoji2:1.2.0] E:\NEWS-Bucket-master\NEWS-Bucket-master\gradle\caches\transforms-3\433ef41f91b46554937a8b4111342db5\transformed\emoji2-1.2.0\AndroidManifest.xml:17:1-35:12
 MERGED from [androidx.drawerlayout:drawerlayout:1.1.1] E:\NEWS-Bucket-master\NEWS-Bucket-master\gradle\caches\transforms-3\77dcb7c52ae817c95376992705f414e7\transformed\drawerlayout-1.1.1\AndroidManifest.xml:17:1-24:12
@@ -28,22 +29,25 @@ MERGED from [androidx.vectordrawable:vectordrawable:1.1.0] E:\NEWS-Bucket-master
 MERGED from [androidx.viewpager:viewpager:1.0.0] E:\NEWS-Bucket-master\NEWS-Bucket-master\gradle\caches\transforms-3\9d6d63876febcdc7b828fb4974f2cdd9\transformed\viewpager-1.0.0\AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.recyclerview:recyclerview:1.1.0] E:\NEWS-Bucket-master\NEWS-Bucket-master\gradle\caches\transforms-3\8d5fd52a33289eb7338e9f9626d6a193\transformed\recyclerview-1.1.0\AndroidManifest.xml:17:1-24:12
 MERGED from [androidx.customview:customview:1.1.0] E:\NEWS-Bucket-master\NEWS-Bucket-master\gradle\caches\transforms-3\0c26f4932f0e020f899e918a895851d3\transformed\customview-1.1.0\AndroidManifest.xml:17:1-24:12
-MERGED from [androidx.core:core:1.8.0] E:\NEWS-Bucket-master\NEWS-Bucket-master\gradle\caches\transforms-3\e0ca399ee2a2fd9c332a0e4ad2b06502\transformed\core-1.8.0\AndroidManifest.xml:17:1-26:12
+MERGED from [androidx.core:core:1.9.0] E:\NEWS-Bucket-master\NEWS-Bucket-master\gradle\caches\transforms-3\f75202200db48fb541bf72c50f23e569\transformed\core-1.9.0\AndroidManifest.xml:17:1-30:12
+MERGED from [androidx.core:core-ktx:1.9.0] E:\NEWS-Bucket-master\NEWS-Bucket-master\gradle\caches\transforms-3\a91e3d738a4d764efea5896c2bdd0b28\transformed\core-ktx-1.9.0\AndroidManifest.xml:2:1-7:12
 MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] E:\NEWS-Bucket-master\NEWS-Bucket-master\gradle\caches\transforms-3\9d1387b8f0d78bb8e9af5ab18762fcdc\transformed\cursoradapter-1.0.0\AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.lifecycle:lifecycle-process:2.4.1] E:\NEWS-Bucket-master\NEWS-Bucket-master\gradle\caches\transforms-3\60aa7f6134fa262f6ed065910011efa9\transformed\lifecycle-process-2.4.1\AndroidManifest.xml:17:1-37:12
 MERGED from [androidx.lifecycle:lifecycle-runtime:2.5.1] E:\NEWS-Bucket-master\NEWS-Bucket-master\gradle\caches\transforms-3\e86da9b72c67a4c26a2cff59d25cd620\transformed\lifecycle-runtime-2.5.1\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.savedstate:savedstate:1.2.0] E:\NEWS-Bucket-master\NEWS-Bucket-master\gradle\caches\transforms-3\4d2c2cae42c545bdc964fd94b06026a7\transformed\savedstate-1.2.0\AndroidManifest.xml:17:1-24:12
 MERGED from [androidx.cardview:cardview:1.0.0] E:\NEWS-Bucket-master\NEWS-Bucket-master\gradle\caches\transforms-3\ed4989815e919b951d21c06177846236\transformed\cardview-1.0.0\AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] E:\NEWS-Bucket-master\NEWS-Bucket-master\gradle\caches\transforms-3\41af6dda498b5bbd209e2c15e95db4f2\transformed\versionedparcelable-1.1.1\AndroidManifest.xml:17:1-27:12
 MERGED from [androidx.startup:startup-runtime:1.1.1] E:\NEWS-Bucket-master\NEWS-Bucket-master\gradle\caches\transforms-3\2d405d8fee11d9a2d32210a0f7314b11\transformed\startup-runtime-1.1.1\AndroidManifest.xml:17:1-33:12
 MERGED from [androidx.tracing:tracing:1.0.0] E:\NEWS-Bucket-master\NEWS-Bucket-master\gradle\caches\transforms-3\633451fefa26487cfac97ab02fc09c5d\transformed\tracing-1.0.0\AndroidManifest.xml:17:1-24:12
-MERGED from [androidx.lifecycle:lifecycle-livedata:2.0.0] E:\NEWS-Bucket-master\NEWS-Bucket-master\gradle\caches\transforms-3\f9e3686c15c925db4e71b15ab3fc0273\transformed\lifecycle-livedata-2.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-livedata:2.5.1] E:\NEWS-Bucket-master\NEWS-Bucket-master\gradle\caches\transforms-3\1af97cad05c4dcb035da2f023aae4bef\transformed\lifecycle-livedata-2.5.1\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.lifecycle:lifecycle-livedata-core-ktx:2.5.1] E:\NEWS-Bucket-master\NEWS-Bucket-master\gradle\caches\transforms-3\384efdf11117d075046288def3678e8d\transformed\lifecycle-livedata-core-ktx-2.5.1\AndroidManifest.xml:17:1-24:12
 MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.5.1] E:\NEWS-Bucket-master\NEWS-Bucket-master\gradle\caches\transforms-3\9a7933680aae15a6502a65ca86bb166c\transformed\lifecycle-livedata-core-2.5.1\AndroidManifest.xml:17:1-24:12
 MERGED from [androidx.arch.core:core-runtime:2.1.0] E:\NEWS-Bucket-master\NEWS-Bucket-master\gradle\caches\transforms-3\7f54562ce7d8427bc8e873cf01cda568\transformed\core-runtime-2.1.0\AndroidManifest.xml:17:1-24:12
 MERGED from [androidx.interpolator:interpolator:1.0.0] E:\NEWS-Bucket-master\NEWS-Bucket-master\gradle\caches\transforms-3\a460686f43215efc384c831d8ae02833\transformed\interpolator-1.0.0\AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.documentfile:documentfile:1.0.0] E:\NEWS-Bucket-master\NEWS-Bucket-master\gradle\caches\transforms-3\69e6309e0a5dbb5e97ad9976371b2e17\transformed\documentfile-1.0.0\AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] E:\NEWS-Bucket-master\NEWS-Bucket-master\gradle\caches\transforms-3\cae20ce9ab04be099ec62860d1c8d6a4\transformed\localbroadcastmanager-1.0.0\AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.print:print:1.0.0] E:\NEWS-Bucket-master\NEWS-Bucket-master\gradle\caches\transforms-3\5d0295005d5752fd7030956c1173e839\transformed\print-1.0.0\AndroidManifest.xml:17:1-22:12
-MERGED from [androidx.annotation:annotation-experimental:1.1.0] E:\NEWS-Bucket-master\NEWS-Bucket-master\gradle\caches\transforms-3\44ba3dede60af5b95c1232a8e18e7a84\transformed\annotation-experimental-1.1.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.annotation:annotation-experimental:1.3.0] E:\NEWS-Bucket-master\NEWS-Bucket-master\gradle\caches\transforms-3\2a868a9f3ab770917591a3671baf672a\transformed\annotation-experimental-1.3.0\AndroidManifest.xml:17:1-22:12
 INJECTED from E:\SuperQuizzer\app\src\main\AndroidManifest.xml:2:1-48:12
 INJECTED from E:\SuperQuizzer\app\src\main\AndroidManifest.xml:2:1-48:12
 INJECTED from E:\SuperQuizzer\app\src\main\AndroidManifest.xml:2:1-48:12
@@ -71,8 +75,8 @@ MERGED from [androidx.constraintlayout:constraintlayout:2.1.4] E:\NEWS-Bucket-ma
 MERGED from [androidx.constraintlayout:constraintlayout:2.1.4] E:\NEWS-Bucket-master\NEWS-Bucket-master\gradle\caches\transforms-3\9d935435672fd0f94bd9610641897f15\transformed\constraintlayout-2.1.4\AndroidManifest.xml:9:5-20
 MERGED from [androidx.emoji2:emoji2:1.2.0] E:\NEWS-Bucket-master\NEWS-Bucket-master\gradle\caches\transforms-3\433ef41f91b46554937a8b4111342db5\transformed\emoji2-1.2.0\AndroidManifest.xml:23:5-33:19
 MERGED from [androidx.emoji2:emoji2:1.2.0] E:\NEWS-Bucket-master\NEWS-Bucket-master\gradle\caches\transforms-3\433ef41f91b46554937a8b4111342db5\transformed\emoji2-1.2.0\AndroidManifest.xml:23:5-33:19
-MERGED from [androidx.core:core:1.8.0] E:\NEWS-Bucket-master\NEWS-Bucket-master\gradle\caches\transforms-3\e0ca399ee2a2fd9c332a0e4ad2b06502\transformed\core-1.8.0\AndroidManifest.xml:24:5-89
-MERGED from [androidx.core:core:1.8.0] E:\NEWS-Bucket-master\NEWS-Bucket-master\gradle\caches\transforms-3\e0ca399ee2a2fd9c332a0e4ad2b06502\transformed\core-1.8.0\AndroidManifest.xml:24:5-89
+MERGED from [androidx.core:core:1.9.0] E:\NEWS-Bucket-master\NEWS-Bucket-master\gradle\caches\transforms-3\f75202200db48fb541bf72c50f23e569\transformed\core-1.9.0\AndroidManifest.xml:28:5-89
+MERGED from [androidx.core:core:1.9.0] E:\NEWS-Bucket-master\NEWS-Bucket-master\gradle\caches\transforms-3\f75202200db48fb541bf72c50f23e569\transformed\core-1.9.0\AndroidManifest.xml:28:5-89
 MERGED from [androidx.lifecycle:lifecycle-process:2.4.1] E:\NEWS-Bucket-master\NEWS-Bucket-master\gradle\caches\transforms-3\60aa7f6134fa262f6ed065910011efa9\transformed\lifecycle-process-2.4.1\AndroidManifest.xml:25:5-35:19
 MERGED from [androidx.lifecycle:lifecycle-process:2.4.1] E:\NEWS-Bucket-master\NEWS-Bucket-master\gradle\caches\transforms-3\60aa7f6134fa262f6ed065910011efa9\transformed\lifecycle-process-2.4.1\AndroidManifest.xml:25:5-35:19
 MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] E:\NEWS-Bucket-master\NEWS-Bucket-master\gradle\caches\transforms-3\41af6dda498b5bbd209e2c15e95db4f2\transformed\versionedparcelable-1.1.1\AndroidManifest.xml:24:5-25:19
@@ -80,7 +84,7 @@ MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] E:\NEWS-Buc
 MERGED from [androidx.startup:startup-runtime:1.1.1] E:\NEWS-Bucket-master\NEWS-Bucket-master\gradle\caches\transforms-3\2d405d8fee11d9a2d32210a0f7314b11\transformed\startup-runtime-1.1.1\AndroidManifest.xml:25:5-31:19
 MERGED from [androidx.startup:startup-runtime:1.1.1] E:\NEWS-Bucket-master\NEWS-Bucket-master\gradle\caches\transforms-3\2d405d8fee11d9a2d32210a0f7314b11\transformed\startup-runtime-1.1.1\AndroidManifest.xml:25:5-31:19
 	android:appComponentFactory
-		ADDED from [androidx.core:core:1.8.0] E:\NEWS-Bucket-master\NEWS-Bucket-master\gradle\caches\transforms-3\e0ca399ee2a2fd9c332a0e4ad2b06502\transformed\core-1.8.0\AndroidManifest.xml:24:18-86
+		ADDED from [androidx.core:core:1.9.0] E:\NEWS-Bucket-master\NEWS-Bucket-master\gradle\caches\transforms-3\f75202200db48fb541bf72c50f23e569\transformed\core-1.9.0\AndroidManifest.xml:28:18-86
 	android:supportsRtl
 		ADDED from E:\SuperQuizzer\app\src\main\AndroidManifest.xml:13:9-35
 	android:label
@@ -114,7 +118,7 @@ ADDED from E:\SuperQuizzer\app\src\main\AndroidManifest.xml:19:13-21:36
 activity#com.example.superquizzer.RegisterActivity
 ADDED from E:\SuperQuizzer\app\src\main\AndroidManifest.xml:23:9-26:20
 	android:exported
-		ADDED from E:\SuperQuizzer\app\src\main\AndroidManifest.xml:25:13-37
+		ADDED from E:\SuperQuizzer\app\src\main\AndroidManifest.xml:25:13-36
 	android:name
 		ADDED from E:\SuperQuizzer\app\src\main\AndroidManifest.xml:24:13-45
 activity#com.example.superquizzer.SplashActivity
@@ -143,6 +147,10 @@ uses-sdk
 INJECTED from E:\SuperQuizzer\app\src\main\AndroidManifest.xml reason: use-sdk injection requested
 INJECTED from E:\SuperQuizzer\app\src\main\AndroidManifest.xml
 INJECTED from E:\SuperQuizzer\app\src\main\AndroidManifest.xml
+MERGED from [androidx.databinding:viewbinding:7.3.1] E:\NEWS-Bucket-master\NEWS-Bucket-master\gradle\caches\transforms-3\bb03361fc94f63f04e830bfb768766d4\transformed\viewbinding-7.3.1\AndroidManifest.xml:5:5-7:41
+MERGED from [androidx.databinding:viewbinding:7.3.1] E:\NEWS-Bucket-master\NEWS-Bucket-master\gradle\caches\transforms-3\bb03361fc94f63f04e830bfb768766d4\transformed\viewbinding-7.3.1\AndroidManifest.xml:5:5-7:41
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-ktx:2.5.1] E:\NEWS-Bucket-master\NEWS-Bucket-master\gradle\caches\transforms-3\0ffe6568f64c1aa7696684a2306f65b4\transformed\lifecycle-viewmodel-ktx-2.5.1\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-ktx:2.5.1] E:\NEWS-Bucket-master\NEWS-Bucket-master\gradle\caches\transforms-3\0ffe6568f64c1aa7696684a2306f65b4\transformed\lifecycle-viewmodel-ktx-2.5.1\AndroidManifest.xml:20:5-22:41
 MERGED from [com.google.android.material:material:1.7.0] E:\NEWS-Bucket-master\NEWS-Bucket-master\gradle\caches\transforms-3\5ec0d1e433c209b952d3aa2280ed0c64\transformed\material-1.7.0\AndroidManifest.xml:20:5-22:41
 MERGED from [com.google.android.material:material:1.7.0] E:\NEWS-Bucket-master\NEWS-Bucket-master\gradle\caches\transforms-3\5ec0d1e433c209b952d3aa2280ed0c64\transformed\material-1.7.0\AndroidManifest.xml:20:5-22:41
 MERGED from [androidx.constraintlayout:constraintlayout:2.1.4] E:\NEWS-Bucket-master\NEWS-Bucket-master\gradle\caches\transforms-3\9d935435672fd0f94bd9610641897f15\transformed\constraintlayout-2.1.4\AndroidManifest.xml:5:5-7:41
@@ -167,10 +175,8 @@ MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.5.1] E:\NEWS-Bucket-master
 MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.5.1] E:\NEWS-Bucket-master\NEWS-Bucket-master\gradle\caches\transforms-3\384e7e72eaf7e27ff6197692c575a9a9\transformed\lifecycle-viewmodel-2.5.1\AndroidManifest.xml:20:5-22:41
 MERGED from [androidx.lifecycle:lifecycle-viewmodel-savedstate:2.5.1] E:\NEWS-Bucket-master\NEWS-Bucket-master\gradle\caches\transforms-3\56416ca12ad8c308a0672179665e8f9f\transformed\lifecycle-viewmodel-savedstate-2.5.1\AndroidManifest.xml:20:5-22:41
 MERGED from [androidx.lifecycle:lifecycle-viewmodel-savedstate:2.5.1] E:\NEWS-Bucket-master\NEWS-Bucket-master\gradle\caches\transforms-3\56416ca12ad8c308a0672179665e8f9f\transformed\lifecycle-viewmodel-savedstate-2.5.1\AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.core:core-ktx:1.8.0] E:\NEWS-Bucket-master\NEWS-Bucket-master\gradle\caches\transforms-3\f7796d316c1fa4222c91a583257aaf27\transformed\core-ktx-1.8.0\AndroidManifest.xml:5:5-7:41
-MERGED from [androidx.core:core-ktx:1.8.0] E:\NEWS-Bucket-master\NEWS-Bucket-master\gradle\caches\transforms-3\f7796d316c1fa4222c91a583257aaf27\transformed\core-ktx-1.8.0\AndroidManifest.xml:5:5-7:41
-MERGED from [androidx.savedstate:savedstate:1.2.0] E:\NEWS-Bucket-master\NEWS-Bucket-master\gradle\caches\transforms-3\4d2c2cae42c545bdc964fd94b06026a7\transformed\savedstate-1.2.0\AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.savedstate:savedstate:1.2.0] E:\NEWS-Bucket-master\NEWS-Bucket-master\gradle\caches\transforms-3\4d2c2cae42c545bdc964fd94b06026a7\transformed\savedstate-1.2.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-livedata-ktx:2.5.1] E:\NEWS-Bucket-master\NEWS-Bucket-master\gradle\caches\transforms-3\79a3e01d0349497208f2fdbd7b342fb9\transformed\lifecycle-livedata-ktx-2.5.1\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-livedata-ktx:2.5.1] E:\NEWS-Bucket-master\NEWS-Bucket-master\gradle\caches\transforms-3\79a3e01d0349497208f2fdbd7b342fb9\transformed\lifecycle-livedata-ktx-2.5.1\AndroidManifest.xml:20:5-22:41
 MERGED from [androidx.emoji2:emoji2-views-helper:1.2.0] E:\NEWS-Bucket-master\NEWS-Bucket-master\gradle\caches\transforms-3\bd172e13d72450ee313562f969738d51\transformed\emoji2-views-helper-1.2.0\AndroidManifest.xml:5:5-44
 MERGED from [androidx.emoji2:emoji2-views-helper:1.2.0] E:\NEWS-Bucket-master\NEWS-Bucket-master\gradle\caches\transforms-3\bd172e13d72450ee313562f969738d51\transformed\emoji2-views-helper-1.2.0\AndroidManifest.xml:5:5-44
 MERGED from [androidx.emoji2:emoji2:1.2.0] E:\NEWS-Bucket-master\NEWS-Bucket-master\gradle\caches\transforms-3\433ef41f91b46554937a8b4111342db5\transformed\emoji2-1.2.0\AndroidManifest.xml:21:5-44
@@ -191,14 +197,18 @@ MERGED from [androidx.recyclerview:recyclerview:1.1.0] E:\NEWS-Bucket-master\NEW
 MERGED from [androidx.recyclerview:recyclerview:1.1.0] E:\NEWS-Bucket-master\NEWS-Bucket-master\gradle\caches\transforms-3\8d5fd52a33289eb7338e9f9626d6a193\transformed\recyclerview-1.1.0\AndroidManifest.xml:20:5-22:41
 MERGED from [androidx.customview:customview:1.1.0] E:\NEWS-Bucket-master\NEWS-Bucket-master\gradle\caches\transforms-3\0c26f4932f0e020f899e918a895851d3\transformed\customview-1.1.0\AndroidManifest.xml:20:5-22:41
 MERGED from [androidx.customview:customview:1.1.0] E:\NEWS-Bucket-master\NEWS-Bucket-master\gradle\caches\transforms-3\0c26f4932f0e020f899e918a895851d3\transformed\customview-1.1.0\AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.core:core:1.8.0] E:\NEWS-Bucket-master\NEWS-Bucket-master\gradle\caches\transforms-3\e0ca399ee2a2fd9c332a0e4ad2b06502\transformed\core-1.8.0\AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.core:core:1.8.0] E:\NEWS-Bucket-master\NEWS-Bucket-master\gradle\caches\transforms-3\e0ca399ee2a2fd9c332a0e4ad2b06502\transformed\core-1.8.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.core:core:1.9.0] E:\NEWS-Bucket-master\NEWS-Bucket-master\gradle\caches\transforms-3\f75202200db48fb541bf72c50f23e569\transformed\core-1.9.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.core:core:1.9.0] E:\NEWS-Bucket-master\NEWS-Bucket-master\gradle\caches\transforms-3\f75202200db48fb541bf72c50f23e569\transformed\core-1.9.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.core:core-ktx:1.9.0] E:\NEWS-Bucket-master\NEWS-Bucket-master\gradle\caches\transforms-3\a91e3d738a4d764efea5896c2bdd0b28\transformed\core-ktx-1.9.0\AndroidManifest.xml:5:5-44
+MERGED from [androidx.core:core-ktx:1.9.0] E:\NEWS-Bucket-master\NEWS-Bucket-master\gradle\caches\transforms-3\a91e3d738a4d764efea5896c2bdd0b28\transformed\core-ktx-1.9.0\AndroidManifest.xml:5:5-44
 MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] E:\NEWS-Bucket-master\NEWS-Bucket-master\gradle\caches\transforms-3\9d1387b8f0d78bb8e9af5ab18762fcdc\transformed\cursoradapter-1.0.0\AndroidManifest.xml:20:5-44
 MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] E:\NEWS-Bucket-master\NEWS-Bucket-master\gradle\caches\transforms-3\9d1387b8f0d78bb8e9af5ab18762fcdc\transformed\cursoradapter-1.0.0\AndroidManifest.xml:20:5-44
 MERGED from [androidx.lifecycle:lifecycle-process:2.4.1] E:\NEWS-Bucket-master\NEWS-Bucket-master\gradle\caches\transforms-3\60aa7f6134fa262f6ed065910011efa9\transformed\lifecycle-process-2.4.1\AndroidManifest.xml:21:5-23:41
 MERGED from [androidx.lifecycle:lifecycle-process:2.4.1] E:\NEWS-Bucket-master\NEWS-Bucket-master\gradle\caches\transforms-3\60aa7f6134fa262f6ed065910011efa9\transformed\lifecycle-process-2.4.1\AndroidManifest.xml:21:5-23:41
 MERGED from [androidx.lifecycle:lifecycle-runtime:2.5.1] E:\NEWS-Bucket-master\NEWS-Bucket-master\gradle\caches\transforms-3\e86da9b72c67a4c26a2cff59d25cd620\transformed\lifecycle-runtime-2.5.1\AndroidManifest.xml:20:5-22:41
 MERGED from [androidx.lifecycle:lifecycle-runtime:2.5.1] E:\NEWS-Bucket-master\NEWS-Bucket-master\gradle\caches\transforms-3\e86da9b72c67a4c26a2cff59d25cd620\transformed\lifecycle-runtime-2.5.1\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.savedstate:savedstate:1.2.0] E:\NEWS-Bucket-master\NEWS-Bucket-master\gradle\caches\transforms-3\4d2c2cae42c545bdc964fd94b06026a7\transformed\savedstate-1.2.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.savedstate:savedstate:1.2.0] E:\NEWS-Bucket-master\NEWS-Bucket-master\gradle\caches\transforms-3\4d2c2cae42c545bdc964fd94b06026a7\transformed\savedstate-1.2.0\AndroidManifest.xml:20:5-22:41
 MERGED from [androidx.cardview:cardview:1.0.0] E:\NEWS-Bucket-master\NEWS-Bucket-master\gradle\caches\transforms-3\ed4989815e919b951d21c06177846236\transformed\cardview-1.0.0\AndroidManifest.xml:20:5-44
 MERGED from [androidx.cardview:cardview:1.0.0] E:\NEWS-Bucket-master\NEWS-Bucket-master\gradle\caches\transforms-3\ed4989815e919b951d21c06177846236\transformed\cardview-1.0.0\AndroidManifest.xml:20:5-44
 MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] E:\NEWS-Bucket-master\NEWS-Bucket-master\gradle\caches\transforms-3\41af6dda498b5bbd209e2c15e95db4f2\transformed\versionedparcelable-1.1.1\AndroidManifest.xml:20:5-22:41
@@ -207,8 +217,10 @@ MERGED from [androidx.startup:startup-runtime:1.1.1] E:\NEWS-Bucket-master\NEWS-
 MERGED from [androidx.startup:startup-runtime:1.1.1] E:\NEWS-Bucket-master\NEWS-Bucket-master\gradle\caches\transforms-3\2d405d8fee11d9a2d32210a0f7314b11\transformed\startup-runtime-1.1.1\AndroidManifest.xml:21:5-23:41
 MERGED from [androidx.tracing:tracing:1.0.0] E:\NEWS-Bucket-master\NEWS-Bucket-master\gradle\caches\transforms-3\633451fefa26487cfac97ab02fc09c5d\transformed\tracing-1.0.0\AndroidManifest.xml:20:5-22:41
 MERGED from [androidx.tracing:tracing:1.0.0] E:\NEWS-Bucket-master\NEWS-Bucket-master\gradle\caches\transforms-3\633451fefa26487cfac97ab02fc09c5d\transformed\tracing-1.0.0\AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.lifecycle:lifecycle-livedata:2.0.0] E:\NEWS-Bucket-master\NEWS-Bucket-master\gradle\caches\transforms-3\f9e3686c15c925db4e71b15ab3fc0273\transformed\lifecycle-livedata-2.0.0\AndroidManifest.xml:20:5-44
-MERGED from [androidx.lifecycle:lifecycle-livedata:2.0.0] E:\NEWS-Bucket-master\NEWS-Bucket-master\gradle\caches\transforms-3\f9e3686c15c925db4e71b15ab3fc0273\transformed\lifecycle-livedata-2.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata:2.5.1] E:\NEWS-Bucket-master\NEWS-Bucket-master\gradle\caches\transforms-3\1af97cad05c4dcb035da2f023aae4bef\transformed\lifecycle-livedata-2.5.1\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-livedata:2.5.1] E:\NEWS-Bucket-master\NEWS-Bucket-master\gradle\caches\transforms-3\1af97cad05c4dcb035da2f023aae4bef\transformed\lifecycle-livedata-2.5.1\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-livedata-core-ktx:2.5.1] E:\NEWS-Bucket-master\NEWS-Bucket-master\gradle\caches\transforms-3\384efdf11117d075046288def3678e8d\transformed\lifecycle-livedata-core-ktx-2.5.1\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-livedata-core-ktx:2.5.1] E:\NEWS-Bucket-master\NEWS-Bucket-master\gradle\caches\transforms-3\384efdf11117d075046288def3678e8d\transformed\lifecycle-livedata-core-ktx-2.5.1\AndroidManifest.xml:20:5-22:41
 MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.5.1] E:\NEWS-Bucket-master\NEWS-Bucket-master\gradle\caches\transforms-3\9a7933680aae15a6502a65ca86bb166c\transformed\lifecycle-livedata-core-2.5.1\AndroidManifest.xml:20:5-22:41
 MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.5.1] E:\NEWS-Bucket-master\NEWS-Bucket-master\gradle\caches\transforms-3\9a7933680aae15a6502a65ca86bb166c\transformed\lifecycle-livedata-core-2.5.1\AndroidManifest.xml:20:5-22:41
 MERGED from [androidx.arch.core:core-runtime:2.1.0] E:\NEWS-Bucket-master\NEWS-Bucket-master\gradle\caches\transforms-3\7f54562ce7d8427bc8e873cf01cda568\transformed\core-runtime-2.1.0\AndroidManifest.xml:20:5-22:41
@@ -221,8 +233,8 @@ MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] E:\NEWS
 MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] E:\NEWS-Bucket-master\NEWS-Bucket-master\gradle\caches\transforms-3\cae20ce9ab04be099ec62860d1c8d6a4\transformed\localbroadcastmanager-1.0.0\AndroidManifest.xml:20:5-44
 MERGED from [androidx.print:print:1.0.0] E:\NEWS-Bucket-master\NEWS-Bucket-master\gradle\caches\transforms-3\5d0295005d5752fd7030956c1173e839\transformed\print-1.0.0\AndroidManifest.xml:20:5-44
 MERGED from [androidx.print:print:1.0.0] E:\NEWS-Bucket-master\NEWS-Bucket-master\gradle\caches\transforms-3\5d0295005d5752fd7030956c1173e839\transformed\print-1.0.0\AndroidManifest.xml:20:5-44
-MERGED from [androidx.annotation:annotation-experimental:1.1.0] E:\NEWS-Bucket-master\NEWS-Bucket-master\gradle\caches\transforms-3\44ba3dede60af5b95c1232a8e18e7a84\transformed\annotation-experimental-1.1.0\AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.annotation:annotation-experimental:1.1.0] E:\NEWS-Bucket-master\NEWS-Bucket-master\gradle\caches\transforms-3\44ba3dede60af5b95c1232a8e18e7a84\transformed\annotation-experimental-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.annotation:annotation-experimental:1.3.0] E:\NEWS-Bucket-master\NEWS-Bucket-master\gradle\caches\transforms-3\2a868a9f3ab770917591a3671baf672a\transformed\annotation-experimental-1.3.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.annotation:annotation-experimental:1.3.0] E:\NEWS-Bucket-master\NEWS-Bucket-master\gradle\caches\transforms-3\2a868a9f3ab770917591a3671baf672a\transformed\annotation-experimental-1.3.0\AndroidManifest.xml:20:5-44
 INJECTED from E:\SuperQuizzer\app\src\main\AndroidManifest.xml
 INJECTED from E:\SuperQuizzer\app\src\main\AndroidManifest.xml
 	android:targetSdkVersion
@@ -253,6 +265,26 @@ ADDED from [androidx.emoji2:emoji2:1.2.0] E:\NEWS-Bucket-master\NEWS-Bucket-mast
 		ADDED from [androidx.emoji2:emoji2:1.2.0] E:\NEWS-Bucket-master\NEWS-Bucket-master\gradle\caches\transforms-3\433ef41f91b46554937a8b4111342db5\transformed\emoji2-1.2.0\AndroidManifest.xml:31:17-49
 	android:name
 		ADDED from [androidx.emoji2:emoji2:1.2.0] E:\NEWS-Bucket-master\NEWS-Bucket-master\gradle\caches\transforms-3\433ef41f91b46554937a8b4111342db5\transformed\emoji2-1.2.0\AndroidManifest.xml:30:17-75
+permission#${applicationId}.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION
+ADDED from [androidx.core:core:1.9.0] E:\NEWS-Bucket-master\NEWS-Bucket-master\gradle\caches\transforms-3\f75202200db48fb541bf72c50f23e569\transformed\core-1.9.0\AndroidManifest.xml:22:5-24:47
+	android:protectionLevel
+		ADDED from [androidx.core:core:1.9.0] E:\NEWS-Bucket-master\NEWS-Bucket-master\gradle\caches\transforms-3\f75202200db48fb541bf72c50f23e569\transformed\core-1.9.0\AndroidManifest.xml:24:9-44
+	android:name
+		ADDED from [androidx.core:core:1.9.0] E:\NEWS-Bucket-master\NEWS-Bucket-master\gradle\caches\transforms-3\f75202200db48fb541bf72c50f23e569\transformed\core-1.9.0\AndroidManifest.xml:23:9-81
+permission#com.example.superquizzer.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION
+ADDED from [androidx.core:core:1.9.0] E:\NEWS-Bucket-master\NEWS-Bucket-master\gradle\caches\transforms-3\f75202200db48fb541bf72c50f23e569\transformed\core-1.9.0\AndroidManifest.xml:22:5-24:47
+	android:protectionLevel
+		ADDED from [androidx.core:core:1.9.0] E:\NEWS-Bucket-master\NEWS-Bucket-master\gradle\caches\transforms-3\f75202200db48fb541bf72c50f23e569\transformed\core-1.9.0\AndroidManifest.xml:24:9-44
+	android:name
+		ADDED from [androidx.core:core:1.9.0] E:\NEWS-Bucket-master\NEWS-Bucket-master\gradle\caches\transforms-3\f75202200db48fb541bf72c50f23e569\transformed\core-1.9.0\AndroidManifest.xml:23:9-81
+uses-permission#${applicationId}.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION
+ADDED from [androidx.core:core:1.9.0] E:\NEWS-Bucket-master\NEWS-Bucket-master\gradle\caches\transforms-3\f75202200db48fb541bf72c50f23e569\transformed\core-1.9.0\AndroidManifest.xml:26:5-97
+	android:name
+		ADDED from [androidx.core:core:1.9.0] E:\NEWS-Bucket-master\NEWS-Bucket-master\gradle\caches\transforms-3\f75202200db48fb541bf72c50f23e569\transformed\core-1.9.0\AndroidManifest.xml:26:22-94
+uses-permission#com.example.superquizzer.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION
+ADDED from [androidx.core:core:1.9.0] E:\NEWS-Bucket-master\NEWS-Bucket-master\gradle\caches\transforms-3\f75202200db48fb541bf72c50f23e569\transformed\core-1.9.0\AndroidManifest.xml:26:5-97
+	android:name
+		ADDED from [androidx.core:core:1.9.0] E:\NEWS-Bucket-master\NEWS-Bucket-master\gradle\caches\transforms-3\f75202200db48fb541bf72c50f23e569\transformed\core-1.9.0\AndroidManifest.xml:26:22-94
 meta-data#androidx.lifecycle.ProcessLifecycleInitializer
 ADDED from [androidx.lifecycle:lifecycle-process:2.4.1] E:\NEWS-Bucket-master\NEWS-Bucket-master\gradle\caches\transforms-3\60aa7f6134fa262f6ed065910011efa9\transformed\lifecycle-process-2.4.1\AndroidManifest.xml:31:13-33:52
 	android:value

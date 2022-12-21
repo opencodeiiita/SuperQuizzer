@@ -1940,6 +1940,8 @@ dimen abc_text_size_subhead_material
 dimen abc_text_size_subtitle_material_toolbar
 dimen abc_text_size_title_material
 dimen abc_text_size_title_material_toolbar
+dimen activity_horizontal_margin
+dimen activity_vertical_margin
 dimen appcompat_dialog_background_inset
 dimen cardview_compat_inset_shadow
 dimen cardview_default_elevation
@@ -2796,7 +2798,9 @@ id closest
 id collapseActionView
 id compress
 id confirm_button
+id constrainLayout
 id constraint
+id constraintLayoutin
 id container
 id content
 id contentPanel
@@ -2921,7 +2925,7 @@ id linearlayout_login
 id listMode
 id list_item
 id login
-id login_button
+id loginButton
 id logoText
 id marquee
 id masked
@@ -3024,7 +3028,6 @@ id progress_horizontal
 id radio
 id ratio
 id rectangles
-id register_link
 id reverseSawtooth
 id right
 id rightToLeft
@@ -3061,6 +3064,7 @@ id shortcut
 id showCustom
 id showHome
 id showTitle
+id signUpLink
 id sin
 id skipCollapsed
 id skipped
@@ -3406,6 +3410,8 @@ string abc_searchview_description_voice
 string abc_shareactionprovider_share_with
 string abc_shareactionprovider_share_with_application
 string abc_toolbar_collapse_description
+string action_sign_in
+string action_sign_in_short
 string already_have_an_account
 string already_have_an_account_login
 string androidx_startup
@@ -3436,10 +3442,13 @@ string first_name
 string forgot_password
 string hide_bottom_view_on_scroll_behavior
 string icon_content_description
+string invalid_password
+string invalid_username
 string item_view_role_description
 string last_name
 string login
 string login_button
+string login_failed
 string logo
 string m3_sys_motion_easing_emphasized
 string m3_sys_motion_easing_emphasized_accelerate
@@ -3535,6 +3544,8 @@ string path_password_eye
 string path_password_eye_mask_strike_through
 string path_password_eye_mask_visible
 string path_password_strike_through
+string prompt_email
+string prompt_password
 string register
 string s
 string search_menu_title
@@ -3542,6 +3553,8 @@ string sign_up
 string status_bar_notification_info_overflow
 string superquizzer
 string superquizzersplash
+string title_activity_login2
+string welcome
 style AlertDialog_AppCompat
 style AlertDialog_AppCompat_Light
 style Animation_AppCompat_Dialog
