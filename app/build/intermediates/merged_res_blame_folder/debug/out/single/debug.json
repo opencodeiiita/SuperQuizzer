@@ -1,418 +1,422 @@
 [
     {
-        "merged": "/Users/akshatsingh/.gradle/daemon/7.4/com.example.superquizzer.app-merged_res-33:/mipmap-xxhdpi_app_logo2.png.flat",
-        "source": "/Users/akshatsingh/.gradle/daemon/7.4/com.example.superquizzer.app-debug-34:/mipmap-xxhdpi/app_logo2.png"
+        "merged": "C:\\Users\\DigiCraze\\.gradle\\daemon\\7.4\\com.example.superquizzer.app-merged_res-33:\\anim_slide_out_left.xml.flat",
+        "source": "C:\\Users\\DigiCraze\\.gradle\\daemon\\7.4\\com.example.superquizzer.app-main-35:\\anim\\slide_out_left.xml"
     },
     {
-        "merged": "/Users/akshatsingh/.gradle/daemon/7.4/com.example.superquizzer.app-merged_res-33:/mipmap-xxhdpi_app_logo_round.png.flat",
-        "source": "/Users/akshatsingh/.gradle/daemon/7.4/com.example.superquizzer.app-debug-34:/mipmap-xxhdpi/app_logo_round.png"
+        "merged": "C:\\Users\\DigiCraze\\.gradle\\daemon\\7.4\\com.example.superquizzer.app-merged_res-33:\\drawable_app_logo_background.xml.flat",
+        "source": "C:\\Users\\DigiCraze\\.gradle\\daemon\\7.4\\com.example.superquizzer.app-debug-34:\\drawable\\app_logo_background.xml"
     },
     {
-        "merged": "/Users/akshatsingh/.gradle/daemon/7.4/com.example.superquizzer.app-merged_res-33:/layout_activity_login.xml.flat",
-        "source": "/Users/akshatsingh/.gradle/daemon/7.4/com.example.superquizzer.app-main-35:/layout/activity_login.xml"
+        "merged": "C:\\Users\\DigiCraze\\.gradle\\daemon\\7.4\\com.example.superquizzer.app-merged_res-33:\\mipmap-hdpi_app_logo.png.flat",
+        "source": "C:\\Users\\DigiCraze\\.gradle\\daemon\\7.4\\com.example.superquizzer.app-debug-34:\\mipmap-hdpi\\app_logo.png"
     },
     {
-        "merged": "/Users/akshatsingh/.gradle/daemon/7.4/com.example.superquizzer.app-merged_res-33:/mipmap-anydpi-v26_app_logo1_round.xml.flat",
-        "source": "/Users/akshatsingh/.gradle/daemon/7.4/com.example.superquizzer.app-debug-34:/mipmap-anydpi-v26/app_logo1_round.xml"
+        "merged": "C:\\Users\\DigiCraze\\.gradle\\daemon\\7.4\\com.example.superquizzer.app-merged_res-33:\\drawable-v24_superquizzer.png.flat",
+        "source": "C:\\Users\\DigiCraze\\.gradle\\daemon\\7.4\\com.example.superquizzer.app-main-35:\\drawable-v24\\superquizzer.png"
     },
     {
-        "merged": "/Users/akshatsingh/.gradle/daemon/7.4/com.example.superquizzer.app-merged_res-33:/mipmap-hdpi_app_logo2.png.flat",
-        "source": "/Users/akshatsingh/.gradle/daemon/7.4/com.example.superquizzer.app-debug-34:/mipmap-hdpi/app_logo2.png"
+        "merged": "C:\\Users\\DigiCraze\\.gradle\\daemon\\7.4\\com.example.superquizzer.app-merged_res-33:\\mipmap-xhdpi_app_icon.png.flat",
+        "source": "C:\\Users\\DigiCraze\\.gradle\\daemon\\7.4\\com.example.superquizzer.app-debug-34:\\mipmap-xhdpi\\app_icon.png"
     },
     {
-        "merged": "/Users/akshatsingh/.gradle/daemon/7.4/com.example.superquizzer.app-merged_res-33:/mipmap-hdpi_app_logo_foreground.png.flat",
-        "source": "/Users/akshatsingh/.gradle/daemon/7.4/com.example.superquizzer.app-debug-34:/mipmap-hdpi/app_logo_foreground.png"
+        "merged": "C:\\Users\\DigiCraze\\.gradle\\daemon\\7.4\\com.example.superquizzer.app-merged_res-33:\\mipmap-mdpi_ic_launcher.webp.flat",
+        "source": "C:\\Users\\DigiCraze\\.gradle\\daemon\\7.4\\com.example.superquizzer.app-main-35:\\mipmap-mdpi\\ic_launcher.webp"
     },
     {
-        "merged": "/Users/akshatsingh/.gradle/daemon/7.4/com.example.superquizzer.app-merged_res-33:/mipmap-anydpi-v26_ic_launcher.xml.flat",
-        "source": "/Users/akshatsingh/.gradle/daemon/7.4/com.example.superquizzer.app-main-35:/mipmap-anydpi-v26/ic_launcher.xml"
+        "merged": "C:\\Users\\DigiCraze\\.gradle\\daemon\\7.4\\com.example.superquizzer.app-merged_res-33:\\mipmap-xhdpi_app_logo2_foreground.png.flat",
+        "source": "C:\\Users\\DigiCraze\\.gradle\\daemon\\7.4\\com.example.superquizzer.app-debug-34:\\mipmap-xhdpi\\app_logo2_foreground.png"
     },
     {
-        "merged": "/Users/akshatsingh/.gradle/daemon/7.4/com.example.superquizzer.app-merged_res-33:/mipmap-xhdpi_app_icon_foreground.png.flat",
-        "source": "/Users/akshatsingh/.gradle/daemon/7.4/com.example.superquizzer.app-debug-34:/mipmap-xhdpi/app_icon_foreground.png"
+        "merged": "C:\\Users\\DigiCraze\\.gradle\\daemon\\7.4\\com.example.superquizzer.app-merged_res-33:\\layout_activity_main.xml.flat",
+        "source": "C:\\Users\\DigiCraze\\.gradle\\daemon\\7.4\\com.example.superquizzer.app-main-35:\\layout\\activity_main.xml"
     },
     {
-        "merged": "/Users/akshatsingh/.gradle/daemon/7.4/com.example.superquizzer.app-merged_res-33:/mipmap-hdpi_app_icon_round.png.flat",
-        "source": "/Users/akshatsingh/.gradle/daemon/7.4/com.example.superquizzer.app-debug-34:/mipmap-hdpi/app_icon_round.png"
+        "merged": "C:\\Users\\DigiCraze\\.gradle\\daemon\\7.4\\com.example.superquizzer.app-merged_res-33:\\mipmap-xhdpi_ic_launcher.webp.flat",
+        "source": "C:\\Users\\DigiCraze\\.gradle\\daemon\\7.4\\com.example.superquizzer.app-main-35:\\mipmap-xhdpi\\ic_launcher.webp"
     },
     {
-        "merged": "/Users/akshatsingh/.gradle/daemon/7.4/com.example.superquizzer.app-merged_res-33:/mipmap-xxxhdpi_app_logo_round.png.flat",
-        "source": "/Users/akshatsingh/.gradle/daemon/7.4/com.example.superquizzer.app-debug-34:/mipmap-xxxhdpi/app_logo_round.png"
+        "merged": "C:\\Users\\DigiCraze\\.gradle\\daemon\\7.4\\com.example.superquizzer.app-merged_res-33:\\drawable_app_logo2_background.xml.flat",
+        "source": "C:\\Users\\DigiCraze\\.gradle\\daemon\\7.4\\com.example.superquizzer.app-debug-34:\\drawable\\app_logo2_background.xml"
     },
     {
-        "merged": "/Users/akshatsingh/.gradle/daemon/7.4/com.example.superquizzer.app-merged_res-33:/mipmap-hdpi_app_logo1_round.png.flat",
-        "source": "/Users/akshatsingh/.gradle/daemon/7.4/com.example.superquizzer.app-debug-34:/mipmap-hdpi/app_logo1_round.png"
+        "merged": "C:\\Users\\DigiCraze\\.gradle\\daemon\\7.4\\com.example.superquizzer.app-merged_res-33:\\mipmap-xxxhdpi_app_logo2_round.png.flat",
+        "source": "C:\\Users\\DigiCraze\\.gradle\\daemon\\7.4\\com.example.superquizzer.app-debug-34:\\mipmap-xxxhdpi\\app_logo2_round.png"
     },
     {
-        "merged": "/Users/akshatsingh/.gradle/daemon/7.4/com.example.superquizzer.app-merged_res-33:/mipmap-anydpi-v26_app_logo.xml.flat",
-        "source": "/Users/akshatsingh/.gradle/daemon/7.4/com.example.superquizzer.app-debug-34:/mipmap-anydpi-v26/app_logo.xml"
+        "merged": "C:\\Users\\DigiCraze\\.gradle\\daemon\\7.4\\com.example.superquizzer.app-merged_res-33:\\mipmap-xxxhdpi_app_icon.png.flat",
+        "source": "C:\\Users\\DigiCraze\\.gradle\\daemon\\7.4\\com.example.superquizzer.app-debug-34:\\mipmap-xxxhdpi\\app_icon.png"
     },
     {
-        "merged": "/Users/akshatsingh/.gradle/daemon/7.4/com.example.superquizzer.app-merged_res-33:/mipmap-mdpi_app_icon_round.png.flat",
-        "source": "/Users/akshatsingh/.gradle/daemon/7.4/com.example.superquizzer.app-debug-34:/mipmap-mdpi/app_icon_round.png"
+        "merged": "C:\\Users\\DigiCraze\\.gradle\\daemon\\7.4\\com.example.superquizzer.app-merged_res-33:\\mipmap-xxhdpi_app_logo_foreground.png.flat",
+        "source": "C:\\Users\\DigiCraze\\.gradle\\daemon\\7.4\\com.example.superquizzer.app-debug-34:\\mipmap-xxhdpi\\app_logo_foreground.png"
     },
     {
-        "merged": "/Users/akshatsingh/.gradle/daemon/7.4/com.example.superquizzer.app-merged_res-33:/mipmap-mdpi_app_logo1_foreground.png.flat",
-        "source": "/Users/akshatsingh/.gradle/daemon/7.4/com.example.superquizzer.app-debug-34:/mipmap-mdpi/app_logo1_foreground.png"
+        "merged": "C:\\Users\\DigiCraze\\.gradle\\daemon\\7.4\\com.example.superquizzer.app-merged_res-33:\\drawable_ic_baseline_lock_24.xml.flat",
+        "source": "C:\\Users\\DigiCraze\\.gradle\\daemon\\7.4\\com.example.superquizzer.app-main-35:\\drawable\\ic_baseline_lock_24.xml"
     },
     {
-        "merged": "/Users/akshatsingh/.gradle/daemon/7.4/com.example.superquizzer.app-merged_res-33:/drawable-v24_superquizzer_logo.png.flat",
-        "source": "/Users/akshatsingh/.gradle/daemon/7.4/com.example.superquizzer.app-main-35:/drawable-v24/superquizzer_logo.png"
+        "merged": "C:\\Users\\DigiCraze\\.gradle\\daemon\\7.4\\com.example.superquizzer.app-merged_res-33:\\mipmap-xhdpi_app_logo1.png.flat",
+        "source": "C:\\Users\\DigiCraze\\.gradle\\daemon\\7.4\\com.example.superquizzer.app-debug-34:\\mipmap-xhdpi\\app_logo1.png"
     },
     {
-        "merged": "/Users/akshatsingh/.gradle/daemon/7.4/com.example.superquizzer.app-merged_res-33:/mipmap-xxhdpi_ic_launcher_round.webp.flat",
-        "source": "/Users/akshatsingh/.gradle/daemon/7.4/com.example.superquizzer.app-main-35:/mipmap-xxhdpi/ic_launcher_round.webp"
+        "merged": "C:\\Users\\DigiCraze\\.gradle\\daemon\\7.4\\com.example.superquizzer.app-merged_res-33:\\mipmap-mdpi_app_logo2.png.flat",
+        "source": "C:\\Users\\DigiCraze\\.gradle\\daemon\\7.4\\com.example.superquizzer.app-debug-34:\\mipmap-mdpi\\app_logo2.png"
     },
     {
-        "merged": "/Users/akshatsingh/.gradle/daemon/7.4/com.example.superquizzer.app-merged_res-33:/drawable_ic_baseline_lock_24.xml.flat",
-        "source": "/Users/akshatsingh/.gradle/daemon/7.4/com.example.superquizzer.app-main-35:/drawable/ic_baseline_lock_24.xml"
+        "merged": "C:\\Users\\DigiCraze\\.gradle\\daemon\\7.4\\com.example.superquizzer.app-merged_res-33:\\mipmap-hdpi_app_logo1_foreground.png.flat",
+        "source": "C:\\Users\\DigiCraze\\.gradle\\daemon\\7.4\\com.example.superquizzer.app-debug-34:\\mipmap-hdpi\\app_logo1_foreground.png"
     },
     {
-        "merged": "/Users/akshatsingh/.gradle/daemon/7.4/com.example.superquizzer.app-merged_res-33:/mipmap-xxxhdpi_app_logo2.png.flat",
-        "source": "/Users/akshatsingh/.gradle/daemon/7.4/com.example.superquizzer.app-debug-34:/mipmap-xxxhdpi/app_logo2.png"
+        "merged": "C:\\Users\\DigiCraze\\.gradle\\daemon\\7.4\\com.example.superquizzer.app-merged_res-33:\\mipmap-xhdpi_app_logo1_foreground.png.flat",
+        "source": "C:\\Users\\DigiCraze\\.gradle\\daemon\\7.4\\com.example.superquizzer.app-debug-34:\\mipmap-xhdpi\\app_logo1_foreground.png"
     },
     {
-        "merged": "/Users/akshatsingh/.gradle/daemon/7.4/com.example.superquizzer.app-merged_res-33:/mipmap-xxhdpi_app_icon_foreground.png.flat",
-        "source": "/Users/akshatsingh/.gradle/daemon/7.4/com.example.superquizzer.app-debug-34:/mipmap-xxhdpi/app_icon_foreground.png"
+        "merged": "C:\\Users\\DigiCraze\\.gradle\\daemon\\7.4\\com.example.superquizzer.app-merged_res-33:\\anim_slide_in_left.xml.flat",
+        "source": "C:\\Users\\DigiCraze\\.gradle\\daemon\\7.4\\com.example.superquizzer.app-main-35:\\anim\\slide_in_left.xml"
     },
     {
-        "merged": "/Users/akshatsingh/.gradle/daemon/7.4/com.example.superquizzer.app-merged_res-33:/mipmap-mdpi_app_logo2_round.png.flat",
-        "source": "/Users/akshatsingh/.gradle/daemon/7.4/com.example.superquizzer.app-debug-34:/mipmap-mdpi/app_logo2_round.png"
+        "merged": "C:\\Users\\DigiCraze\\.gradle\\daemon\\7.4\\com.example.superquizzer.app-merged_res-33:\\mipmap-xhdpi_app_logo_foreground.png.flat",
+        "source": "C:\\Users\\DigiCraze\\.gradle\\daemon\\7.4\\com.example.superquizzer.app-debug-34:\\mipmap-xhdpi\\app_logo_foreground.png"
     },
     {
-        "merged": "/Users/akshatsingh/.gradle/daemon/7.4/com.example.superquizzer.app-merged_res-33:/xml_backup_rules.xml.flat",
-        "source": "/Users/akshatsingh/.gradle/daemon/7.4/com.example.superquizzer.app-main-35:/xml/backup_rules.xml"
+        "merged": "C:\\Users\\DigiCraze\\.gradle\\daemon\\7.4\\com.example.superquizzer.app-merged_res-33:\\mipmap-mdpi_app_logo2_round.png.flat",
+        "source": "C:\\Users\\DigiCraze\\.gradle\\daemon\\7.4\\com.example.superquizzer.app-debug-34:\\mipmap-mdpi\\app_logo2_round.png"
     },
     {
-        "merged": "/Users/akshatsingh/.gradle/daemon/7.4/com.example.superquizzer.app-merged_res-33:/mipmap-xxhdpi_ic_launcher.webp.flat",
-        "source": "/Users/akshatsingh/.gradle/daemon/7.4/com.example.superquizzer.app-main-35:/mipmap-xxhdpi/ic_launcher.webp"
+        "merged": "C:\\Users\\DigiCraze\\.gradle\\daemon\\7.4\\com.example.superquizzer.app-merged_res-33:\\mipmap-xxhdpi_app_icon.png.flat",
+        "source": "C:\\Users\\DigiCraze\\.gradle\\daemon\\7.4\\com.example.superquizzer.app-debug-34:\\mipmap-xxhdpi\\app_icon.png"
     },
     {
-        "merged": "/Users/akshatsingh/.gradle/daemon/7.4/com.example.superquizzer.app-merged_res-33:/mipmap-anydpi-v26_app_logo2.xml.flat",
-        "source": "/Users/akshatsingh/.gradle/daemon/7.4/com.example.superquizzer.app-debug-34:/mipmap-anydpi-v26/app_logo2.xml"
+        "merged": "C:\\Users\\DigiCraze\\.gradle\\daemon\\7.4\\com.example.superquizzer.app-merged_res-33:\\mipmap-xxhdpi_app_logo1_round.png.flat",
+        "source": "C:\\Users\\DigiCraze\\.gradle\\daemon\\7.4\\com.example.superquizzer.app-debug-34:\\mipmap-xxhdpi\\app_logo1_round.png"
     },
     {
-        "merged": "/Users/akshatsingh/.gradle/daemon/7.4/com.example.superquizzer.app-merged_res-33:/mipmap-mdpi_app_logo_foreground.png.flat",
-        "source": "/Users/akshatsingh/.gradle/daemon/7.4/com.example.superquizzer.app-debug-34:/mipmap-mdpi/app_logo_foreground.png"
+        "merged": "C:\\Users\\DigiCraze\\.gradle\\daemon\\7.4\\com.example.superquizzer.app-merged_res-33:\\mipmap-hdpi_app_logo2_round.png.flat",
+        "source": "C:\\Users\\DigiCraze\\.gradle\\daemon\\7.4\\com.example.superquizzer.app-debug-34:\\mipmap-hdpi\\app_logo2_round.png"
     },
     {
-        "merged": "/Users/akshatsingh/.gradle/daemon/7.4/com.example.superquizzer.app-merged_res-33:/mipmap-mdpi_app_icon.png.flat",
-        "source": "/Users/akshatsingh/.gradle/daemon/7.4/com.example.superquizzer.app-debug-34:/mipmap-mdpi/app_icon.png"
+        "merged": "C:\\Users\\DigiCraze\\.gradle\\daemon\\7.4\\com.example.superquizzer.app-merged_res-33:\\mipmap-xhdpi_app_logo2.png.flat",
+        "source": "C:\\Users\\DigiCraze\\.gradle\\daemon\\7.4\\com.example.superquizzer.app-debug-34:\\mipmap-xhdpi\\app_logo2.png"
     },
     {
-        "merged": "/Users/akshatsingh/.gradle/daemon/7.4/com.example.superquizzer.app-merged_res-33:/mipmap-xxxhdpi_app_icon_round.png.flat",
-        "source": "/Users/akshatsingh/.gradle/daemon/7.4/com.example.superquizzer.app-debug-34:/mipmap-xxxhdpi/app_icon_round.png"
+        "merged": "C:\\Users\\DigiCraze\\.gradle\\daemon\\7.4\\com.example.superquizzer.app-merged_res-33:\\mipmap-mdpi_app_logo1.png.flat",
+        "source": "C:\\Users\\DigiCraze\\.gradle\\daemon\\7.4\\com.example.superquizzer.app-debug-34:\\mipmap-mdpi\\app_logo1.png"
     },
     {
-        "merged": "/Users/akshatsingh/.gradle/daemon/7.4/com.example.superquizzer.app-merged_res-33:/mipmap-xxxhdpi_ic_launcher_round.webp.flat",
-        "source": "/Users/akshatsingh/.gradle/daemon/7.4/com.example.superquizzer.app-main-35:/mipmap-xxxhdpi/ic_launcher_round.webp"
+        "merged": "C:\\Users\\DigiCraze\\.gradle\\daemon\\7.4\\com.example.superquizzer.app-merged_res-33:\\mipmap-hdpi_app_logo_foreground.png.flat",
+        "source": "C:\\Users\\DigiCraze\\.gradle\\daemon\\7.4\\com.example.superquizzer.app-debug-34:\\mipmap-hdpi\\app_logo_foreground.png"
     },
     {
-        "merged": "/Users/akshatsingh/.gradle/daemon/7.4/com.example.superquizzer.app-merged_res-33:/anim_slide_out_left.xml.flat",
-        "source": "/Users/akshatsingh/.gradle/daemon/7.4/com.example.superquizzer.app-main-35:/anim/slide_out_left.xml"
+        "merged": "C:\\Users\\DigiCraze\\.gradle\\daemon\\7.4\\com.example.superquizzer.app-merged_res-33:\\drawable_top_bottom_shape.xml.flat",
+        "source": "C:\\Users\\DigiCraze\\.gradle\\daemon\\7.4\\com.example.superquizzer.app-main-35:\\drawable\\top_bottom_shape.xml"
     },
     {
-        "merged": "/Users/akshatsingh/.gradle/daemon/7.4/com.example.superquizzer.app-merged_res-33:/drawable_app_logo1_background.xml.flat",
-        "source": "/Users/akshatsingh/.gradle/daemon/7.4/com.example.superquizzer.app-debug-34:/drawable/app_logo1_background.xml"
+        "merged": "C:\\Users\\DigiCraze\\.gradle\\daemon\\7.4\\com.example.superquizzer.app-merged_res-33:\\mipmap-xxxhdpi_app_logo1_foreground.png.flat",
+        "source": "C:\\Users\\DigiCraze\\.gradle\\daemon\\7.4\\com.example.superquizzer.app-debug-34:\\mipmap-xxxhdpi\\app_logo1_foreground.png"
     },
     {
-        "merged": "/Users/akshatsingh/.gradle/daemon/7.4/com.example.superquizzer.app-merged_res-33:/mipmap-xxxhdpi_app_logo1_foreground.png.flat",
-        "source": "/Users/akshatsingh/.gradle/daemon/7.4/com.example.superquizzer.app-debug-34:/mipmap-xxxhdpi/app_logo1_foreground.png"
+        "merged": "C:\\Users\\DigiCraze\\.gradle\\daemon\\7.4\\com.example.superquizzer.app-merged_res-33:\\mipmap-hdpi_ic_launcher_round.webp.flat",
+        "source": "C:\\Users\\DigiCraze\\.gradle\\daemon\\7.4\\com.example.superquizzer.app-main-35:\\mipmap-hdpi\\ic_launcher_round.webp"
     },
     {
-        "merged": "/Users/akshatsingh/.gradle/daemon/7.4/com.example.superquizzer.app-merged_res-33:/layout_activity_main.xml.flat",
-        "source": "/Users/akshatsingh/.gradle/daemon/7.4/com.example.superquizzer.app-main-35:/layout/activity_main.xml"
+        "merged": "C:\\Users\\DigiCraze\\.gradle\\daemon\\7.4\\com.example.superquizzer.app-merged_res-33:\\mipmap-xxhdpi_app_logo1.png.flat",
+        "source": "C:\\Users\\DigiCraze\\.gradle\\daemon\\7.4\\com.example.superquizzer.app-debug-34:\\mipmap-xxhdpi\\app_logo1.png"
     },
     {
-        "merged": "/Users/akshatsingh/.gradle/daemon/7.4/com.example.superquizzer.app-merged_res-33:/mipmap-mdpi_ic_launcher_round.webp.flat",
-        "source": "/Users/akshatsingh/.gradle/daemon/7.4/com.example.superquizzer.app-main-35:/mipmap-mdpi/ic_launcher_round.webp"
+        "merged": "C:\\Users\\DigiCraze\\.gradle\\daemon\\7.4\\com.example.superquizzer.app-merged_res-33:\\mipmap-xxxhdpi_app_logo1_round.png.flat",
+        "source": "C:\\Users\\DigiCraze\\.gradle\\daemon\\7.4\\com.example.superquizzer.app-debug-34:\\mipmap-xxxhdpi\\app_logo1_round.png"
     },
     {
-        "merged": "/Users/akshatsingh/.gradle/daemon/7.4/com.example.superquizzer.app-merged_res-33:/menu_navigation_menu.xml.flat",
-        "source": "/Users/akshatsingh/.gradle/daemon/7.4/com.example.superquizzer.app-main-35:/menu/navigation_menu.xml"
+        "merged": "C:\\Users\\DigiCraze\\.gradle\\daemon\\7.4\\com.example.superquizzer.app-merged_res-33:\\mipmap-xxhdpi_app_logo1_foreground.png.flat",
+        "source": "C:\\Users\\DigiCraze\\.gradle\\daemon\\7.4\\com.example.superquizzer.app-debug-34:\\mipmap-xxhdpi\\app_logo1_foreground.png"
     },
     {
-        "merged": "/Users/akshatsingh/.gradle/daemon/7.4/com.example.superquizzer.app-merged_res-33:/mipmap-xxxhdpi_app_icon.png.flat",
-        "source": "/Users/akshatsingh/.gradle/daemon/7.4/com.example.superquizzer.app-debug-34:/mipmap-xxxhdpi/app_icon.png"
+        "merged": "C:\\Users\\DigiCraze\\.gradle\\daemon\\7.4\\com.example.superquizzer.app-merged_res-33:\\mipmap-xxxhdpi_app_logo_foreground.png.flat",
+        "source": "C:\\Users\\DigiCraze\\.gradle\\daemon\\7.4\\com.example.superquizzer.app-debug-34:\\mipmap-xxxhdpi\\app_logo_foreground.png"
     },
     {
-        "merged": "/Users/akshatsingh/.gradle/daemon/7.4/com.example.superquizzer.app-merged_res-33:/mipmap-mdpi_app_logo1_round.png.flat",
-        "source": "/Users/akshatsingh/.gradle/daemon/7.4/com.example.superquizzer.app-debug-34:/mipmap-mdpi/app_logo1_round.png"
+        "merged": "C:\\Users\\DigiCraze\\.gradle\\daemon\\7.4\\com.example.superquizzer.app-merged_res-33:\\mipmap-xxhdpi_app_logo.png.flat",
+        "source": "C:\\Users\\DigiCraze\\.gradle\\daemon\\7.4\\com.example.superquizzer.app-debug-34:\\mipmap-xxhdpi\\app_logo.png"
     },
     {
-        "merged": "/Users/akshatsingh/.gradle/daemon/7.4/com.example.superquizzer.app-merged_res-33:/mipmap-xxxhdpi_ic_launcher.webp.flat",
-        "source": "/Users/akshatsingh/.gradle/daemon/7.4/com.example.superquizzer.app-main-35:/mipmap-xxxhdpi/ic_launcher.webp"
+        "merged": "C:\\Users\\DigiCraze\\.gradle\\daemon\\7.4\\com.example.superquizzer.app-merged_res-33:\\mipmap-hdpi_app_logo1.png.flat",
+        "source": "C:\\Users\\DigiCraze\\.gradle\\daemon\\7.4\\com.example.superquizzer.app-debug-34:\\mipmap-hdpi\\app_logo1.png"
     },
     {
-        "merged": "/Users/akshatsingh/.gradle/daemon/7.4/com.example.superquizzer.app-merged_res-33:/anim_slide_in_right.xml.flat",
-        "source": "/Users/akshatsingh/.gradle/daemon/7.4/com.example.superquizzer.app-main-35:/anim/slide_in_right.xml"
+        "merged": "C:\\Users\\DigiCraze\\.gradle\\daemon\\7.4\\com.example.superquizzer.app-merged_res-33:\\mipmap-xxhdpi_ic_launcher.webp.flat",
+        "source": "C:\\Users\\DigiCraze\\.gradle\\daemon\\7.4\\com.example.superquizzer.app-main-35:\\mipmap-xxhdpi\\ic_launcher.webp"
     },
     {
-        "merged": "/Users/akshatsingh/.gradle/daemon/7.4/com.example.superquizzer.app-merged_res-33:/mipmap-xxhdpi_app_logo.png.flat",
-        "source": "/Users/akshatsingh/.gradle/daemon/7.4/com.example.superquizzer.app-debug-34:/mipmap-xxhdpi/app_logo.png"
+        "merged": "C:\\Users\\DigiCraze\\.gradle\\daemon\\7.4\\com.example.superquizzer.app-merged_res-33:\\mipmap-xxhdpi_app_logo_round.png.flat",
+        "source": "C:\\Users\\DigiCraze\\.gradle\\daemon\\7.4\\com.example.superquizzer.app-debug-34:\\mipmap-xxhdpi\\app_logo_round.png"
     },
     {
-        "merged": "/Users/akshatsingh/.gradle/daemon/7.4/com.example.superquizzer.app-merged_res-33:/mipmap-xxhdpi_app_logo1_foreground.png.flat",
-        "source": "/Users/akshatsingh/.gradle/daemon/7.4/com.example.superquizzer.app-debug-34:/mipmap-xxhdpi/app_logo1_foreground.png"
+        "merged": "C:\\Users\\DigiCraze\\.gradle\\daemon\\7.4\\com.example.superquizzer.app-merged_res-33:\\mipmap-anydpi-v26_app_logo2.xml.flat",
+        "source": "C:\\Users\\DigiCraze\\.gradle\\daemon\\7.4\\com.example.superquizzer.app-debug-34:\\mipmap-anydpi-v26\\app_logo2.xml"
     },
     {
-        "merged": "/Users/akshatsingh/.gradle/daemon/7.4/com.example.superquizzer.app-merged_res-33:/mipmap-xxhdpi_app_icon.png.flat",
-        "source": "/Users/akshatsingh/.gradle/daemon/7.4/com.example.superquizzer.app-debug-34:/mipmap-xxhdpi/app_icon.png"
+        "merged": "C:\\Users\\DigiCraze\\.gradle\\daemon\\7.4\\com.example.superquizzer.app-merged_res-33:\\layout_activity_splash.xml.flat",
+        "source": "C:\\Users\\DigiCraze\\.gradle\\daemon\\7.4\\com.example.superquizzer.app-main-35:\\layout\\activity_splash.xml"
     },
     {
-        "merged": "/Users/akshatsingh/.gradle/daemon/7.4/com.example.superquizzer.app-merged_res-33:/mipmap-xxxhdpi_app_logo_foreground.png.flat",
-        "source": "/Users/akshatsingh/.gradle/daemon/7.4/com.example.superquizzer.app-debug-34:/mipmap-xxxhdpi/app_logo_foreground.png"
+        "merged": "C:\\Users\\DigiCraze\\.gradle\\daemon\\7.4\\com.example.superquizzer.app-merged_res-33:\\mipmap-xxxhdpi_app_logo_round.png.flat",
+        "source": "C:\\Users\\DigiCraze\\.gradle\\daemon\\7.4\\com.example.superquizzer.app-debug-34:\\mipmap-xxxhdpi\\app_logo_round.png"
     },
     {
-        "merged": "/Users/akshatsingh/.gradle/daemon/7.4/com.example.superquizzer.app-merged_res-33:/mipmap-anydpi-v26_app_logo2_round.xml.flat",
-        "source": "/Users/akshatsingh/.gradle/daemon/7.4/com.example.superquizzer.app-debug-34:/mipmap-anydpi-v26/app_logo2_round.xml"
+        "merged": "C:\\Users\\DigiCraze\\.gradle\\daemon\\7.4\\com.example.superquizzer.app-merged_res-33:\\mipmap-xxxhdpi_app_logo2.png.flat",
+        "source": "C:\\Users\\DigiCraze\\.gradle\\daemon\\7.4\\com.example.superquizzer.app-debug-34:\\mipmap-xxxhdpi\\app_logo2.png"
     },
     {
-        "merged": "/Users/akshatsingh/.gradle/daemon/7.4/com.example.superquizzer.app-merged_res-33:/mipmap-xxxhdpi_app_logo.png.flat",
-        "source": "/Users/akshatsingh/.gradle/daemon/7.4/com.example.superquizzer.app-debug-34:/mipmap-xxxhdpi/app_logo.png"
+        "merged": "C:\\Users\\DigiCraze\\.gradle\\daemon\\7.4\\com.example.superquizzer.app-merged_res-33:\\mipmap-xxxhdpi_ic_launcher.webp.flat",
+        "source": "C:\\Users\\DigiCraze\\.gradle\\daemon\\7.4\\com.example.superquizzer.app-main-35:\\mipmap-xxxhdpi\\ic_launcher.webp"
     },
     {
-        "merged": "/Users/akshatsingh/.gradle/daemon/7.4/com.example.superquizzer.app-merged_res-33:/mipmap-anydpi-v26_app_icon.xml.flat",
-        "source": "/Users/akshatsingh/.gradle/daemon/7.4/com.example.superquizzer.app-debug-34:/mipmap-anydpi-v26/app_icon.xml"
+        "merged": "C:\\Users\\DigiCraze\\.gradle\\daemon\\7.4\\com.example.superquizzer.app-merged_res-33:\\mipmap-anydpi-v26_app_logo1_round.xml.flat",
+        "source": "C:\\Users\\DigiCraze\\.gradle\\daemon\\7.4\\com.example.superquizzer.app-debug-34:\\mipmap-anydpi-v26\\app_logo1_round.xml"
     },
     {
-        "merged": "/Users/akshatsingh/.gradle/daemon/7.4/com.example.superquizzer.app-merged_res-33:/mipmap-mdpi_app_logo_round.png.flat",
-        "source": "/Users/akshatsingh/.gradle/daemon/7.4/com.example.superquizzer.app-debug-34:/mipmap-mdpi/app_logo_round.png"
+        "merged": "C:\\Users\\DigiCraze\\.gradle\\daemon\\7.4\\com.example.superquizzer.app-merged_res-33:\\mipmap-xhdpi_app_logo2_round.png.flat",
+        "source": "C:\\Users\\DigiCraze\\.gradle\\daemon\\7.4\\com.example.superquizzer.app-debug-34:\\mipmap-xhdpi\\app_logo2_round.png"
     },
     {
-        "merged": "/Users/akshatsingh/.gradle/daemon/7.4/com.example.superquizzer.app-merged_res-33:/drawable_app_icon_background.xml.flat",
-        "source": "/Users/akshatsingh/.gradle/daemon/7.4/com.example.superquizzer.app-debug-34:/drawable/app_icon_background.xml"
+        "merged": "C:\\Users\\DigiCraze\\.gradle\\daemon\\7.4\\com.example.superquizzer.app-merged_res-33:\\mipmap-xxxhdpi_ic_launcher_round.webp.flat",
+        "source": "C:\\Users\\DigiCraze\\.gradle\\daemon\\7.4\\com.example.superquizzer.app-main-35:\\mipmap-xxxhdpi\\ic_launcher_round.webp"
     },
     {
-        "merged": "/Users/akshatsingh/.gradle/daemon/7.4/com.example.superquizzer.app-merged_res-33:/mipmap-hdpi_app_logo2_foreground.png.flat",
-        "source": "/Users/akshatsingh/.gradle/daemon/7.4/com.example.superquizzer.app-debug-34:/mipmap-hdpi/app_logo2_foreground.png"
+        "merged": "C:\\Users\\DigiCraze\\.gradle\\daemon\\7.4\\com.example.superquizzer.app-merged_res-33:\\mipmap-xhdpi_app_icon_round.png.flat",
+        "source": "C:\\Users\\DigiCraze\\.gradle\\daemon\\7.4\\com.example.superquizzer.app-debug-34:\\mipmap-xhdpi\\app_icon_round.png"
     },
     {
-        "merged": "/Users/akshatsingh/.gradle/daemon/7.4/com.example.superquizzer.app-merged_res-33:/mipmap-hdpi_app_logo_round.png.flat",
-        "source": "/Users/akshatsingh/.gradle/daemon/7.4/com.example.superquizzer.app-debug-34:/mipmap-hdpi/app_logo_round.png"
+        "merged": "C:\\Users\\DigiCraze\\.gradle\\daemon\\7.4\\com.example.superquizzer.app-merged_res-33:\\mipmap-xxhdpi_ic_launcher_round.webp.flat",
+        "source": "C:\\Users\\DigiCraze\\.gradle\\daemon\\7.4\\com.example.superquizzer.app-main-35:\\mipmap-xxhdpi\\ic_launcher_round.webp"
     },
     {
-        "merged": "/Users/akshatsingh/.gradle/daemon/7.4/com.example.superquizzer.app-merged_res-33:/mipmap-xxhdpi_app_logo1.png.flat",
-        "source": "/Users/akshatsingh/.gradle/daemon/7.4/com.example.superquizzer.app-debug-34:/mipmap-xxhdpi/app_logo1.png"
+        "merged": "C:\\Users\\DigiCraze\\.gradle\\daemon\\7.4\\com.example.superquizzer.app-merged_res-33:\\mipmap-xxxhdpi_app_logo2_foreground.png.flat",
+        "source": "C:\\Users\\DigiCraze\\.gradle\\daemon\\7.4\\com.example.superquizzer.app-debug-34:\\mipmap-xxxhdpi\\app_logo2_foreground.png"
     },
     {
-        "merged": "/Users/akshatsingh/.gradle/daemon/7.4/com.example.superquizzer.app-merged_res-33:/drawable_top_bottom_shape.xml.flat",
-        "source": "/Users/akshatsingh/.gradle/daemon/7.4/com.example.superquizzer.app-main-35:/drawable/top_bottom_shape.xml"
+        "merged": "C:\\Users\\DigiCraze\\.gradle\\daemon\\7.4\\com.example.superquizzer.app-merged_res-33:\\mipmap-xxhdpi_app_icon_round.png.flat",
+        "source": "C:\\Users\\DigiCraze\\.gradle\\daemon\\7.4\\com.example.superquizzer.app-debug-34:\\mipmap-xxhdpi\\app_icon_round.png"
     },
     {
-        "merged": "/Users/akshatsingh/.gradle/daemon/7.4/com.example.superquizzer.app-merged_res-33:/mipmap-mdpi_app_logo2_foreground.png.flat",
-        "source": "/Users/akshatsingh/.gradle/daemon/7.4/com.example.superquizzer.app-debug-34:/mipmap-mdpi/app_logo2_foreground.png"
+        "merged": "C:\\Users\\DigiCraze\\.gradle\\daemon\\7.4\\com.example.superquizzer.app-merged_res-33:\\mipmap-mdpi_app_logo.png.flat",
+        "source": "C:\\Users\\DigiCraze\\.gradle\\daemon\\7.4\\com.example.superquizzer.app-debug-34:\\mipmap-mdpi\\app_logo.png"
     },
     {
-        "merged": "/Users/akshatsingh/.gradle/daemon/7.4/com.example.superquizzer.app-merged_res-33:/mipmap-xhdpi_app_logo1_foreground.png.flat",
-        "source": "/Users/akshatsingh/.gradle/daemon/7.4/com.example.superquizzer.app-debug-34:/mipmap-xhdpi/app_logo1_foreground.png"
+        "merged": "C:\\Users\\DigiCraze\\.gradle\\daemon\\7.4\\com.example.superquizzer.app-merged_res-33:\\drawable-v24_superquizzer_logo.png.flat",
+        "source": "C:\\Users\\DigiCraze\\.gradle\\daemon\\7.4\\com.example.superquizzer.app-main-35:\\drawable-v24\\superquizzer_logo.png"
     },
     {
-        "merged": "/Users/akshatsingh/.gradle/daemon/7.4/com.example.superquizzer.app-merged_res-33:/mipmap-xhdpi_app_logo1_round.png.flat",
-        "source": "/Users/akshatsingh/.gradle/daemon/7.4/com.example.superquizzer.app-debug-34:/mipmap-xhdpi/app_logo1_round.png"
+        "merged": "C:\\Users\\DigiCraze\\.gradle\\daemon\\7.4\\com.example.superquizzer.app-merged_res-33:\\xml_backup_rules.xml.flat",
+        "source": "C:\\Users\\DigiCraze\\.gradle\\daemon\\7.4\\com.example.superquizzer.app-main-35:\\xml\\backup_rules.xml"
     },
     {
-        "merged": "/Users/akshatsingh/.gradle/daemon/7.4/com.example.superquizzer.app-merged_res-33:/mipmap-mdpi_app_icon_foreground.png.flat",
-        "source": "/Users/akshatsingh/.gradle/daemon/7.4/com.example.superquizzer.app-debug-34:/mipmap-mdpi/app_icon_foreground.png"
+        "merged": "C:\\Users\\DigiCraze\\.gradle\\daemon\\7.4\\com.example.superquizzer.app-merged_res-33:\\mipmap-hdpi_app_icon.png.flat",
+        "source": "C:\\Users\\DigiCraze\\.gradle\\daemon\\7.4\\com.example.superquizzer.app-debug-34:\\mipmap-hdpi\\app_icon.png"
     },
     {
-        "merged": "/Users/akshatsingh/.gradle/daemon/7.4/com.example.superquizzer.app-merged_res-33:/drawable_ic_baseline_arrow_back_24.xml.flat",
-        "source": "/Users/akshatsingh/.gradle/daemon/7.4/com.example.superquizzer.app-main-35:/drawable/ic_baseline_arrow_back_24.xml"
+        "merged": "C:\\Users\\DigiCraze\\.gradle\\daemon\\7.4\\com.example.superquizzer.app-merged_res-33:\\xml_data_extraction_rules.xml.flat",
+        "source": "C:\\Users\\DigiCraze\\.gradle\\daemon\\7.4\\com.example.superquizzer.app-main-35:\\xml\\data_extraction_rules.xml"
     },
     {
-        "merged": "/Users/akshatsingh/.gradle/daemon/7.4/com.example.superquizzer.app-merged_res-33:/mipmap-xxhdpi_app_logo1_round.png.flat",
-        "source": "/Users/akshatsingh/.gradle/daemon/7.4/com.example.superquizzer.app-debug-34:/mipmap-xxhdpi/app_logo1_round.png"
+        "merged": "C:\\Users\\DigiCraze\\.gradle\\daemon\\7.4\\com.example.superquizzer.app-merged_res-33:\\mipmap-xhdpi_ic_launcher_round.webp.flat",
+        "source": "C:\\Users\\DigiCraze\\.gradle\\daemon\\7.4\\com.example.superquizzer.app-main-35:\\mipmap-xhdpi\\ic_launcher_round.webp"
     },
     {
-        "merged": "/Users/akshatsingh/.gradle/daemon/7.4/com.example.superquizzer.app-merged_res-33:/drawable_ic_launcher_background.xml.flat",
-        "source": "/Users/akshatsingh/.gradle/daemon/7.4/com.example.superquizzer.app-main-35:/drawable/ic_launcher_background.xml"
+        "merged": "C:\\Users\\DigiCraze\\.gradle\\daemon\\7.4\\com.example.superquizzer.app-merged_res-33:\\mipmap-mdpi_app_logo1_round.png.flat",
+        "source": "C:\\Users\\DigiCraze\\.gradle\\daemon\\7.4\\com.example.superquizzer.app-debug-34:\\mipmap-mdpi\\app_logo1_round.png"
     },
     {
-        "merged": "/Users/akshatsingh/.gradle/daemon/7.4/com.example.superquizzer.app-merged_res-33:/mipmap-anydpi-v26_app_icon_round.xml.flat",
-        "source": "/Users/akshatsingh/.gradle/daemon/7.4/com.example.superquizzer.app-debug-34:/mipmap-anydpi-v26/app_icon_round.xml"
+        "merged": "C:\\Users\\DigiCraze\\.gradle\\daemon\\7.4\\com.example.superquizzer.app-merged_res-33:\\anim_slide_out_right.xml.flat",
+        "source": "C:\\Users\\DigiCraze\\.gradle\\daemon\\7.4\\com.example.superquizzer.app-main-35:\\anim\\slide_out_right.xml"
     },
     {
-        "merged": "/Users/akshatsingh/.gradle/daemon/7.4/com.example.superquizzer.app-merged_res-33:/mipmap-mdpi_ic_launcher.webp.flat",
-        "source": "/Users/akshatsingh/.gradle/daemon/7.4/com.example.superquizzer.app-main-35:/mipmap-mdpi/ic_launcher.webp"
+        "merged": "C:\\Users\\DigiCraze\\.gradle\\daemon\\7.4\\com.example.superquizzer.app-merged_res-33:\\drawable_ic_baseline_account_circle_24.xml.flat",
+        "source": "C:\\Users\\DigiCraze\\.gradle\\daemon\\7.4\\com.example.superquizzer.app-main-35:\\drawable\\ic_baseline_account_circle_24.xml"
     },
     {
-        "merged": "/Users/akshatsingh/.gradle/daemon/7.4/com.example.superquizzer.app-merged_res-33:/mipmap-mdpi_app_logo1.png.flat",
-        "source": "/Users/akshatsingh/.gradle/daemon/7.4/com.example.superquizzer.app-debug-34:/mipmap-mdpi/app_logo1.png"
+        "merged": "C:\\Users\\DigiCraze\\.gradle\\daemon\\7.4\\com.example.superquizzer.app-merged_res-33:\\mipmap-mdpi_app_logo_round.png.flat",
+        "source": "C:\\Users\\DigiCraze\\.gradle\\daemon\\7.4\\com.example.superquizzer.app-debug-34:\\mipmap-mdpi\\app_logo_round.png"
     },
     {
-        "merged": "com.example.superquizzer.app-merged_res-33:/layout_activity_main.xml.flat",
-        "source": "com.example.superquizzer.app-main-35:/layout/activity_main.xml"
+        "merged": "C:\\Users\\DigiCraze\\.gradle\\daemon\\7.4\\com.example.superquizzer.app-merged_res-33:\\mipmap-anydpi-v26_ic_launcher_round.xml.flat",
+        "source": "C:\\Users\\DigiCraze\\.gradle\\daemon\\7.4\\com.example.superquizzer.app-main-35:\\mipmap-anydpi-v26\\ic_launcher_round.xml"
     },
     {
-        "merged": "/Users/akshatsingh/.gradle/daemon/7.4/com.example.superquizzer.app-merged_res-33:/mipmap-hdpi_app_logo2_round.png.flat",
-        "source": "/Users/akshatsingh/.gradle/daemon/7.4/com.example.superquizzer.app-debug-34:/mipmap-hdpi/app_logo2_round.png"
+        "merged": "C:\\Users\\DigiCraze\\.gradle\\daemon\\7.4\\com.example.superquizzer.app-merged_res-33:\\mipmap-mdpi_ic_launcher_round.webp.flat",
+        "source": "C:\\Users\\DigiCraze\\.gradle\\daemon\\7.4\\com.example.superquizzer.app-main-35:\\mipmap-mdpi\\ic_launcher_round.webp"
     },
     {
-        "merged": "/Users/akshatsingh/.gradle/daemon/7.4/com.example.superquizzer.app-merged_res-33:/mipmap-xhdpi_app_logo1.png.flat",
-        "source": "/Users/akshatsingh/.gradle/daemon/7.4/com.example.superquizzer.app-debug-34:/mipmap-xhdpi/app_logo1.png"
+        "merged": "C:\\Users\\DigiCraze\\.gradle\\daemon\\7.4\\com.example.superquizzer.app-merged_res-33:\\mipmap-hdpi_app_logo_round.png.flat",
+        "source": "C:\\Users\\DigiCraze\\.gradle\\daemon\\7.4\\com.example.superquizzer.app-debug-34:\\mipmap-hdpi\\app_logo_round.png"
     },
     {
-        "merged": "/Users/akshatsingh/.gradle/daemon/7.4/com.example.superquizzer.app-merged_res-33:/mipmap-anydpi-v26_ic_launcher_round.xml.flat",
-        "source": "/Users/akshatsingh/.gradle/daemon/7.4/com.example.superquizzer.app-main-35:/mipmap-anydpi-v26/ic_launcher_round.xml"
+        "merged": "C:\\Users\\DigiCraze\\.gradle\\daemon\\7.4\\com.example.superquizzer.app-merged_res-33:\\menu_navigation_menu.xml.flat",
+        "source": "C:\\Users\\DigiCraze\\.gradle\\daemon\\7.4\\com.example.superquizzer.app-main-35:\\menu\\navigation_menu.xml"
     },
     {
-        "merged": "/Users/akshatsingh/.gradle/daemon/7.4/com.example.superquizzer.app-merged_res-33:/mipmap-xhdpi_app_logo_round.png.flat",
-        "source": "/Users/akshatsingh/.gradle/daemon/7.4/com.example.superquizzer.app-debug-34:/mipmap-xhdpi/app_logo_round.png"
+        "merged": "C:\\Users\\DigiCraze\\.gradle\\daemon\\7.4\\com.example.superquizzer.app-merged_res-33:\\mipmap-xxhdpi_app_logo2_round.png.flat",
+        "source": "C:\\Users\\DigiCraze\\.gradle\\daemon\\7.4\\com.example.superquizzer.app-debug-34:\\mipmap-xxhdpi\\app_logo2_round.png"
     },
     {
-        "merged": "/Users/akshatsingh/.gradle/daemon/7.4/com.example.superquizzer.app-merged_res-33:/mipmap-hdpi_app_icon_foreground.png.flat",
-        "source": "/Users/akshatsingh/.gradle/daemon/7.4/com.example.superquizzer.app-debug-34:/mipmap-hdpi/app_icon_foreground.png"
+        "merged": "com.example.superquizzer.app-merged_res-33:/font_montserratlight.ttf.flat",
+        "source": "com.example.superquizzer.app-main-35:/font/montserratlight.ttf"
     },
     {
-        "merged": "/Users/akshatsingh/.gradle/daemon/7.4/com.example.superquizzer.app-merged_res-33:/anim_slide_in_left.xml.flat",
-        "source": "/Users/akshatsingh/.gradle/daemon/7.4/com.example.superquizzer.app-main-35:/anim/slide_in_left.xml"
+        "merged": "C:\\Users\\DigiCraze\\.gradle\\daemon\\7.4\\com.example.superquizzer.app-merged_res-33:\\mipmap-xxxhdpi_app_logo.png.flat",
+        "source": "C:\\Users\\DigiCraze\\.gradle\\daemon\\7.4\\com.example.superquizzer.app-debug-34:\\mipmap-xxxhdpi\\app_logo.png"
     },
     {
-        "merged": "/Users/akshatsingh/.gradle/daemon/7.4/com.example.superquizzer.app-merged_res-33:/mipmap-xhdpi_app_logo2_foreground.png.flat",
-        "source": "/Users/akshatsingh/.gradle/daemon/7.4/com.example.superquizzer.app-debug-34:/mipmap-xhdpi/app_logo2_foreground.png"
+        "merged": "C:\\Users\\DigiCraze\\.gradle\\daemon\\7.4\\com.example.superquizzer.app-merged_res-33:\\drawable_app_icon_background.xml.flat",
+        "source": "C:\\Users\\DigiCraze\\.gradle\\daemon\\7.4\\com.example.superquizzer.app-debug-34:\\drawable\\app_icon_background.xml"
     },
     {
-        "merged": "/Users/akshatsingh/.gradle/daemon/7.4/com.example.superquizzer.app-merged_res-33:/mipmap-hdpi_app_logo1_foreground.png.flat",
-        "source": "/Users/akshatsingh/.gradle/daemon/7.4/com.example.superquizzer.app-debug-34:/mipmap-hdpi/app_logo1_foreground.png"
+        "merged": "C:\\Users\\DigiCraze\\.gradle\\daemon\\7.4\\com.example.superquizzer.app-merged_res-33:\\mipmap-anydpi-v26_app_logo.xml.flat",
+        "source": "C:\\Users\\DigiCraze\\.gradle\\daemon\\7.4\\com.example.superquizzer.app-debug-34:\\mipmap-anydpi-v26\\app_logo.xml"
     },
     {
-        "merged": "/Users/akshatsingh/.gradle/daemon/7.4/com.example.superquizzer.app-merged_res-33:/mipmap-xhdpi_app_icon_round.png.flat",
-        "source": "/Users/akshatsingh/.gradle/daemon/7.4/com.example.superquizzer.app-debug-34:/mipmap-xhdpi/app_icon_round.png"
+        "merged": "C:\\Users\\DigiCraze\\.gradle\\daemon\\7.4\\com.example.superquizzer.app-merged_res-33:\\drawable-anydpi-v24_ic_launcher_foreground.xml.flat",
+        "source": "C:\\Users\\DigiCraze\\.gradle\\daemon\\7.4\\com.example.superquizzer.app-pngs-28:\\drawable-anydpi-v24\\ic_launcher_foreground.xml"
     },
     {
-        "merged": "/Users/akshatsingh/.gradle/daemon/7.4/com.example.superquizzer.app-merged_res-33:/mipmap-xhdpi_ic_launcher.webp.flat",
-        "source": "/Users/akshatsingh/.gradle/daemon/7.4/com.example.superquizzer.app-main-35:/mipmap-xhdpi/ic_launcher.webp"
+        "merged": "C:\\Users\\DigiCraze\\.gradle\\daemon\\7.4\\com.example.superquizzer.app-merged_res-33:\\anim_slide_in_right.xml.flat",
+        "source": "C:\\Users\\DigiCraze\\.gradle\\daemon\\7.4\\com.example.superquizzer.app-main-35:\\anim\\slide_in_right.xml"
     },
     {
-        "merged": "/Users/akshatsingh/.gradle/daemon/7.4/com.example.superquizzer.app-merged_res-33:/mipmap-anydpi-v26_app_logo_round.xml.flat",
-        "source": "/Users/akshatsingh/.gradle/daemon/7.4/com.example.superquizzer.app-debug-34:/mipmap-anydpi-v26/app_logo_round.xml"
+        "merged": "C:\\Users\\DigiCraze\\.gradle\\daemon\\7.4\\com.example.superquizzer.app-merged_res-33:\\mipmap-hdpi_app_icon_round.png.flat",
+        "source": "C:\\Users\\DigiCraze\\.gradle\\daemon\\7.4\\com.example.superquizzer.app-debug-34:\\mipmap-hdpi\\app_icon_round.png"
     },
     {
-        "merged": "/Users/akshatsingh/.gradle/daemon/7.4/com.example.superquizzer.app-merged_res-33:/drawable_app_logo2_background.xml.flat",
-        "source": "/Users/akshatsingh/.gradle/daemon/7.4/com.example.superquizzer.app-debug-34:/drawable/app_logo2_background.xml"
+        "merged": "C:\\Users\\DigiCraze\\.gradle\\daemon\\7.4\\com.example.superquizzer.app-merged_res-33:\\mipmap-mdpi_app_icon_foreground.png.flat",
+        "source": "C:\\Users\\DigiCraze\\.gradle\\daemon\\7.4\\com.example.superquizzer.app-debug-34:\\mipmap-mdpi\\app_icon_foreground.png"
     },
     {
-        "merged": "/Users/akshatsingh/.gradle/daemon/7.4/com.example.superquizzer.app-merged_res-33:/mipmap-hdpi_ic_launcher.webp.flat",
-        "source": "/Users/akshatsingh/.gradle/daemon/7.4/com.example.superquizzer.app-main-35:/mipmap-hdpi/ic_launcher.webp"
+        "merged": "C:\\Users\\DigiCraze\\.gradle\\daemon\\7.4\\com.example.superquizzer.app-merged_res-33:\\mipmap-anydpi-v26_app_logo_round.xml.flat",
+        "source": "C:\\Users\\DigiCraze\\.gradle\\daemon\\7.4\\com.example.superquizzer.app-debug-34:\\mipmap-anydpi-v26\\app_logo_round.xml"
     },
     {
-        "merged": "/Users/akshatsingh/.gradle/daemon/7.4/com.example.superquizzer.app-merged_res-33:/mipmap-xhdpi_app_logo_foreground.png.flat",
-        "source": "/Users/akshatsingh/.gradle/daemon/7.4/com.example.superquizzer.app-debug-34:/mipmap-xhdpi/app_logo_foreground.png"
+        "merged": "C:\\Users\\DigiCraze\\.gradle\\daemon\\7.4\\com.example.superquizzer.app-merged_res-33:\\mipmap-mdpi_app_logo1_foreground.png.flat",
+        "source": "C:\\Users\\DigiCraze\\.gradle\\daemon\\7.4\\com.example.superquizzer.app-debug-34:\\mipmap-mdpi\\app_logo1_foreground.png"
     },
     {
-        "merged": "/Users/akshatsingh/.gradle/daemon/7.4/com.example.superquizzer.app-merged_res-33:/mipmap-hdpi_ic_launcher_round.webp.flat",
-        "source": "/Users/akshatsingh/.gradle/daemon/7.4/com.example.superquizzer.app-main-35:/mipmap-hdpi/ic_launcher_round.webp"
+        "merged": "C:\\Users\\DigiCraze\\.gradle\\daemon\\7.4\\com.example.superquizzer.app-merged_res-33:\\mipmap-xxhdpi_app_logo2_foreground.png.flat",
+        "source": "C:\\Users\\DigiCraze\\.gradle\\daemon\\7.4\\com.example.superquizzer.app-debug-34:\\mipmap-xxhdpi\\app_logo2_foreground.png"
     },
     {
-        "merged": "/Users/akshatsingh/.gradle/daemon/7.4/com.example.superquizzer.app-merged_res-33:/drawable-v24_superquizzer.png.flat",
-        "source": "/Users/akshatsingh/.gradle/daemon/7.4/com.example.superquizzer.app-main-35:/drawable-v24/superquizzer.png"
+        "merged": "C:\\Users\\DigiCraze\\.gradle\\daemon\\7.4\\com.example.superquizzer.app-merged_res-33:\\mipmap-xhdpi_app_logo.png.flat",
+        "source": "C:\\Users\\DigiCraze\\.gradle\\daemon\\7.4\\com.example.superquizzer.app-debug-34:\\mipmap-xhdpi\\app_logo.png"
     },
     {
-        "merged": "/Users/akshatsingh/.gradle/daemon/7.4/com.example.superquizzer.app-merged_res-33:/mipmap-xhdpi_ic_launcher_round.webp.flat",
-        "source": "/Users/akshatsingh/.gradle/daemon/7.4/com.example.superquizzer.app-main-35:/mipmap-xhdpi/ic_launcher_round.webp"
+        "merged": "C:\\Users\\DigiCraze\\.gradle\\daemon\\7.4\\com.example.superquizzer.app-merged_res-33:\\mipmap-mdpi_app_icon_round.png.flat",
+        "source": "C:\\Users\\DigiCraze\\.gradle\\daemon\\7.4\\com.example.superquizzer.app-debug-34:\\mipmap-mdpi\\app_icon_round.png"
     },
     {
-        "merged": "/Users/akshatsingh/.gradle/daemon/7.4/com.example.superquizzer.app-merged_res-33:/mipmap-xxxhdpi_app_logo2_round.png.flat",
-        "source": "/Users/akshatsingh/.gradle/daemon/7.4/com.example.superquizzer.app-debug-34:/mipmap-xxxhdpi/app_logo2_round.png"
+        "merged": "C:\\Users\\DigiCraze\\.gradle\\daemon\\7.4\\com.example.superquizzer.app-merged_res-33:\\mipmap-xxxhdpi_app_icon_round.png.flat",
+        "source": "C:\\Users\\DigiCraze\\.gradle\\daemon\\7.4\\com.example.superquizzer.app-debug-34:\\mipmap-xxxhdpi\\app_icon_round.png"
     },
     {
-        "merged": "/Users/akshatsingh/.gradle/daemon/7.4/com.example.superquizzer.app-merged_res-33:/mipmap-xxhdpi_app_logo2_foreground.png.flat",
-        "source": "/Users/akshatsingh/.gradle/daemon/7.4/com.example.superquizzer.app-debug-34:/mipmap-xxhdpi/app_logo2_foreground.png"
+        "merged": "C:\\Users\\DigiCraze\\.gradle\\daemon\\7.4\\com.example.superquizzer.app-merged_res-33:\\mipmap-mdpi_app_icon.png.flat",
+        "source": "C:\\Users\\DigiCraze\\.gradle\\daemon\\7.4\\com.example.superquizzer.app-debug-34:\\mipmap-mdpi\\app_icon.png"
     },
     {
-        "merged": "/Users/akshatsingh/.gradle/daemon/7.4/com.example.superquizzer.app-merged_res-33:/drawable_app_logo_background.xml.flat",
-        "source": "/Users/akshatsingh/.gradle/daemon/7.4/com.example.superquizzer.app-debug-34:/drawable/app_logo_background.xml"
+        "merged": "C:\\Users\\DigiCraze\\.gradle\\daemon\\7.4\\com.example.superquizzer.app-merged_res-33:\\layout_activity_register.xml.flat",
+        "source": "C:\\Users\\DigiCraze\\.gradle\\daemon\\7.4\\com.example.superquizzer.app-main-35:\\layout\\activity_register.xml"
     },
     {
-        "merged": "/Users/akshatsingh/.gradle/daemon/7.4/com.example.superquizzer.app-merged_res-33:/mipmap-xhdpi_app_icon.png.flat",
-        "source": "/Users/akshatsingh/.gradle/daemon/7.4/com.example.superquizzer.app-debug-34:/mipmap-xhdpi/app_icon.png"
+        "merged": "C:\\Users\\DigiCraze\\.gradle\\daemon\\7.4\\com.example.superquizzer.app-merged_res-33:\\mipmap-anydpi-v26_app_logo2_round.xml.flat",
+        "source": "C:\\Users\\DigiCraze\\.gradle\\daemon\\7.4\\com.example.superquizzer.app-debug-34:\\mipmap-anydpi-v26\\app_logo2_round.xml"
     },
     {
-        "merged": "/Users/akshatsingh/.gradle/daemon/7.4/com.example.superquizzer.app-merged_res-33:/xml_data_extraction_rules.xml.flat",
-        "source": "/Users/akshatsingh/.gradle/daemon/7.4/com.example.superquizzer.app-main-35:/xml/data_extraction_rules.xml"
+        "merged": "C:\\Users\\DigiCraze\\.gradle\\daemon\\7.4\\com.example.superquizzer.app-merged_res-33:\\mipmap-xhdpi_app_logo_round.png.flat",
+        "source": "C:\\Users\\DigiCraze\\.gradle\\daemon\\7.4\\com.example.superquizzer.app-debug-34:\\mipmap-xhdpi\\app_logo_round.png"
     },
     {
-        "merged": "/Users/akshatsingh/.gradle/daemon/7.4/com.example.superquizzer.app-merged_res-33:/mipmap-xxxhdpi_app_logo1.png.flat",
-        "source": "/Users/akshatsingh/.gradle/daemon/7.4/com.example.superquizzer.app-debug-34:/mipmap-xxxhdpi/app_logo1.png"
+        "merged": "C:\\Users\\DigiCraze\\.gradle\\daemon\\7.4\\com.example.superquizzer.app-merged_res-33:\\mipmap-xhdpi_app_logo1_round.png.flat",
+        "source": "C:\\Users\\DigiCraze\\.gradle\\daemon\\7.4\\com.example.superquizzer.app-debug-34:\\mipmap-xhdpi\\app_logo1_round.png"
     },
     {
-        "merged": "/Users/akshatsingh/.gradle/daemon/7.4/com.example.superquizzer.app-merged_res-33:/mipmap-hdpi_app_logo.png.flat",
-        "source": "/Users/akshatsingh/.gradle/daemon/7.4/com.example.superquizzer.app-debug-34:/mipmap-hdpi/app_logo.png"
+        "merged": "C:\\Users\\DigiCraze\\.gradle\\daemon\\7.4\\com.example.superquizzer.app-merged_res-33:\\mipmap-anydpi-v26_app_icon.xml.flat",
+        "source": "C:\\Users\\DigiCraze\\.gradle\\daemon\\7.4\\com.example.superquizzer.app-debug-34:\\mipmap-anydpi-v26\\app_icon.xml"
     },
     {
-        "merged": "/Users/akshatsingh/.gradle/daemon/7.4/com.example.superquizzer.app-merged_res-33:/mipmap-xxxhdpi_app_icon_foreground.png.flat",
-        "source": "/Users/akshatsingh/.gradle/daemon/7.4/com.example.superquizzer.app-debug-34:/mipmap-xxxhdpi/app_icon_foreground.png"
+        "merged": "C:\\Users\\DigiCraze\\.gradle\\daemon\\7.4\\com.example.superquizzer.app-merged_res-33:\\layout_activity_login.xml.flat",
+        "source": "C:\\Users\\DigiCraze\\.gradle\\daemon\\7.4\\com.example.superquizzer.app-main-35:\\layout\\activity_login.xml"
     },
     {
-        "merged": "/Users/akshatsingh/.gradle/daemon/7.4/com.example.superquizzer.app-merged_res-33:/anim_slide_out_right.xml.flat",
-        "source": "/Users/akshatsingh/.gradle/daemon/7.4/com.example.superquizzer.app-main-35:/anim/slide_out_right.xml"
+        "merged": "C:\\Users\\DigiCraze\\.gradle\\daemon\\7.4\\com.example.superquizzer.app-merged_res-33:\\mipmap-hdpi_app_logo2_foreground.png.flat",
+        "source": "C:\\Users\\DigiCraze\\.gradle\\daemon\\7.4\\com.example.superquizzer.app-debug-34:\\mipmap-hdpi\\app_logo2_foreground.png"
     },
     {
-        "merged": "/Users/akshatsingh/.gradle/daemon/7.4/com.example.superquizzer.app-merged_res-33:/layout_activity_splash.xml.flat",
-        "source": "/Users/akshatsingh/.gradle/daemon/7.4/com.example.superquizzer.app-main-35:/layout/activity_splash.xml"
+        "merged": "C:\\Users\\DigiCraze\\.gradle\\daemon\\7.4\\com.example.superquizzer.app-merged_res-33:\\mipmap-xxxhdpi_app_logo1.png.flat",
+        "source": "C:\\Users\\DigiCraze\\.gradle\\daemon\\7.4\\com.example.superquizzer.app-debug-34:\\mipmap-xxxhdpi\\app_logo1.png"
     },
     {
-        "merged": "/Users/akshatsingh/.gradle/daemon/7.4/com.example.superquizzer.app-merged_res-33:/mipmap-xhdpi_app_logo2_round.png.flat",
-        "source": "/Users/akshatsingh/.gradle/daemon/7.4/com.example.superquizzer.app-debug-34:/mipmap-xhdpi/app_logo2_round.png"
+        "merged": "C:\\Users\\DigiCraze\\.gradle\\daemon\\7.4\\com.example.superquizzer.app-merged_res-33:\\mipmap-mdpi_app_logo2_foreground.png.flat",
+        "source": "C:\\Users\\DigiCraze\\.gradle\\daemon\\7.4\\com.example.superquizzer.app-debug-34:\\mipmap-mdpi\\app_logo2_foreground.png"
     },
     {
-        "merged": "/Users/akshatsingh/.gradle/daemon/7.4/com.example.superquizzer.app-merged_res-33:/drawable_ic_baseline_account_circle_24.xml.flat",
-        "source": "/Users/akshatsingh/.gradle/daemon/7.4/com.example.superquizzer.app-main-35:/drawable/ic_baseline_account_circle_24.xml"
+        "merged": "C:\\Users\\DigiCraze\\.gradle\\daemon\\7.4\\com.example.superquizzer.app-merged_res-33:\\mipmap-anydpi-v26_app_icon_round.xml.flat",
+        "source": "C:\\Users\\DigiCraze\\.gradle\\daemon\\7.4\\com.example.superquizzer.app-debug-34:\\mipmap-anydpi-v26\\app_icon_round.xml"
     },
     {
-        "merged": "/Users/akshatsingh/.gradle/daemon/7.4/com.example.superquizzer.app-merged_res-33:/mipmap-xxxhdpi_app_logo2_foreground.png.flat",
-        "source": "/Users/akshatsingh/.gradle/daemon/7.4/com.example.superquizzer.app-debug-34:/mipmap-xxxhdpi/app_logo2_foreground.png"
+        "merged": "C:\\Users\\DigiCraze\\.gradle\\daemon\\7.4\\com.example.superquizzer.app-merged_res-33:\\mipmap-xhdpi_app_icon_foreground.png.flat",
+        "source": "C:\\Users\\DigiCraze\\.gradle\\daemon\\7.4\\com.example.superquizzer.app-debug-34:\\mipmap-xhdpi\\app_icon_foreground.png"
     },
     {
-        "merged": "/Users/akshatsingh/.gradle/daemon/7.4/com.example.superquizzer.app-merged_res-33:/mipmap-anydpi-v26_app_logo1.xml.flat",
-        "source": "/Users/akshatsingh/.gradle/daemon/7.4/com.example.superquizzer.app-debug-34:/mipmap-anydpi-v26/app_logo1.xml"
+        "merged": "C:\\Users\\DigiCraze\\.gradle\\daemon\\7.4\\com.example.superquizzer.app-merged_res-33:\\mipmap-anydpi-v26_app_logo1.xml.flat",
+        "source": "C:\\Users\\DigiCraze\\.gradle\\daemon\\7.4\\com.example.superquizzer.app-debug-34:\\mipmap-anydpi-v26\\app_logo1.xml"
     },
     {
-        "merged": "/Users/akshatsingh/.gradle/daemon/7.4/com.example.superquizzer.app-merged_res-33:/mipmap-xhdpi_app_logo.png.flat",
-        "source": "/Users/akshatsingh/.gradle/daemon/7.4/com.example.superquizzer.app-debug-34:/mipmap-xhdpi/app_logo.png"
+        "merged": "C:\\Users\\DigiCraze\\.gradle\\daemon\\7.4\\com.example.superquizzer.app-merged_res-33:\\font_montserratblack.ttf.flat",
+        "source": "C:\\Users\\DigiCraze\\.gradle\\daemon\\7.4\\com.example.superquizzer.app-main-35:\\font\\montserratblack.ttf"
     },
     {
-        "merged": "/Users/akshatsingh/.gradle/daemon/7.4/com.example.superquizzer.app-merged_res-33:/mipmap-hdpi_app_logo1.png.flat",
-        "source": "/Users/akshatsingh/.gradle/daemon/7.4/com.example.superquizzer.app-debug-34:/mipmap-hdpi/app_logo1.png"
+        "merged": "C:\\Users\\DigiCraze\\.gradle\\daemon\\7.4\\com.example.superquizzer.app-merged_res-33:\\drawable_ic_baseline_arrow_back_24.xml.flat",
+        "source": "C:\\Users\\DigiCraze\\.gradle\\daemon\\7.4\\com.example.superquizzer.app-main-35:\\drawable\\ic_baseline_arrow_back_24.xml"
     },
     {
-        "merged": "/Users/akshatsingh/.gradle/daemon/7.4/com.example.superquizzer.app-merged_res-33:/mipmap-xxxhdpi_app_logo1_round.png.flat",
-        "source": "/Users/akshatsingh/.gradle/daemon/7.4/com.example.superquizzer.app-debug-34:/mipmap-xxxhdpi/app_logo1_round.png"
+        "merged": "C:\\Users\\DigiCraze\\.gradle\\daemon\\7.4\\com.example.superquizzer.app-merged_res-33:\\mipmap-hdpi_ic_launcher.webp.flat",
+        "source": "C:\\Users\\DigiCraze\\.gradle\\daemon\\7.4\\com.example.superquizzer.app-main-35:\\mipmap-hdpi\\ic_launcher.webp"
     },
     {
-        "merged": "/Users/akshatsingh/.gradle/daemon/7.4/com.example.superquizzer.app-merged_res-33:/mipmap-xxhdpi_app_logo2_round.png.flat",
-        "source": "/Users/akshatsingh/.gradle/daemon/7.4/com.example.superquizzer.app-debug-34:/mipmap-xxhdpi/app_logo2_round.png"
+        "merged": "C:\\Users\\DigiCraze\\.gradle\\daemon\\7.4\\com.example.superquizzer.app-merged_res-33:\\mipmap-mdpi_app_logo_foreground.png.flat",
+        "source": "C:\\Users\\DigiCraze\\.gradle\\daemon\\7.4\\com.example.superquizzer.app-debug-34:\\mipmap-mdpi\\app_logo_foreground.png"
     },
     {
-        "merged": "/Users/akshatsingh/.gradle/daemon/7.4/com.example.superquizzer.app-merged_res-33:/mipmap-mdpi_app_logo.png.flat",
-        "source": "/Users/akshatsingh/.gradle/daemon/7.4/com.example.superquizzer.app-debug-34:/mipmap-mdpi/app_logo.png"
+        "merged": "C:\\Users\\DigiCraze\\.gradle\\daemon\\7.4\\com.example.superquizzer.app-merged_res-33:\\mipmap-xxhdpi_app_logo2.png.flat",
+        "source": "C:\\Users\\DigiCraze\\.gradle\\daemon\\7.4\\com.example.superquizzer.app-debug-34:\\mipmap-xxhdpi\\app_logo2.png"
     },
     {
-        "merged": "/Users/akshatsingh/.gradle/daemon/7.4/com.example.superquizzer.app-merged_res-33:/layout_activity_register.xml.flat",
-        "source": "/Users/akshatsingh/.gradle/daemon/7.4/com.example.superquizzer.app-main-35:/layout/activity_register.xml"
+        "merged": "C:\\Users\\DigiCraze\\.gradle\\daemon\\7.4\\com.example.superquizzer.app-merged_res-33:\\mipmap-hdpi_app_icon_foreground.png.flat",
+        "source": "C:\\Users\\DigiCraze\\.gradle\\daemon\\7.4\\com.example.superquizzer.app-debug-34:\\mipmap-hdpi\\app_icon_foreground.png"
     },
     {
-        "merged": "/Users/akshatsingh/.gradle/daemon/7.4/com.example.superquizzer.app-merged_res-33:/mipmap-xhdpi_app_logo2.png.flat",
-        "source": "/Users/akshatsingh/.gradle/daemon/7.4/com.example.superquizzer.app-debug-34:/mipmap-xhdpi/app_logo2.png"
+        "merged": "C:\\Users\\DigiCraze\\.gradle\\daemon\\7.4\\com.example.superquizzer.app-merged_res-33:\\mipmap-anydpi-v26_ic_launcher.xml.flat",
+        "source": "C:\\Users\\DigiCraze\\.gradle\\daemon\\7.4\\com.example.superquizzer.app-main-35:\\mipmap-anydpi-v26\\ic_launcher.xml"
     },
     {
-        "merged": "/Users/akshatsingh/.gradle/daemon/7.4/com.example.superquizzer.app-merged_res-33:/mipmap-xxhdpi_app_icon_round.png.flat",
-        "source": "/Users/akshatsingh/.gradle/daemon/7.4/com.example.superquizzer.app-debug-34:/mipmap-xxhdpi/app_icon_round.png"
+        "merged": "C:\\Users\\DigiCraze\\.gradle\\daemon\\7.4\\com.example.superquizzer.app-merged_res-33:\\mipmap-xxhdpi_app_icon_foreground.png.flat",
+        "source": "C:\\Users\\DigiCraze\\.gradle\\daemon\\7.4\\com.example.superquizzer.app-debug-34:\\mipmap-xxhdpi\\app_icon_foreground.png"
     },
     {
-        "merged": "/Users/akshatsingh/.gradle/daemon/7.4/com.example.superquizzer.app-merged_res-33:/mipmap-mdpi_app_logo2.png.flat",
-        "source": "/Users/akshatsingh/.gradle/daemon/7.4/com.example.superquizzer.app-debug-34:/mipmap-mdpi/app_logo2.png"
+        "merged": "C:\\Users\\DigiCraze\\.gradle\\daemon\\7.4\\com.example.superquizzer.app-merged_res-33:\\drawable_app_logo1_background.xml.flat",
+        "source": "C:\\Users\\DigiCraze\\.gradle\\daemon\\7.4\\com.example.superquizzer.app-debug-34:\\drawable\\app_logo1_background.xml"
     },
     {
-        "merged": "/Users/akshatsingh/.gradle/daemon/7.4/com.example.superquizzer.app-merged_res-33:/mipmap-hdpi_app_icon.png.flat",
-        "source": "/Users/akshatsingh/.gradle/daemon/7.4/com.example.superquizzer.app-debug-34:/mipmap-hdpi/app_icon.png"
+        "merged": "C:\\Users\\DigiCraze\\.gradle\\daemon\\7.4\\com.example.superquizzer.app-merged_res-33:\\mipmap-hdpi_app_logo1_round.png.flat",
+        "source": "C:\\Users\\DigiCraze\\.gradle\\daemon\\7.4\\com.example.superquizzer.app-debug-34:\\mipmap-hdpi\\app_logo1_round.png"
     },
     {
-        "merged": "/Users/akshatsingh/.gradle/daemon/7.4/com.example.superquizzer.app-merged_res-33:/mipmap-xxhdpi_app_logo_foreground.png.flat",
-        "source": "/Users/akshatsingh/.gradle/daemon/7.4/com.example.superquizzer.app-debug-34:/mipmap-xxhdpi/app_logo_foreground.png"
+        "merged": "C:\\Users\\DigiCraze\\.gradle\\daemon\\7.4\\com.example.superquizzer.app-merged_res-33:\\mipmap-hdpi_app_logo2.png.flat",
+        "source": "C:\\Users\\DigiCraze\\.gradle\\daemon\\7.4\\com.example.superquizzer.app-debug-34:\\mipmap-hdpi\\app_logo2.png"
     },
     {
-        "merged": "/Users/akshatsingh/.gradle/daemon/7.4/com.example.superquizzer.app-merged_res-33:/drawable-anydpi-v24_ic_launcher_foreground.xml.flat",
-        "source": "/Users/akshatsingh/.gradle/daemon/7.4/com.example.superquizzer.app-pngs-28:/drawable-anydpi-v24/ic_launcher_foreground.xml"
+        "merged": "C:\\Users\\DigiCraze\\.gradle\\daemon\\7.4\\com.example.superquizzer.app-merged_res-33:\\mipmap-xxxhdpi_app_icon_foreground.png.flat",
+        "source": "C:\\Users\\DigiCraze\\.gradle\\daemon\\7.4\\com.example.superquizzer.app-debug-34:\\mipmap-xxxhdpi\\app_icon_foreground.png"
+    },
+    {
+        "merged": "C:\\Users\\DigiCraze\\.gradle\\daemon\\7.4\\com.example.superquizzer.app-merged_res-33:\\drawable_ic_launcher_background.xml.flat",
+        "source": "C:\\Users\\DigiCraze\\.gradle\\daemon\\7.4\\com.example.superquizzer.app-main-35:\\drawable\\ic_launcher_background.xml"
     }
 ]

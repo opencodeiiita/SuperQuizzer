@@ -2,6 +2,7 @@
     <!-- Base application theme. -->
     <style name="Theme.SuperQuizzer" parent="Theme.MaterialComponents.Light">
         <!-- Primary brand color. -->
+        <item name="fontFamily">@font/montserratlight</item>
         <item name="colorPrimary">@color/btnback</item>
         <item name="colorPrimaryVariant">@color/secondary</item>
         <item name="colorOnPrimary">@color/alternative</item>
