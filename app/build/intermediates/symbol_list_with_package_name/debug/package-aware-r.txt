@@ -2664,6 +2664,7 @@ drawable test_level_drawable
 drawable tooltip_frame_dark
 drawable tooltip_frame_light
 drawable top_bottom_shape
+font montserratlight
 id ALT
 id BOTTOM_END
 id BOTTOM_START
@@ -2764,12 +2765,6 @@ id bounce
 id bounceBoth
 id bounceEnd
 id bounceStart
-id button
-id button2
-id button3
-id button4
-id button5
-id button6
 id buttonPanel
 id cache_measures
 id callMeasure
@@ -2783,7 +2778,6 @@ id center_vertical
 id chain
 id chain2
 id chains
-id checkBox
 id checkbox
 id checked
 id chronometer
@@ -2795,6 +2789,7 @@ id clockwise
 id closest
 id collapseActionView
 id compress
+id conf_password_et
 id confirm_button
 id constrainLayout
 id constraint
@@ -2850,6 +2845,7 @@ id editTextTextEmailAddress4
 id editTextTextPassword2
 id edit_query
 id elastic
+id email_et
 id embed
 id end
 id endToStart
@@ -2863,6 +2859,7 @@ id fill
 id fill_horizontal
 id fill_vertical
 id filled
+id first_name
 id fitCenter
 id fitEnd
 id fitStart
@@ -2913,6 +2910,7 @@ id item_touch_helper_previous_elevation
 id jumpToEnd
 id jumpToStart
 id labeled
+id last_name
 id layout
 id left
 id leftToRight
@@ -3016,6 +3014,7 @@ id parent
 id parentPanel
 id parentRelative
 id parent_matrix
+id password_et
 id password_toggle
 id path
 id pathRelative
@@ -3030,6 +3029,7 @@ id progress_horizontal
 id radio
 id ratio
 id rectangles
+id register_btn
 id reverseSawtooth
 id right
 id rightToLeft
@@ -3113,6 +3113,7 @@ id tag_transition_group
 id tag_unhandled_key_event_manager
 id tag_unhandled_key_listeners
 id tag_window_insets_animation_callback
+id terms_cond_cbox
 id text
 id text2
 id textEnd
