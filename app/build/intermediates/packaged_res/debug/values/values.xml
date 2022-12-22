@@ -38,14 +38,44 @@
     <string name="login_button">Login</string>
     <string name="login_failed">"Login failed"</string>
     <string name="logo">logo?</string>
+    <string name="nav_close">Close</string>
+    <string name="nav_open">Open</string>
     <item name="participant" type="string">
+      
+        
+        
+        
+        
+        
+        
         <participant>
-            <name>Suhail Ahmad Khan</name>
-            <github_id>SuhailAhmadKhan</github_id>
+            <name>Ribhav Bansal</name>
+            <github_id>RibhavBansal</github_id>
+        </participant>
+
+        <participant>
+            <name>Ananya</name>
+            <github_id>ananyaa07</github_id>
         </participant>
 
 
-        
+        <participant>
+            <name>Ansh Kothari</name>
+            <github_id>anshgeez31</github_id>
+        </participant>
+
+         <participant>
+            <name>Aastha</name>
+            <github_id>aasthaaaa7</github_id>
+        </participant>
+        <participant>
+            <name>Sumit Das</name>
+            <github_id>unreasonable2003</github_id>
+        </participant>
+
+
+
+
     </item>
     <string name="password">Password</string>
     <string name="password_text">Password</string>
@@ -58,7 +88,7 @@
     <string name="superquizzersplash">SuperQuizzerSplash</string>
     <string name="title_activity_login2">LoginActivity2</string>
     <string name="welcome">"Welcome !"</string>
-    <style name="Theme.SuperQuizzer" parent="Theme.MaterialComponents.Light.NoActionBar">
+    <style name="Theme.SuperQuizzer" parent="Theme.MaterialComponents.Light">
         
         <item name="colorPrimary">@color/btnback</item>
         <item name="colorPrimaryVariant">@color/secondary</item>

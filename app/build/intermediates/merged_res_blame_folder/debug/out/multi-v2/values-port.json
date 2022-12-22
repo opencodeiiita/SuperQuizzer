@@ -4,7 +4,7 @@
             "outputFile": "com.example.superquizzer.app-mergeDebugResources-31:/values-port/values-port.xml",
             "map": [
                 {
-                    "source": "/home/suhail/.gradle/caches/transforms-3/c88b00e8e120ede438720652258482d3/transformed/appcompat-1.5.1/res/values-port/values-port.xml",
+                    "source": "/Users/akshatsingh/.gradle/caches/transforms-3/c88b00e8e120ede438720652258482d3/transformed/appcompat-1.5.1/res/values-port/values-port.xml",
                     "from": {
                         "startLines": "2",
                         "startColumns": "4",

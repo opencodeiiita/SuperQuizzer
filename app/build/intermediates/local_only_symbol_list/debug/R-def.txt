@@ -45,6 +45,7 @@ id button6
 id checkBox
 id constrainLayout
 id constraintLayoutin
+id drawer_layout
 id editTextTextEmailAddress4
 id editTextTextPassword2
 id forgotPassword
@@ -57,6 +58,9 @@ id linearlayout_login
 id login
 id loginButton
 id logoText
+id nav_account
+id nav_logout
+id nav_settings
 id signUpLink
 id textView2
 id textView4
@@ -64,6 +68,7 @@ layout activity_login
 layout activity_main
 layout activity_register
 layout activity_splash
+menu navigation_menu
 mipmap app_icon
 mipmap app_icon_foreground
 mipmap app_icon_round
@@ -98,6 +103,8 @@ string login
 string login_button
 string login_failed
 string logo
+string nav_close
+string nav_open
 string participant
 string password
 string password_text

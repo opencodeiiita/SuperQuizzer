@@ -2840,6 +2840,7 @@ id dragLeft
 id dragRight
 id dragStart
 id dragUp
+id drawer_layout
 id dropdown_menu
 id easeIn
 id easeInOut
@@ -2982,6 +2983,9 @@ id mtrl_picker_text_input_range_start
 id mtrl_picker_title_text
 id mtrl_view_tag_bottom_padding
 id multiply
+id nav_account
+id nav_logout
+id nav_settings
 id navigation_bar_item_active_indicator_view
 id navigation_bar_item_icon_container
 id navigation_bar_item_icon_view
@@ -3366,6 +3370,7 @@ layout select_dialog_item_material
 layout select_dialog_multichoice_material
 layout select_dialog_singlechoice_material
 layout support_simple_spinner_dropdown_item
+menu navigation_menu
 mipmap app_icon
 mipmap app_icon_foreground
 mipmap app_icon_round
@@ -3535,6 +3540,8 @@ string mtrl_switch_track_decoration_path
 string mtrl_switch_track_path
 string mtrl_timepicker_cancel
 string mtrl_timepicker_confirm
+string nav_close
+string nav_open
 string participant
 string password
 string password_text
