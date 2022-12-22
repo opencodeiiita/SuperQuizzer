@@ -4,7 +4,7 @@
             "outputFile": "com.example.superquizzer.app-mergeDebugResources-31:/values-h550dp-port-v13/values-h550dp-port-v13.xml",
             "map": [
                 {
-                    "source": "/Users/akshatsingh/.gradle/caches/transforms-3/5ec0d1e433c209b952d3aa2280ed0c64/transformed/material-1.7.0/res/values-h550dp-port-v13/values-h550dp-port-v13.xml",
+                    "source": "C:\\Users\\DigiCraze\\.gradle\\caches\\transforms-3\\5ec0d1e433c209b952d3aa2280ed0c64\\transformed\\material-1.7.0\\res\\values-h550dp-port-v13\\values-h550dp-port-v13.xml",
                     "from": {
                         "startLines": "2",
                         "startColumns": "4",
