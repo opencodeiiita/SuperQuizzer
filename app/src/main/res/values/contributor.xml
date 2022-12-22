@@ -10,10 +10,13 @@
 -->
 <resources>
     <item name="participant" type="string">
-        <participant>
-            <name>Suhail Ahmad Khan</name>
-            <github_id>SuhailAhmadKhan</github_id>
-        </participant>
+      
+        
+        
+        
+        
+        
+        
         <participant>
             <name>Ribhav Bansal</name>
             <github_id>RibhavBansal</github_id>
