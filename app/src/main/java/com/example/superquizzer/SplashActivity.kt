@@ -23,7 +23,7 @@ class SplashActivity : AppCompatActivity() {
         Handler().postDelayed({
             val i = Intent(
                 this@SplashActivity,
-                RegisterActivity::class.java
+                LoginActivity::class.java
             )
             startActivity(i)
             finish()
