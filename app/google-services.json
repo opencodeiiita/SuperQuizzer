@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "169690102426",
+    "project_id": "superquizzer-8cb6c",
+    "storage_bucket": "superquizzer-8cb6c.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:169690102426:android:d97e95f31cc797638dbd23",
+        "android_client_info": {
+          "package_name": "com.example.superquizzer"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "169690102426-l07lpd97nd9oevu5cqo44787kl0ns4ae.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAwRinkqB-AnfKv-XR0iC4LfaCDdZ1mFH4"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "169690102426-l07lpd97nd9oevu5cqo44787kl0ns4ae.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
