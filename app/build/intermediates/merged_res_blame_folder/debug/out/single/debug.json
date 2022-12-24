@@ -8,6 +8,10 @@
         "source": "com.example.superquizzer.app-debug-34:/mipmap-xxxhdpi/app_logo1_foreground.png"
     },
     {
+        "merged": "com.example.superquizzer.app-merged_res-33:/menu_navigation_menu.xml.flat",
+        "source": "com.example.superquizzer.app-main-35:/menu/navigation_menu.xml"
+    },
+    {
         "merged": "com.example.superquizzer.app-merged_res-33:/mipmap-xxxhdpi_app_logo2.png.flat",
         "source": "com.example.superquizzer.app-debug-34:/mipmap-xxxhdpi/app_logo2.png"
     },
@@ -250,6 +254,10 @@
     {
         "merged": "com.example.superquizzer.app-merged_res-33:/layout_activity_main.xml.flat",
         "source": "com.example.superquizzer.app-main-35:/layout/activity_main.xml"
+    },
+    {
+        "merged": "com.example.superquizzer.app-merged_res-33:/font_montserratlight.ttf.flat",
+        "source": "com.example.superquizzer.app-main-35:/font/montserratlight.ttf"
     },
     {
         "merged": "com.example.superquizzer.app-merged_res-33:/drawable_app_icon_background.xml.flat",

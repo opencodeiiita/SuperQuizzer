@@ -1,6 +1,6 @@
 <resources xmlns:tools="http://schemas.android.com/tools">
     <!-- Base application theme. -->
-    <style name="Theme.SuperQuizzer" parent="Theme.MaterialComponents.Light.NoActionBar">
+    <style name="Theme.SuperQuizzer" parent="Theme.MaterialComponents.Light">
         <!-- Primary brand color. -->
         <item name="colorPrimary">@color/btnback</item>
         <item name="colorPrimaryVariant">@color/secondary</item>
@@ -12,5 +12,6 @@
         <!-- Status bar color. -->
         <item name="android:statusBarColor" tools:targetApi="l">?attr/colorPrimaryVariant</item>
         <!-- Customize your theme here. -->
+        <item name="android:fontFamily">@font/montserratlight</item>
     </style>
 </resources>
