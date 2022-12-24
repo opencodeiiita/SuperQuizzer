@@ -29,6 +29,7 @@ class RegisterActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_register)
+        window.decorView.systemUiVisibility=View.SYSTEM_UI_FLAG_FULLSCREEN
         etEmail=findViewById<EditText>(R.id.email_et)
         etFirstName=findViewById<EditText>(R.id.first_name)
         etLastName=findViewById<EditText>(R.id.last_name)
