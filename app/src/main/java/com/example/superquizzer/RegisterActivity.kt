@@ -4,15 +4,21 @@ import android.content.Intent
 import android.os.Bundle
 import android.text.Editable
 import android.text.TextUtils
+import android.util.Log
 import android.util.Patterns
 import android.view.View
-import android.view.View.OnClickListener
 import android.widget.*
 import androidx.appcompat.app.AppCompatActivity
-
+import com.google.firebase.auth.FirebaseAuth
+import com.google.firebase.auth.UserProfileChangeRequest
 
 
 class RegisterActivity : AppCompatActivity() {
+    companion object
+    {
+        lateinit var auth: FirebaseAuth
+
+    }
     //buttons
     var bRegister:Button?=null
     //edit text
@@ -29,6 +35,7 @@ class RegisterActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_register)
+        auth= FirebaseAuth.getInstance()
         window.decorView.systemUiVisibility=View.SYSTEM_UI_FLAG_FULLSCREEN
         etEmail=findViewById<EditText>(R.id.email_et)
         etFirstName=findViewById<EditText>(R.id.first_name)
@@ -50,9 +57,28 @@ class RegisterActivity : AppCompatActivity() {
     }
     private fun registerUser()
     {
+        val email= etEmail?.text.toString()
+        val password=etPassword?.text.toString()
+        val name=etFirstName?.text.toString()+etLastName?.text.toString()
         isAllEditTextCheck=CheckAllEditText()
         if(isAllEditTextCheck){
-            Toast.makeText(this,"Registration Successfully",Toast.LENGTH_SHORT).show()
+            auth.createUserWithEmailAndPassword(email,password)
+                .addOnCompleteListener(this){task->
+                    if(task.isSuccessful)
+                    {
+                        val user=auth.currentUser
+                        val updates=UserProfileChangeRequest.Builder()
+                            .setDisplayName(name).build()
+                        user!!.updateProfile(updates)
+                        Toast.makeText(this,"Registration Succeeded",Toast.LENGTH_LONG).show()
+                    }
+                    else
+                    {
+                        Log.i("TAG",task.exception.toString())
+                        Toast.makeText(this,"Registration Failed",Toast.LENGTH_LONG).show()
+                    }
+                }
+
         }
         else
         {
