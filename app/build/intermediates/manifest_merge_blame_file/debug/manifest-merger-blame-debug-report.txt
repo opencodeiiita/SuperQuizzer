@@ -10,114 +10,310 @@
 9        android:targetSdkVersion="33" />
 9-->/home/suhail/Desktop/SuperQuizzer/app/src/main/AndroidManifest.xml
 10
-11    <permission
-11-->[androidx.core:core:1.9.0] /home/suhail/.gradle/caches/transforms-3/f75202200db48fb541bf72c50f23e569/transformed/core-1.9.0/AndroidManifest.xml:22:5-24:47
-12        android:name="com.example.superquizzer.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION"
-12-->[androidx.core:core:1.9.0] /home/suhail/.gradle/caches/transforms-3/f75202200db48fb541bf72c50f23e569/transformed/core-1.9.0/AndroidManifest.xml:23:9-81
-13        android:protectionLevel="signature" />
-13-->[androidx.core:core:1.9.0] /home/suhail/.gradle/caches/transforms-3/f75202200db48fb541bf72c50f23e569/transformed/core-1.9.0/AndroidManifest.xml:24:9-44
-14
-15    <uses-permission android:name="com.example.superquizzer.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION" />
-15-->[androidx.core:core:1.9.0] /home/suhail/.gradle/caches/transforms-3/f75202200db48fb541bf72c50f23e569/transformed/core-1.9.0/AndroidManifest.xml:26:5-97
-15-->[androidx.core:core:1.9.0] /home/suhail/.gradle/caches/transforms-3/f75202200db48fb541bf72c50f23e569/transformed/core-1.9.0/AndroidManifest.xml:26:22-94
+11    <uses-permission android:name="android.permission.INTERNET" />
+11-->[com.google.firebase:firebase-auth:21.1.0] /home/suhail/.gradle/caches/transforms-3/f1aec9d1eabdc449260f5fdb31676a69/transformed/firebase-auth-21.1.0/AndroidManifest.xml:23:5-67
+11-->[com.google.firebase:firebase-auth:21.1.0] /home/suhail/.gradle/caches/transforms-3/f1aec9d1eabdc449260f5fdb31676a69/transformed/firebase-auth-21.1.0/AndroidManifest.xml:23:22-64
+12    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+12-->[com.google.firebase:firebase-auth:21.1.0] /home/suhail/.gradle/caches/transforms-3/f1aec9d1eabdc449260f5fdb31676a69/transformed/firebase-auth-21.1.0/AndroidManifest.xml:24:5-79
+12-->[com.google.firebase:firebase-auth:21.1.0] /home/suhail/.gradle/caches/transforms-3/f1aec9d1eabdc449260f5fdb31676a69/transformed/firebase-auth-21.1.0/AndroidManifest.xml:24:22-76
+13    <uses-permission android:name="android.permission.WAKE_LOCK" />
+13-->[com.google.android.gms:play-services-measurement-api:21.2.0] /home/suhail/.gradle/caches/transforms-3/67aca99494fa5dfc07e0db0c665fa25e/transformed/play-services-measurement-api-21.2.0/AndroidManifest.xml:24:5-68
+13-->[com.google.android.gms:play-services-measurement-api:21.2.0] /home/suhail/.gradle/caches/transforms-3/67aca99494fa5dfc07e0db0c665fa25e/transformed/play-services-measurement-api-21.2.0/AndroidManifest.xml:24:22-65
+14    <uses-permission android:name="com.google.android.gms.permission.AD_ID" />
+14-->[com.google.android.gms:play-services-measurement-api:21.2.0] /home/suhail/.gradle/caches/transforms-3/67aca99494fa5dfc07e0db0c665fa25e/transformed/play-services-measurement-api-21.2.0/AndroidManifest.xml:25:5-79
+14-->[com.google.android.gms:play-services-measurement-api:21.2.0] /home/suhail/.gradle/caches/transforms-3/67aca99494fa5dfc07e0db0c665fa25e/transformed/play-services-measurement-api-21.2.0/AndroidManifest.xml:25:22-76
+15    <uses-permission android:name="com.google.android.finsky.permission.BIND_GET_INSTALL_REFERRER_SERVICE" />
+15-->[com.google.android.gms:play-services-measurement:21.2.0] /home/suhail/.gradle/caches/transforms-3/1fa2ae724cdaacf3c774695803c8026d/transformed/play-services-measurement-21.2.0/AndroidManifest.xml:26:5-110
+15-->[com.google.android.gms:play-services-measurement:21.2.0] /home/suhail/.gradle/caches/transforms-3/1fa2ae724cdaacf3c774695803c8026d/transformed/play-services-measurement-21.2.0/AndroidManifest.xml:26:22-107
 16
-17    <application
-17-->/home/suhail/Desktop/SuperQuizzer/app/src/main/AndroidManifest.xml:6:5-46:19
-18        android:allowBackup="true"
-18-->/home/suhail/Desktop/SuperQuizzer/app/src/main/AndroidManifest.xml:7:9-35
-19        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
-19-->[androidx.core:core:1.9.0] /home/suhail/.gradle/caches/transforms-3/f75202200db48fb541bf72c50f23e569/transformed/core-1.9.0/AndroidManifest.xml:28:18-86
-20        android:dataExtractionRules="@xml/data_extraction_rules"
-20-->/home/suhail/Desktop/SuperQuizzer/app/src/main/AndroidManifest.xml:8:9-65
-21        android:debuggable="true"
-22        android:fullBackupContent="@xml/backup_rules"
-22-->/home/suhail/Desktop/SuperQuizzer/app/src/main/AndroidManifest.xml:9:9-54
-23        android:icon="@drawable/superquizzer_logo"
-23-->/home/suhail/Desktop/SuperQuizzer/app/src/main/AndroidManifest.xml:10:9-51
-24        android:label="@string/app_name"
-24-->/home/suhail/Desktop/SuperQuizzer/app/src/main/AndroidManifest.xml:11:9-41
-25        android:roundIcon="@mipmap/ic_launcher_round"
-25-->/home/suhail/Desktop/SuperQuizzer/app/src/main/AndroidManifest.xml:12:9-54
-26        android:supportsRtl="true"
-26-->/home/suhail/Desktop/SuperQuizzer/app/src/main/AndroidManifest.xml:13:9-35
-27        android:theme="@style/Theme.SuperQuizzer" >
-27-->/home/suhail/Desktop/SuperQuizzer/app/src/main/AndroidManifest.xml:14:9-50
-28        <activity
-28-->/home/suhail/Desktop/SuperQuizzer/app/src/main/AndroidManifest.xml:16:9-22:20
-29            android:name="com.example.superquizzer.LoginActivity"
-29-->/home/suhail/Desktop/SuperQuizzer/app/src/main/AndroidManifest.xml:17:13-42
-30            android:exported="true" >
-30-->/home/suhail/Desktop/SuperQuizzer/app/src/main/AndroidManifest.xml:18:13-36
-31            <meta-data
-31-->/home/suhail/Desktop/SuperQuizzer/app/src/main/AndroidManifest.xml:19:13-21:36
-32                android:name="android.app.lib_name"
-32-->/home/suhail/Desktop/SuperQuizzer/app/src/main/AndroidManifest.xml:20:17-52
-33                android:value="" />
-33-->/home/suhail/Desktop/SuperQuizzer/app/src/main/AndroidManifest.xml:21:17-33
-34        </activity>
+17    <permission
+17-->[androidx.core:core:1.9.0] /home/suhail/.gradle/caches/transforms-3/44d6f460890717a72af0cec0fcdbb388/transformed/core-1.9.0/AndroidManifest.xml:22:5-24:47
+18        android:name="com.example.superquizzer.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION"
+18-->[androidx.core:core:1.9.0] /home/suhail/.gradle/caches/transforms-3/44d6f460890717a72af0cec0fcdbb388/transformed/core-1.9.0/AndroidManifest.xml:23:9-81
+19        android:protectionLevel="signature" />
+19-->[androidx.core:core:1.9.0] /home/suhail/.gradle/caches/transforms-3/44d6f460890717a72af0cec0fcdbb388/transformed/core-1.9.0/AndroidManifest.xml:24:9-44
+20
+21    <uses-permission android:name="com.example.superquizzer.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION" />
+21-->[androidx.core:core:1.9.0] /home/suhail/.gradle/caches/transforms-3/44d6f460890717a72af0cec0fcdbb388/transformed/core-1.9.0/AndroidManifest.xml:26:5-97
+21-->[androidx.core:core:1.9.0] /home/suhail/.gradle/caches/transforms-3/44d6f460890717a72af0cec0fcdbb388/transformed/core-1.9.0/AndroidManifest.xml:26:22-94
+22
+23    <application
+23-->/home/suhail/Desktop/SuperQuizzer/app/src/main/AndroidManifest.xml:6:5-48:19
+24        android:allowBackup="true"
+24-->/home/suhail/Desktop/SuperQuizzer/app/src/main/AndroidManifest.xml:7:9-35
+25        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+25-->[androidx.core:core:1.9.0] /home/suhail/.gradle/caches/transforms-3/44d6f460890717a72af0cec0fcdbb388/transformed/core-1.9.0/AndroidManifest.xml:28:18-86
+26        android:dataExtractionRules="@xml/data_extraction_rules"
+26-->/home/suhail/Desktop/SuperQuizzer/app/src/main/AndroidManifest.xml:8:9-65
+27        android:debuggable="true"
+28        android:fullBackupContent="@xml/backup_rules"
+28-->/home/suhail/Desktop/SuperQuizzer/app/src/main/AndroidManifest.xml:9:9-54
+29        android:icon="@drawable/superquizzer_logo"
+29-->/home/suhail/Desktop/SuperQuizzer/app/src/main/AndroidManifest.xml:10:9-51
+30        android:label="@string/app_name"
+30-->/home/suhail/Desktop/SuperQuizzer/app/src/main/AndroidManifest.xml:11:9-41
+31        android:roundIcon="@mipmap/ic_launcher_round"
+31-->/home/suhail/Desktop/SuperQuizzer/app/src/main/AndroidManifest.xml:12:9-54
+32        android:supportsRtl="true"
+32-->/home/suhail/Desktop/SuperQuizzer/app/src/main/AndroidManifest.xml:13:9-35
+33        android:testOnly="true"
+34        android:theme="@style/Theme.SuperQuizzer" >
+34-->/home/suhail/Desktop/SuperQuizzer/app/src/main/AndroidManifest.xml:14:9-50
 35        <activity
-35-->/home/suhail/Desktop/SuperQuizzer/app/src/main/AndroidManifest.xml:23:9-26:20
-36            android:name="com.example.superquizzer.RegisterActivity"
-36-->/home/suhail/Desktop/SuperQuizzer/app/src/main/AndroidManifest.xml:24:13-45
-37            android:exported="true" >
-37-->/home/suhail/Desktop/SuperQuizzer/app/src/main/AndroidManifest.xml:25:13-36
-38        </activity>
-39        <activity
-39-->/home/suhail/Desktop/SuperQuizzer/app/src/main/AndroidManifest.xml:27:9-35:20
-40            android:name="com.example.superquizzer.SplashActivity"
-40-->/home/suhail/Desktop/SuperQuizzer/app/src/main/AndroidManifest.xml:28:13-43
-41            android:exported="true" >
-41-->/home/suhail/Desktop/SuperQuizzer/app/src/main/AndroidManifest.xml:29:13-36
-42            <intent-filter>
-42-->/home/suhail/Desktop/SuperQuizzer/app/src/main/AndroidManifest.xml:30:13-34:29
-43                <action android:name="android.intent.action.MAIN" />
-43-->/home/suhail/Desktop/SuperQuizzer/app/src/main/AndroidManifest.xml:31:17-69
-43-->/home/suhail/Desktop/SuperQuizzer/app/src/main/AndroidManifest.xml:31:25-66
-44
-45                <category android:name="android.intent.category.LAUNCHER" />
-45-->/home/suhail/Desktop/SuperQuizzer/app/src/main/AndroidManifest.xml:33:17-77
-45-->/home/suhail/Desktop/SuperQuizzer/app/src/main/AndroidManifest.xml:33:27-74
-46            </intent-filter>
+35-->/home/suhail/Desktop/SuperQuizzer/app/src/main/AndroidManifest.xml:16:9-23:20
+36            android:name="com.example.superquizzer.LoginActivity"
+36-->/home/suhail/Desktop/SuperQuizzer/app/src/main/AndroidManifest.xml:17:13-42
+37            android:exported="true"
+37-->/home/suhail/Desktop/SuperQuizzer/app/src/main/AndroidManifest.xml:18:13-36
+38            android:theme="@style/Theme.MaterialComponents.Light.NoActionBar" >
+38-->/home/suhail/Desktop/SuperQuizzer/app/src/main/AndroidManifest.xml:19:13-78
+39            <meta-data
+39-->/home/suhail/Desktop/SuperQuizzer/app/src/main/AndroidManifest.xml:20:13-22:36
+40                android:name="android.app.lib_name"
+40-->/home/suhail/Desktop/SuperQuizzer/app/src/main/AndroidManifest.xml:21:17-52
+41                android:value="" />
+41-->/home/suhail/Desktop/SuperQuizzer/app/src/main/AndroidManifest.xml:22:17-33
+42        </activity>
+43        <activity
+43-->/home/suhail/Desktop/SuperQuizzer/app/src/main/AndroidManifest.xml:24:9-28:20
+44            android:name="com.example.superquizzer.RegisterActivity"
+44-->/home/suhail/Desktop/SuperQuizzer/app/src/main/AndroidManifest.xml:25:13-45
+45            android:exported="true"
+45-->/home/suhail/Desktop/SuperQuizzer/app/src/main/AndroidManifest.xml:26:13-36
+46            android:theme="@style/Theme.MaterialComponents.Light.NoActionBar" >
+46-->/home/suhail/Desktop/SuperQuizzer/app/src/main/AndroidManifest.xml:27:13-78
 47        </activity>
 48        <activity
-48-->/home/suhail/Desktop/SuperQuizzer/app/src/main/AndroidManifest.xml:36:9-44:20
-49            android:name="com.example.superquizzer.MainActivity"
-49-->/home/suhail/Desktop/SuperQuizzer/app/src/main/AndroidManifest.xml:37:13-41
+48-->/home/suhail/Desktop/SuperQuizzer/app/src/main/AndroidManifest.xml:29:9-37:20
+49            android:name="com.example.superquizzer.SplashActivity"
+49-->/home/suhail/Desktop/SuperQuizzer/app/src/main/AndroidManifest.xml:30:13-43
 50            android:exported="true" >
-50-->/home/suhail/Desktop/SuperQuizzer/app/src/main/AndroidManifest.xml:38:13-36
+50-->/home/suhail/Desktop/SuperQuizzer/app/src/main/AndroidManifest.xml:31:13-36
 51            <intent-filter>
-51-->/home/suhail/Desktop/SuperQuizzer/app/src/main/AndroidManifest.xml:30:13-34:29
+51-->/home/suhail/Desktop/SuperQuizzer/app/src/main/AndroidManifest.xml:32:13-36:29
 52                <action android:name="android.intent.action.MAIN" />
-52-->/home/suhail/Desktop/SuperQuizzer/app/src/main/AndroidManifest.xml:31:17-69
-52-->/home/suhail/Desktop/SuperQuizzer/app/src/main/AndroidManifest.xml:31:25-66
+52-->/home/suhail/Desktop/SuperQuizzer/app/src/main/AndroidManifest.xml:33:17-69
+52-->/home/suhail/Desktop/SuperQuizzer/app/src/main/AndroidManifest.xml:33:25-66
 53
 54                <category android:name="android.intent.category.LAUNCHER" />
-54-->/home/suhail/Desktop/SuperQuizzer/app/src/main/AndroidManifest.xml:33:17-77
-54-->/home/suhail/Desktop/SuperQuizzer/app/src/main/AndroidManifest.xml:33:27-74
+54-->/home/suhail/Desktop/SuperQuizzer/app/src/main/AndroidManifest.xml:35:17-77
+54-->/home/suhail/Desktop/SuperQuizzer/app/src/main/AndroidManifest.xml:35:27-74
 55            </intent-filter>
 56        </activity>
-57
-58        <provider
-58-->[androidx.emoji2:emoji2:1.2.0] /home/suhail/.gradle/caches/transforms-3/433ef41f91b46554937a8b4111342db5/transformed/emoji2-1.2.0/AndroidManifest.xml:24:9-32:20
-59            android:name="androidx.startup.InitializationProvider"
-59-->[androidx.emoji2:emoji2:1.2.0] /home/suhail/.gradle/caches/transforms-3/433ef41f91b46554937a8b4111342db5/transformed/emoji2-1.2.0/AndroidManifest.xml:25:13-67
-60            android:authorities="com.example.superquizzer.androidx-startup"
-60-->[androidx.emoji2:emoji2:1.2.0] /home/suhail/.gradle/caches/transforms-3/433ef41f91b46554937a8b4111342db5/transformed/emoji2-1.2.0/AndroidManifest.xml:26:13-68
-61            android:exported="false" >
-61-->[androidx.emoji2:emoji2:1.2.0] /home/suhail/.gradle/caches/transforms-3/433ef41f91b46554937a8b4111342db5/transformed/emoji2-1.2.0/AndroidManifest.xml:27:13-37
-62            <meta-data
-62-->[androidx.emoji2:emoji2:1.2.0] /home/suhail/.gradle/caches/transforms-3/433ef41f91b46554937a8b4111342db5/transformed/emoji2-1.2.0/AndroidManifest.xml:29:13-31:52
-63                android:name="androidx.emoji2.text.EmojiCompatInitializer"
-63-->[androidx.emoji2:emoji2:1.2.0] /home/suhail/.gradle/caches/transforms-3/433ef41f91b46554937a8b4111342db5/transformed/emoji2-1.2.0/AndroidManifest.xml:30:17-75
-64                android:value="androidx.startup" />
-64-->[androidx.emoji2:emoji2:1.2.0] /home/suhail/.gradle/caches/transforms-3/433ef41f91b46554937a8b4111342db5/transformed/emoji2-1.2.0/AndroidManifest.xml:31:17-49
-65            <meta-data
-65-->[androidx.lifecycle:lifecycle-process:2.4.1] /home/suhail/.gradle/caches/transforms-3/60aa7f6134fa262f6ed065910011efa9/transformed/lifecycle-process-2.4.1/AndroidManifest.xml:31:13-33:52
-66                android:name="androidx.lifecycle.ProcessLifecycleInitializer"
-66-->[androidx.lifecycle:lifecycle-process:2.4.1] /home/suhail/.gradle/caches/transforms-3/60aa7f6134fa262f6ed065910011efa9/transformed/lifecycle-process-2.4.1/AndroidManifest.xml:32:17-78
-67                android:value="androidx.startup" />
-67-->[androidx.lifecycle:lifecycle-process:2.4.1] /home/suhail/.gradle/caches/transforms-3/60aa7f6134fa262f6ed065910011efa9/transformed/lifecycle-process-2.4.1/AndroidManifest.xml:33:17-49
-68        </provider>
-69    </application>
-70
-71</manifest>
+57        <activity
+57-->/home/suhail/Desktop/SuperQuizzer/app/src/main/AndroidManifest.xml:38:9-46:20
+58            android:name="com.example.superquizzer.MainActivity"
+58-->/home/suhail/Desktop/SuperQuizzer/app/src/main/AndroidManifest.xml:39:13-41
+59            android:exported="true" >
+59-->/home/suhail/Desktop/SuperQuizzer/app/src/main/AndroidManifest.xml:40:13-36
+60            <intent-filter>
+60-->/home/suhail/Desktop/SuperQuizzer/app/src/main/AndroidManifest.xml:32:13-36:29
+61                <action android:name="android.intent.action.MAIN" />
+61-->/home/suhail/Desktop/SuperQuizzer/app/src/main/AndroidManifest.xml:33:17-69
+61-->/home/suhail/Desktop/SuperQuizzer/app/src/main/AndroidManifest.xml:33:25-66
+62
+63                <category android:name="android.intent.category.LAUNCHER" />
+63-->/home/suhail/Desktop/SuperQuizzer/app/src/main/AndroidManifest.xml:35:17-77
+63-->/home/suhail/Desktop/SuperQuizzer/app/src/main/AndroidManifest.xml:35:27-74
+64            </intent-filter>
+65        </activity>
+66
+67        <service
+67-->[com.google.firebase:firebase-auth-ktx:21.1.0] /home/suhail/.gradle/caches/transforms-3/4ec8f080d2b81a6ef7d86af77ce7150e/transformed/firebase-auth-ktx-21.1.0/AndroidManifest.xml:8:9-14:19
+68            android:name="com.google.firebase.components.ComponentDiscoveryService"
+68-->[com.google.firebase:firebase-auth-ktx:21.1.0] /home/suhail/.gradle/caches/transforms-3/4ec8f080d2b81a6ef7d86af77ce7150e/transformed/firebase-auth-ktx-21.1.0/AndroidManifest.xml:9:13-84
+69            android:directBootAware="true"
+69-->[com.google.firebase:firebase-common:20.2.0] /home/suhail/.gradle/caches/transforms-3/49cc28900d46869c103f95dcb16c5896/transformed/firebase-common-20.2.0/AndroidManifest.xml:34:13-43
+70            android:exported="false" >
+70-->[com.google.firebase:firebase-auth-ktx:21.1.0] /home/suhail/.gradle/caches/transforms-3/4ec8f080d2b81a6ef7d86af77ce7150e/transformed/firebase-auth-ktx-21.1.0/AndroidManifest.xml:10:13-37
+71            <meta-data
+71-->[com.google.firebase:firebase-auth-ktx:21.1.0] /home/suhail/.gradle/caches/transforms-3/4ec8f080d2b81a6ef7d86af77ce7150e/transformed/firebase-auth-ktx-21.1.0/AndroidManifest.xml:11:13-13:85
+72                android:name="com.google.firebase.components:com.google.firebase.auth.ktx.FirebaseAuthKtxRegistrar"
+72-->[com.google.firebase:firebase-auth-ktx:21.1.0] /home/suhail/.gradle/caches/transforms-3/4ec8f080d2b81a6ef7d86af77ce7150e/transformed/firebase-auth-ktx-21.1.0/AndroidManifest.xml:12:17-116
+73                android:value="com.google.firebase.components.ComponentRegistrar" />
+73-->[com.google.firebase:firebase-auth-ktx:21.1.0] /home/suhail/.gradle/caches/transforms-3/4ec8f080d2b81a6ef7d86af77ce7150e/transformed/firebase-auth-ktx-21.1.0/AndroidManifest.xml:13:17-82
+74            <meta-data
+74-->[com.google.firebase:firebase-analytics-ktx:21.2.0] /home/suhail/.gradle/caches/transforms-3/25a5aa4c295b3b6a99143a1c7271aca4/transformed/firebase-analytics-ktx-21.2.0/AndroidManifest.xml:11:13-13:85
+75                android:name="com.google.firebase.components:com.google.firebase.analytics.ktx.FirebaseAnalyticsKtxRegistrar"
+75-->[com.google.firebase:firebase-analytics-ktx:21.2.0] /home/suhail/.gradle/caches/transforms-3/25a5aa4c295b3b6a99143a1c7271aca4/transformed/firebase-analytics-ktx-21.2.0/AndroidManifest.xml:12:17-126
+76                android:value="com.google.firebase.components.ComponentRegistrar" />
+76-->[com.google.firebase:firebase-analytics-ktx:21.2.0] /home/suhail/.gradle/caches/transforms-3/25a5aa4c295b3b6a99143a1c7271aca4/transformed/firebase-analytics-ktx-21.2.0/AndroidManifest.xml:13:17-82
+77            <meta-data
+77-->[com.google.firebase:firebase-common-ktx:20.2.0] /home/suhail/.gradle/caches/transforms-3/3beeb9e80d0239f7667077b9dbb6c501/transformed/firebase-common-ktx-20.2.0/AndroidManifest.xml:14:13-16:85
+78                android:name="com.google.firebase.components:com.google.firebase.ktx.FirebaseCommonKtxRegistrar"
+78-->[com.google.firebase:firebase-common-ktx:20.2.0] /home/suhail/.gradle/caches/transforms-3/3beeb9e80d0239f7667077b9dbb6c501/transformed/firebase-common-ktx-20.2.0/AndroidManifest.xml:15:17-113
+79                android:value="com.google.firebase.components.ComponentRegistrar" />
+79-->[com.google.firebase:firebase-common-ktx:20.2.0] /home/suhail/.gradle/caches/transforms-3/3beeb9e80d0239f7667077b9dbb6c501/transformed/firebase-common-ktx-20.2.0/AndroidManifest.xml:16:17-82
+80            <meta-data
+80-->[com.google.firebase:firebase-auth:21.1.0] /home/suhail/.gradle/caches/transforms-3/f1aec9d1eabdc449260f5fdb31676a69/transformed/firebase-auth-21.1.0/AndroidManifest.xml:67:13-69:85
+81                android:name="com.google.firebase.components:com.google.firebase.auth.FirebaseAuthRegistrar"
+81-->[com.google.firebase:firebase-auth:21.1.0] /home/suhail/.gradle/caches/transforms-3/f1aec9d1eabdc449260f5fdb31676a69/transformed/firebase-auth-21.1.0/AndroidManifest.xml:68:17-109
+82                android:value="com.google.firebase.components.ComponentRegistrar" />
+82-->[com.google.firebase:firebase-auth:21.1.0] /home/suhail/.gradle/caches/transforms-3/f1aec9d1eabdc449260f5fdb31676a69/transformed/firebase-auth-21.1.0/AndroidManifest.xml:69:17-82
+83            <meta-data
+83-->[com.google.android.gms:play-services-measurement-api:21.2.0] /home/suhail/.gradle/caches/transforms-3/67aca99494fa5dfc07e0db0c665fa25e/transformed/play-services-measurement-api-21.2.0/AndroidManifest.xml:31:13-33:85
+84                android:name="com.google.firebase.components:com.google.firebase.analytics.connector.internal.AnalyticsConnectorRegistrar"
+84-->[com.google.android.gms:play-services-measurement-api:21.2.0] /home/suhail/.gradle/caches/transforms-3/67aca99494fa5dfc07e0db0c665fa25e/transformed/play-services-measurement-api-21.2.0/AndroidManifest.xml:32:17-139
+85                android:value="com.google.firebase.components.ComponentRegistrar" />
+85-->[com.google.android.gms:play-services-measurement-api:21.2.0] /home/suhail/.gradle/caches/transforms-3/67aca99494fa5dfc07e0db0c665fa25e/transformed/play-services-measurement-api-21.2.0/AndroidManifest.xml:33:17-82
+86            <meta-data
+86-->[com.google.firebase:firebase-installations:17.0.1] /home/suhail/.gradle/caches/transforms-3/cb54c842e6e2608c0faacce0cec5f763/transformed/firebase-installations-17.0.1/AndroidManifest.xml:18:13-20:85
+87                android:name="com.google.firebase.components:com.google.firebase.installations.FirebaseInstallationsRegistrar"
+87-->[com.google.firebase:firebase-installations:17.0.1] /home/suhail/.gradle/caches/transforms-3/cb54c842e6e2608c0faacce0cec5f763/transformed/firebase-installations-17.0.1/AndroidManifest.xml:19:17-127
+88                android:value="com.google.firebase.components.ComponentRegistrar" />
+88-->[com.google.firebase:firebase-installations:17.0.1] /home/suhail/.gradle/caches/transforms-3/cb54c842e6e2608c0faacce0cec5f763/transformed/firebase-installations-17.0.1/AndroidManifest.xml:20:17-82
+89        </service>
+90
+91        <activity
+91-->[com.google.firebase:firebase-auth:21.1.0] /home/suhail/.gradle/caches/transforms-3/f1aec9d1eabdc449260f5fdb31676a69/transformed/firebase-auth-21.1.0/AndroidManifest.xml:27:9-44:20
+92            android:name="com.google.firebase.auth.internal.GenericIdpActivity"
+92-->[com.google.firebase:firebase-auth:21.1.0] /home/suhail/.gradle/caches/transforms-3/f1aec9d1eabdc449260f5fdb31676a69/transformed/firebase-auth-21.1.0/AndroidManifest.xml:28:13-80
+93            android:excludeFromRecents="true"
+93-->[com.google.firebase:firebase-auth:21.1.0] /home/suhail/.gradle/caches/transforms-3/f1aec9d1eabdc449260f5fdb31676a69/transformed/firebase-auth-21.1.0/AndroidManifest.xml:29:13-46
+94            android:exported="true"
+94-->[com.google.firebase:firebase-auth:21.1.0] /home/suhail/.gradle/caches/transforms-3/f1aec9d1eabdc449260f5fdb31676a69/transformed/firebase-auth-21.1.0/AndroidManifest.xml:30:13-36
+95            android:launchMode="singleTask"
+95-->[com.google.firebase:firebase-auth:21.1.0] /home/suhail/.gradle/caches/transforms-3/f1aec9d1eabdc449260f5fdb31676a69/transformed/firebase-auth-21.1.0/AndroidManifest.xml:31:13-44
+96            android:theme="@android:style/Theme.Translucent.NoTitleBar" >
+96-->[com.google.firebase:firebase-auth:21.1.0] /home/suhail/.gradle/caches/transforms-3/f1aec9d1eabdc449260f5fdb31676a69/transformed/firebase-auth-21.1.0/AndroidManifest.xml:32:13-72
+97            <intent-filter>
+97-->[com.google.firebase:firebase-auth:21.1.0] /home/suhail/.gradle/caches/transforms-3/f1aec9d1eabdc449260f5fdb31676a69/transformed/firebase-auth-21.1.0/AndroidManifest.xml:33:13-43:29
+98                <action android:name="android.intent.action.VIEW" />
+98-->[com.google.firebase:firebase-auth:21.1.0] /home/suhail/.gradle/caches/transforms-3/f1aec9d1eabdc449260f5fdb31676a69/transformed/firebase-auth-21.1.0/AndroidManifest.xml:34:17-69
+98-->[com.google.firebase:firebase-auth:21.1.0] /home/suhail/.gradle/caches/transforms-3/f1aec9d1eabdc449260f5fdb31676a69/transformed/firebase-auth-21.1.0/AndroidManifest.xml:34:25-66
+99
+100                <category android:name="android.intent.category.DEFAULT" />
+100-->[com.google.firebase:firebase-auth:21.1.0] /home/suhail/.gradle/caches/transforms-3/f1aec9d1eabdc449260f5fdb31676a69/transformed/firebase-auth-21.1.0/AndroidManifest.xml:36:17-76
+100-->[com.google.firebase:firebase-auth:21.1.0] /home/suhail/.gradle/caches/transforms-3/f1aec9d1eabdc449260f5fdb31676a69/transformed/firebase-auth-21.1.0/AndroidManifest.xml:36:27-73
+101                <category android:name="android.intent.category.BROWSABLE" />
+101-->[com.google.firebase:firebase-auth:21.1.0] /home/suhail/.gradle/caches/transforms-3/f1aec9d1eabdc449260f5fdb31676a69/transformed/firebase-auth-21.1.0/AndroidManifest.xml:37:17-78
+101-->[com.google.firebase:firebase-auth:21.1.0] /home/suhail/.gradle/caches/transforms-3/f1aec9d1eabdc449260f5fdb31676a69/transformed/firebase-auth-21.1.0/AndroidManifest.xml:37:27-75
+102
+103                <data
+103-->[com.google.firebase:firebase-auth:21.1.0] /home/suhail/.gradle/caches/transforms-3/f1aec9d1eabdc449260f5fdb31676a69/transformed/firebase-auth-21.1.0/AndroidManifest.xml:39:17-42:51
+104                    android:host="firebase.auth"
+104-->[com.google.firebase:firebase-auth:21.1.0] /home/suhail/.gradle/caches/transforms-3/f1aec9d1eabdc449260f5fdb31676a69/transformed/firebase-auth-21.1.0/AndroidManifest.xml:40:21-49
+105                    android:path="/"
+105-->[com.google.firebase:firebase-auth:21.1.0] /home/suhail/.gradle/caches/transforms-3/f1aec9d1eabdc449260f5fdb31676a69/transformed/firebase-auth-21.1.0/AndroidManifest.xml:41:21-37
+106                    android:scheme="genericidp" />
+106-->[com.google.firebase:firebase-auth:21.1.0] /home/suhail/.gradle/caches/transforms-3/f1aec9d1eabdc449260f5fdb31676a69/transformed/firebase-auth-21.1.0/AndroidManifest.xml:42:21-48
+107            </intent-filter>
+108        </activity>
+109        <activity
+109-->[com.google.firebase:firebase-auth:21.1.0] /home/suhail/.gradle/caches/transforms-3/f1aec9d1eabdc449260f5fdb31676a69/transformed/firebase-auth-21.1.0/AndroidManifest.xml:45:9-62:20
+110            android:name="com.google.firebase.auth.internal.RecaptchaActivity"
+110-->[com.google.firebase:firebase-auth:21.1.0] /home/suhail/.gradle/caches/transforms-3/f1aec9d1eabdc449260f5fdb31676a69/transformed/firebase-auth-21.1.0/AndroidManifest.xml:46:13-79
+111            android:excludeFromRecents="true"
+111-->[com.google.firebase:firebase-auth:21.1.0] /home/suhail/.gradle/caches/transforms-3/f1aec9d1eabdc449260f5fdb31676a69/transformed/firebase-auth-21.1.0/AndroidManifest.xml:47:13-46
+112            android:exported="true"
+112-->[com.google.firebase:firebase-auth:21.1.0] /home/suhail/.gradle/caches/transforms-3/f1aec9d1eabdc449260f5fdb31676a69/transformed/firebase-auth-21.1.0/AndroidManifest.xml:48:13-36
+113            android:launchMode="singleTask"
+113-->[com.google.firebase:firebase-auth:21.1.0] /home/suhail/.gradle/caches/transforms-3/f1aec9d1eabdc449260f5fdb31676a69/transformed/firebase-auth-21.1.0/AndroidManifest.xml:49:13-44
+114            android:theme="@android:style/Theme.Translucent.NoTitleBar" >
+114-->[com.google.firebase:firebase-auth:21.1.0] /home/suhail/.gradle/caches/transforms-3/f1aec9d1eabdc449260f5fdb31676a69/transformed/firebase-auth-21.1.0/AndroidManifest.xml:50:13-72
+115            <intent-filter>
+115-->[com.google.firebase:firebase-auth:21.1.0] /home/suhail/.gradle/caches/transforms-3/f1aec9d1eabdc449260f5fdb31676a69/transformed/firebase-auth-21.1.0/AndroidManifest.xml:51:13-61:29
+116                <action android:name="android.intent.action.VIEW" />
+116-->[com.google.firebase:firebase-auth:21.1.0] /home/suhail/.gradle/caches/transforms-3/f1aec9d1eabdc449260f5fdb31676a69/transformed/firebase-auth-21.1.0/AndroidManifest.xml:34:17-69
+116-->[com.google.firebase:firebase-auth:21.1.0] /home/suhail/.gradle/caches/transforms-3/f1aec9d1eabdc449260f5fdb31676a69/transformed/firebase-auth-21.1.0/AndroidManifest.xml:34:25-66
+117
+118                <category android:name="android.intent.category.DEFAULT" />
+118-->[com.google.firebase:firebase-auth:21.1.0] /home/suhail/.gradle/caches/transforms-3/f1aec9d1eabdc449260f5fdb31676a69/transformed/firebase-auth-21.1.0/AndroidManifest.xml:36:17-76
+118-->[com.google.firebase:firebase-auth:21.1.0] /home/suhail/.gradle/caches/transforms-3/f1aec9d1eabdc449260f5fdb31676a69/transformed/firebase-auth-21.1.0/AndroidManifest.xml:36:27-73
+119                <category android:name="android.intent.category.BROWSABLE" />
+119-->[com.google.firebase:firebase-auth:21.1.0] /home/suhail/.gradle/caches/transforms-3/f1aec9d1eabdc449260f5fdb31676a69/transformed/firebase-auth-21.1.0/AndroidManifest.xml:37:17-78
+119-->[com.google.firebase:firebase-auth:21.1.0] /home/suhail/.gradle/caches/transforms-3/f1aec9d1eabdc449260f5fdb31676a69/transformed/firebase-auth-21.1.0/AndroidManifest.xml:37:27-75
+120
+121                <data
+121-->[com.google.firebase:firebase-auth:21.1.0] /home/suhail/.gradle/caches/transforms-3/f1aec9d1eabdc449260f5fdb31676a69/transformed/firebase-auth-21.1.0/AndroidManifest.xml:39:17-42:51
+122                    android:host="firebase.auth"
+122-->[com.google.firebase:firebase-auth:21.1.0] /home/suhail/.gradle/caches/transforms-3/f1aec9d1eabdc449260f5fdb31676a69/transformed/firebase-auth-21.1.0/AndroidManifest.xml:40:21-49
+123                    android:path="/"
+123-->[com.google.firebase:firebase-auth:21.1.0] /home/suhail/.gradle/caches/transforms-3/f1aec9d1eabdc449260f5fdb31676a69/transformed/firebase-auth-21.1.0/AndroidManifest.xml:41:21-37
+124                    android:scheme="recaptcha" />
+124-->[com.google.firebase:firebase-auth:21.1.0] /home/suhail/.gradle/caches/transforms-3/f1aec9d1eabdc449260f5fdb31676a69/transformed/firebase-auth-21.1.0/AndroidManifest.xml:42:21-48
+125            </intent-filter>
+126        </activity>
+127
+128        <provider
+128-->[com.google.firebase:firebase-common:20.2.0] /home/suhail/.gradle/caches/transforms-3/49cc28900d46869c103f95dcb16c5896/transformed/firebase-common-20.2.0/AndroidManifest.xml:25:9-30:39
+129            android:name="com.google.firebase.provider.FirebaseInitProvider"
+129-->[com.google.firebase:firebase-common:20.2.0] /home/suhail/.gradle/caches/transforms-3/49cc28900d46869c103f95dcb16c5896/transformed/firebase-common-20.2.0/AndroidManifest.xml:26:13-77
+130            android:authorities="com.example.superquizzer.firebaseinitprovider"
+130-->[com.google.firebase:firebase-common:20.2.0] /home/suhail/.gradle/caches/transforms-3/49cc28900d46869c103f95dcb16c5896/transformed/firebase-common-20.2.0/AndroidManifest.xml:27:13-72
+131            android:directBootAware="true"
+131-->[com.google.firebase:firebase-common:20.2.0] /home/suhail/.gradle/caches/transforms-3/49cc28900d46869c103f95dcb16c5896/transformed/firebase-common-20.2.0/AndroidManifest.xml:28:13-43
+132            android:exported="false"
+132-->[com.google.firebase:firebase-common:20.2.0] /home/suhail/.gradle/caches/transforms-3/49cc28900d46869c103f95dcb16c5896/transformed/firebase-common-20.2.0/AndroidManifest.xml:29:13-37
+133            android:initOrder="100" />
+133-->[com.google.firebase:firebase-common:20.2.0] /home/suhail/.gradle/caches/transforms-3/49cc28900d46869c103f95dcb16c5896/transformed/firebase-common-20.2.0/AndroidManifest.xml:30:13-36
+134
+135        <activity
+135-->[com.google.android.gms:play-services-base:17.1.0] /home/suhail/.gradle/caches/transforms-3/f05c43bb5da7c97c4b8db981218c6ac5/transformed/play-services-base-17.1.0/AndroidManifest.xml:23:9-26:75
+136            android:name="com.google.android.gms.common.api.GoogleApiActivity"
+136-->[com.google.android.gms:play-services-base:17.1.0] /home/suhail/.gradle/caches/transforms-3/f05c43bb5da7c97c4b8db981218c6ac5/transformed/play-services-base-17.1.0/AndroidManifest.xml:24:13-79
+137            android:exported="false"
+137-->[com.google.android.gms:play-services-base:17.1.0] /home/suhail/.gradle/caches/transforms-3/f05c43bb5da7c97c4b8db981218c6ac5/transformed/play-services-base-17.1.0/AndroidManifest.xml:25:13-37
+138            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+138-->[com.google.android.gms:play-services-base:17.1.0] /home/suhail/.gradle/caches/transforms-3/f05c43bb5da7c97c4b8db981218c6ac5/transformed/play-services-base-17.1.0/AndroidManifest.xml:26:13-72
+139
+140        <receiver
+140-->[com.google.android.gms:play-services-measurement:21.2.0] /home/suhail/.gradle/caches/transforms-3/1fa2ae724cdaacf3c774695803c8026d/transformed/play-services-measurement-21.2.0/AndroidManifest.xml:29:9-33:20
+141            android:name="com.google.android.gms.measurement.AppMeasurementReceiver"
+141-->[com.google.android.gms:play-services-measurement:21.2.0] /home/suhail/.gradle/caches/transforms-3/1fa2ae724cdaacf3c774695803c8026d/transformed/play-services-measurement-21.2.0/AndroidManifest.xml:30:13-85
+142            android:enabled="true"
+142-->[com.google.android.gms:play-services-measurement:21.2.0] /home/suhail/.gradle/caches/transforms-3/1fa2ae724cdaacf3c774695803c8026d/transformed/play-services-measurement-21.2.0/AndroidManifest.xml:31:13-35
+143            android:exported="false" >
+143-->[com.google.android.gms:play-services-measurement:21.2.0] /home/suhail/.gradle/caches/transforms-3/1fa2ae724cdaacf3c774695803c8026d/transformed/play-services-measurement-21.2.0/AndroidManifest.xml:32:13-37
+144        </receiver>
+145
+146        <service
+146-->[com.google.android.gms:play-services-measurement:21.2.0] /home/suhail/.gradle/caches/transforms-3/1fa2ae724cdaacf3c774695803c8026d/transformed/play-services-measurement-21.2.0/AndroidManifest.xml:35:9-38:40
+147            android:name="com.google.android.gms.measurement.AppMeasurementService"
+147-->[com.google.android.gms:play-services-measurement:21.2.0] /home/suhail/.gradle/caches/transforms-3/1fa2ae724cdaacf3c774695803c8026d/transformed/play-services-measurement-21.2.0/AndroidManifest.xml:36:13-84
+148            android:enabled="true"
+148-->[com.google.android.gms:play-services-measurement:21.2.0] /home/suhail/.gradle/caches/transforms-3/1fa2ae724cdaacf3c774695803c8026d/transformed/play-services-measurement-21.2.0/AndroidManifest.xml:37:13-35
+149            android:exported="false" />
+149-->[com.google.android.gms:play-services-measurement:21.2.0] /home/suhail/.gradle/caches/transforms-3/1fa2ae724cdaacf3c774695803c8026d/transformed/play-services-measurement-21.2.0/AndroidManifest.xml:38:13-37
+150        <service
+150-->[com.google.android.gms:play-services-measurement:21.2.0] /home/suhail/.gradle/caches/transforms-3/1fa2ae724cdaacf3c774695803c8026d/transformed/play-services-measurement-21.2.0/AndroidManifest.xml:39:9-43:72
+151            android:name="com.google.android.gms.measurement.AppMeasurementJobService"
+151-->[com.google.android.gms:play-services-measurement:21.2.0] /home/suhail/.gradle/caches/transforms-3/1fa2ae724cdaacf3c774695803c8026d/transformed/play-services-measurement-21.2.0/AndroidManifest.xml:40:13-87
+152            android:enabled="true"
+152-->[com.google.android.gms:play-services-measurement:21.2.0] /home/suhail/.gradle/caches/transforms-3/1fa2ae724cdaacf3c774695803c8026d/transformed/play-services-measurement-21.2.0/AndroidManifest.xml:41:13-35
+153            android:exported="false"
+153-->[com.google.android.gms:play-services-measurement:21.2.0] /home/suhail/.gradle/caches/transforms-3/1fa2ae724cdaacf3c774695803c8026d/transformed/play-services-measurement-21.2.0/AndroidManifest.xml:42:13-37
+154            android:permission="android.permission.BIND_JOB_SERVICE" />
+154-->[com.google.android.gms:play-services-measurement:21.2.0] /home/suhail/.gradle/caches/transforms-3/1fa2ae724cdaacf3c774695803c8026d/transformed/play-services-measurement-21.2.0/AndroidManifest.xml:43:13-69
+155
+156        <meta-data
+156-->[com.google.android.gms:play-services-basement:18.1.0] /home/suhail/.gradle/caches/transforms-3/c58269779e49c135487741256c9e5507/transformed/play-services-basement-18.1.0/AndroidManifest.xml:21:9-23:69
+157            android:name="com.google.android.gms.version"
+157-->[com.google.android.gms:play-services-basement:18.1.0] /home/suhail/.gradle/caches/transforms-3/c58269779e49c135487741256c9e5507/transformed/play-services-basement-18.1.0/AndroidManifest.xml:22:13-58
+158            android:value="@integer/google_play_services_version" />
+158-->[com.google.android.gms:play-services-basement:18.1.0] /home/suhail/.gradle/caches/transforms-3/c58269779e49c135487741256c9e5507/transformed/play-services-basement-18.1.0/AndroidManifest.xml:23:13-66
+159
+160        <provider
+160-->[androidx.emoji2:emoji2:1.2.0] /home/suhail/.gradle/caches/transforms-3/8c36f342eff42498f43f3856a55bfed3/transformed/emoji2-1.2.0/AndroidManifest.xml:24:9-32:20
+161            android:name="androidx.startup.InitializationProvider"
+161-->[androidx.emoji2:emoji2:1.2.0] /home/suhail/.gradle/caches/transforms-3/8c36f342eff42498f43f3856a55bfed3/transformed/emoji2-1.2.0/AndroidManifest.xml:25:13-67
+162            android:authorities="com.example.superquizzer.androidx-startup"
+162-->[androidx.emoji2:emoji2:1.2.0] /home/suhail/.gradle/caches/transforms-3/8c36f342eff42498f43f3856a55bfed3/transformed/emoji2-1.2.0/AndroidManifest.xml:26:13-68
+163            android:exported="false" >
+163-->[androidx.emoji2:emoji2:1.2.0] /home/suhail/.gradle/caches/transforms-3/8c36f342eff42498f43f3856a55bfed3/transformed/emoji2-1.2.0/AndroidManifest.xml:27:13-37
+164            <meta-data
+164-->[androidx.emoji2:emoji2:1.2.0] /home/suhail/.gradle/caches/transforms-3/8c36f342eff42498f43f3856a55bfed3/transformed/emoji2-1.2.0/AndroidManifest.xml:29:13-31:52
+165                android:name="androidx.emoji2.text.EmojiCompatInitializer"
+165-->[androidx.emoji2:emoji2:1.2.0] /home/suhail/.gradle/caches/transforms-3/8c36f342eff42498f43f3856a55bfed3/transformed/emoji2-1.2.0/AndroidManifest.xml:30:17-75
+166                android:value="androidx.startup" />
+166-->[androidx.emoji2:emoji2:1.2.0] /home/suhail/.gradle/caches/transforms-3/8c36f342eff42498f43f3856a55bfed3/transformed/emoji2-1.2.0/AndroidManifest.xml:31:17-49
+167            <meta-data
+167-->[androidx.lifecycle:lifecycle-process:2.4.1] /home/suhail/.gradle/caches/transforms-3/34f353e285381680615f99e6159909e7/transformed/lifecycle-process-2.4.1/AndroidManifest.xml:31:13-33:52
+168                android:name="androidx.lifecycle.ProcessLifecycleInitializer"
+168-->[androidx.lifecycle:lifecycle-process:2.4.1] /home/suhail/.gradle/caches/transforms-3/34f353e285381680615f99e6159909e7/transformed/lifecycle-process-2.4.1/AndroidManifest.xml:32:17-78
+169                android:value="androidx.startup" />
+169-->[androidx.lifecycle:lifecycle-process:2.4.1] /home/suhail/.gradle/caches/transforms-3/34f353e285381680615f99e6159909e7/transformed/lifecycle-process-2.4.1/AndroidManifest.xml:33:17-49
+170        </provider>
+171    </application>
+172
+173</manifest>

@@ -10,6 +10,7 @@ import android.view.View
 import android.widget.*
 import androidx.appcompat.app.AppCompatActivity
 import com.google.firebase.auth.FirebaseAuth
+import com.google.firebase.auth.FirebaseUser
 import com.google.firebase.auth.UserProfileChangeRequest
 
 
@@ -70,12 +71,14 @@ class RegisterActivity : AppCompatActivity() {
                         val updates=UserProfileChangeRequest.Builder()
                             .setDisplayName(name).build()
                         user!!.updateProfile(updates)
+                        updateUI(user)
                         Toast.makeText(this,"Registration Succeeded",Toast.LENGTH_LONG).show()
                     }
                     else
                     {
                         Log.i("TAG",task.exception.toString())
                         Toast.makeText(this,"Registration Failed",Toast.LENGTH_LONG).show()
+                        updateUI(null)
                     }
                 }
 
@@ -103,39 +106,43 @@ class RegisterActivity : AppCompatActivity() {
         }
         if(etEmail?.length()==0)
         {
-            etEmail?.error="email id cannot be blank"
+            etEmail?.error="Email ID cannot be blank"
             return false;
         }
         if(!isEmail(etEmail?.editableText))
         {
-            etEmail?.error="email address is not valid"
+            etEmail?.error="Email Address is not valid."
             return false
         }
         if (etPassword!!.length() == 0) {
-            etPassword!!.error = "Password is required"
+            etPassword!!.error = "Password cannot be blank"
             return false
         } else if (etPassword!!.length() < 8) {
-            etPassword!!.error = "Password must be minimum 8 characters"
+            etPassword!!.error = "Password must be of minimum 8 characters."
             return false
         }
         if(etConfPassword!!.length()==0)
         {
-            etConfPassword!!.error="At first Confirm the password"
+            etConfPassword!!.error="Password and Confirm Password do not match."
             return false
         }
         if(!etConfPassword?.equals(etConfPassword)!!)
         {
-            etConfPassword!!.error="password is not matching"
+            etConfPassword!!.error="Password and Confirm Password do not match."
             return false
         }
         if (cbTermConditions?.isChecked == true) {
             (cbTermConditions!!.text.toString() + " ")
         } else {
             (cbTermConditions!!.text.toString() + "UnChecked")
-            Toast.makeText(this@RegisterActivity,"Check the terms and conditions",Toast.LENGTH_SHORT).show()
+            Toast.makeText(this@RegisterActivity,"Terms and Conditions must be checked.",Toast.LENGTH_SHORT).show()
             return false
         }
         return true
 
+    }
+    private fun updateUI(user: FirebaseUser?){
+        val intent = Intent(this,LoginActivity::class.java)
+        startActivity(intent)
     }
 }
