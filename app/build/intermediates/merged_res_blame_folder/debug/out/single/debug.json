@@ -52,6 +52,10 @@
         "source": "com.example.superquizzer.app-main-40:/layout/activity_register.xml"
     },
     {
+        "merged": "com.example.superquizzer.app-merged_res-38:/layout_activity_forgot_password.xml.flat",
+        "source": "com.example.superquizzer.app-main-40:/layout/activity_forgot_password.xml"
+    },
+    {
         "merged": "com.example.superquizzer.app-merged_res-38:/mipmap-xxhdpi_app_logo2_foreground.png.flat",
         "source": "com.example.superquizzer.app-debug-39:/mipmap-xxhdpi/app_logo2_foreground.png"
     },
@@ -90,6 +94,10 @@
     {
         "merged": "com.example.superquizzer.app-merged_res-38:/mipmap-hdpi_app_icon_round.png.flat",
         "source": "com.example.superquizzer.app-debug-39:/mipmap-hdpi/app_icon_round.png"
+    },
+    {
+        "merged": "com.example.superquizzer.app-merged_res-38:/drawable-v24_wave.png.flat",
+        "source": "com.example.superquizzer.app-main-40:/drawable-v24/wave.png"
     },
     {
         "merged": "com.example.superquizzer.app-merged_res-38:/mipmap-xxhdpi_app_logo2.png.flat",

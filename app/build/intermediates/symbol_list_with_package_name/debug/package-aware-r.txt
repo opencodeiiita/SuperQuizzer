@@ -2708,6 +2708,7 @@ drawable test_level_drawable
 drawable tooltip_frame_dark
 drawable tooltip_frame_light
 drawable top_bottom_shape
+drawable wave
 font montserratlight
 id ALT
 id BOTTOM_END
@@ -2952,6 +2953,7 @@ id image
 id imageView
 id imageView2
 id imageView3
+id imageView4
 id immediateStop
 id included
 id indeterminate
@@ -3175,8 +3177,10 @@ id textSpacerNoButtons
 id textSpacerNoTitle
 id textStart
 id textTop
+id textView
 id textView2
 id textView4
+id textView5
 id text_input_end_icon
 id text_input_error_icon
 id text_input_start_icon
@@ -3349,6 +3353,7 @@ layout abc_search_dropdown_item_icons_2line
 layout abc_search_view
 layout abc_select_dialog_material
 layout abc_tooltip
+layout activity_forgot_password
 layout activity_login
 layout activity_main
 layout activity_register
@@ -3516,6 +3521,7 @@ string default_web_client_id
 string don_t_have_an_account
 string email_ID
 string email_id
+string enter_your_e_mail_address_and_we_ll_send_you_an_email_to_reset_your_password
 string error_a11y_label
 string error_icon_content_description
 string exposed_dropdown_menu_content_description
@@ -3525,6 +3531,7 @@ string fallback_menu_item_copy_link
 string fallback_menu_item_open_in_browser
 string fallback_menu_item_share_link
 string first_name
+string forgot_pass
 string forgot_password
 string gcm_defaultSenderId
 string google_api_key
@@ -3646,6 +3653,7 @@ string s
 string search_menu_title
 string sign_up
 string status_bar_notification_info_overflow
+string submit
 string superquizzer
 string superquizzersplash
 string title_activity_login2

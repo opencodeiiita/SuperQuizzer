@@ -34,6 +34,7 @@ drawable ic_launcher_foreground
 drawable superquizzer
 drawable superquizzer_logo
 drawable top_bottom_shape
+drawable wave
 font montserratlight
 id account_register_text
 id back_image
@@ -51,6 +52,7 @@ id guideline5
 id imageView
 id imageView2
 id imageView3
+id imageView4
 id last_name
 id linearlayout_login
 id login
@@ -63,8 +65,11 @@ id password_et
 id register_btn
 id signUpLink
 id terms_cond_cbox
+id textView
 id textView2
 id textView4
+id textView5
+layout activity_forgot_password
 layout activity_login
 layout activity_main
 layout activity_register
@@ -96,7 +101,9 @@ string default_web_client_id
 string don_t_have_an_account
 string email_ID
 string email_id
+string enter_your_e_mail_address_and_we_ll_send_you_an_email_to_reset_your_password
 string first_name
+string forgot_pass
 string forgot_password
 string gcm_defaultSenderId
 string google_api_key
@@ -121,6 +128,7 @@ string prompt_password
 string register
 string s
 string sign_up
+string submit
 string superquizzer
 string superquizzersplash
 string title_activity_login2
