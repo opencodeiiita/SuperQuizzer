@@ -92,11 +92,17 @@ string app_icon
 string app_name
 string confirm_password
 string create_account
+string default_web_client_id
 string don_t_have_an_account
 string email_ID
 string email_id
 string first_name
 string forgot_password
+string gcm_defaultSenderId
+string google_api_key
+string google_app_id
+string google_crash_reporting_api_key
+string google_storage_bucket
 string invalid_password
 string invalid_username
 string last_name
@@ -109,6 +115,7 @@ string nav_open
 string participant
 string password
 string password_text
+string project_id
 string prompt_email
 string prompt_password
 string register

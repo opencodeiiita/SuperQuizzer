@@ -1,10 +1,10 @@
 {
     "logs": [
         {
-            "outputFile": "com.example.superquizzer.app-mergeDebugResources-31:/values-v26/values-v26.xml",
+            "outputFile": "com.example.superquizzer.app-mergeDebugResources-36:/values-v26/values-v26.xml",
             "map": [
                 {
-                    "source": "/home/suhail/.gradle/caches/transforms-3/c88b00e8e120ede438720652258482d3/transformed/appcompat-1.5.1/res/values-v26/values-v26.xml",
+                    "source": "/home/suhail/.gradle/caches/transforms-3/0c57546b4e9f2760f6204e2c95bb8e35/transformed/appcompat-1.5.1/res/values-v26/values-v26.xml",
                     "from": {
                         "startLines": "2,3,4,8,12,16",
                         "startColumns": "4,4,4,4,4,4",
