@@ -33,6 +33,14 @@
         android:testOnly="true"
         android:theme="@style/Theme.SuperQuizzer" >
         <activity
+            android:name="com.example.superquizzer.ForgotPasswordActivity"
+            android:exported="false"
+            android:theme="@style/Theme.MaterialComponents.Light.NoActionBar" >
+            <meta-data
+                android:name="android.app.lib_name"
+                android:value="" />
+        </activity>
+        <activity
             android:name="com.example.superquizzer.LoginActivity"
             android:exported="true"
             android:theme="@style/Theme.MaterialComponents.Light.NoActionBar" >
@@ -43,8 +51,7 @@
         <activity
             android:name="com.example.superquizzer.RegisterActivity"
             android:exported="true"
-            android:theme="@style/Theme.MaterialComponents.Light.NoActionBar" >
-        </activity>
+            android:theme="@style/Theme.MaterialComponents.Light.NoActionBar" />
         <activity
             android:name="com.example.superquizzer.SplashActivity"
             android:exported="true" >
