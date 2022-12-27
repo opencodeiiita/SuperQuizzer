@@ -28,6 +28,7 @@ drawable app_logo2_background
 drawable app_logo_background
 drawable ic_baseline_account_circle_24
 drawable ic_baseline_arrow_back_24
+drawable ic_baseline_arrow_white_back_24
 drawable ic_baseline_lock_24
 drawable ic_launcher_background
 drawable ic_launcher_foreground
@@ -37,9 +38,11 @@ drawable top_bottom_shape
 drawable wave
 font montserratlight
 id account_register_text
+id back_btn
 id back_image
 id conf_password_et
 id constrainLayout
+id constraintLayout_forgot
 id constraintLayoutin
 id drawer_layout
 id editTextTextEmailAddress4
@@ -54,6 +57,7 @@ id imageView2
 id imageView3
 id imageView4
 id last_name
+id linearlayout_forgot
 id linearlayout_login
 id login
 id loginButton
@@ -95,6 +99,7 @@ string already_have_an_account
 string already_have_an_account_login
 string app_icon
 string app_name
+string back_button_for_this_page
 string confirm_password
 string create_account
 string default_web_client_id

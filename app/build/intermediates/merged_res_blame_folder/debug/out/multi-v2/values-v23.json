@@ -4,7 +4,7 @@
             "outputFile": "com.example.superquizzer.app-mergeDebugResources-36:/values-v23/values-v23.xml",
             "map": [
                 {
-                    "source": "C:\\Users\\DigiCraze\\.gradle\\caches\\transforms-3\\ad60a20a8279b16d8bd5235e3a9fad50\\transformed\\material-1.7.0\\res\\values-v23\\values-v23.xml",
+                    "source": "/Users/akshatsingh/.gradle/caches/transforms-3/ad60a20a8279b16d8bd5235e3a9fad50/transformed/material-1.7.0/res/values-v23/values-v23.xml",
                     "from": {
                         "startLines": "2,5,8,13,17,20,23,26,31,34,38",
                         "startColumns": "4,4,4,4,4,4,4,4,4,4,4",
@@ -23,7 +23,7 @@
                     }
                 },
                 {
-                    "source": "C:\\Users\\DigiCraze\\.gradle\\caches\\transforms-3\\91450edd275c9045ba50157aad070aa0\\transformed\\cardview-1.0.0\\res\\values-v23\\values-v23.xml",
+                    "source": "/Users/akshatsingh/.gradle/caches/transforms-3/91450edd275c9045ba50157aad070aa0/transformed/cardview-1.0.0/res/values-v23/values-v23.xml",
                     "from": {
                         "startLines": "2",
                         "startColumns": "4",
@@ -42,7 +42,7 @@
                     }
                 },
                 {
-                    "source": "C:\\Users\\DigiCraze\\.gradle\\caches\\transforms-3\\0c57546b4e9f2760f6204e2c95bb8e35\\transformed\\appcompat-1.5.1\\res\\values-v23\\values-v23.xml",
+                    "source": "/Users/akshatsingh/.gradle/caches/transforms-3/0c57546b4e9f2760f6204e2c95bb8e35/transformed/appcompat-1.5.1/res/values-v23/values-v23.xml",
                     "from": {
                         "startLines": "2,3,4,5,6,20,34,35,36,39,43,44,45,46",
                         "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4,4",
