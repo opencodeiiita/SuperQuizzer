@@ -280,6 +280,10 @@
         "source": "com.example.superquizzer.app-debug-39:/mipmap-xxhdpi/app_icon.png"
     },
     {
+        "merged": "com.example.superquizzer.app-merged_res-38:/drawable_ic_baseline_arrow_white_back_24.xml.flat",
+        "source": "com.example.superquizzer.app-main-40:/drawable/ic_baseline_arrow_white_back_24.xml"
+    },
+    {
         "merged": "com.example.superquizzer.app-merged_res-38:/mipmap-xxxhdpi_ic_launcher_round.webp.flat",
         "source": "com.example.superquizzer.app-main-40:/mipmap-xxxhdpi/ic_launcher_round.webp"
     },

@@ -11,20 +11,23 @@ import android.widget.Button
 import android.widget.EditText
 import android.widget.Toast
 import com.example.superquizzer.databinding.ActivityLoginBinding
+import com.google.firebase.auth.FirebaseAuth
+import com.google.firebase.auth.FirebaseAuthInvalidCredentialsException
+import com.google.firebase.auth.FirebaseAuthInvalidUserException
 
 class LoginActivity : AppCompatActivity() {
     private var etEmail:EditText?=null
     private var etPassword:EditText?=null
     private var bLogin:Button?=null
     private var isAllDetailsChecked=false
-
+    lateinit var auth: FirebaseAuth
     private lateinit var binding: ActivityLoginBinding
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         binding = ActivityLoginBinding.inflate(layoutInflater)
         val view = binding.root
         setContentView(view)
-
+        auth = FirebaseAuth.getInstance()
         etEmail=binding.editTextTextEmailAddress4
         etPassword=binding.editTextTextPassword2
         bLogin=binding.loginButton
@@ -47,9 +50,27 @@ class LoginActivity : AppCompatActivity() {
         bLogin?.setOnClickListener {
             if(validateLoginDetails())
             {
-                Toast.makeText(this@LoginActivity,"Login Succeeded",Toast.LENGTH_LONG).show()
-                val intent = Intent(this@LoginActivity, MainActivity::class.java)
-                startActivity(intent)
+                val email = etEmail!!.text.toString()
+                val password = etPassword!!.text.toString()
+                auth.signInWithEmailAndPassword(email,password).addOnCompleteListener(this){ task->
+                    if(task.isSuccessful) {
+                        Toast.makeText(this@LoginActivity, "Login Succeeded", Toast.LENGTH_LONG).show()
+                        val intent = Intent(this@LoginActivity, MainActivity::class.java)
+                        startActivity(intent)
+                    }
+                    else {
+                        try{
+                            throw task.exception!!
+                        }
+                        catch(e: FirebaseAuthInvalidUserException){
+                            etEmail!!.error = "User does not exist. Please register again."
+                        }
+                        catch (e: FirebaseAuthInvalidCredentialsException){
+                            etEmail!!.error = "Invalid credentials. Kindly check and re-enter."
+                        }
+                        Toast.makeText(this,"Login Failed",Toast.LENGTH_LONG).show()
+                    }
+                }
             }
 
         }
