@@ -37,4 +37,6 @@
     <string name="enter_your_e_mail_address_and_we_ll_send_you_an_email_to_reset_your_password">Enter your e-mail address and we\'ll send you an email to reset your password.</string>
     <string name="submit">Submit</string>
     <string name="back_button_for_this_page">Back button</string>
+    <string name="design">design</string>
+    <string name="back">back</string>
 </resources>
