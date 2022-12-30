@@ -14,4 +14,18 @@
         <!-- Customize your theme here. -->
         <item name="android:fontFamily">@font/montserratlight</item>
     </style>
+
+    <style name="CustomAlertDialog" parent="Theme.AppCompat.Light.Dialog.Alert">
+        <!--Background Color-->
+        <item name="android:background">@color/white</item>
+        <!--Buttons Colors-->
+        <item name="colorAccent">@color/secondary</item>
+        <!--Title and Messages Color-->
+        <item name="android:textColorPrimary">@color/alert</item>
+        <item name="android:textSize">18sp</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:negativeButtonText">bold</item>
+        <item name="android:positiveButtonText">bold</item>
+        <item name="android:dialogTitle">bold</item>
+    </style>
 </resources>
