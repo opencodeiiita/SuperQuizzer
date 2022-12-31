@@ -10,13 +10,7 @@
 -->
 <resources>
     <item name="participant" type="string">
-      
-        
-        
-        
-        
-        
-        
+     
         <participant>
             <name>Ribhav Bansal</name>
             <github_id>RibhavBansal</github_id>
@@ -43,6 +37,7 @@
             <name>Aastha</name>
             <github_id>aasthaaaa7</github_id>
         </participant>
+        
         <participant>
             <name>Sumit Das</name>
             <github_id>unreasonable2003</github_id>
@@ -63,6 +58,7 @@
             <name>Abhinav Anand</name>
             <github_id>IEC2021103Abhinav</github_id>
         </participant>
+        
        <participant>
             <name>Pragya Pal</name>
             <github_id>pragya1976</github_id>
