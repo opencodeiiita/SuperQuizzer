@@ -1271,6 +1271,7 @@ color abc_tint_spinner
 color abc_tint_switch_track
 color accent_material_dark
 color accent_material_light
+color alert
 color alternative
 color androidx_core_ripple_material_light
 color androidx_core_secondary_text_default_material_light
@@ -2623,7 +2624,9 @@ drawable googleg_standard_color_18
 drawable ic_baseline_account_circle_24
 drawable ic_baseline_arrow_back_24
 drawable ic_baseline_arrow_white_back_24
+drawable ic_baseline_email_24
 drawable ic_baseline_lock_24
+drawable ic_baseline_remove_red_eye_24
 drawable ic_clock_black_24dp
 drawable ic_keyboard_black_24dp
 drawable ic_launcher_background
@@ -2938,8 +2941,6 @@ id group_divider
 id grouping
 id groups
 id guideline
-id guideline4
-id guideline5
 id header_title
 id hideable
 id home
@@ -2957,6 +2958,7 @@ id imageView
 id imageView2
 id imageView3
 id imageView4
+id imageView5
 id immediateStop
 id included
 id indeterminate
@@ -3044,6 +3046,7 @@ id multiply
 id nav_account
 id nav_logout
 id nav_settings
+id nav_view
 id navigation_bar_item_active_indicator_view
 id navigation_bar_item_icon_container
 id navigation_bar_item_icon_view
@@ -3210,6 +3213,7 @@ id transition_position
 id transition_scene_layoutid_cache
 id transition_transform
 id triangle
+id tv_progress_text
 id unchecked
 id uniform
 id unlabeled
@@ -3380,6 +3384,7 @@ layout design_navigation_menu
 layout design_navigation_menu_item
 layout design_text_input_end_icon
 layout design_text_input_start_icon
+layout dialog_progress
 layout m3_alert_dialog
 layout m3_alert_dialog_actions
 layout m3_alert_dialog_title
@@ -3490,6 +3495,7 @@ string androidx_startup
 string app_icon
 string app_name
 string appbar_scrolling_view_behavior
+string back
 string back_button_for_this_page
 string bottom_sheet_behavior
 string bottomsheet_action_collapse
@@ -3523,6 +3529,7 @@ string confirm_password
 string copy_toast_msg
 string create_account
 string default_web_client_id
+string design
 string don_t_have_an_account
 string email_ID
 string email_id
@@ -3650,6 +3657,7 @@ string path_password_eye
 string path_password_eye_mask_strike_through
 string path_password_eye_mask_visible
 string path_password_strike_through
+string please_wait
 string project_id
 string prompt_email
 string prompt_password
@@ -3936,6 +3944,7 @@ style Base_Widget_MaterialComponents_TextView
 style CardView
 style CardView_Dark
 style CardView_Light
+style CustomAlertDialog
 style MaterialAlertDialog_Material3
 style MaterialAlertDialog_Material3_Body_Text
 style MaterialAlertDialog_Material3_Body_Text_CenterStacked

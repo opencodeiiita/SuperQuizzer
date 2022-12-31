@@ -1,5 +1,6 @@
 package com.example.superquizzer
 
+import android.app.Dialog
 import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
@@ -9,6 +10,7 @@ import android.util.Patterns
 import android.view.WindowManager
 import android.widget.Button
 import android.widget.EditText
+import android.widget.TextView
 import android.widget.Toast
 import com.example.superquizzer.databinding.ActivityLoginBinding
 import com.google.firebase.auth.FirebaseAuth
@@ -22,6 +24,7 @@ class LoginActivity : AppCompatActivity() {
     private var isAllDetailsChecked=false
     lateinit var auth: FirebaseAuth
     private lateinit var binding: ActivityLoginBinding
+    private lateinit var mProgressDialog: Dialog
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         binding = ActivityLoginBinding.inflate(layoutInflater)
@@ -50,9 +53,11 @@ class LoginActivity : AppCompatActivity() {
         bLogin?.setOnClickListener {
             if(validateLoginDetails())
             {
+                showProgressDialog(resources.getString(R.string.please_wait))
                 val email = etEmail!!.text.toString()
                 val password = etPassword!!.text.toString()
                 auth.signInWithEmailAndPassword(email,password).addOnCompleteListener(this){ task->
+                    hideProgressDialog()
                     if(task.isSuccessful) {
                         Toast.makeText(this@LoginActivity, "Login Succeeded", Toast.LENGTH_LONG).show()
                         val intent = Intent(this@LoginActivity, MainActivity::class.java)
@@ -110,6 +115,27 @@ class LoginActivity : AppCompatActivity() {
             return false
         }
         return true
+    }
+
+    fun showProgressDialog(text: String) {
+        mProgressDialog = Dialog(this)
+
+        /*Set the screen content from a layout resource.
+        The resource will be inflated, adding all top-level views to the screen.*/
+        mProgressDialog.setContentView(R.layout.dialog_progress)
+
+        mProgressDialog.findViewById<TextView>(R.id.tv_progress_text).text = text
+
+        mProgressDialog.setCancelable(false)
+        mProgressDialog.setCanceledOnTouchOutside(false)
+
+        //Start the dialog and display it on screen.
+        mProgressDialog.show()
+    }
+
+    fun hideProgressDialog() {
+        mProgressDialog.dismiss()
+
     }
 
 }

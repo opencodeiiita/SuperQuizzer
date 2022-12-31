@@ -1,5 +1,6 @@
 package com.example.superquizzer
 
+import android.app.Dialog
 import android.content.Intent
 import android.os.Bundle
 import android.text.Editable
@@ -19,6 +20,7 @@ class RegisterActivity : AppCompatActivity() {
         lateinit var auth: FirebaseAuth
 
     }
+    private lateinit var mProgressDialog: Dialog
     //buttons
     var bRegister:Button?=null
     //edit text
@@ -70,8 +72,10 @@ class RegisterActivity : AppCompatActivity() {
         val name=etFirstName?.text.toString()+etLastName?.text.toString()
         isAllEditTextCheck=CheckAllEditText()
         if(isAllEditTextCheck){
+            showProgressDialog(resources.getString(R.string.please_wait))
             auth.createUserWithEmailAndPassword(email,password)
                 .addOnCompleteListener(this){task->
+                    hideProgressDialog()
                     if(task.isSuccessful)
                     {
                         val user=auth.currentUser
@@ -79,6 +83,8 @@ class RegisterActivity : AppCompatActivity() {
                             .setDisplayName(name).build()
                         user!!.updateProfile(updates)
                         Toast.makeText(this,"Registration Succeeded",Toast.LENGTH_LONG).show()
+                        val intent=Intent(this@RegisterActivity,LoginActivity::class.java)
+                        startActivity(intent)
                     }
                     else
                     {
@@ -111,29 +117,29 @@ class RegisterActivity : AppCompatActivity() {
         }
         if(etEmail?.length()==0)
         {
-            etEmail?.error="email id cannot be blank"
+            etEmail?.error="Email ID cannot be blank"
             return false;
         }
         if(!isEmail(etEmail?.editableText))
         {
-            etEmail?.error="email address is not valid"
+            etEmail?.error="The email address is invalid"
             return false
         }
         if (etPassword!!.length() == 0) {
-            etPassword!!.error = "Password is required"
+            etPassword!!.error = "Password cannot be blank"
             return false
         } else if (etPassword!!.length() < 8) {
-            etPassword!!.error = "Password must be minimum 8 characters"
+            etPassword!!.error = "Password must be of minimum 8 characters"
             return false
         }
         if(etConfPassword!!.length()==0)
         {
-            etConfPassword!!.error="At first Confirm the password"
+            etConfPassword!!.error="Confirm your password first."
             return false
         }
         if(!etConfPassword?.equals(etConfPassword)!!)
         {
-            etConfPassword!!.error="password is not matching"
+            etConfPassword!!.error="The passwords do not match."
             return false
         }
         if (cbTermConditions?.isChecked == true) {
@@ -146,4 +152,24 @@ class RegisterActivity : AppCompatActivity() {
         return true
 
     }
+    fun showProgressDialog(text: String) {
+        mProgressDialog = Dialog(this)
+
+        /*Set the screen content from a layout resource.
+        The resource will be inflated, adding all top-level views to the screen.*/
+        mProgressDialog.setContentView(R.layout.dialog_progress)
+
+        mProgressDialog.findViewById<TextView>(R.id.tv_progress_text).text = text
+
+        mProgressDialog.setCancelable(false)
+        mProgressDialog.setCanceledOnTouchOutside(false)
+
+        //Start the dialog and display it on screen.
+        mProgressDialog.show()
+    }
+
+    fun hideProgressDialog() {
+        mProgressDialog.dismiss()
+    }
+
 }

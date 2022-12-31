@@ -4,6 +4,7 @@ anim slide_in_left
 anim slide_in_right
 anim slide_out_left
 anim slide_out_right
+color alert
 color alternative
 color ashgray
 color background
@@ -29,7 +30,9 @@ drawable app_logo_background
 drawable ic_baseline_account_circle_24
 drawable ic_baseline_arrow_back_24
 drawable ic_baseline_arrow_white_back_24
+drawable ic_baseline_email_24
 drawable ic_baseline_lock_24
+drawable ic_baseline_remove_red_eye_24
 drawable ic_launcher_background
 drawable ic_launcher_foreground
 drawable superquizzer
@@ -50,12 +53,11 @@ id editTextTextPassword2
 id email_et
 id first_name
 id forgotPassword
-id guideline4
-id guideline5
 id imageView
 id imageView2
 id imageView3
 id imageView4
+id imageView5
 id last_name
 id linearlayout_forgot
 id linearlayout_login
@@ -65,6 +67,7 @@ id logoText
 id nav_account
 id nav_logout
 id nav_settings
+id nav_view
 id password_et
 id register_btn
 id signUpLink
@@ -73,11 +76,13 @@ id textView
 id textView2
 id textView4
 id textView5
+id tv_progress_text
 layout activity_forgot_password
 layout activity_login
 layout activity_main
 layout activity_register
 layout activity_splash
+layout dialog_progress
 menu navigation_menu
 mipmap app_icon
 mipmap app_icon_foreground
@@ -99,10 +104,12 @@ string already_have_an_account
 string already_have_an_account_login
 string app_icon
 string app_name
+string back
 string back_button_for_this_page
 string confirm_password
 string create_account
 string default_web_client_id
+string design
 string don_t_have_an_account
 string email_ID
 string email_id
@@ -127,6 +134,7 @@ string nav_open
 string participant
 string password
 string password_text
+string please_wait
 string project_id
 string prompt_email
 string prompt_password
@@ -138,6 +146,7 @@ string superquizzer
 string superquizzersplash
 string title_activity_login2
 string welcome
+style CustomAlertDialog
 style Theme.SuperQuizzer
 xml backup_rules
 xml data_extraction_rules

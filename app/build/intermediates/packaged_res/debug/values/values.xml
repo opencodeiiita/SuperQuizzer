@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources xmlns:ns1="http://schemas.android.com/tools">
+    <color name="alert">#2196F3</color>
     <color name="alternative">#8075FF</color>
     <color name="ashgray">#CAD5CA</color>
     <color name="background">#80CCFF</color>
@@ -24,10 +25,12 @@
     <string name="already_have_an_account_login">Already have an account? Login</string>
     <string name="app_icon">app_icon</string>
     <string name="app_name">SuperQuizzer</string>
+    <string name="back">back</string>
     <string name="back_button_for_this_page">Back button</string>
     <string name="confirm_password">Confirm Password</string>
     <string name="create_account">Create Account</string>
     <string name="default_web_client_id" translatable="false">169690102426-l07lpd97nd9oevu5cqo44787kl0ns4ae.apps.googleusercontent.com</string>
+    <string name="design">design</string>
     <string name="don_t_have_an_account">Don\'t have an Account ?</string>
     <string name="email_ID">Email ID</string>
     <string name="email_id">Email Id</string>
@@ -50,13 +53,7 @@
     <string name="nav_close">Close</string>
     <string name="nav_open">Open</string>
     <item name="participant" type="string">
-      
-        
-        
-        
-        
-        
-        
+     
         <participant>
             <name>Ribhav Bansal</name>
             <github_id>RibhavBansal</github_id>
@@ -83,6 +80,7 @@
             <name>Aastha</name>
             <github_id>aasthaaaa7</github_id>
         </participant>
+        
         <participant>
             <name>Sumit Das</name>
             <github_id>unreasonable2003</github_id>
@@ -103,6 +101,7 @@
             <name>Abhinav Anand</name>
             <github_id>IEC2021103Abhinav</github_id>
         </participant>
+        
        <participant>
             <name>Pragya Pal</name>
             <github_id>pragya1976</github_id>
@@ -140,11 +139,27 @@
             <github_id>Sonalkri2004</github_id>
         </participant>
 
+        <participant>
+            <name>Atul B Raj</name>
+            <github_id>atulbraj</github_id>
+        </participant>
+        
+        <participant>
+            <name>Ramesh Kumar</name>
+            <github_id>rmsa07</github_id>
+        </participant>
+
+        <participant>
+            <name>Aman Kumar</name>
+            <github_id>itsaman1825</github_id>
+        </participant>
+
 
 
     </item>
     <string name="password">Password</string>
     <string name="password_text">Password</string>
+    <string name="please_wait">Please Wait...</string>
     <string name="project_id" translatable="false">superquizzer-8cb6c</string>
     <string name="prompt_email">Email</string>
     <string name="prompt_password">Password</string>
@@ -156,6 +171,19 @@
     <string name="superquizzersplash">SuperQuizzerSplash</string>
     <string name="title_activity_login2">LoginActivity2</string>
     <string name="welcome">"Welcome !"</string>
+    <style name="CustomAlertDialog" parent="Theme.AppCompat.Light.Dialog.Alert">
+        
+        <item name="android:background">@color/white</item>
+        
+        <item name="colorAccent">@color/secondary</item>
+        
+        <item name="android:textColorPrimary">@color/alert</item>
+        <item name="android:textSize">18sp</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:negativeButtonText">bold</item>
+        <item name="android:positiveButtonText">bold</item>
+        <item name="android:dialogTitle">bold</item>
+    </style>
     <style name="Theme.SuperQuizzer" parent="Theme.MaterialComponents.Light">
         
         <item name="colorPrimary">@color/btnback</item>
