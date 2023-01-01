@@ -12,9 +12,15 @@ import android.widget.EditText
 import android.widget.ImageView
 import android.widget.Toast
 import com.example.superquizzer.databinding.ActivityForgotPasswordBinding
+import com.google.firebase.auth.FirebaseAuth
 
 class ForgotPasswordActivity : AppCompatActivity() {
 
+    companion object
+    {
+        lateinit var auth: FirebaseAuth
+
+    }
     private lateinit var binding: ActivityForgotPasswordBinding
     var bBack:ImageView?=null
     var edtEmail:EditText?=null
@@ -28,7 +34,7 @@ class ForgotPasswordActivity : AppCompatActivity() {
         supportActionBar?.hide()
         window.decorView.systemUiVisibility= View.SYSTEM_UI_FLAG_FULLSCREEN
         setContentView(view)
-
+        auth= FirebaseAuth.getInstance()
         bBack=binding.backBtn
         bSubmit=binding.loginButton
         edtEmail=binding.editTextTextEmailAddress4
@@ -39,11 +45,22 @@ class ForgotPasswordActivity : AppCompatActivity() {
         }
 
             bSubmit!!.setOnClickListener {
+                val email= edtEmail!!.text.toString().trim()
                 if(CheckEmail())
                 {
-                    Toast.makeText(this@ForgotPasswordActivity,"Submitted Successfully",Toast.LENGTH_LONG).show()
-                    val intent = Intent(this@ForgotPasswordActivity, LoginActivity::class.java)
-                    startActivity(intent)
+                    auth.sendPasswordResetEmail(email)
+                        .addOnCompleteListener{task->
+                            if(task.isSuccessful)
+                            {
+                                Toast.makeText(this@ForgotPasswordActivity,"Email sent to reset your password",
+                                Toast.LENGTH_LONG).show()
+                                finish()
+                            }
+                            else{
+                                Toast.makeText(this@ForgotPasswordActivity,task.exception!!.message.toString(),
+                                Toast.LENGTH_LONG).show()
+                            }
+                        }
                 }
 
             }
