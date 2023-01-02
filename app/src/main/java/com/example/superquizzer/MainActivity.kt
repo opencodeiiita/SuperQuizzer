@@ -59,6 +59,7 @@ class MainActivity : AppCompatActivity() {
             true
         } else super.onOptionsItemSelected(item)
     }
+    @SuppressLint("SuspiciousIndentation")
     private fun showLogoutDialog()
     {
         val dialogBuilder=AlertDialog.Builder(this,R.style.CustomAlertDialog)
