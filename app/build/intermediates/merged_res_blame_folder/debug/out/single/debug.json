@@ -8,16 +8,20 @@
         "source": "/home/suhail/.gradle/daemon/7.4/com.example.superquizzer.app-debug-39:/mipmap-mdpi/app_icon_foreground.png"
     },
     {
-        "merged": "/home/suhail/.gradle/daemon/7.4/com.example.superquizzer.app-merged_res-38:/mipmap-anydpi-v26_app_logo2_round.xml.flat",
-        "source": "/home/suhail/.gradle/daemon/7.4/com.example.superquizzer.app-debug-39:/mipmap-anydpi-v26/app_logo2_round.xml"
-    },
-    {
         "merged": "/home/suhail/.gradle/daemon/7.4/com.example.superquizzer.app-merged_res-38:/mipmap-xxxhdpi_app_icon.png.flat",
         "source": "/home/suhail/.gradle/daemon/7.4/com.example.superquizzer.app-debug-39:/mipmap-xxxhdpi/app_icon.png"
     },
     {
+        "merged": "/home/suhail/.gradle/daemon/7.4/com.example.superquizzer.app-merged_res-38:/mipmap-anydpi-v26_app_logo2_round.xml.flat",
+        "source": "/home/suhail/.gradle/daemon/7.4/com.example.superquizzer.app-debug-39:/mipmap-anydpi-v26/app_logo2_round.xml"
+    },
+    {
         "merged": "/home/suhail/.gradle/daemon/7.4/com.example.superquizzer.app-merged_res-38:/drawable_app_logo1_background.xml.flat",
         "source": "/home/suhail/.gradle/daemon/7.4/com.example.superquizzer.app-debug-39:/drawable/app_logo1_background.xml"
+    },
+    {
+        "merged": "/home/suhail/.gradle/daemon/7.4/com.example.superquizzer.app-merged_res-38:/drawable_gk.png.flat",
+        "source": "/home/suhail/.gradle/daemon/7.4/com.example.superquizzer.app-main-40:/drawable/gk.png"
     },
     {
         "merged": "/home/suhail/.gradle/daemon/7.4/com.example.superquizzer.app-merged_res-38:/mipmap-xxhdpi_app_logo.png.flat",
@@ -52,12 +56,12 @@
         "source": "/home/suhail/.gradle/daemon/7.4/com.example.superquizzer.app-main-40:/drawable/ic_baseline_email_24.xml"
     },
     {
-        "merged": "/home/suhail/.gradle/daemon/7.4/com.example.superquizzer.app-merged_res-38:/xml_backup_rules.xml.flat",
-        "source": "/home/suhail/.gradle/daemon/7.4/com.example.superquizzer.app-main-40:/xml/backup_rules.xml"
-    },
-    {
         "merged": "/home/suhail/.gradle/daemon/7.4/com.example.superquizzer.app-merged_res-38:/mipmap-xxxhdpi_ic_launcher_round.webp.flat",
         "source": "/home/suhail/.gradle/daemon/7.4/com.example.superquizzer.app-main-40:/mipmap-xxxhdpi/ic_launcher_round.webp"
+    },
+    {
+        "merged": "/home/suhail/.gradle/daemon/7.4/com.example.superquizzer.app-merged_res-38:/xml_backup_rules.xml.flat",
+        "source": "/home/suhail/.gradle/daemon/7.4/com.example.superquizzer.app-main-40:/xml/backup_rules.xml"
     },
     {
         "merged": "/home/suhail/.gradle/daemon/7.4/com.example.superquizzer.app-merged_res-38:/drawable_ic_baseline_remove_red_eye_24.xml.flat",
@@ -72,20 +76,28 @@
         "source": "/home/suhail/.gradle/daemon/7.4/com.example.superquizzer.app-main-40:/anim/slide_out_left.xml"
     },
     {
+        "merged": "/home/suhail/.gradle/daemon/7.4/com.example.superquizzer.app-merged_res-38:/drawable_sports.png.flat",
+        "source": "/home/suhail/.gradle/daemon/7.4/com.example.superquizzer.app-main-40:/drawable/sports.png"
+    },
+    {
         "merged": "/home/suhail/.gradle/daemon/7.4/com.example.superquizzer.app-merged_res-38:/mipmap-xxxhdpi_app_logo2_foreground.png.flat",
         "source": "/home/suhail/.gradle/daemon/7.4/com.example.superquizzer.app-debug-39:/mipmap-xxxhdpi/app_logo2_foreground.png"
+    },
+    {
+        "merged": "/home/suhail/.gradle/daemon/7.4/com.example.superquizzer.app-merged_res-38:/drawable_science.png.flat",
+        "source": "/home/suhail/.gradle/daemon/7.4/com.example.superquizzer.app-main-40:/drawable/science.png"
     },
     {
         "merged": "/home/suhail/.gradle/daemon/7.4/com.example.superquizzer.app-merged_res-38:/mipmap-mdpi_app_logo1_round.png.flat",
         "source": "/home/suhail/.gradle/daemon/7.4/com.example.superquizzer.app-debug-39:/mipmap-mdpi/app_logo1_round.png"
     },
     {
-        "merged": "/home/suhail/.gradle/daemon/7.4/com.example.superquizzer.app-merged_res-38:/drawable-v24_wave.png.flat",
-        "source": "/home/suhail/.gradle/daemon/7.4/com.example.superquizzer.app-main-40:/drawable-v24/wave.png"
-    },
-    {
         "merged": "/home/suhail/.gradle/daemon/7.4/com.example.superquizzer.app-merged_res-38:/mipmap-anydpi-v26_app_logo1.xml.flat",
         "source": "/home/suhail/.gradle/daemon/7.4/com.example.superquizzer.app-debug-39:/mipmap-anydpi-v26/app_logo1.xml"
+    },
+    {
+        "merged": "/home/suhail/.gradle/daemon/7.4/com.example.superquizzer.app-merged_res-38:/drawable-v24_wave.png.flat",
+        "source": "/home/suhail/.gradle/daemon/7.4/com.example.superquizzer.app-main-40:/drawable-v24/wave.png"
     },
     {
         "merged": "/home/suhail/.gradle/daemon/7.4/com.example.superquizzer.app-merged_res-38:/mipmap-xxxhdpi_app_logo_round.png.flat",
@@ -112,6 +124,14 @@
         "source": "/home/suhail/.gradle/daemon/7.4/com.example.superquizzer.app-debug-39:/mipmap-xxhdpi/app_logo1_round.png"
     },
     {
+        "merged": "/home/suhail/.gradle/daemon/7.4/com.example.superquizzer.app-merged_res-38:/drawable_background_homescreen.png.flat",
+        "source": "/home/suhail/.gradle/daemon/7.4/com.example.superquizzer.app-main-40:/drawable/background_homescreen.png"
+    },
+    {
+        "merged": "/home/suhail/.gradle/daemon/7.4/com.example.superquizzer.app-merged_res-38:/drawable_gaming.png.flat",
+        "source": "/home/suhail/.gradle/daemon/7.4/com.example.superquizzer.app-main-40:/drawable/gaming.png"
+    },
+    {
         "merged": "/home/suhail/.gradle/daemon/7.4/com.example.superquizzer.app-merged_res-38:/mipmap-mdpi_app_icon.png.flat",
         "source": "/home/suhail/.gradle/daemon/7.4/com.example.superquizzer.app-debug-39:/mipmap-mdpi/app_icon.png"
     },
@@ -130,6 +150,14 @@
     {
         "merged": "/home/suhail/.gradle/daemon/7.4/com.example.superquizzer.app-merged_res-38:/mipmap-xxhdpi_app_logo1.png.flat",
         "source": "/home/suhail/.gradle/daemon/7.4/com.example.superquizzer.app-debug-39:/mipmap-xxhdpi/app_logo1.png"
+    },
+    {
+        "merged": "/home/suhail/.gradle/daemon/7.4/com.example.superquizzer.app-merged_res-38:/drawable_anime.png.flat",
+        "source": "/home/suhail/.gradle/daemon/7.4/com.example.superquizzer.app-main-40:/drawable/anime.png"
+    },
+    {
+        "merged": "/home/suhail/.gradle/daemon/7.4/com.example.superquizzer.app-merged_res-38:/drawable_share_button.png.flat",
+        "source": "/home/suhail/.gradle/daemon/7.4/com.example.superquizzer.app-main-40:/drawable/share_button.png"
     },
     {
         "merged": "/home/suhail/.gradle/daemon/7.4/com.example.superquizzer.app-merged_res-38:/mipmap-anydpi-v26_app_logo1_round.xml.flat",
@@ -228,6 +256,10 @@
         "source": "/home/suhail/.gradle/daemon/7.4/com.example.superquizzer.app-debug-39:/mipmap-hdpi/app_icon_round.png"
     },
     {
+        "merged": "/home/suhail/.gradle/daemon/7.4/com.example.superquizzer.app-merged_res-38:/drawable_share_button2.png.flat",
+        "source": "/home/suhail/.gradle/daemon/7.4/com.example.superquizzer.app-main-40:/drawable/share_button2.png"
+    },
+    {
         "merged": "/home/suhail/.gradle/daemon/7.4/com.example.superquizzer.app-merged_res-38:/drawable_top_bottom_shape.xml.flat",
         "source": "/home/suhail/.gradle/daemon/7.4/com.example.superquizzer.app-main-40:/drawable/top_bottom_shape.xml"
     },
@@ -250,10 +282,6 @@
     {
         "merged": "/home/suhail/.gradle/daemon/7.4/com.example.superquizzer.app-merged_res-38:/mipmap-mdpi_app_icon_round.png.flat",
         "source": "/home/suhail/.gradle/daemon/7.4/com.example.superquizzer.app-debug-39:/mipmap-mdpi/app_icon_round.png"
-    },
-    {
-        "merged": "com.example.superquizzer.app-merged_res-38:/layout_dialog_progress.xml.flat",
-        "source": "com.example.superquizzer.app-debug-39:/layout/dialog_progress.xml"
     },
     {
         "merged": "/home/suhail/.gradle/daemon/7.4/com.example.superquizzer.app-merged_res-38:/mipmap-hdpi_app_logo2_round.png.flat",
@@ -300,6 +328,10 @@
         "source": "/home/suhail/.gradle/daemon/7.4/com.example.superquizzer.app-debug-39:/mipmap-xxxhdpi/app_logo.png"
     },
     {
+        "merged": "/home/suhail/.gradle/daemon/7.4/com.example.superquizzer.app-merged_res-38:/drawable_background_homescreen2.png.flat",
+        "source": "/home/suhail/.gradle/daemon/7.4/com.example.superquizzer.app-main-40:/drawable/background_homescreen2.png"
+    },
+    {
         "merged": "/home/suhail/.gradle/daemon/7.4/com.example.superquizzer.app-merged_res-38:/mipmap-xhdpi_app_icon_round.png.flat",
         "source": "/home/suhail/.gradle/daemon/7.4/com.example.superquizzer.app-debug-39:/mipmap-xhdpi/app_icon_round.png"
     },
@@ -334,6 +366,10 @@
     {
         "merged": "/home/suhail/.gradle/daemon/7.4/com.example.superquizzer.app-merged_res-38:/mipmap-mdpi_app_logo_round.png.flat",
         "source": "/home/suhail/.gradle/daemon/7.4/com.example.superquizzer.app-debug-39:/mipmap-mdpi/app_logo_round.png"
+    },
+    {
+        "merged": "/home/suhail/.gradle/daemon/7.4/com.example.superquizzer.app-merged_res-38:/drawable_default_option_bg.xml.flat",
+        "source": "/home/suhail/.gradle/daemon/7.4/com.example.superquizzer.app-main-40:/drawable/default_option_bg.xml"
     },
     {
         "merged": "/home/suhail/.gradle/daemon/7.4/com.example.superquizzer.app-merged_res-38:/anim_slide_in_right.xml.flat",
@@ -376,6 +412,10 @@
         "source": "/home/suhail/.gradle/daemon/7.4/com.example.superquizzer.app-main-40:/mipmap-hdpi/ic_launcher_round.webp"
     },
     {
+        "merged": "/home/suhail/.gradle/daemon/7.4/com.example.superquizzer.app-merged_res-38:/layout_activity_quiz.xml.flat",
+        "source": "/home/suhail/.gradle/daemon/7.4/com.example.superquizzer.app-main-40:/layout/activity_quiz.xml"
+    },
+    {
         "merged": "/home/suhail/.gradle/daemon/7.4/com.example.superquizzer.app-merged_res-38:/mipmap-xxxhdpi_app_logo1.png.flat",
         "source": "/home/suhail/.gradle/daemon/7.4/com.example.superquizzer.app-debug-39:/mipmap-xxxhdpi/app_logo1.png"
     },
@@ -404,6 +444,10 @@
         "source": "/home/suhail/.gradle/daemon/7.4/com.example.superquizzer.app-debug-39:/mipmap-xxxhdpi/app_logo1_round.png"
     },
     {
+        "merged": "com.example.superquizzer.app-merged_res-38:/layout_activity_main.xml.flat",
+        "source": "com.example.superquizzer.app-main-40:/layout/activity_main.xml"
+    },
+    {
         "merged": "/home/suhail/.gradle/daemon/7.4/com.example.superquizzer.app-merged_res-38:/mipmap-xxxhdpi_app_icon_foreground.png.flat",
         "source": "/home/suhail/.gradle/daemon/7.4/com.example.superquizzer.app-debug-39:/mipmap-xxxhdpi/app_icon_foreground.png"
     },
@@ -426,6 +470,10 @@
     {
         "merged": "/home/suhail/.gradle/daemon/7.4/com.example.superquizzer.app-merged_res-38:/mipmap-xxhdpi_ic_launcher_round.webp.flat",
         "source": "/home/suhail/.gradle/daemon/7.4/com.example.superquizzer.app-main-40:/mipmap-xxhdpi/ic_launcher_round.webp"
+    },
+    {
+        "merged": "/home/suhail/.gradle/daemon/7.4/com.example.superquizzer.app-merged_res-38:/drawable_music.png.flat",
+        "source": "/home/suhail/.gradle/daemon/7.4/com.example.superquizzer.app-main-40:/drawable/music.png"
     },
     {
         "merged": "/home/suhail/.gradle/daemon/7.4/com.example.superquizzer.app-merged_res-38:/mipmap-xxhdpi_app_logo2.png.flat",

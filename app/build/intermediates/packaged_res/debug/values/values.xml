@@ -75,6 +75,11 @@
             <name>Bhumicka Bhaangaley</name>
             <github_id>bhumi-cka</github_id>
         </participant>
+        
+         <participant>
+            <name>Sushant kumar</name>
+            <github_id>sushantk1274</github_id>
+        </participant>
 
          <participant>
             <name>Aastha</name>
@@ -154,7 +159,15 @@
             <github_id>itsaman1825</github_id>
         </participant>
 
+         <participant>
+            <name>Jahnavi Gadde</name>
+            <github_id>JahnaviGadde</github_id>
+        </participant>
 
+        <participant>
+            <name>Utsav Tomar 🗿</name>
+            <github_id>zitsav</github_id>
+        </participant>
 
     </item>
     <string name="password">Password</string>
