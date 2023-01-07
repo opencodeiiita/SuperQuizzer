@@ -5,6 +5,8 @@ import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.view.MenuItem
+import android.widget.ImageButton
+import android.widget.ImageView
 import android.widget.Toast
 import androidx.appcompat.app.ActionBarDrawerToggle
 import androidx.appcompat.app.AlertDialog
@@ -22,6 +24,7 @@ class MainActivity : AppCompatActivity() {
     private lateinit var drawerLayout : DrawerLayout
     private lateinit var actionBarDrawerToggle : ActionBarDrawerToggle
     private lateinit var navigationView: NavigationView
+    private lateinit var sharebtn:ImageButton
     @SuppressLint("MissingInflatedId")
     @Override
     override fun onCreate(savedInstanceState: Bundle?) {
@@ -32,6 +35,7 @@ class MainActivity : AppCompatActivity() {
 
         drawerLayout = findViewById(R.id.drawer_layout)
         navigationView=findViewById(R.id.nav_view)
+        sharebtn=findViewById(R.id.shareimgbtn)
         actionBarDrawerToggle = ActionBarDrawerToggle(this, drawerLayout, R.string.nav_open, R.string.nav_close)
 
 
@@ -49,6 +53,16 @@ class MainActivity : AppCompatActivity() {
                 }
                 else->return@setNavigationItemSelectedListener true
             }
+        }
+        sharebtn.setOnClickListener {
+            val s="Checkout this interesting and brain-puzzled application develop during OpenCode-22\n" +
+                    "Here its github repo link:https://github.com/opencodeiiita/SuperQuizzer"
+            val shareIntent= Intent()
+            shareIntent.action=Intent.ACTION_SEND
+            shareIntent.type="text/plain"
+            shareIntent.putExtra(Intent.EXTRA_TEXT,s)
+            startActivity(Intent.createChooser(shareIntent,"Share via"))
+
         }
     }
 
@@ -75,9 +89,7 @@ class MainActivity : AppCompatActivity() {
     private fun signOutFromApp()
     {
         auth.signOut()
-        val intent= Intent(this@MainActivity,LoginActivity::class.java)
-        startActivity(intent)
-        Toast.makeText(this,"Logout Successful",Toast.LENGTH_LONG).show()
+        Toast.makeText(this,"Logout Successfully",Toast.LENGTH_LONG).show()
     }
 
 }
