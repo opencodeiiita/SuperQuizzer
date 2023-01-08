@@ -44,6 +44,7 @@
             tools:text="FirstName LastName" />
 
         <ImageButton
+            android:id="@+id/shareimgbtn"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginLeft="178dp"
