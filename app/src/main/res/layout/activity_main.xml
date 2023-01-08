@@ -83,6 +83,7 @@
                     <ImageButton
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
+                        android:id="@+id/ScienceButton"
                         android:layout_marginLeft="16dp"
                         android:background="@null"
                         android:src="@drawable/science" />
