@@ -24,6 +24,7 @@ class MainActivity : AppCompatActivity() {
     private lateinit var drawerLayout : DrawerLayout
     private lateinit var actionBarDrawerToggle : ActionBarDrawerToggle
     private lateinit var navigationView: NavigationView
+    private lateinit var scienceButton : Button
     private lateinit var sharebtn:ImageButton
     @SuppressLint("MissingInflatedId")
     @Override
@@ -33,12 +34,17 @@ class MainActivity : AppCompatActivity() {
 
         auth=FirebaseAuth.getInstance()
 
+        scienceButton = findViewById(R.id.ScienceButton)
         drawerLayout = findViewById(R.id.drawer_layout)
         navigationView=findViewById(R.id.nav_view)
         sharebtn=findViewById(R.id.shareimgbtn)
         actionBarDrawerToggle = ActionBarDrawerToggle(this, drawerLayout, R.string.nav_open, R.string.nav_close)
 
-
+        scienceButton.setOnClickListener {
+            val science = Intent(this, ScienceActivity::class.java)
+            startActivity(science)
+        }        
+        
         drawerLayout.addDrawerListener(actionBarDrawerToggle)
         actionBarDrawerToggle.syncState()
 
