@@ -1859,6 +1859,7 @@ color primary_text_default_material_light
 color primary_text_disabled_material_dark
 color primary_text_disabled_material_light
 color purple_200
+color purple_300
 color purple_500
 color purple_700
 color register
@@ -2627,6 +2628,7 @@ drawable gaming
 drawable gk
 drawable googleg_disabled_color_18
 drawable googleg_standard_color_18
+drawable gradient
 drawable ic_baseline_account_circle_24
 drawable ic_baseline_arrow_back_24
 drawable ic_baseline_arrow_white_back_24
@@ -2737,6 +2739,7 @@ id SHOW_ALL
 id SHOW_PATH
 id SHOW_PROGRESS
 id SYM
+id ScienceButton
 id TOP_END
 id TOP_START
 id accelerate
@@ -2944,6 +2947,7 @@ id forever
 id forgotPassword
 id fragment_container_view_tag
 id frost
+id full_name
 id fullscreen_header
 id ghost_view
 id ghost_view_holder
@@ -3142,6 +3146,7 @@ id selected
 id selection_type
 id sharedValueSet
 id sharedValueUnset
+id shareimgbtn
 id shortcut
 id showCustom
 id showHome
@@ -3389,6 +3394,7 @@ layout activity_login
 layout activity_main
 layout activity_quiz
 layout activity_register
+layout activity_science
 layout activity_splash
 layout browser_actions_context_menu_page
 layout browser_actions_context_menu_row

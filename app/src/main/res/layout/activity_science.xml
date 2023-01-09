@@ -5,15 +5,20 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:fillViewport="true"
-    tools:context=".QuizActivity">
+    tools:context=".QuizActivity"
+    android:background="@drawable/gradient">
 
     <LinearLayout
         android:id="@+id/linearLayout"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
+        android:layout_width="411dp"
+        android:layout_height="536dp"
+        android:layout_marginTop="100dp"
         android:gravity="center"
         android:orientation="vertical"
         android:padding="16dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent">
 
         <TextView
@@ -22,9 +27,10 @@
             android:layout_height="wrap_content"
             android:layout_margin="10dp"
             android:gravity="center"
-            tools:text="question text"
             android:textColor="#363A43"
-            android:textSize="22sp"></TextView>
+            android:textSize="22sp"
+            android:textStyle="bold"
+            tools:text="question text" />
 
         <LinearLayout
             android:id="@+id/ll_progress_details"
@@ -43,7 +49,7 @@
                 android:indeterminate="false"
                 android:max="10"
                 android:minHeight="50dp"
-                android:progress="0"></ProgressBar>
+                android:progress="0" />
 
             <TextView
                 android:id="@+id/tv_progress"
@@ -51,9 +57,11 @@
                 android:layout_height="wrap_content"
                 android:gravity="center"
                 android:padding="15dp"
+                android:textColor="@color/black"
                 android:textColorHint="#7A8089"
                 android:textSize="14sp"
-                tools:text="0/10"></TextView>
+                android:textStyle="bold"
+                tools:text="0/10" />
 
         </LinearLayout>
 
@@ -67,7 +75,8 @@
             android:padding="15dp"
             android:textColor="#7A8089"
             android:textSize="18sp"
-            tools:text="Apple"></TextView>
+            android:textStyle="bold"
+            tools:text="Apple" />
 
         <TextView
             android:id="@+id/tv_option_two"
@@ -79,7 +88,8 @@
             android:padding="15dp"
             android:textColor="#7A8089"
             android:textSize="18sp"
-            tools:text="Apple"></TextView>
+            android:textStyle="bold"
+            tools:text="Apple" />
 
         <TextView
             android:id="@+id/tv_option_three"
@@ -91,7 +101,8 @@
             android:padding="15dp"
             android:textColor="#7A8089"
             android:textSize="18sp"
-            tools:text="Apple"></TextView>
+            android:textStyle="bold"
+            tools:text="Apple" />
 
         <TextView
             android:id="@+id/tv_option_four"
@@ -103,47 +114,52 @@
             android:padding="15dp"
             android:textColor="#7A8089"
             android:textSize="18sp"
-            tools:text="Apple"></TextView>
+            android:textStyle="bold"
+            tools:text="Apple" />
 
     </LinearLayout>
 
     <Button
-        android:textColor="@color/white"
         android:id="@+id/button"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginStart="52dp"
+        android:layout_width="149dp"
+        android:layout_height="65dp"
+        android:backgroundTint="#152DB3"
         android:text="Submit"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.677" />
-
-    <Button
         android:textColor="@color/white"
-        android:id="@+id/button2"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginStart="112dp"
-        android:text="Next"
+        android:textStyle="bold"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.0"
-        app:layout_constraintStart_toEndOf="@+id/button"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.677" />
+        app:layout_constraintHorizontal_bias="0.148"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/linearLayout"
+        app:layout_constraintVertical_bias="0.493" />
+
+    <Button
+        android:id="@+id/button2"
+        android:layout_width="152dp"
+        android:layout_height="64dp"
+        android:backgroundTint="#152DB3"
+        android:text="Next"
+        android:textColor="@color/white"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.901"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/linearLayout"
+        app:layout_constraintVertical_bias="0.494" />
 
     <TextView
-        android:textSize="32sp"
         android:id="@+id/score"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginTop="124dp"
         android:text="Score: 0/10"
+        android:textColor="@color/black"
+        android:textSize="32sp"
+        android:textStyle="bold"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.498"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/linearLayout"
-        app:layout_constraintVertical_bias="0.132" />
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.023" />
 </androidx.constraintlayout.widget.ConstraintLayout>

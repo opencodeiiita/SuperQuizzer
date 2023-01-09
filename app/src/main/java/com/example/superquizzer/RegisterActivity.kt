@@ -69,7 +69,7 @@ class RegisterActivity : AppCompatActivity() {
     {
         val email= etEmail?.text.toString()
         val password=etPassword?.text.toString()
-        val name=etFirstName?.text.toString()+etLastName?.text.toString()
+        val name=etFirstName?.text.toString()+" " +etLastName?.text.toString()
         isAllEditTextCheck=CheckAllEditText()
         if(isAllEditTextCheck){
             showProgressDialog(resources.getString(R.string.please_wait))
