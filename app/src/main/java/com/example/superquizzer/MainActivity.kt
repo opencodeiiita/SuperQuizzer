@@ -21,39 +21,27 @@ class MainActivity : AppCompatActivity() {
         lateinit var auth: FirebaseAuth
 
     }
-
-    var user = FirebaseAuth.getInstance().currentUser
-    private lateinit var drawerLayout : DrawerLayout
-    private lateinit var actionBarDrawerToggle : ActionBarDrawerToggle
-    private lateinit var navigationView: NavigationView
-    private lateinit var scienceButton : ImageButton
-    private lateinit var sharebtn:ImageButton
-    @SuppressLint("MissingInflatedId")
-    @Override
+     private var actionBarDrawerToggle : ActionBarDrawerToggle?=null
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
 
         auth=FirebaseAuth.getInstance()
-        val name = user!!.displayName
+
         val full_name=findViewById<TextView>(R.id.full_name)
-        full_name.setText("${name}")
-        scienceButton = findViewById(R.id.ScienceButton)
-        drawerLayout = findViewById(R.id.drawer_layout)
-        navigationView=findViewById(R.id.nav_view)
-        sharebtn=findViewById(R.id.shareimgbtn)
+        val name= auth.currentUser?.displayName
+        full_name.text = "$name"
+        val scienceButton = findViewById<ImageButton>(R.id.ScienceButton)
+        val drawerLayout = findViewById<DrawerLayout>(R.id.drawer_layout)
+        val navigationView=findViewById<NavigationView>(R.id.nav_view)
+        val sharebtn=findViewById<ImageButton>(R.id.shareimgbtn)
+
         actionBarDrawerToggle = ActionBarDrawerToggle(this, drawerLayout, R.string.nav_open, R.string.nav_close)
-
-        scienceButton.setOnClickListener {
-            val science = Intent(this, ScienceActivity::class.java)
-            startActivity(science)
-        }        
-        
-        drawerLayout.addDrawerListener(actionBarDrawerToggle)
-        actionBarDrawerToggle.syncState()
-
+        drawerLayout.addDrawerListener(actionBarDrawerToggle!!)
+        actionBarDrawerToggle!!.syncState()
         supportActionBar?.setHomeButtonEnabled(true)
         supportActionBar?.setDisplayHomeAsUpEnabled(true)
+        actionBar?.setDisplayHomeAsUpEnabled(true)
         navigationView.setNavigationItemSelectedListener {
             when(it.itemId)
             {
@@ -74,12 +62,16 @@ class MainActivity : AppCompatActivity() {
             startActivity(Intent.createChooser(shareIntent,"Share via"))
 
         }
+        scienceButton.setOnClickListener {
+            val science = Intent(this, ScienceActivity::class.java)
+            startActivity(science)
+        }
     }
 
     override fun onOptionsItemSelected(item: MenuItem): Boolean {
 
 
-        return if (actionBarDrawerToggle.onOptionsItemSelected(item)) {
+        return if (actionBarDrawerToggle?.onOptionsItemSelected(item) == true) {
             true
         } else super.onOptionsItemSelected(item)
     }
@@ -87,14 +79,14 @@ class MainActivity : AppCompatActivity() {
     private fun showLogoutDialog()
     {
         val dialogBuilder=AlertDialog.Builder(this,R.style.CustomAlertDialog)
-               dialogBuilder .setTitle("Log Out")
-                .setMessage("Are you sure you want to logout ?")
-                .setPositiveButton("Yes"){ _, _ ->  //dialog,which
-                    signOutFromApp()
-                }
-                .setNegativeButton("No"){ dialog, _ ->
-                    dialog.cancel()
-                }.show()
+        dialogBuilder .setTitle("Log Out")
+            .setMessage("Are you sure you want to logout ?")
+            .setPositiveButton("Yes"){ _, _ ->  //dialog,which
+                signOutFromApp()
+            }
+            .setNegativeButton("No"){ dialog, _ ->
+                dialog.cancel()
+            }.show()
     }
     private fun signOutFromApp()
     {
