@@ -1,5 +1,6 @@
 package com.example.superquizzer
 
+import android.content.Intent
 import android.graphics.Color
 import android.graphics.Typeface
 import androidx.appcompat.app.AppCompatActivity
@@ -117,7 +118,9 @@ class ScienceActivity : AppCompatActivity() {
                     canSelect = true
                 }
                 else{
-                    Toast.makeText(this, "Ran out of questions", Toast.LENGTH_LONG).show()
+                    val result = Intent(this, ResultActivity::class.java)
+                    result.putExtra("score", score.toString())
+                    startActivity(result)
                 }
             }
         }
@@ -213,6 +216,9 @@ class ScienceActivity : AppCompatActivity() {
         correctOption = 0
         optionSelected = 0
         scoreTv?.text = "Score: $score/${progressBar?.max}"
+        if (currentPosition == questionsArray!!.size){
+            nextButton.text = "Finish!"
+        }
 
         optionOne.setBackgroundColor(Color.WHITE)
         optionTwo.setBackgroundColor(Color.WHITE)

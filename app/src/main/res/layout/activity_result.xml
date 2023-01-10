@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ResultActivity"
+    android:orientation="vertical"
+    android:gravity="center_horizontal"
+    android:background="@drawable/result_bg"
+    >
+
+    <TextView
+        android:layout_marginTop="180dp"
+        android:layout_width="wrap_content"
+        android:textColor="@color/black"
+        android:layout_height="wrap_content"
+        android:text="@string/congratulations"
+        style="@style/TextAppearance.AppCompat.Headline"
+        />
+
+    <TextView
+        android:id="@+id/username"
+        android:textColor="@color/black"
+        android:layout_marginTop="5dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        tools:text="Username"
+        style="@style/TextAppearance.AppCompat.Headline"
+        />
+
+    <ImageView
+        android:layout_marginTop="20dp"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:src="@drawable/trophy"
+        />
+
+    <TextView
+        android:id="@+id/score_tv"
+        android:layout_marginTop="20dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        style="@style/TextAppearance.AppCompat.Headline"
+        android:textColor="@color/black"
+        tools:text="You scored 10 points!"
+        />
+
+    <ImageButton
+        android:id="@+id/share_button"
+        android:layout_width="370dp"
+        android:layout_height="wrap_content"
+        android:src="@drawable/share_button3"
+        android:background="@null"
+        android:layout_marginTop="100dp"/>
+
+    <ImageButton
+        android:id="@+id/home_button"
+        android:layout_width="370dp"
+        android:layout_height="wrap_content"
+        android:src="@drawable/homescreen_button"
+        android:background="@null"
+        android:layout_marginTop="10dp"/>
+
+</LinearLayout>
