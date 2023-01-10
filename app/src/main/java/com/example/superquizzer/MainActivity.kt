@@ -1,16 +1,18 @@
 package com.example.superquizzer
 
-import android.annotation.SuppressLint
+
 import android.content.Intent
 import android.os.Bundle
 import android.view.MenuItem
 import android.widget.ImageButton
+import android.widget.ImageView
 import android.widget.TextView
 import android.widget.Toast
 import androidx.appcompat.app.ActionBarDrawerToggle
 import androidx.appcompat.app.AlertDialog
 import androidx.appcompat.app.AppCompatActivity
 import androidx.drawerlayout.widget.DrawerLayout
+import com.bumptech.glide.Glide
 import com.google.android.material.navigation.NavigationView
 import com.google.firebase.auth.FirebaseAuth
 
@@ -30,11 +32,13 @@ class MainActivity : AppCompatActivity() {
 
         val full_name=findViewById<TextView>(R.id.full_name)
         val name= auth.currentUser?.displayName
+
         full_name.text = "$name"
         val scienceButton = findViewById<ImageButton>(R.id.ScienceButton)
         val drawerLayout = findViewById<DrawerLayout>(R.id.drawer_layout)
         val navigationView=findViewById<NavigationView>(R.id.nav_view)
         val sharebtn=findViewById<ImageButton>(R.id.shareimgbtn)
+
 
         actionBarDrawerToggle = ActionBarDrawerToggle(this, drawerLayout, R.string.nav_open, R.string.nav_close)
         drawerLayout.addDrawerListener(actionBarDrawerToggle!!)
@@ -66,6 +70,7 @@ class MainActivity : AppCompatActivity() {
             val science = Intent(this, ScienceActivity::class.java)
             startActivity(science)
         }
+        updateNavHeader()
     }
 
     override fun onOptionsItemSelected(item: MenuItem): Boolean {
@@ -75,7 +80,6 @@ class MainActivity : AppCompatActivity() {
             true
         } else super.onOptionsItemSelected(item)
     }
-    @SuppressLint("SuspiciousIndentation")
     private fun showLogoutDialog()
     {
         val dialogBuilder=AlertDialog.Builder(this,R.style.CustomAlertDialog)
@@ -92,6 +96,21 @@ class MainActivity : AppCompatActivity() {
     {
         auth.signOut()
         Toast.makeText(this,"Logout Successfully",Toast.LENGTH_LONG).show()
+    }
+    private  fun updateNavHeader()
+    {
+        val navigationView=findViewById<NavigationView>(R.id.nav_view)
+        val headerView=navigationView.getHeaderView(0)
+        val nav_name=headerView.findViewById<TextView>(R.id.user_name)
+        val nav_email=headerView.findViewById<TextView>(R.id.user_email)
+        val nav_pic=headerView.findViewById<ImageView>(R.id.profile_pic)
+        val currentUser=auth.currentUser
+        if (currentUser != null) {
+            nav_email.text = currentUser.email
+            nav_name.text=currentUser.displayName
+            val userpic=currentUser.photoUrl
+            Glide.with(this).load(userpic).into(nav_pic)
+        }
     }
 
 }
