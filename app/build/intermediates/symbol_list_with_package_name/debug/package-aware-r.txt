@@ -2591,6 +2591,7 @@ drawable avd_hide_password
 drawable avd_show_password
 drawable background_homescreen
 drawable background_homescreen2
+drawable background_homescreen3
 drawable btn_checkbox_checked_mtrl
 drawable btn_checkbox_checked_to_unchecked_mtrl_animation
 drawable btn_checkbox_unchecked_mtrl
@@ -2629,6 +2630,7 @@ drawable gk
 drawable googleg_disabled_color_18
 drawable googleg_standard_color_18
 drawable gradient
+drawable homescreen_button
 drawable ic_baseline_account_circle_24
 drawable ic_baseline_arrow_back_24
 drawable ic_baseline_arrow_white_back_24
@@ -2715,9 +2717,11 @@ drawable notification_template_icon_bg
 drawable notification_template_icon_low_bg
 drawable notification_tile_bg
 drawable notify_panel_notification_icon_bg
+drawable result_bg
 drawable science
 drawable share_button
 drawable share_button2
+drawable share_button3
 drawable sports
 drawable superquizzer
 drawable superquizzer_logo
@@ -2725,6 +2729,7 @@ drawable test_level_drawable
 drawable tooltip_frame_dark
 drawable tooltip_frame_light
 drawable top_bottom_shape
+drawable trophy
 drawable wave
 font montserratlight
 id ALT
@@ -2962,6 +2967,7 @@ id header_title
 id hideable
 id home
 id homeAsUp
+id home_button
 id honorRequest
 id horizontal_only
 id icon
@@ -3125,6 +3131,7 @@ id save_overlay_view
 id sawtooth
 id scale
 id score
+id score_tv
 id screen
 id scroll
 id scrollIndicatorDown
@@ -3144,6 +3151,7 @@ id search_voice_btn
 id select_dialog_listview
 id selected
 id selection_type
+id share_button
 id sharedValueSet
 id sharedValueUnset
 id shareimgbtn
@@ -3247,6 +3255,7 @@ id uniform
 id unlabeled
 id up
 id useLogo
+id username
 id vertical_only
 id view_offset_helper
 id view_transition
@@ -3394,6 +3403,7 @@ layout activity_login
 layout activity_main
 layout activity_quiz
 layout activity_register
+layout activity_result
 layout activity_science
 layout activity_splash
 layout browser_actions_context_menu_page
@@ -3556,6 +3566,7 @@ string common_open_on_phone
 string common_signin_button_text
 string common_signin_button_text_long
 string confirm_password
+string congratulations
 string copy_toast_msg
 string create_account
 string default_web_client_id
