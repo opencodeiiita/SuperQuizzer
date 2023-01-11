@@ -1,9 +1,9 @@
 -- Merging decision tree log ---
 manifest
-ADDED from C:\Users\utsav\OneDrive\Desktop\SuperQuizzer\app\src\main\AndroidManifest.xml:2:1-78:12
-INJECTED from C:\Users\utsav\OneDrive\Desktop\SuperQuizzer\app\src\main\AndroidManifest.xml:2:1-78:12
-INJECTED from C:\Users\utsav\OneDrive\Desktop\SuperQuizzer\app\src\main\AndroidManifest.xml:2:1-78:12
-INJECTED from C:\Users\utsav\OneDrive\Desktop\SuperQuizzer\app\src\main\AndroidManifest.xml:2:1-78:12
+ADDED from C:\Users\utsav\OneDrive\Desktop\SuperQuizzer\app\src\main\AndroidManifest.xml:2:1-113:12
+INJECTED from C:\Users\utsav\OneDrive\Desktop\SuperQuizzer\app\src\main\AndroidManifest.xml:2:1-113:12
+INJECTED from C:\Users\utsav\OneDrive\Desktop\SuperQuizzer\app\src\main\AndroidManifest.xml:2:1-113:12
+INJECTED from C:\Users\utsav\OneDrive\Desktop\SuperQuizzer\app\src\main\AndroidManifest.xml:2:1-113:12
 MERGED from [androidx.databinding:viewbinding:7.3.1] C:\Users\utsav\.gradle\caches\transforms-3\3741b2555c8ce418fda4cf8d25ec3cde\transformed\viewbinding-7.3.1\AndroidManifest.xml:2:1-9:12
 MERGED from [com.google.firebase:firebase-auth-ktx:21.1.0] C:\Users\utsav\.gradle\caches\transforms-3\4ec8f080d2b81a6ef7d86af77ce7150e\transformed\firebase-auth-ktx-21.1.0\AndroidManifest.xml:2:1-17:12
 MERGED from [com.google.firebase:firebase-analytics-ktx:21.2.0] C:\Users\utsav\.gradle\caches\transforms-3\25a5aa4c295b3b6a99143a1c7271aca4\transformed\firebase-analytics-ktx-21.2.0\AndroidManifest.xml:2:1-17:12
@@ -13,6 +13,7 @@ MERGED from [com.google.android.material:material:1.7.0] C:\Users\utsav\.gradle\
 MERGED from [androidx.constraintlayout:constraintlayout:2.1.4] C:\Users\utsav\.gradle\caches\transforms-3\a97837cba5b5382a9d53125fbe1e40a0\transformed\constraintlayout-2.1.4\AndroidManifest.xml:2:1-11:12
 MERGED from [androidx.appcompat:appcompat-resources:1.5.1] C:\Users\utsav\.gradle\caches\transforms-3\23b7bfd4bde7b86bc9e659e4534b1ab0\transformed\appcompat-resources-1.5.1\AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.appcompat:appcompat:1.5.1] C:\Users\utsav\.gradle\caches\transforms-3\0c57546b4e9f2760f6204e2c95bb8e35\transformed\appcompat-1.5.1\AndroidManifest.xml:17:1-22:12
+MERGED from [com.github.bumptech.glide:glide:4.11.0] C:\Users\utsav\.gradle\caches\transforms-3\2048044b98e5327161211fb0e81589c3\transformed\glide-4.11.0\AndroidManifest.xml:2:1-12:12
 MERGED from [androidx.viewpager2:viewpager2:1.0.0] C:\Users\utsav\.gradle\caches\transforms-3\0bf4221366668958c8097c1c986bd499\transformed\viewpager2-1.0.0\AndroidManifest.xml:17:1-24:12
 MERGED from [com.google.firebase:firebase-auth:21.1.0] C:\Users\utsav\.gradle\caches\transforms-3\f1aec9d1eabdc449260f5fdb31676a69\transformed\firebase-auth-21.1.0\AndroidManifest.xml:17:1-73:12
 MERGED from [com.google.firebase:firebase-auth-interop:20.0.0] C:\Users\utsav\.gradle\caches\transforms-3\9b4cf2ef53e84be59dc477717a77deaf\transformed\firebase-auth-interop-20.0.0\AndroidManifest.xml:2:1-10:12
@@ -55,12 +56,14 @@ MERGED from [androidx.customview:customview:1.1.0] C:\Users\utsav\.gradle\caches
 MERGED from [androidx.browser:browser:1.4.0] C:\Users\utsav\.gradle\caches\transforms-3\d223c8c033e8613a3225f1413f36a200\transformed\browser-1.4.0\AndroidManifest.xml:17:1-24:12
 MERGED from [androidx.core:core:1.9.0] C:\Users\utsav\.gradle\caches\transforms-3\44d6f460890717a72af0cec0fcdbb388\transformed\core-1.9.0\AndroidManifest.xml:17:1-30:12
 MERGED from [androidx.core:core-ktx:1.9.0] C:\Users\utsav\.gradle\caches\transforms-3\6b2ae3e8c424960351326e0d3e35a3e6\transformed\core-ktx-1.9.0\AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.cardview:cardview:1.0.0] C:\Users\utsav\.gradle\caches\transforms-3\91450edd275c9045ba50157aad070aa0\transformed\cardview-1.0.0\AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] C:\Users\utsav\.gradle\caches\transforms-3\0643e88819674be6b8d126be0d217ee7\transformed\cursoradapter-1.0.0\AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.lifecycle:lifecycle-process:2.4.1] C:\Users\utsav\.gradle\caches\transforms-3\34f353e285381680615f99e6159909e7\transformed\lifecycle-process-2.4.1\AndroidManifest.xml:17:1-37:12
 MERGED from [androidx.lifecycle:lifecycle-runtime:2.5.1] C:\Users\utsav\.gradle\caches\transforms-3\1b15b0f1658e6d7d11e7c23f0e807c7d\transformed\lifecycle-runtime-2.5.1\AndroidManifest.xml:17:1-24:12
 MERGED from [androidx.savedstate:savedstate:1.2.0] C:\Users\utsav\.gradle\caches\transforms-3\9adfd883dc15b7e7989c1aed5ddb2873\transformed\savedstate-1.2.0\AndroidManifest.xml:17:1-24:12
-MERGED from [androidx.cardview:cardview:1.0.0] C:\Users\utsav\.gradle\caches\transforms-3\91450edd275c9045ba50157aad070aa0\transformed\cardview-1.0.0\AndroidManifest.xml:17:1-22:12
 MERGED from [com.google.firebase:firebase-components:17.0.1] C:\Users\utsav\.gradle\caches\transforms-3\b10d2ff916418f92b7b63566fc59de3a\transformed\firebase-components-17.0.1\AndroidManifest.xml:15:1-23:12
+MERGED from [com.github.bumptech.glide:gifdecoder:4.11.0] C:\Users\utsav\.gradle\caches\transforms-3\5ab7aa9e62efb31c756b11dfacfd25fa\transformed\gifdecoder-4.11.0\AndroidManifest.xml:2:1-11:12
+MERGED from [androidx.exifinterface:exifinterface:1.0.0] C:\Users\utsav\.gradle\caches\transforms-3\094f4b1b69e20e9c610cd6b2fa21a013\transformed\exifinterface-1.0.0\AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] C:\Users\utsav\.gradle\caches\transforms-3\717fd901a557cbc88cee23b1dbf8766f\transformed\versionedparcelable-1.1.1\AndroidManifest.xml:17:1-27:12
 MERGED from [androidx.startup:startup-runtime:1.1.1] C:\Users\utsav\.gradle\caches\transforms-3\cb5314b23baf8ad308de24a03fe3e153\transformed\startup-runtime-1.1.1\AndroidManifest.xml:17:1-33:12
 MERGED from [androidx.tracing:tracing:1.0.0] C:\Users\utsav\.gradle\caches\transforms-3\f17ae4eac4c72690f0640fe10276a9f4\transformed\tracing-1.0.0\AndroidManifest.xml:17:1-24:12
@@ -72,28 +75,29 @@ MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] C:\User
 MERGED from [androidx.interpolator:interpolator:1.0.0] C:\Users\utsav\.gradle\caches\transforms-3\193d014cb17b7c97661903d61a69f1bf\transformed\interpolator-1.0.0\AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.documentfile:documentfile:1.0.0] C:\Users\utsav\.gradle\caches\transforms-3\4c4d4721e65f673c3f9de017c2f1f64e\transformed\documentfile-1.0.0\AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.print:print:1.0.0] C:\Users\utsav\.gradle\caches\transforms-3\c9676425ea1a9ca1bbda00bdc1a0929c\transformed\print-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [de.hdodenhof:circleimageview:3.1.0] C:\Users\utsav\.gradle\caches\transforms-3\40ef4865558aab7830af7d817495d9e2\transformed\circleimageview-3.1.0\AndroidManifest.xml:2:1-11:12
 MERGED from [androidx.annotation:annotation-experimental:1.3.0] C:\Users\utsav\.gradle\caches\transforms-3\60e1cb7fe28bd165051d645f123a700a\transformed\annotation-experimental-1.3.0\AndroidManifest.xml:17:1-22:12
-INJECTED from C:\Users\utsav\OneDrive\Desktop\SuperQuizzer\app\src\main\AndroidManifest.xml:2:1-78:12
-INJECTED from C:\Users\utsav\OneDrive\Desktop\SuperQuizzer\app\src\main\AndroidManifest.xml:2:1-78:12
-INJECTED from C:\Users\utsav\OneDrive\Desktop\SuperQuizzer\app\src\main\AndroidManifest.xml:2:1-78:12
+INJECTED from C:\Users\utsav\OneDrive\Desktop\SuperQuizzer\app\src\main\AndroidManifest.xml:2:1-113:12
+INJECTED from C:\Users\utsav\OneDrive\Desktop\SuperQuizzer\app\src\main\AndroidManifest.xml:2:1-113:12
+INJECTED from C:\Users\utsav\OneDrive\Desktop\SuperQuizzer\app\src\main\AndroidManifest.xml:2:1-113:12
 	package
 		ADDED from C:\Users\utsav\OneDrive\Desktop\SuperQuizzer\app\src\main\AndroidManifest.xml:4:5-39
 		INJECTED from C:\Users\utsav\OneDrive\Desktop\SuperQuizzer\app\src\main\AndroidManifest.xml
 		INJECTED from C:\Users\utsav\OneDrive\Desktop\SuperQuizzer\app\src\main\AndroidManifest.xml
 	android:versionName
 		INJECTED from C:\Users\utsav\OneDrive\Desktop\SuperQuizzer\app\src\main\AndroidManifest.xml
-		ADDED from C:\Users\utsav\OneDrive\Desktop\SuperQuizzer\app\src\main\AndroidManifest.xml:2:1-78:12
+		ADDED from C:\Users\utsav\OneDrive\Desktop\SuperQuizzer\app\src\main\AndroidManifest.xml:2:1-113:12
 		INJECTED from C:\Users\utsav\OneDrive\Desktop\SuperQuizzer\app\src\main\AndroidManifest.xml
 	xmlns:tools
 		ADDED from C:\Users\utsav\OneDrive\Desktop\SuperQuizzer\app\src\main\AndroidManifest.xml:3:5-51
 	android:versionCode
 		INJECTED from C:\Users\utsav\OneDrive\Desktop\SuperQuizzer\app\src\main\AndroidManifest.xml
-		ADDED from C:\Users\utsav\OneDrive\Desktop\SuperQuizzer\app\src\main\AndroidManifest.xml:2:1-78:12
+		ADDED from C:\Users\utsav\OneDrive\Desktop\SuperQuizzer\app\src\main\AndroidManifest.xml:2:1-113:12
 		INJECTED from C:\Users\utsav\OneDrive\Desktop\SuperQuizzer\app\src\main\AndroidManifest.xml
 	xmlns:android
 		ADDED from C:\Users\utsav\OneDrive\Desktop\SuperQuizzer\app\src\main\AndroidManifest.xml:2:11-69
 application
-ADDED from C:\Users\utsav\OneDrive\Desktop\SuperQuizzer\app\src\main\AndroidManifest.xml:6:5-76:19
+ADDED from C:\Users\utsav\OneDrive\Desktop\SuperQuizzer\app\src\main\AndroidManifest.xml:6:5-111:19
 MERGED from [com.google.firebase:firebase-auth-ktx:21.1.0] C:\Users\utsav\.gradle\caches\transforms-3\4ec8f080d2b81a6ef7d86af77ce7150e\transformed\firebase-auth-ktx-21.1.0\AndroidManifest.xml:7:5-15:19
 MERGED from [com.google.firebase:firebase-auth-ktx:21.1.0] C:\Users\utsav\.gradle\caches\transforms-3\4ec8f080d2b81a6ef7d86af77ce7150e\transformed\firebase-auth-ktx-21.1.0\AndroidManifest.xml:7:5-15:19
 MERGED from [com.google.firebase:firebase-analytics-ktx:21.2.0] C:\Users\utsav\.gradle\caches\transforms-3\25a5aa4c295b3b6a99143a1c7271aca4\transformed\firebase-analytics-ktx-21.2.0\AndroidManifest.xml:7:5-15:19
@@ -104,6 +108,8 @@ MERGED from [com.google.android.material:material:1.7.0] C:\Users\utsav\.gradle\
 MERGED from [com.google.android.material:material:1.7.0] C:\Users\utsav\.gradle\caches\transforms-3\ad60a20a8279b16d8bd5235e3a9fad50\transformed\material-1.7.0\AndroidManifest.xml:24:5-20
 MERGED from [androidx.constraintlayout:constraintlayout:2.1.4] C:\Users\utsav\.gradle\caches\transforms-3\a97837cba5b5382a9d53125fbe1e40a0\transformed\constraintlayout-2.1.4\AndroidManifest.xml:9:5-20
 MERGED from [androidx.constraintlayout:constraintlayout:2.1.4] C:\Users\utsav\.gradle\caches\transforms-3\a97837cba5b5382a9d53125fbe1e40a0\transformed\constraintlayout-2.1.4\AndroidManifest.xml:9:5-20
+MERGED from [com.github.bumptech.glide:glide:4.11.0] C:\Users\utsav\.gradle\caches\transforms-3\2048044b98e5327161211fb0e81589c3\transformed\glide-4.11.0\AndroidManifest.xml:10:5-20
+MERGED from [com.github.bumptech.glide:glide:4.11.0] C:\Users\utsav\.gradle\caches\transforms-3\2048044b98e5327161211fb0e81589c3\transformed\glide-4.11.0\AndroidManifest.xml:10:5-20
 MERGED from [com.google.firebase:firebase-auth:21.1.0] C:\Users\utsav\.gradle\caches\transforms-3\f1aec9d1eabdc449260f5fdb31676a69\transformed\firebase-auth-21.1.0\AndroidManifest.xml:26:5-71:19
 MERGED from [com.google.firebase:firebase-auth:21.1.0] C:\Users\utsav\.gradle\caches\transforms-3\f1aec9d1eabdc449260f5fdb31676a69\transformed\firebase-auth-21.1.0\AndroidManifest.xml:26:5-71:19
 MERGED from [com.google.firebase:firebase-auth-interop:20.0.0] C:\Users\utsav\.gradle\caches\transforms-3\9b4cf2ef53e84be59dc477717a77deaf\transformed\firebase-auth-interop-20.0.0\AndroidManifest.xml:7:5-8:19
@@ -144,10 +150,14 @@ MERGED from [androidx.core:core:1.9.0] C:\Users\utsav\.gradle\caches\transforms-
 MERGED from [androidx.core:core:1.9.0] C:\Users\utsav\.gradle\caches\transforms-3\44d6f460890717a72af0cec0fcdbb388\transformed\core-1.9.0\AndroidManifest.xml:28:5-89
 MERGED from [androidx.lifecycle:lifecycle-process:2.4.1] C:\Users\utsav\.gradle\caches\transforms-3\34f353e285381680615f99e6159909e7\transformed\lifecycle-process-2.4.1\AndroidManifest.xml:25:5-35:19
 MERGED from [androidx.lifecycle:lifecycle-process:2.4.1] C:\Users\utsav\.gradle\caches\transforms-3\34f353e285381680615f99e6159909e7\transformed\lifecycle-process-2.4.1\AndroidManifest.xml:25:5-35:19
+MERGED from [com.github.bumptech.glide:gifdecoder:4.11.0] C:\Users\utsav\.gradle\caches\transforms-3\5ab7aa9e62efb31c756b11dfacfd25fa\transformed\gifdecoder-4.11.0\AndroidManifest.xml:9:5-20
+MERGED from [com.github.bumptech.glide:gifdecoder:4.11.0] C:\Users\utsav\.gradle\caches\transforms-3\5ab7aa9e62efb31c756b11dfacfd25fa\transformed\gifdecoder-4.11.0\AndroidManifest.xml:9:5-20
 MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] C:\Users\utsav\.gradle\caches\transforms-3\717fd901a557cbc88cee23b1dbf8766f\transformed\versionedparcelable-1.1.1\AndroidManifest.xml:24:5-25:19
 MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] C:\Users\utsav\.gradle\caches\transforms-3\717fd901a557cbc88cee23b1dbf8766f\transformed\versionedparcelable-1.1.1\AndroidManifest.xml:24:5-25:19
 MERGED from [androidx.startup:startup-runtime:1.1.1] C:\Users\utsav\.gradle\caches\transforms-3\cb5314b23baf8ad308de24a03fe3e153\transformed\startup-runtime-1.1.1\AndroidManifest.xml:25:5-31:19
 MERGED from [androidx.startup:startup-runtime:1.1.1] C:\Users\utsav\.gradle\caches\transforms-3\cb5314b23baf8ad308de24a03fe3e153\transformed\startup-runtime-1.1.1\AndroidManifest.xml:25:5-31:19
+MERGED from [de.hdodenhof:circleimageview:3.1.0] C:\Users\utsav\.gradle\caches\transforms-3\40ef4865558aab7830af7d817495d9e2\transformed\circleimageview-3.1.0\AndroidManifest.xml:9:5-20
+MERGED from [de.hdodenhof:circleimageview:3.1.0] C:\Users\utsav\.gradle\caches\transforms-3\40ef4865558aab7830af7d817495d9e2\transformed\circleimageview-3.1.0\AndroidManifest.xml:9:5-20
 	android:appComponentFactory
 		ADDED from [androidx.core:core:1.9.0] C:\Users\utsav\.gradle\caches\transforms-3\44d6f460890717a72af0cec0fcdbb388\transformed\core-1.9.0\AndroidManifest.xml:28:18-86
 	android:supportsRtl
@@ -170,7 +180,7 @@ MERGED from [androidx.startup:startup-runtime:1.1.1] C:\Users\utsav\.gradle\cach
 		ADDED from C:\Users\utsav\OneDrive\Desktop\SuperQuizzer\app\src\main\AndroidManifest.xml:9:9-51
 	android:dataExtractionRules
 		ADDED from C:\Users\utsav\OneDrive\Desktop\SuperQuizzer\app\src\main\AndroidManifest.xml:8:9-65
-activity#com.example.superquizzer.ResultActivity
+activity#com.example.superquizzer.GamingActivity
 ADDED from C:\Users\utsav\OneDrive\Desktop\SuperQuizzer\app\src\main\AndroidManifest.xml:17:9-23:20
 	android:exported
 		ADDED from C:\Users\utsav\OneDrive\Desktop\SuperQuizzer\app\src\main\AndroidManifest.xml:19:13-37
@@ -182,64 +192,94 @@ ADDED from C:\Users\utsav\OneDrive\Desktop\SuperQuizzer\app\src\main\AndroidMani
 		ADDED from C:\Users\utsav\OneDrive\Desktop\SuperQuizzer\app\src\main\AndroidManifest.xml:22:17-33
 	android:name
 		ADDED from C:\Users\utsav\OneDrive\Desktop\SuperQuizzer\app\src\main\AndroidManifest.xml:21:17-52
-activity#com.example.superquizzer.QuizActivity
+activity#com.example.superquizzer.SportsActivity
 ADDED from C:\Users\utsav\OneDrive\Desktop\SuperQuizzer\app\src\main\AndroidManifest.xml:24:9-30:20
 	android:exported
 		ADDED from C:\Users\utsav\OneDrive\Desktop\SuperQuizzer\app\src\main\AndroidManifest.xml:26:13-37
 	android:name
-		ADDED from C:\Users\utsav\OneDrive\Desktop\SuperQuizzer\app\src\main\AndroidManifest.xml:25:13-41
-activity#com.example.superquizzer.ScienceActivity
+		ADDED from C:\Users\utsav\OneDrive\Desktop\SuperQuizzer\app\src\main\AndroidManifest.xml:25:13-43
+activity#com.example.superquizzer.MusicActivity
 ADDED from C:\Users\utsav\OneDrive\Desktop\SuperQuizzer\app\src\main\AndroidManifest.xml:31:9-37:20
 	android:exported
 		ADDED from C:\Users\utsav\OneDrive\Desktop\SuperQuizzer\app\src\main\AndroidManifest.xml:33:13-37
 	android:name
-		ADDED from C:\Users\utsav\OneDrive\Desktop\SuperQuizzer\app\src\main\AndroidManifest.xml:32:13-44
-activity#com.example.superquizzer.ForgotPasswordActivity
-ADDED from C:\Users\utsav\OneDrive\Desktop\SuperQuizzer\app\src\main\AndroidManifest.xml:38:9-45:20
+		ADDED from C:\Users\utsav\OneDrive\Desktop\SuperQuizzer\app\src\main\AndroidManifest.xml:32:13-42
+activity#com.example.superquizzer.AnimeActivity
+ADDED from C:\Users\utsav\OneDrive\Desktop\SuperQuizzer\app\src\main\AndroidManifest.xml:38:9-44:20
 	android:exported
 		ADDED from C:\Users\utsav\OneDrive\Desktop\SuperQuizzer\app\src\main\AndroidManifest.xml:40:13-37
-	android:theme
-		ADDED from C:\Users\utsav\OneDrive\Desktop\SuperQuizzer\app\src\main\AndroidManifest.xml:41:13-78
 	android:name
-		ADDED from C:\Users\utsav\OneDrive\Desktop\SuperQuizzer\app\src\main\AndroidManifest.xml:39:13-51
+		ADDED from C:\Users\utsav\OneDrive\Desktop\SuperQuizzer\app\src\main\AndroidManifest.xml:39:13-42
+activity#com.example.superquizzer.GKActivity
+ADDED from C:\Users\utsav\OneDrive\Desktop\SuperQuizzer\app\src\main\AndroidManifest.xml:45:9-51:20
+	android:exported
+		ADDED from C:\Users\utsav\OneDrive\Desktop\SuperQuizzer\app\src\main\AndroidManifest.xml:47:13-37
+	android:name
+		ADDED from C:\Users\utsav\OneDrive\Desktop\SuperQuizzer\app\src\main\AndroidManifest.xml:46:13-39
+activity#com.example.superquizzer.ResultActivity
+ADDED from C:\Users\utsav\OneDrive\Desktop\SuperQuizzer\app\src\main\AndroidManifest.xml:52:9-58:20
+	android:exported
+		ADDED from C:\Users\utsav\OneDrive\Desktop\SuperQuizzer\app\src\main\AndroidManifest.xml:54:13-37
+	android:name
+		ADDED from C:\Users\utsav\OneDrive\Desktop\SuperQuizzer\app\src\main\AndroidManifest.xml:53:13-43
+activity#com.example.superquizzer.QuizActivity
+ADDED from C:\Users\utsav\OneDrive\Desktop\SuperQuizzer\app\src\main\AndroidManifest.xml:59:9-65:20
+	android:exported
+		ADDED from C:\Users\utsav\OneDrive\Desktop\SuperQuizzer\app\src\main\AndroidManifest.xml:61:13-37
+	android:name
+		ADDED from C:\Users\utsav\OneDrive\Desktop\SuperQuizzer\app\src\main\AndroidManifest.xml:60:13-41
+activity#com.example.superquizzer.ScienceActivity
+ADDED from C:\Users\utsav\OneDrive\Desktop\SuperQuizzer\app\src\main\AndroidManifest.xml:66:9-72:20
+	android:exported
+		ADDED from C:\Users\utsav\OneDrive\Desktop\SuperQuizzer\app\src\main\AndroidManifest.xml:68:13-37
+	android:name
+		ADDED from C:\Users\utsav\OneDrive\Desktop\SuperQuizzer\app\src\main\AndroidManifest.xml:67:13-44
+activity#com.example.superquizzer.ForgotPasswordActivity
+ADDED from C:\Users\utsav\OneDrive\Desktop\SuperQuizzer\app\src\main\AndroidManifest.xml:73:9-80:20
+	android:exported
+		ADDED from C:\Users\utsav\OneDrive\Desktop\SuperQuizzer\app\src\main\AndroidManifest.xml:75:13-37
+	android:theme
+		ADDED from C:\Users\utsav\OneDrive\Desktop\SuperQuizzer\app\src\main\AndroidManifest.xml:76:13-78
+	android:name
+		ADDED from C:\Users\utsav\OneDrive\Desktop\SuperQuizzer\app\src\main\AndroidManifest.xml:74:13-51
 activity#com.example.superquizzer.LoginActivity
-ADDED from C:\Users\utsav\OneDrive\Desktop\SuperQuizzer\app\src\main\AndroidManifest.xml:46:9-53:20
+ADDED from C:\Users\utsav\OneDrive\Desktop\SuperQuizzer\app\src\main\AndroidManifest.xml:81:9-88:20
 	android:exported
-		ADDED from C:\Users\utsav\OneDrive\Desktop\SuperQuizzer\app\src\main\AndroidManifest.xml:48:13-36
+		ADDED from C:\Users\utsav\OneDrive\Desktop\SuperQuizzer\app\src\main\AndroidManifest.xml:83:13-36
 	android:theme
-		ADDED from C:\Users\utsav\OneDrive\Desktop\SuperQuizzer\app\src\main\AndroidManifest.xml:49:13-78
+		ADDED from C:\Users\utsav\OneDrive\Desktop\SuperQuizzer\app\src\main\AndroidManifest.xml:84:13-78
 	android:name
-		ADDED from C:\Users\utsav\OneDrive\Desktop\SuperQuizzer\app\src\main\AndroidManifest.xml:47:13-42
+		ADDED from C:\Users\utsav\OneDrive\Desktop\SuperQuizzer\app\src\main\AndroidManifest.xml:82:13-42
 activity#com.example.superquizzer.RegisterActivity
-ADDED from C:\Users\utsav\OneDrive\Desktop\SuperQuizzer\app\src\main\AndroidManifest.xml:54:9-57:81
+ADDED from C:\Users\utsav\OneDrive\Desktop\SuperQuizzer\app\src\main\AndroidManifest.xml:89:9-92:81
 	android:exported
-		ADDED from C:\Users\utsav\OneDrive\Desktop\SuperQuizzer\app\src\main\AndroidManifest.xml:56:13-36
+		ADDED from C:\Users\utsav\OneDrive\Desktop\SuperQuizzer\app\src\main\AndroidManifest.xml:91:13-36
 	android:theme
-		ADDED from C:\Users\utsav\OneDrive\Desktop\SuperQuizzer\app\src\main\AndroidManifest.xml:57:13-78
+		ADDED from C:\Users\utsav\OneDrive\Desktop\SuperQuizzer\app\src\main\AndroidManifest.xml:92:13-78
 	android:name
-		ADDED from C:\Users\utsav\OneDrive\Desktop\SuperQuizzer\app\src\main\AndroidManifest.xml:55:13-45
+		ADDED from C:\Users\utsav\OneDrive\Desktop\SuperQuizzer\app\src\main\AndroidManifest.xml:90:13-45
 activity#com.example.superquizzer.SplashActivity
-ADDED from C:\Users\utsav\OneDrive\Desktop\SuperQuizzer\app\src\main\AndroidManifest.xml:58:9-66:20
+ADDED from C:\Users\utsav\OneDrive\Desktop\SuperQuizzer\app\src\main\AndroidManifest.xml:93:9-101:20
 	android:exported
-		ADDED from C:\Users\utsav\OneDrive\Desktop\SuperQuizzer\app\src\main\AndroidManifest.xml:60:13-36
+		ADDED from C:\Users\utsav\OneDrive\Desktop\SuperQuizzer\app\src\main\AndroidManifest.xml:95:13-36
 	android:name
-		ADDED from C:\Users\utsav\OneDrive\Desktop\SuperQuizzer\app\src\main\AndroidManifest.xml:59:13-43
+		ADDED from C:\Users\utsav\OneDrive\Desktop\SuperQuizzer\app\src\main\AndroidManifest.xml:94:13-43
 intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
-ADDED from C:\Users\utsav\OneDrive\Desktop\SuperQuizzer\app\src\main\AndroidManifest.xml:61:13-65:29
+ADDED from C:\Users\utsav\OneDrive\Desktop\SuperQuizzer\app\src\main\AndroidManifest.xml:96:13-100:29
 action#android.intent.action.MAIN
-ADDED from C:\Users\utsav\OneDrive\Desktop\SuperQuizzer\app\src\main\AndroidManifest.xml:62:17-69
+ADDED from C:\Users\utsav\OneDrive\Desktop\SuperQuizzer\app\src\main\AndroidManifest.xml:97:17-69
 	android:name
-		ADDED from C:\Users\utsav\OneDrive\Desktop\SuperQuizzer\app\src\main\AndroidManifest.xml:62:25-66
+		ADDED from C:\Users\utsav\OneDrive\Desktop\SuperQuizzer\app\src\main\AndroidManifest.xml:97:25-66
 category#android.intent.category.LAUNCHER
-ADDED from C:\Users\utsav\OneDrive\Desktop\SuperQuizzer\app\src\main\AndroidManifest.xml:64:17-77
+ADDED from C:\Users\utsav\OneDrive\Desktop\SuperQuizzer\app\src\main\AndroidManifest.xml:99:17-77
 	android:name
-		ADDED from C:\Users\utsav\OneDrive\Desktop\SuperQuizzer\app\src\main\AndroidManifest.xml:64:27-74
+		ADDED from C:\Users\utsav\OneDrive\Desktop\SuperQuizzer\app\src\main\AndroidManifest.xml:99:27-74
 activity#com.example.superquizzer.MainActivity
-ADDED from C:\Users\utsav\OneDrive\Desktop\SuperQuizzer\app\src\main\AndroidManifest.xml:67:9-75:20
+ADDED from C:\Users\utsav\OneDrive\Desktop\SuperQuizzer\app\src\main\AndroidManifest.xml:102:9-110:20
 	android:exported
-		ADDED from C:\Users\utsav\OneDrive\Desktop\SuperQuizzer\app\src\main\AndroidManifest.xml:69:13-36
+		ADDED from C:\Users\utsav\OneDrive\Desktop\SuperQuizzer\app\src\main\AndroidManifest.xml:104:13-36
 	android:name
-		ADDED from C:\Users\utsav\OneDrive\Desktop\SuperQuizzer\app\src\main\AndroidManifest.xml:68:13-41
+		ADDED from C:\Users\utsav\OneDrive\Desktop\SuperQuizzer\app\src\main\AndroidManifest.xml:103:13-41
 uses-sdk
 INJECTED from C:\Users\utsav\OneDrive\Desktop\SuperQuizzer\app\src\main\AndroidManifest.xml reason: use-sdk injection requested
 INJECTED from C:\Users\utsav\OneDrive\Desktop\SuperQuizzer\app\src\main\AndroidManifest.xml
@@ -262,6 +302,8 @@ MERGED from [androidx.appcompat:appcompat-resources:1.5.1] C:\Users\utsav\.gradl
 MERGED from [androidx.appcompat:appcompat-resources:1.5.1] C:\Users\utsav\.gradle\caches\transforms-3\23b7bfd4bde7b86bc9e659e4534b1ab0\transformed\appcompat-resources-1.5.1\AndroidManifest.xml:20:5-44
 MERGED from [androidx.appcompat:appcompat:1.5.1] C:\Users\utsav\.gradle\caches\transforms-3\0c57546b4e9f2760f6204e2c95bb8e35\transformed\appcompat-1.5.1\AndroidManifest.xml:20:5-44
 MERGED from [androidx.appcompat:appcompat:1.5.1] C:\Users\utsav\.gradle\caches\transforms-3\0c57546b4e9f2760f6204e2c95bb8e35\transformed\appcompat-1.5.1\AndroidManifest.xml:20:5-44
+MERGED from [com.github.bumptech.glide:glide:4.11.0] C:\Users\utsav\.gradle\caches\transforms-3\2048044b98e5327161211fb0e81589c3\transformed\glide-4.11.0\AndroidManifest.xml:6:5-8:41
+MERGED from [com.github.bumptech.glide:glide:4.11.0] C:\Users\utsav\.gradle\caches\transforms-3\2048044b98e5327161211fb0e81589c3\transformed\glide-4.11.0\AndroidManifest.xml:6:5-8:41
 MERGED from [androidx.viewpager2:viewpager2:1.0.0] C:\Users\utsav\.gradle\caches\transforms-3\0bf4221366668958c8097c1c986bd499\transformed\viewpager2-1.0.0\AndroidManifest.xml:20:5-22:41
 MERGED from [androidx.viewpager2:viewpager2:1.0.0] C:\Users\utsav\.gradle\caches\transforms-3\0bf4221366668958c8097c1c986bd499\transformed\viewpager2-1.0.0\AndroidManifest.xml:20:5-22:41
 MERGED from [com.google.firebase:firebase-auth:21.1.0] C:\Users\utsav\.gradle\caches\transforms-3\f1aec9d1eabdc449260f5fdb31676a69\transformed\firebase-auth-21.1.0\AndroidManifest.xml:21:5-44
@@ -346,6 +388,8 @@ MERGED from [androidx.core:core:1.9.0] C:\Users\utsav\.gradle\caches\transforms-
 MERGED from [androidx.core:core:1.9.0] C:\Users\utsav\.gradle\caches\transforms-3\44d6f460890717a72af0cec0fcdbb388\transformed\core-1.9.0\AndroidManifest.xml:20:5-44
 MERGED from [androidx.core:core-ktx:1.9.0] C:\Users\utsav\.gradle\caches\transforms-3\6b2ae3e8c424960351326e0d3e35a3e6\transformed\core-ktx-1.9.0\AndroidManifest.xml:5:5-44
 MERGED from [androidx.core:core-ktx:1.9.0] C:\Users\utsav\.gradle\caches\transforms-3\6b2ae3e8c424960351326e0d3e35a3e6\transformed\core-ktx-1.9.0\AndroidManifest.xml:5:5-44
+MERGED from [androidx.cardview:cardview:1.0.0] C:\Users\utsav\.gradle\caches\transforms-3\91450edd275c9045ba50157aad070aa0\transformed\cardview-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.cardview:cardview:1.0.0] C:\Users\utsav\.gradle\caches\transforms-3\91450edd275c9045ba50157aad070aa0\transformed\cardview-1.0.0\AndroidManifest.xml:20:5-44
 MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] C:\Users\utsav\.gradle\caches\transforms-3\0643e88819674be6b8d126be0d217ee7\transformed\cursoradapter-1.0.0\AndroidManifest.xml:20:5-44
 MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] C:\Users\utsav\.gradle\caches\transforms-3\0643e88819674be6b8d126be0d217ee7\transformed\cursoradapter-1.0.0\AndroidManifest.xml:20:5-44
 MERGED from [androidx.lifecycle:lifecycle-process:2.4.1] C:\Users\utsav\.gradle\caches\transforms-3\34f353e285381680615f99e6159909e7\transformed\lifecycle-process-2.4.1\AndroidManifest.xml:21:5-23:41
@@ -354,10 +398,12 @@ MERGED from [androidx.lifecycle:lifecycle-runtime:2.5.1] C:\Users\utsav\.gradle\
 MERGED from [androidx.lifecycle:lifecycle-runtime:2.5.1] C:\Users\utsav\.gradle\caches\transforms-3\1b15b0f1658e6d7d11e7c23f0e807c7d\transformed\lifecycle-runtime-2.5.1\AndroidManifest.xml:20:5-22:41
 MERGED from [androidx.savedstate:savedstate:1.2.0] C:\Users\utsav\.gradle\caches\transforms-3\9adfd883dc15b7e7989c1aed5ddb2873\transformed\savedstate-1.2.0\AndroidManifest.xml:20:5-22:41
 MERGED from [androidx.savedstate:savedstate:1.2.0] C:\Users\utsav\.gradle\caches\transforms-3\9adfd883dc15b7e7989c1aed5ddb2873\transformed\savedstate-1.2.0\AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.cardview:cardview:1.0.0] C:\Users\utsav\.gradle\caches\transforms-3\91450edd275c9045ba50157aad070aa0\transformed\cardview-1.0.0\AndroidManifest.xml:20:5-44
-MERGED from [androidx.cardview:cardview:1.0.0] C:\Users\utsav\.gradle\caches\transforms-3\91450edd275c9045ba50157aad070aa0\transformed\cardview-1.0.0\AndroidManifest.xml:20:5-44
 MERGED from [com.google.firebase:firebase-components:17.0.1] C:\Users\utsav\.gradle\caches\transforms-3\b10d2ff916418f92b7b63566fc59de3a\transformed\firebase-components-17.0.1\AndroidManifest.xml:19:5-21:41
 MERGED from [com.google.firebase:firebase-components:17.0.1] C:\Users\utsav\.gradle\caches\transforms-3\b10d2ff916418f92b7b63566fc59de3a\transformed\firebase-components-17.0.1\AndroidManifest.xml:19:5-21:41
+MERGED from [com.github.bumptech.glide:gifdecoder:4.11.0] C:\Users\utsav\.gradle\caches\transforms-3\5ab7aa9e62efb31c756b11dfacfd25fa\transformed\gifdecoder-4.11.0\AndroidManifest.xml:5:5-7:41
+MERGED from [com.github.bumptech.glide:gifdecoder:4.11.0] C:\Users\utsav\.gradle\caches\transforms-3\5ab7aa9e62efb31c756b11dfacfd25fa\transformed\gifdecoder-4.11.0\AndroidManifest.xml:5:5-7:41
+MERGED from [androidx.exifinterface:exifinterface:1.0.0] C:\Users\utsav\.gradle\caches\transforms-3\094f4b1b69e20e9c610cd6b2fa21a013\transformed\exifinterface-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.exifinterface:exifinterface:1.0.0] C:\Users\utsav\.gradle\caches\transforms-3\094f4b1b69e20e9c610cd6b2fa21a013\transformed\exifinterface-1.0.0\AndroidManifest.xml:20:5-44
 MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] C:\Users\utsav\.gradle\caches\transforms-3\717fd901a557cbc88cee23b1dbf8766f\transformed\versionedparcelable-1.1.1\AndroidManifest.xml:20:5-22:41
 MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] C:\Users\utsav\.gradle\caches\transforms-3\717fd901a557cbc88cee23b1dbf8766f\transformed\versionedparcelable-1.1.1\AndroidManifest.xml:20:5-22:41
 MERGED from [androidx.startup:startup-runtime:1.1.1] C:\Users\utsav\.gradle\caches\transforms-3\cb5314b23baf8ad308de24a03fe3e153\transformed\startup-runtime-1.1.1\AndroidManifest.xml:21:5-23:41
@@ -380,6 +426,8 @@ MERGED from [androidx.documentfile:documentfile:1.0.0] C:\Users\utsav\.gradle\ca
 MERGED from [androidx.documentfile:documentfile:1.0.0] C:\Users\utsav\.gradle\caches\transforms-3\4c4d4721e65f673c3f9de017c2f1f64e\transformed\documentfile-1.0.0\AndroidManifest.xml:20:5-44
 MERGED from [androidx.print:print:1.0.0] C:\Users\utsav\.gradle\caches\transforms-3\c9676425ea1a9ca1bbda00bdc1a0929c\transformed\print-1.0.0\AndroidManifest.xml:20:5-44
 MERGED from [androidx.print:print:1.0.0] C:\Users\utsav\.gradle\caches\transforms-3\c9676425ea1a9ca1bbda00bdc1a0929c\transformed\print-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [de.hdodenhof:circleimageview:3.1.0] C:\Users\utsav\.gradle\caches\transforms-3\40ef4865558aab7830af7d817495d9e2\transformed\circleimageview-3.1.0\AndroidManifest.xml:5:5-7:41
+MERGED from [de.hdodenhof:circleimageview:3.1.0] C:\Users\utsav\.gradle\caches\transforms-3\40ef4865558aab7830af7d817495d9e2\transformed\circleimageview-3.1.0\AndroidManifest.xml:5:5-7:41
 MERGED from [androidx.annotation:annotation-experimental:1.3.0] C:\Users\utsav\.gradle\caches\transforms-3\60e1cb7fe28bd165051d645f123a700a\transformed\annotation-experimental-1.3.0\AndroidManifest.xml:20:5-44
 MERGED from [androidx.annotation:annotation-experimental:1.3.0] C:\Users\utsav\.gradle\caches\transforms-3\60e1cb7fe28bd165051d645f123a700a\transformed\annotation-experimental-1.3.0\AndroidManifest.xml:20:5-44
 INJECTED from C:\Users\utsav\OneDrive\Desktop\SuperQuizzer\app\src\main\AndroidManifest.xml

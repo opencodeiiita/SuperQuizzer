@@ -269,6 +269,10 @@ attr circularflow_defaultAngle
 attr circularflow_defaultRadius
 attr circularflow_radiusInDP
 attr circularflow_viewCenter
+attr civ_border_color
+attr civ_border_overlay
+attr civ_border_width
+attr civ_circle_background_color
 attr clearsTag
 attr clickAction
 attr clockFaceBackgroundColor
@@ -2717,6 +2721,7 @@ drawable notification_template_icon_bg
 drawable notification_template_icon_low_bg
 drawable notification_tile_bg
 drawable notify_panel_notification_icon_bg
+drawable profile12
 drawable result_bg
 drawable science
 drawable share_button
@@ -2731,13 +2736,18 @@ drawable tooltip_frame_light
 drawable top_bottom_shape
 drawable trophy
 drawable wave
+drawable wet
 font montserratlight
 id ALT
+id AnimeButton
 id BOTTOM_END
 id BOTTOM_START
 id CTRL
 id FUNCTION
+id GKButton
+id GamingButton
 id META
+id MusicButton
 id NO_DEBUG
 id SHIFT
 id SHOW_ALL
@@ -2745,6 +2755,7 @@ id SHOW_PATH
 id SHOW_PROGRESS
 id SYM
 id ScienceButton
+id SportsButton
 id TOP_END
 id TOP_START
 id accelerate
@@ -2956,6 +2967,7 @@ id full_name
 id fullscreen_header
 id ghost_view
 id ghost_view_holder
+id glide_custom_view_target_tag
 id gone
 id graph
 id graph_wrap
@@ -3112,6 +3124,7 @@ id pin
 id position
 id postLayout
 id pressed
+id profile_pic
 id progressBar
 id progress_circular
 id progress_horizontal
@@ -3255,6 +3268,8 @@ id uniform
 id unlabeled
 id up
 id useLogo
+id user_email
+id user_name
 id username
 id vertical_only
 id view_offset_helper
@@ -3398,14 +3413,19 @@ layout abc_search_dropdown_item_icons_2line
 layout abc_search_view
 layout abc_select_dialog_material
 layout abc_tooltip
+layout activity_anime
 layout activity_forgot_password
+layout activity_gaming
+layout activity_gkactivity
 layout activity_login
 layout activity_main
+layout activity_music
 layout activity_quiz
 layout activity_register
 layout activity_result
 layout activity_science
 layout activity_splash
+layout activity_sports
 layout browser_actions_context_menu_page
 layout browser_actions_context_menu_row
 layout custom_dialog
@@ -3473,6 +3493,7 @@ layout mtrl_picker_header_title_text
 layout mtrl_picker_header_toggle
 layout mtrl_picker_text_input_date
 layout mtrl_picker_text_input_date_range
+layout nav_header
 layout notification_action
 layout notification_action_tombstone
 layout notification_template_custom_big
@@ -3572,6 +3593,7 @@ string create_account
 string default_web_client_id
 string design
 string don_t_have_an_account
+string e_mail
 string email_ID
 string email_id
 string enter_your_e_mail_address_and_we_ll_send_you_an_email_to_reset_your_password
@@ -3711,6 +3733,7 @@ string submit
 string superquizzer
 string superquizzersplash
 string title_activity_login2
+string username
 string welcome
 style AlertDialog_AppCompat
 style AlertDialog_AppCompat_Light
@@ -4795,6 +4818,7 @@ styleable Carousel carousel_backwardTransition carousel_emptyViewsBehavior carou
 styleable CheckedTextView android_checkMark checkMarkCompat checkMarkTint checkMarkTintMode
 styleable Chip android_textAppearance android_textSize android_textColor android_ellipsize android_maxWidth android_text android_checkable checkedIcon checkedIconEnabled checkedIconTint checkedIconVisible chipBackgroundColor chipCornerRadius chipEndPadding chipIcon chipIconEnabled chipIconSize chipIconTint chipIconVisible chipMinHeight chipMinTouchTargetSize chipStartPadding chipStrokeColor chipStrokeWidth chipSurfaceColor closeIcon closeIconEnabled closeIconEndPadding closeIconSize closeIconStartPadding closeIconTint closeIconVisible ensureMinTouchTargetSize hideMotionSpec iconEndPadding iconStartPadding rippleColor shapeAppearance shapeAppearanceOverlay showMotionSpec textEndPadding textStartPadding
 styleable ChipGroup checkedChip chipSpacing chipSpacingHorizontal chipSpacingVertical selectionRequired singleLine singleSelection
+styleable CircleImageView civ_border_color civ_border_overlay civ_border_width civ_circle_background_color
 styleable CircularProgressIndicator indicatorDirectionCircular indicatorInset indicatorSize
 styleable ClockFaceView clockFaceBackgroundColor clockNumberTextColor
 styleable ClockHandView clockHandColor materialCircleRadius selectorSize

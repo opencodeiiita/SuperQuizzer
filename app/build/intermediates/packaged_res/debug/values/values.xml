@@ -34,6 +34,7 @@
     <string name="default_web_client_id" translatable="false">169690102426-l07lpd97nd9oevu5cqo44787kl0ns4ae.apps.googleusercontent.com</string>
     <string name="design">design</string>
     <string name="don_t_have_an_account">Don\'t have an Account ?</string>
+    <string name="e_mail">e_mail</string>
     <string name="email_ID">Email ID</string>
     <string name="email_id">Email Id</string>
     <string name="enter_your_e_mail_address_and_we_ll_send_you_an_email_to_reset_your_password">Enter your e-mail address and we\'ll send you an email to reset your password.</string>
@@ -185,6 +186,7 @@
     <string name="superquizzer">SuperQuizzer</string>
     <string name="superquizzersplash">SuperQuizzerSplash</string>
     <string name="title_activity_login2">LoginActivity2</string>
+    <string name="username">username</string>
     <string name="welcome">"Welcome !"</string>
     <style name="CustomAlertDialog" parent="Theme.AppCompat.Light.Dialog.Alert">
         

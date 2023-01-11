@@ -41,4 +41,6 @@
     <string name="back">back</string>
     <string name="please_wait">Please Wait...</string>
     <string name="congratulations">Congratulations</string>
+    <string name="username">username</string>
+    <string name="e_mail">e_mail</string>
 </resources>
