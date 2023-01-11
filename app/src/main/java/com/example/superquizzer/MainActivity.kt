@@ -60,6 +60,11 @@ class MainActivity : AppCompatActivity() {
                     showLogoutDialog()
                     return@setNavigationItemSelectedListener true
                 }
+                 R.id.nav_settings->{
+                    val intent=Intent(this@MainActivity,Settings::class.java)
+                    startActivity(intent)
+                 return@setNavigationItemSelectedListener true
+                }
                 else->return@setNavigationItemSelectedListener true
             }
         }
