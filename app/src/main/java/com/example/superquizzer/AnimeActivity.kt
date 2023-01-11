@@ -6,6 +6,7 @@ import android.media.MediaPlayer
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.widget.Button
+import android.widget.ImageButton
 import android.widget.ProgressBar
 import android.widget.TextView
 import android.widget.Toast
@@ -27,6 +28,7 @@ class AnimeActivity : AppCompatActivity() {
     private var currentPosition : Int = 1
     private var submitted : Boolean = false
     private var canSelect : Boolean = true
+    private lateinit var backButton: ImageButton
     private lateinit var questionsArray : ArrayList<Question>
 
     override fun onCreate(savedInstanceState: Bundle?) {
@@ -43,6 +45,13 @@ class AnimeActivity : AppCompatActivity() {
         submitButton = findViewById(R.id.button)
         nextButton = findViewById(R.id.button2)
         scoreTv = findViewById(R.id.score)
+        backButton = findViewById(R.id.back_btn)
+
+        backButton.setOnClickListener {
+            val intent = Intent(this, MainActivity::class.java)
+            startActivity(intent)
+            finish()
+        }
 
         questionsArray = AnimeQuestions.getQuestions()
         setQuestions()

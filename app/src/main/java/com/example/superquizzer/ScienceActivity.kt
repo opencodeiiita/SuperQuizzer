@@ -7,10 +7,7 @@ import android.media.MediaPlayer
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.view.View
-import android.widget.Button
-import android.widget.ProgressBar
-import android.widget.TextView
-import android.widget.Toast
+import android.widget.*
 import androidx.core.content.ContextCompat
 
 class ScienceActivity : AppCompatActivity() {
@@ -31,6 +28,7 @@ class ScienceActivity : AppCompatActivity() {
     private var currentPosition : Int = 1
     private var submitted : Boolean = false
     private var canSelect : Boolean = true
+    private lateinit var backButton: ImageButton
     private lateinit var questionsArray : ArrayList<Question>
 
     override fun onCreate(savedInstanceState: Bundle?) {
@@ -47,6 +45,13 @@ class ScienceActivity : AppCompatActivity() {
         submitButton = findViewById(R.id.button)
         nextButton = findViewById(R.id.button2)
         scoreTv = findViewById(R.id.score)
+        backButton = findViewById(R.id.back_btn)
+
+        backButton.setOnClickListener {
+            val intent = Intent(this, MainActivity::class.java)
+            startActivity(intent)
+            finish()
+        }
 
         questionsArray = ScienceQuestions.getQuestions()
         setQuestions()
