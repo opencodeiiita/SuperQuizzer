@@ -121,6 +121,7 @@ class ScienceActivity : AppCompatActivity() {
                     val result = Intent(this, ResultActivity::class.java)
                     result.putExtra("score", score.toString())
                     startActivity(result)
+                    finish()
                 }
             }
         }

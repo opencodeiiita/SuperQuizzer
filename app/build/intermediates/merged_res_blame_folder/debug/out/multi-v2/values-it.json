@@ -1,7 +1,7 @@
 {
     "logs": [
         {
-            "outputFile": "com.example.superquizzer.app-mergeDebugResources-36:/values-it/values-it.xml",
+            "outputFile": "com.example.superquizzer.app-mergeDebugResources-38:/values-it/values-it.xml",
             "map": [
                 {
                     "source": "C:\\Users\\utsav\\.gradle\\caches\\transforms-3\\ad60a20a8279b16d8bd5235e3a9fad50\\transformed\\material-1.7.0\\res\\values-it\\values-it.xml",

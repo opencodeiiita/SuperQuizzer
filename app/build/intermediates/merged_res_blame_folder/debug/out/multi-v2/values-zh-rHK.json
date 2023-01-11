@@ -1,7 +1,7 @@
 {
     "logs": [
         {
-            "outputFile": "com.example.superquizzer.app-mergeDebugResources-36:/values-zh-rHK/values-zh-rHK.xml",
+            "outputFile": "com.example.superquizzer.app-mergeDebugResources-38:/values-zh-rHK/values-zh-rHK.xml",
             "map": [
                 {
                     "source": "C:\\Users\\utsav\\.gradle\\caches\\transforms-3\\c58269779e49c135487741256c9e5507\\transformed\\play-services-basement-18.1.0\\res\\values-zh-rHK\\values.xml",

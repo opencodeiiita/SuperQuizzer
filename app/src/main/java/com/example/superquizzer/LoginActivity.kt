@@ -30,6 +30,12 @@ class LoginActivity : AppCompatActivity() {
         binding = ActivityLoginBinding.inflate(layoutInflater)
         val view = binding.root
         setContentView(view)
+
+//        bLogin = findViewById(R.id.loginButton)
+//        bLogin!!.setOnClickListener {
+//            val intent = Intent(this, MainActivity::class.java)
+//            startActivity(intent)
+//        }
         auth = FirebaseAuth.getInstance()
         etEmail=binding.editTextTextEmailAddress4
         etPassword=binding.editTextTextPassword2

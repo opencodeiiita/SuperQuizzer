@@ -2,7 +2,9 @@ package com.example.superquizzer
 
 
 import android.content.Intent
+import android.media.Image
 import android.os.Bundle
+import android.provider.ContactsContract.CommonDataKinds.Im
 import android.view.MenuItem
 import android.widget.ImageButton
 import android.widget.ImageView
@@ -35,6 +37,11 @@ class MainActivity : AppCompatActivity() {
 
         full_name.text = "$name"
         val scienceButton = findViewById<ImageButton>(R.id.ScienceButton)
+        val animeButton = findViewById<ImageButton>(R.id.AnimeButton)
+        val gkButton = findViewById<ImageButton>(R.id.GKButton)
+        val sportsButton = findViewById<ImageButton>(R.id.SportsButton)
+        val musicButton = findViewById<ImageButton>(R.id.MusicButton)
+        val gamingButton = findViewById<ImageButton>(R.id.GamingButton)
         val drawerLayout = findViewById<DrawerLayout>(R.id.drawer_layout)
         val navigationView=findViewById<NavigationView>(R.id.nav_view)
         val sharebtn=findViewById<ImageButton>(R.id.shareimgbtn)
@@ -69,6 +76,26 @@ class MainActivity : AppCompatActivity() {
         scienceButton.setOnClickListener {
             val science = Intent(this, ScienceActivity::class.java)
             startActivity(science)
+        }
+        gkButton.setOnClickListener {
+            val gk = Intent(this, GKActivity::class.java)
+            startActivity(gk)
+        }
+        musicButton.setOnClickListener {
+            val music = Intent(this, MusicActivity::class.java)
+            startActivity(music)
+        }
+        gamingButton.setOnClickListener {
+            val gaming = Intent(this, GamingActivity::class.java)
+            startActivity(gaming)
+        }
+        animeButton.setOnClickListener {
+            val anime = Intent(this, AnimeActivity::class.java)
+            startActivity(anime)
+        }
+        sportsButton.setOnClickListener {
+            val sports = Intent(this, SportsActivity::class.java)
+            startActivity(sports)
         }
         updateNavHeader()
     }

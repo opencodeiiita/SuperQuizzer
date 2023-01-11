@@ -34,6 +34,41 @@
         android:testOnly="true"
         android:theme="@style/Theme.SuperQuizzer" >
         <activity
+            android:name="com.example.superquizzer.GamingActivity"
+            android:exported="false" >
+            <meta-data
+                android:name="android.app.lib_name"
+                android:value="" />
+        </activity>
+        <activity
+            android:name="com.example.superquizzer.SportsActivity"
+            android:exported="false" >
+            <meta-data
+                android:name="android.app.lib_name"
+                android:value="" />
+        </activity>
+        <activity
+            android:name="com.example.superquizzer.MusicActivity"
+            android:exported="false" >
+            <meta-data
+                android:name="android.app.lib_name"
+                android:value="" />
+        </activity>
+        <activity
+            android:name="com.example.superquizzer.AnimeActivity"
+            android:exported="false" >
+            <meta-data
+                android:name="android.app.lib_name"
+                android:value="" />
+        </activity>
+        <activity
+            android:name="com.example.superquizzer.GKActivity"
+            android:exported="false" >
+            <meta-data
+                android:name="android.app.lib_name"
+                android:value="" />
+        </activity>
+        <activity
             android:name="com.example.superquizzer.ResultActivity"
             android:exported="false" >
             <meta-data
