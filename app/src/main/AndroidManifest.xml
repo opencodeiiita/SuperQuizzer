@@ -15,13 +15,6 @@
         android:theme="@style/Theme.SuperQuizzer"
         tools:targetApi="tiramisu">
         <activity
-            android:name=".Settings"
-            android:exported="false">
-            <meta-data
-                android:name="android.app.lib_name"
-                android:value="" />
-        </activity>
-        <activity
             android:name=".GamingActivity"
             android:exported="false">
             <meta-data

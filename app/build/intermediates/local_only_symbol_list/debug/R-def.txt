@@ -4,9 +4,6 @@ anim slide_in_left
 anim slide_in_right
 anim slide_out_left
 anim slide_out_right
-attr? background_color
-attr? button_color
-attr? text_color
 color alert
 color alternative
 color ashgray
@@ -112,7 +109,6 @@ id score_tv
 id share_button
 id shareimgbtn
 id signUpLink
-id switchbtn
 id terms_cond_cbox
 id textView
 id textView2
@@ -139,7 +135,6 @@ layout activity_quiz
 layout activity_register
 layout activity_result
 layout activity_science
-layout activity_settings
 layout activity_splash
 layout activity_sports
 layout dialog_progress
@@ -215,7 +210,5 @@ string username
 string welcome
 style CustomAlertDialog
 style Theme.SuperQuizzer
-style darkTheme
-styleable ds background_color text_color button_color
 xml backup_rules
 xml data_extraction_rules
