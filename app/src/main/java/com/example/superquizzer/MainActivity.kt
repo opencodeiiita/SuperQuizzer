@@ -6,6 +6,7 @@ import android.media.Image
 import android.os.Bundle
 import android.provider.ContactsContract.CommonDataKinds.Im
 import android.view.MenuItem
+import android.view.View
 import android.widget.ImageButton
 import android.widget.ImageView
 import android.widget.TextView
@@ -30,6 +31,7 @@ class MainActivity : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
 
+        window.decorView.systemUiVisibility = View.SYSTEM_UI_FLAG_FULLSCREEN
         auth=FirebaseAuth.getInstance()
 
         val full_name=findViewById<TextView>(R.id.full_name)

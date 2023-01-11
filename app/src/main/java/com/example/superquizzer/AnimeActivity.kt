@@ -5,6 +5,7 @@ import android.graphics.Color
 import android.media.MediaPlayer
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
+import android.view.View
 import android.widget.Button
 import android.widget.ImageButton
 import android.widget.ProgressBar
@@ -35,6 +36,7 @@ class AnimeActivity : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_science)
 
+        window.decorView.systemUiVisibility = View.SYSTEM_UI_FLAG_FULLSCREEN
         questionField = findViewById(R.id.tv_question)
         progressBar = findViewById(R.id.progressBar)
         progressTv = findViewById(R.id.tv_progress)
