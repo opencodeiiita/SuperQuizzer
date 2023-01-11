@@ -2,6 +2,7 @@ package com.example.superquizzer
 
 import android.content.Intent
 import android.graphics.Color
+import android.media.MediaPlayer
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.widget.Button
@@ -48,6 +49,7 @@ class AnimeActivity : AppCompatActivity() {
 
         optionOne.setOnClickListener {
             if (canSelect){
+                playSelect()
                 optionSelected = 1
 //                optionOne.setTypeface(optionOne.typeface, Typeface.BOLD)
                 optionOne.setBackgroundColor(Color.CYAN)
@@ -61,6 +63,7 @@ class AnimeActivity : AppCompatActivity() {
         }
         optionTwo.setOnClickListener {
             if (canSelect){
+                playSelect()
                 optionSelected = 2
 //                optionTwo.setTypeface(optionTwo.typeface, Typeface.BOLD)
                 optionTwo.setBackgroundColor(Color.CYAN)
@@ -74,6 +77,7 @@ class AnimeActivity : AppCompatActivity() {
         }
         optionThree.setOnClickListener {
             if (canSelect){
+                playSelect()
                 optionSelected = 3
 //                optionThree.setTypeface(optionThree.typeface, Typeface.BOLD)
                 optionThree.setBackgroundColor(Color.CYAN)
@@ -87,6 +91,7 @@ class AnimeActivity : AppCompatActivity() {
         }
         optionFour.setOnClickListener {
             if (canSelect){
+                playSelect()
                 optionSelected = 4
 //                optionFour.setTypeface(optionFour.typeface, Typeface.BOLD)
                 optionFour.setBackgroundColor(Color.CYAN)
@@ -138,6 +143,7 @@ class AnimeActivity : AppCompatActivity() {
             canSelect = false
             submitted = true
             if (correctOption == optionSelected){
+                playCorrect()
                 score++
                 scoreTv?.text = "Score: $score/${progressBar?.max}"
                 when (optionSelected) {
@@ -160,6 +166,7 @@ class AnimeActivity : AppCompatActivity() {
                 }
             }
             else{
+                playIncorrect()
                 when (correctOption) {
                     1 -> {
 
@@ -225,5 +232,32 @@ class AnimeActivity : AppCompatActivity() {
 //        optionThree.setTypeface(optionThree.typeface, Typeface.NORMAL)
 //        optionTwo.setTypeface(optionTwo.typeface, Typeface.NORMAL)
 //        optionFour.setTypeface(optionFour.typeface, Typeface.NORMAL)
+    }
+
+    private fun playCorrect(){
+
+        var resId = resources.getIdentifier(R.raw.correct_answer.toString(),
+            "raw", packageName)
+
+        val mediaPlayer = MediaPlayer.create(this, resId)
+        mediaPlayer.start()
+    }
+
+    private fun playIncorrect(){
+
+        var resId = resources.getIdentifier(R.raw.wrong_answer.toString(),
+            "raw", packageName)
+
+        val mediaPlayer = MediaPlayer.create(this, resId)
+        mediaPlayer.start()
+    }
+
+    private fun playSelect(){
+
+        var resId = resources.getIdentifier(R.raw.select_option.toString(),
+            "raw", packageName)
+
+        val mediaPlayer = MediaPlayer.create(this, resId)
+        mediaPlayer.start()
     }
 }
