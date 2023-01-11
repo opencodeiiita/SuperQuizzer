@@ -3,6 +3,7 @@ package com.example.superquizzer
 import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
+import android.view.View
 import android.widget.Button
 import android.widget.ImageButton
 import android.widget.TextView
@@ -18,6 +19,7 @@ class ResultActivity : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_result)
 
+        window.decorView.systemUiVisibility = View.SYSTEM_UI_FLAG_FULLSCREEN
         shareButton = findViewById(R.id.share_button)
         homeButton = findViewById(R.id.home_button)
         scoreTv = findViewById(R.id.score_tv)

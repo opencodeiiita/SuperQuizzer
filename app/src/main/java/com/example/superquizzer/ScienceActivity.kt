@@ -36,6 +36,7 @@ class ScienceActivity : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_science)
 
+        window.decorView.systemUiVisibility = View.SYSTEM_UI_FLAG_FULLSCREEN
         questionField = findViewById(R.id.tv_question)
         progressBar = findViewById(R.id.progressBar)
         progressTv = findViewById(R.id.tv_progress)

@@ -96,7 +96,6 @@ id ll_progress_details
 id login
 id loginButton
 id logoText
-id nav_account
 id nav_logout
 id nav_settings
 id nav_view

@@ -7,6 +7,7 @@ import android.os.Bundle
 import android.text.Editable
 import android.text.TextUtils
 import android.util.Patterns
+import android.view.View
 import android.view.WindowManager
 import android.widget.Button
 import android.widget.EditText
@@ -40,7 +41,7 @@ class LoginActivity : AppCompatActivity() {
         etEmail=binding.editTextTextEmailAddress4
         etPassword=binding.editTextTextPassword2
         bLogin=binding.loginButton
-
+        window.decorView.systemUiVisibility = View.SYSTEM_UI_FLAG_FULLSCREEN
         supportActionBar?.hide()
         window.setFlags(
             WindowManager.LayoutParams.FLAG_FULLSCREEN,
