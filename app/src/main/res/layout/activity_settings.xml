@@ -85,26 +85,26 @@
 
 
     <Switch
+        android:textSize="24sp"
+        android:textStyle="bold"
         android:id="@+id/switchbtn"
-        android:layout_width="300sp"
-        android:layout_height="wrap_content"
-        android:layout_marginStart="42dp"
-        android:layout_marginTop="200dp"
-        android:layout_marginEnd="79dp"
-        android:layout_marginBottom="20dp"
+        android:layout_width="230dp"
+        android:layout_height="66dp"
+        android:layout_marginBottom="48dp"
         android:backgroundTint="#0E27AE"
-        android:drawableStart="@drawable/ic_baseline_auto_mode_24"
         android:drawablePadding="10sp"
         android:ems="10"
-        android:hint="@string/switch_mode"
         android:minHeight="48dp"
+        android:outlineAmbientShadowColor="@color/black"
+        android:text="Night Mode"
+        android:textColor="@color/black"
         android:textColorHint="#2196F3"
         app:layout_constraintBottom_toTopOf="@+id/loginButton"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintHorizontal_bias="0.464"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/linearlayout_forgot"
-        app:layout_constraintVertical_bias="1.0"
+        app:layout_constraintVertical_bias="0.955"
         tools:ignore="UseSwitchCompatOrMaterialXml" />
 
     <Button
@@ -112,19 +112,19 @@
         android:layout_width="300sp"
         android:layout_height="wrap_content"
         android:layout_marginStart="52dp"
-        android:layout_marginTop="5dp"
         android:layout_marginEnd="79dp"
-        android:layout_marginBottom="28dp"
+        android:layout_marginBottom="8dp"
         android:backgroundTint="#152DB3"
-        android:text="@string/delete_account"
+        android:text="Delete Account"
         android:textColor="#FDFDFD"
         android:textStyle="bold"
         app:cornerRadius="50sp"
         app:layout_constraintBottom_toTopOf="@+id/imageView4"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.35"
+        app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@id/switchbtn" />
+        app:layout_constraintTop_toBottomOf="@+id/linearlayout_forgot"
+        app:layout_constraintVertical_bias="0.946" />
 
     <ImageView
         android:id="@+id/imageView4"
@@ -145,19 +145,15 @@
         android:layout_marginStart="52dp"
         android:layout_marginTop="30dp"
         android:layout_marginEnd="105dp"
-        android:text="@string/settings"
+        android:text="Settings"
         android:textAlignment="center"
         android:textColor="@color/black"
         android:textSize="35sp"
         android:textStyle="bold"
         app:layout_constraintBottom_toTopOf="@+id/switchbtn"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.733"
+        app:layout_constraintHorizontal_bias="0.736"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/linearlayout_forgot"
-        app:layout_constraintVertical_bias="0.253" />
-
-    >
-
-
+        app:layout_constraintVertical_bias="0.0" />
 </androidx.constraintlayout.widget.ConstraintLayout>

@@ -127,7 +127,11 @@ class MainActivity : AppCompatActivity() {
     private fun signOutFromApp()
     {
         auth.signOut()
-        Toast.makeText(this,"Logout Successfully",Toast.LENGTH_LONG).show()
+        Toast.makeText(this,"Logged out Successfully",Toast.LENGTH_LONG).show()
+
+        val intent = Intent(this, LoginActivity::class.java)
+        startActivity(intent)
+
     }
     private  fun updateNavHeader()
     {

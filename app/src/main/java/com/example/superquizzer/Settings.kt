@@ -15,6 +15,7 @@ import androidx.appcompat.app.AppCompatDelegate
 import com.google.firebase.auth.FirebaseAuth
 
 class Settings : AppCompatActivity() {
+
     companion object
     {
         lateinit var auth: FirebaseAuth
@@ -37,7 +38,6 @@ class Settings : AppCompatActivity() {
                 AppCompatDelegate.setDefaultNightMode(AppCompatDelegate.MODE_NIGHT_YES)
             } else {
                 AppCompatDelegate.setDefaultNightMode(AppCompatDelegate.MODE_NIGHT_NO)
-                Toast.makeText(this,"Enable Light Mode",Toast.LENGTH_SHORT).show()
             }
         }
 

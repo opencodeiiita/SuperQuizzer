@@ -1,5 +1,6 @@
 package com.example.superquizzer
 
+import android.app.Dialog
 import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
@@ -7,10 +8,7 @@ import android.text.Editable
 import android.text.TextUtils
 import android.util.Patterns
 import android.view.View
-import android.widget.Button
-import android.widget.EditText
-import android.widget.ImageView
-import android.widget.Toast
+import android.widget.*
 import com.example.superquizzer.databinding.ActivityForgotPasswordBinding
 import com.google.firebase.auth.FirebaseAuth
 
@@ -25,6 +23,7 @@ class ForgotPasswordActivity : AppCompatActivity() {
     var bBack:ImageView?=null
     var edtEmail:EditText?=null
     private var bSubmit:Button?=null
+    private lateinit var mProgressDialog: Dialog
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
@@ -48,8 +47,10 @@ class ForgotPasswordActivity : AppCompatActivity() {
                 val email= edtEmail!!.text.toString().trim()
                 if(CheckEmail())
                 {
+                    showProgressDialog(resources.getString(R.string.please_wait))
                     auth.sendPasswordResetEmail(email)
                         .addOnCompleteListener{task->
+                            hideProgressDialog()
                             if(task.isSuccessful)
                             {
                                 Toast.makeText(this@ForgotPasswordActivity,"Email sent to reset your password",
@@ -84,4 +85,25 @@ class ForgotPasswordActivity : AppCompatActivity() {
         }
         return true
     }
+    fun showProgressDialog(text: String) {
+        mProgressDialog = Dialog(this)
+
+        /*Set the screen content from a layout resource.
+        The resource will be inflated, adding all top-level views to the screen.*/
+        mProgressDialog.setContentView(R.layout.dialog_progress)
+
+        mProgressDialog.findViewById<TextView>(R.id.tv_progress_text).text = text
+
+        mProgressDialog.setCancelable(false)
+        mProgressDialog.setCanceledOnTouchOutside(false)
+
+        //Start the dialog and display it on screen.
+        mProgressDialog.show()
+    }
+
+    fun hideProgressDialog() {
+        mProgressDialog.dismiss()
+
+    }
+
 }

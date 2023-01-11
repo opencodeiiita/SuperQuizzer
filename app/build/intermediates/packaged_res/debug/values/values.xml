@@ -188,7 +188,7 @@
     <string name="title_activity_login2">LoginActivity2</string>
     <string name="username">username</string>
     <string name="welcome">"Welcome !"</string>
-    <style name="CustomAlertDialog" parent="Theme.AppCompat.Light.Dialog.Alert">
+    <style name="CustomAlertDialog" parent="Theme.AppCompat.DayNight.Dialog.Alert">
         
         <item name="android:background">@color/white</item>
         
@@ -201,7 +201,7 @@
         <item name="android:positiveButtonText">bold</item>
         <item name="android:dialogTitle">bold</item>
     </style>
-    <style name="Theme.SuperQuizzer" parent="Theme.MaterialComponents.Light">
+    <style name="Theme.SuperQuizzer" parent="Theme.MaterialComponents.DayNight">
         
         <item name="colorPrimary">@color/btnback</item>
         <item name="colorPrimaryVariant">@color/secondary</item>
@@ -215,4 +215,20 @@
         
         <item name="android:fontFamily">@font/montserratlight</item>
     </style>
+    <style name="darkTheme" parent="Theme.AppCompat.DayNight.DarkActionBar">
+        
+        <item name="colorPrimary">#000</item>
+        <item name="colorPrimaryDark">#000</item>
+        <item name="colorAccent">@color/secondary</item>
+        <item name="background_color">#131313</item>
+        
+        <item name="text_color">#ffff</item>
+        
+        <item name="button_color">#ffff</item>
+    </style>
+    <declare-styleable name="ds">
+        <attr format="color" name="background_color"/>
+        <attr format="color" name="text_color"/>
+        <attr format="color" name="button_color"/>
+    </declare-styleable>
 </resources>
