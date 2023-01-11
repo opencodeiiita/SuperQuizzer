@@ -43,4 +43,7 @@
     <string name="congratulations">Congratulations</string>
     <string name="username">username</string>
     <string name="e_mail">e_mail</string>
+    <string name="delete_account">delete account</string>
+    <string name="switch_mode">switch mode</string>
+    <string name="settings">settings</string>
 </resources>

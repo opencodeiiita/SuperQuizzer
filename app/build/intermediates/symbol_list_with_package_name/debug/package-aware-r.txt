@@ -145,6 +145,7 @@ attr backgroundSplit
 attr backgroundStacked
 attr backgroundTint
 attr backgroundTintMode
+attr background_color
 attr badgeGravity
 attr badgeRadius
 attr badgeStyle
@@ -206,6 +207,7 @@ attr buttonStyle
 attr buttonStyleSmall
 attr buttonTint
 attr buttonTintMode
+attr button_color
 attr cardBackgroundColor
 attr cardCornerRadius
 attr cardElevation
@@ -1136,6 +1138,7 @@ attr textOutlineThickness
 attr textPanX
 attr textPanY
 attr textStartPadding
+attr text_color
 attr textureBlurFactor
 attr textureEffect
 attr textureHeight
@@ -3080,7 +3083,6 @@ id mtrl_picker_text_input_range_start
 id mtrl_picker_title_text
 id mtrl_view_tag_bottom_padding
 id multiply
-id nav_account
 id nav_logout
 id nav_settings
 id nav_view
@@ -3205,6 +3207,7 @@ id stretch
 id submenuarrow
 id submit_area
 id supportScrollUp
+id switchbtn
 id tabMode
 id tag_accessibility_actions
 id tag_accessibility_clickable_spans
@@ -3424,6 +3427,7 @@ layout activity_quiz
 layout activity_register
 layout activity_result
 layout activity_science
+layout activity_settings
 layout activity_splash
 layout activity_sports
 layout browser_actions_context_menu_page
@@ -3594,6 +3598,7 @@ string congratulations
 string copy_toast_msg
 string create_account
 string default_web_client_id
+string delete_account
 string design
 string don_t_have_an_account
 string e_mail
@@ -3730,11 +3735,13 @@ string prompt_password
 string register
 string s
 string search_menu_title
+string settings
 string sign_up
 string status_bar_notification_info_overflow
 string submit
 string superquizzer
 string superquizzersplash
+string switch_mode
 string title_activity_login2
 string username
 string welcome
@@ -4790,6 +4797,7 @@ style Widget_MaterialComponents_Toolbar_PrimarySurface
 style Widget_MaterialComponents_Toolbar_Surface
 style Widget_MaterialComponents_Tooltip
 style Widget_Support_CoordinatorLayout
+style darkTheme
 styleable ActionBar background backgroundSplit backgroundStacked contentInsetEnd contentInsetEndWithActions contentInsetLeft contentInsetRight contentInsetStart contentInsetStartWithNavigation customNavigationLayout displayOptions divider elevation height hideOnContentScroll homeAsUpIndicator homeLayout icon indeterminateProgressStyle itemPadding logo navigationMode popupTheme progressBarPadding progressBarStyle subtitle subtitleTextStyle title titleTextStyle
 styleable ActionBarLayout android_layout_gravity
 styleable ActionMenuItemView android_minWidth
@@ -4943,6 +4951,7 @@ styleable ViewBackgroundHelper android_background backgroundTint backgroundTintM
 styleable ViewPager2 android_orientation
 styleable ViewStubCompat android_id android_layout android_inflatedId
 styleable ViewTransition android_id SharedValue SharedValueId clearsTag duration ifTagNotSet ifTagSet motionInterpolator motionTarget onStateTransition pathMotionArc setsTag transitionDisable upDuration viewTransitionMode
+styleable ds background_color button_color text_color
 styleable include constraintSet
 xml backup_rules
 xml data_extraction_rules
