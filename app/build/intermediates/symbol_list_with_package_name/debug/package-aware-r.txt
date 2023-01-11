@@ -3520,7 +3520,10 @@ mipmap app_logo_round
 mipmap ic_launcher
 mipmap ic_launcher_round
 plurals mtrl_badge_content_description
+raw correct_answer
 raw firebase_common_keep
+raw select_option
+raw wrong_answer
 string abc_action_bar_home_description
 string abc_action_bar_up_description
 string abc_action_menu_overflow_description

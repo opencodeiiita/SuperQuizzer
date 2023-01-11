@@ -3519,7 +3519,10 @@ int mipmap app_logo_round 0x7f0f000b
 int mipmap ic_launcher 0x7f0f000c
 int mipmap ic_launcher_round 0x7f0f000d
 int plurals mtrl_badge_content_description 0x7f100000
-int raw firebase_common_keep 0x7f110000
+int raw correct_answer 0x7f110000
+int raw firebase_common_keep 0x7f110001
+int raw select_option 0x7f110002
+int raw wrong_answer 0x7f110003
 int string abc_action_bar_home_description 0x7f120000
 int string abc_action_bar_up_description 0x7f120001
 int string abc_action_menu_overflow_description 0x7f120002

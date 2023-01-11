@@ -154,6 +154,9 @@ mipmap app_logo_foreground
 mipmap app_logo_round
 mipmap ic_launcher
 mipmap ic_launcher_round
+raw correct_answer
+raw select_option
+raw wrong_answer
 string action_sign_in
 string action_sign_in_short
 string already_have_an_account
