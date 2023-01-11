@@ -4,7 +4,7 @@
             "outputFile": "com.example.superquizzer.app-mergeDebugResources-38:/values-v22/values-v22.xml",
             "map": [
                 {
-                    "source": "/Users/akshatsingh/.gradle/caches/transforms-3/0c57546b4e9f2760f6204e2c95bb8e35/transformed/appcompat-1.5.1/res/values-v22/values-v22.xml",
+                    "source": "/home/suhail/.gradle/caches/transforms-3/0c57546b4e9f2760f6204e2c95bb8e35/transformed/appcompat-1.5.1/res/values-v22/values-v22.xml",
                     "from": {
                         "startLines": "2,3,4,9",
                         "startColumns": "4,4,4,4",

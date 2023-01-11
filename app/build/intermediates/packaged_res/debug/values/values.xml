@@ -32,7 +32,7 @@
     <string name="congratulations">Congratulations</string>
     <string name="create_account">Create Account</string>
     <string name="default_web_client_id" translatable="false">169690102426-l07lpd97nd9oevu5cqo44787kl0ns4ae.apps.googleusercontent.com</string>
-    <string name="delete_account">delete account</string>
+    <string name="delete_account">Delete account</string>
     <string name="design">design</string>
     <string name="don_t_have_an_account">Don\'t have an Account ?</string>
     <string name="e_mail">e_mail</string>
@@ -182,12 +182,12 @@
     <string name="prompt_password">Password</string>
     <string name="register">REGISTER</string>
     <string name="s">S</string>
-    <string name="settings">settings</string>
+    <string name="settings">Settings</string>
     <string name="sign_up">Sign Up</string>
     <string name="submit">Submit</string>
     <string name="superquizzer">SuperQuizzer</string>
     <string name="superquizzersplash">SuperQuizzerSplash</string>
-    <string name="switch_mode">switch mode</string>
+    <string name="switch_mode">Switch mode</string>
     <string name="title_activity_login2">LoginActivity2</string>
     <string name="username">username</string>
     <string name="welcome">"Welcome !"</string>
