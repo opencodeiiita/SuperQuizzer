@@ -5,10 +5,7 @@ import android.graphics.Color
 import android.media.MediaPlayer
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
-import android.widget.Button
-import android.widget.ProgressBar
-import android.widget.TextView
-import android.widget.Toast
+import android.widget.*
 
 class SportsActivity : AppCompatActivity() {
     private lateinit var questionField : TextView
@@ -27,6 +24,7 @@ class SportsActivity : AppCompatActivity() {
     private var currentPosition : Int = 1
     private var submitted : Boolean = false
     private var canSelect : Boolean = true
+    private lateinit var backButton: ImageButton
     private lateinit var questionsArray : ArrayList<Question>
 
     override fun onCreate(savedInstanceState: Bundle?) {
@@ -43,6 +41,13 @@ class SportsActivity : AppCompatActivity() {
         submitButton = findViewById(R.id.button)
         nextButton = findViewById(R.id.button2)
         scoreTv = findViewById(R.id.score)
+        backButton = findViewById(R.id.back_btn)
+
+        backButton.setOnClickListener {
+            val intent = Intent(this, MainActivity::class.java)
+            startActivity(intent)
+            finish()
+        }
 
         questionsArray = SportsQuestion.getQuestions()
         setQuestions()
