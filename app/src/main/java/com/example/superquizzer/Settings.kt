@@ -58,13 +58,14 @@ class Settings : AppCompatActivity() {
         dialogBuilder .setTitle("Log Out")
             .setMessage("Are you sure you want to Delete this account ?")
             .setPositiveButton("Yes"){ _, _ ->  //dialog,which
-                signOutFromApp()
+                deleteFromApp()
+                finish()
             }
             .setNegativeButton("No"){ dialog, _ ->
                 dialog.cancel()
             }.show()
     }
-    private fun signOutFromApp()
+    private fun deleteFromApp()
     {
         val user=auth.currentUser!!
         user.delete()

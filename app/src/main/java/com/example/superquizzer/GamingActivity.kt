@@ -267,4 +267,9 @@ class GamingActivity : AppCompatActivity() {
         val mediaPlayer = MediaPlayer.create(this, resId)
         mediaPlayer.start()
     }
+    override fun finish() {
+        super.finish()
+        overridePendingTransition(
+            R.anim.enter_activity, R.anim.exit_activity)
+    }
 }
