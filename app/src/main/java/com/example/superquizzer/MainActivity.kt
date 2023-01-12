@@ -120,16 +120,23 @@ class MainActivity : AppCompatActivity() {
         dialogBuilder .setTitle("Log Out")
             .setMessage("Are you sure you want to logout ?")
             .setPositiveButton("Yes"){ _, _ ->  //dialog,which
-                signOutFromApp()
+                if(signOutFromApp())
+                {
+                    val intent=Intent(this,LoginActivity::class.java)
+                    startActivity(intent)
+                    finish()
+                }
+
             }
             .setNegativeButton("No"){ dialog, _ ->
                 dialog.cancel()
             }.show()
     }
-    private fun signOutFromApp()
+    private fun signOutFromApp():Boolean
     {
         auth.signOut()
         Toast.makeText(this,"Logout Successfully",Toast.LENGTH_LONG).show()
+        return true
     }
     private  fun updateNavHeader()
     {
