@@ -11,6 +11,7 @@ import android.widget.Button
 import android.widget.EditText
 import android.widget.ImageView
 import android.widget.Toast
+import com.blogspot.atifsoftwares.animatoolib.Animatoo
 import com.example.superquizzer.databinding.ActivityForgotPasswordBinding
 import com.google.firebase.auth.FirebaseAuth
 
@@ -42,6 +43,7 @@ class ForgotPasswordActivity : AppCompatActivity() {
         bBack!!.setOnClickListener {
             val intent = Intent(this@ForgotPasswordActivity, LoginActivity::class.java)
             startActivity(intent)
+            Animatoo.animateSlideLeft(this)
         }
 
             bSubmit!!.setOnClickListener {

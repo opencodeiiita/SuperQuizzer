@@ -15,6 +15,7 @@ import androidx.appcompat.app.ActionBarDrawerToggle
 import androidx.appcompat.app.AlertDialog
 import androidx.appcompat.app.AppCompatActivity
 import androidx.drawerlayout.widget.DrawerLayout
+import com.blogspot.atifsoftwares.animatoolib.Animatoo
 import com.bumptech.glide.Glide
 import com.google.android.material.navigation.NavigationView
 import com.google.firebase.auth.FirebaseAuth
@@ -83,26 +84,32 @@ class MainActivity : AppCompatActivity() {
         scienceButton.setOnClickListener {
             val science = Intent(this, ScienceActivity::class.java)
             startActivity(science)
+            Animatoo.animateShrink(this)
         }
         gkButton.setOnClickListener {
             val gk = Intent(this, GKActivity::class.java)
             startActivity(gk)
+            Animatoo.animateShrink(this)
         }
         musicButton.setOnClickListener {
             val music = Intent(this, MusicActivity::class.java)
             startActivity(music)
+            Animatoo.animateShrink(this)
         }
         gamingButton.setOnClickListener {
             val gaming = Intent(this, GamingActivity::class.java)
             startActivity(gaming)
+            Animatoo.animateShrink(this)
         }
         animeButton.setOnClickListener {
             val anime = Intent(this, AnimeActivity::class.java)
             startActivity(anime)
+            Animatoo.animateShrink(this)
         }
         sportsButton.setOnClickListener {
             val sports = Intent(this, SportsActivity::class.java)
             startActivity(sports)
+            Animatoo.animateShrink(this)
         }
         updateNavHeader()
     }
