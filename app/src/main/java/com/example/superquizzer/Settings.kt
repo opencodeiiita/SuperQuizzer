@@ -12,6 +12,7 @@ import android.widget.Switch
 import android.widget.Toast
 import androidx.appcompat.app.AlertDialog
 import androidx.appcompat.app.AppCompatDelegate
+import com.blogspot.atifsoftwares.animatoolib.Animatoo
 import com.google.firebase.auth.FirebaseAuth
 
 class Settings : AppCompatActivity() {
@@ -47,6 +48,7 @@ class Settings : AppCompatActivity() {
         bBack!!.setOnClickListener {
             val intent = Intent(this@Settings, MainActivity::class.java)
             startActivity(intent)
+            Animatoo.animateSlideLeft(this)
         }
         bDelete!!.setOnClickListener{
             showDeleteDialog()

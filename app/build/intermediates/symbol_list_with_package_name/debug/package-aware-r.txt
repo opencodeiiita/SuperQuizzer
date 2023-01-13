@@ -11,6 +11,36 @@ anim abc_slide_out_bottom
 anim abc_slide_out_top
 anim abc_tooltip_enter
 anim abc_tooltip_exit
+anim animate_card_enter
+anim animate_card_exit
+anim animate_diagonal_right_enter
+anim animate_diagonal_right_exit
+anim animate_fade_enter
+anim animate_fade_exit
+anim animate_in_out_enter
+anim animate_in_out_exit
+anim animate_shrink_enter
+anim animate_shrink_exit
+anim animate_slide_down_enter
+anim animate_slide_down_exit
+anim animate_slide_in_left
+anim animate_slide_left_enter
+anim animate_slide_left_exit
+anim animate_slide_out_right
+anim animate_slide_up_enter
+anim animate_slide_up_exit
+anim animate_spin_enter
+anim animate_spin_exit
+anim animate_split_enter
+anim animate_split_exit
+anim animate_swipe_left_enter
+anim animate_swipe_left_exit
+anim animate_swipe_right_enter
+anim animate_swipe_right_exit
+anim animate_windmill_enter
+anim animate_windmill_exit
+anim animate_zoom_enter
+anim animate_zoom_exit
 anim btn_checkbox_to_checked_box_inner_merged_animation
 anim btn_checkbox_to_checked_box_outer_merged_animation
 anim btn_checkbox_to_checked_icon_null_animation
@@ -27,6 +57,8 @@ anim design_bottom_sheet_slide_in
 anim design_bottom_sheet_slide_out
 anim design_snackbar_in
 anim design_snackbar_out
+anim enter_activity
+anim exit_activity
 anim fragment_fast_out_extra_slow_in
 anim linear_indeterminate_line1_head_interpolator
 anim linear_indeterminate_line1_tail_interpolator
@@ -4797,6 +4829,7 @@ style Widget_MaterialComponents_Toolbar_PrimarySurface
 style Widget_MaterialComponents_Toolbar_Surface
 style Widget_MaterialComponents_Tooltip
 style Widget_Support_CoordinatorLayout
+style WindowAnimations
 style darkTheme
 styleable ActionBar background backgroundSplit backgroundStacked contentInsetEnd contentInsetEndWithActions contentInsetLeft contentInsetRight contentInsetStart contentInsetStartWithNavigation customNavigationLayout displayOptions divider elevation height hideOnContentScroll homeAsUpIndicator homeLayout icon indeterminateProgressStyle itemPadding logo navigationMode popupTheme progressBarPadding progressBarStyle subtitle subtitleTextStyle title titleTextStyle
 styleable ActionBarLayout android_layout_gravity

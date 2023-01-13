@@ -1,5 +1,7 @@
 R_DEF: Internal format may change without notice
 local
+anim enter_activity
+anim exit_activity
 anim slide_in_left
 anim slide_in_right
 anim slide_out_left
@@ -217,6 +219,7 @@ string username
 string welcome
 style CustomAlertDialog
 style Theme.SuperQuizzer
+style WindowAnimations
 style darkTheme
 styleable ds background_color text_color button_color
 xml backup_rules

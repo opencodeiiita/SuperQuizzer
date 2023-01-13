@@ -9,6 +9,7 @@ import android.os.Bundle
 import android.view.View
 import android.widget.*
 import androidx.core.content.ContextCompat
+import com.blogspot.atifsoftwares.animatoolib.Animatoo
 
 class ScienceActivity : AppCompatActivity() {
 
@@ -51,7 +52,7 @@ class ScienceActivity : AppCompatActivity() {
         backButton.setOnClickListener {
             val intent = Intent(this, MainActivity::class.java)
             startActivity(intent)
-            finish()
+            Animatoo.animateSlideLeft(this)
         }
 
         questionsArray = ScienceQuestions.getQuestions()

@@ -11,6 +11,7 @@ import android.widget.ImageButton
 import android.widget.ProgressBar
 import android.widget.TextView
 import android.widget.Toast
+import com.blogspot.atifsoftwares.animatoolib.Animatoo
 
 class AnimeActivity : AppCompatActivity() {
     private lateinit var questionField : TextView
@@ -52,7 +53,7 @@ class AnimeActivity : AppCompatActivity() {
         backButton.setOnClickListener {
             val intent = Intent(this, MainActivity::class.java)
             startActivity(intent)
-            finish()
+            Animatoo.animateSlideLeft(this)
         }
 
         questionsArray = AnimeQuestions.getQuestions()

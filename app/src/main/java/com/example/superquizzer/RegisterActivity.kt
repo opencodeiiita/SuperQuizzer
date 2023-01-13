@@ -10,6 +10,7 @@ import android.util.Patterns
 import android.view.View
 import android.widget.*
 import androidx.appcompat.app.AppCompatActivity
+import com.blogspot.atifsoftwares.animatoolib.Animatoo
 import com.google.firebase.auth.FirebaseAuth
 import com.google.firebase.auth.UserProfileChangeRequest
 
@@ -52,7 +53,7 @@ class RegisterActivity : AppCompatActivity() {
         backbtn!!.setOnClickListener{
             val intent=Intent(this@RegisterActivity,LoginActivity::class.java)
             startActivity(intent)
-
+            Animatoo.animateSlideLeft(this)
         }
 
         bRegister?.setOnClickListener { registerUser() }

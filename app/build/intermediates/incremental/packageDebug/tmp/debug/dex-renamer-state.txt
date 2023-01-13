@@ -1,14 +1,14 @@
-#Thu Jan 12 03:31:53 IST 2023
+#Fri Jan 13 14:24:03 IST 2023
 path.4=classes2.dex
 path.3=4/classes.dex
 path.2=10/classes.dex
 path.1=0/classes.dex
 path.0=classes.dex
-base.4=/home/suhail/Desktop/SuperQuizzer/app/build/intermediates/dex/debug/mergeExtDexDebug/classes2.dex
-base.3=/home/suhail/Desktop/SuperQuizzer/app/build/intermediates/dex/debug/mergeProjectDexDebug/4/classes.dex
-base.2=/home/suhail/Desktop/SuperQuizzer/app/build/intermediates/dex/debug/mergeProjectDexDebug/10/classes.dex
-base.1=/home/suhail/Desktop/SuperQuizzer/app/build/intermediates/dex/debug/mergeProjectDexDebug/0/classes.dex
-base.0=/home/suhail/Desktop/SuperQuizzer/app/build/intermediates/dex/debug/mergeExtDexDebug/classes.dex
+base.4=/Users/akshatsingh/AndroidStudioProjects/SuperQuizzer/app/build/intermediates/dex/debug/mergeExtDexDebug/classes2.dex
+base.3=/Users/akshatsingh/AndroidStudioProjects/SuperQuizzer/app/build/intermediates/dex/debug/mergeProjectDexDebug/4/classes.dex
+base.2=/Users/akshatsingh/AndroidStudioProjects/SuperQuizzer/app/build/intermediates/dex/debug/mergeProjectDexDebug/10/classes.dex
+base.1=/Users/akshatsingh/AndroidStudioProjects/SuperQuizzer/app/build/intermediates/dex/debug/mergeProjectDexDebug/0/classes.dex
+base.0=/Users/akshatsingh/AndroidStudioProjects/SuperQuizzer/app/build/intermediates/dex/debug/mergeExtDexDebug/classes.dex
 renamed.3=classes4.dex
 renamed.2=classes3.dex
 renamed.1=classes2.dex

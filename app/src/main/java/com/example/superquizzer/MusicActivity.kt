@@ -7,6 +7,7 @@ import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.view.View
 import android.widget.*
+import com.blogspot.atifsoftwares.animatoolib.Animatoo
 
 class MusicActivity : AppCompatActivity() {
     private lateinit var questionField : TextView
@@ -48,7 +49,7 @@ class MusicActivity : AppCompatActivity() {
         backButton.setOnClickListener {
             val intent = Intent(this, MainActivity::class.java)
             startActivity(intent)
-            finish()
+            Animatoo.animateSlideLeft(this)
         }
 
         questionsArray = MusicQuestions.getMusicQuestions()

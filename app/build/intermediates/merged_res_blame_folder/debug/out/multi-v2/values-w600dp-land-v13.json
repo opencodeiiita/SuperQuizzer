@@ -1,10 +1,10 @@
 {
     "logs": [
         {
-            "outputFile": "com.example.superquizzer.app-mergeDebugResources-38:/values-w600dp-land-v13/values-w600dp-land-v13.xml",
+            "outputFile": "com.example.superquizzer.app-mergeDebugResources-39:/values-w600dp-land-v13/values-w600dp-land-v13.xml",
             "map": [
                 {
-                    "source": "/home/suhail/.gradle/caches/transforms-3/ad60a20a8279b16d8bd5235e3a9fad50/transformed/material-1.7.0/res/values-w600dp-land-v13/values-w600dp-land-v13.xml",
+                    "source": "/Users/akshatsingh/.gradle/caches/transforms-3/ad60a20a8279b16d8bd5235e3a9fad50/transformed/material-1.7.0/res/values-w600dp-land-v13/values-w600dp-land-v13.xml",
                     "from": {
                         "startLines": "2",
                         "startColumns": "4",
