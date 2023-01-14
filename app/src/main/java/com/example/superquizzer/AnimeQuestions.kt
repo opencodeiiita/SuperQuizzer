@@ -4,18 +4,18 @@ object AnimeQuestions{
     fun getQuestions():ArrayList<Question>{
         val questionsArray = ArrayList<Question>()
 
-        val question1 = Question(1," From which country Anime has originated?",
-            "China","Thailand","Japan","India",3)
+        val question1 = Question(1,"In the first season of In Sword Art Online, what is the black blade used by Kirito called?",
+            "The Elucidator","Blue Dragon","Rising Sun","Excalibur",1)
 
         questionsArray.add(question1)
 
-        val question2 = Question(2," Anime is the short form of what?",
-            "Cartoons","Animation","Both option 1 and 2","none of these",2)
+        val question2 = Question(2,"Bungee Gum has the properties of",
+            "Rubber","Gum","Both option 1 and 2","None of the above",3)
 
         questionsArray.add(question2)
 
-        val question3 = Question(3," The first anime was recorded in which year?",
-            "1937","1927","1917","1943",3)
+        val question3 = Question(3," What is Tanjiro's greatest sense?",
+            "Smell","Sight","Taste","Hearing",1)
 
         questionsArray.add(question3)
 
@@ -45,8 +45,8 @@ object AnimeQuestions{
 
         questionsArray.add(question8)
 
-        val question9 = Question(9,"In the anime, “Full Metal Panel”, who is Kaname’s best friend?",
-            "Kyoko luruno","Kyoko Tokiwa","Kyoko jhtiwa","Kyoko mutiwa",2)
+        val question9 = Question(9,"What must be sacrificed in order to use the powers of a Shinigami's Eye?",
+            "Life of a loved one","Ability to use death note","Natural Vision","Half of your life expectancy",4)
 
         questionsArray.add(question9)
 

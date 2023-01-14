@@ -7,8 +7,15 @@ import android.view.View
 import android.widget.Button
 import android.widget.ImageButton
 import android.widget.TextView
+import com.blogspot.atifsoftwares.animatoolib.Animatoo
+import com.google.firebase.auth.FirebaseAuth
 
 class ResultActivity : AppCompatActivity() {
+    companion object
+    {
+        lateinit var auth: FirebaseAuth
+
+    }
 
     private lateinit var shareButton: ImageButton
     private lateinit var homeButton: ImageButton
@@ -18,21 +25,23 @@ class ResultActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_result)
-
+        auth =FirebaseAuth.getInstance()
         window.decorView.systemUiVisibility = View.SYSTEM_UI_FLAG_FULLSCREEN
         shareButton = findViewById(R.id.share_button)
         homeButton = findViewById(R.id.home_button)
         scoreTv = findViewById(R.id.score_tv)
-        usernameTv = findViewById(R.id.username)
+        val usernameTv = findViewById<TextView>(R.id.username)
 
+        val name= auth.currentUser?.displayName
+        usernameTv.text = "$name"
         val intent = intent;
         val ss: String = intent.getStringExtra("score").toString()
         scoreTv!!.text = "You scored ${ss} points!"
 
         shareButton.setOnClickListener {
             val s =
-                "Checkout this interesting and brain-puzzled application develop during OpenCode-22\n" +
-                        "Here its github repo link:https://github.com/opencodeiiita/SuperQuizzer"
+                "Checkout this interesting quiz-taking application developed during OpenCode-22!!\n" +
+                        "https://github.com/opencodeiiita/SuperQuizzer"
             val shareIntent = Intent()
             shareIntent.action = Intent.ACTION_SEND
             shareIntent.type = "text/plain"
@@ -43,6 +52,7 @@ class ResultActivity : AppCompatActivity() {
         homeButton.setOnClickListener {
             val home = Intent(this, MainActivity::class.java)
             startActivity(home)
+            Animatoo.animateSpin(this)
             finish()
         }
 

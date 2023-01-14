@@ -30,8 +30,8 @@ object GamingQuestions {
 
         questionsArray.add(question5)
 
-        val question6 = Question(6,"What’s the name of the orange ghost in the ‘Pac-Man’ video game?",
-            "Clyde","Jason","Mark","Vishesh Vijayvargiya",1)
+        val question6 = Question(6,"What is the best-selling  gaming console to date?",
+            "Nintendo DS","GameBoy","Playstation 4","PlayStation 2",4)
 
         questionsArray.add(question6)
 
@@ -45,8 +45,8 @@ object GamingQuestions {
 
         questionsArray.add(question8)
 
-        val question9 = Question(9,"Who is the first character you defeat in Super Mario?",
-            "Drogo","Bowser","Om Khangat","Jowser",2)
+        val question9 = Question(9,"Which video game had the biggest cash prize pool for an Esports tournament?",
+            "League Of Legends","CSGO","Dota 2","Valorant",3)
 
         questionsArray.add(question9)
 

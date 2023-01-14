@@ -6,7 +6,8 @@
     android:layout_height="match_parent"
     android:fillViewport="true"
     tools:context=".QuizActivity"
-    android:background="@drawable/gradient">
+    android:background="@drawable/gradient"
+    android:layout_gravity="center">
 
     <LinearLayout
         android:id="@+id/linearLayout"

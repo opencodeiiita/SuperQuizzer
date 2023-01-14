@@ -1,15 +1,13 @@
 package com.example.superquizzer
 
 import android.annotation.SuppressLint
+import android.app.Dialog
 import android.content.ContentValues.TAG
 import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.util.Log
-import android.widget.Button
-import android.widget.ImageView
-import android.widget.Switch
-import android.widget.Toast
+import android.widget.*
 import androidx.appcompat.app.AlertDialog
 import androidx.appcompat.app.AppCompatDelegate
 import com.blogspot.atifsoftwares.animatoolib.Animatoo
@@ -21,6 +19,7 @@ class Settings : AppCompatActivity() {
         lateinit var auth: FirebaseAuth
 
     }
+    private lateinit var mProgressDialog: Dialog
     var bBack: ImageView?=null
     var bDelete:Button?=null
     @SuppressLint("UseSwitchCompatOrMaterialCode", "SetTextI18n")
@@ -57,7 +56,7 @@ class Settings : AppCompatActivity() {
     private fun showDeleteDialog()
     {
         val dialogBuilder= AlertDialog.Builder(this,R.style.CustomAlertDialog)
-        dialogBuilder .setTitle("Log Out")
+        dialogBuilder .setTitle("Delete Account")
             .setMessage("Are you sure you want to Delete this account ?")
             .setPositiveButton("Yes"){ _, _ ->  //dialog,which
                 deleteFromApp()
@@ -68,13 +67,36 @@ class Settings : AppCompatActivity() {
             }.show()
     }
     private fun deleteFromApp()
-    {
+    {showProgressDialog(resources.getString(R.string.please_wait))
         val user=auth.currentUser!!
         user.delete()
             .addOnCompleteListener { task ->
+                hideProgressDialog()
                 if (task.isSuccessful) {
                     Log.d(TAG, "User account deleted.")
+                    finishAffinity();
+                    System.exit(0);
                 }
             }
+    }
+    fun showProgressDialog(text: String) {
+        mProgressDialog = Dialog(this)
+
+        /*Set the screen content from a layout resource.
+        The resource will be inflated, adding all top-level views to the screen.*/
+        mProgressDialog.setContentView(R.layout.dialog_progress)
+
+        mProgressDialog.findViewById<TextView>(R.id.tv_progress_text).text = text
+
+        mProgressDialog.setCancelable(false)
+        mProgressDialog.setCanceledOnTouchOutside(false)
+
+        //Start the dialog and display it on screen.
+        mProgressDialog.show()
+    }
+
+    fun hideProgressDialog() {
+        mProgressDialog.dismiss()
+
     }
 }

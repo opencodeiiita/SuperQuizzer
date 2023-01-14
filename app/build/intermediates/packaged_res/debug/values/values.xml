@@ -29,7 +29,7 @@
     <string name="back">back</string>
     <string name="back_button_for_this_page">Back button</string>
     <string name="confirm_password">Confirm Password</string>
-    <string name="congratulations">Congratulations</string>
+    <string name="congratulations">Congratulations!!</string>
     <string name="create_account">Create Account</string>
     <string name="default_web_client_id" translatable="false">169690102426-l07lpd97nd9oevu5cqo44787kl0ns4ae.apps.googleusercontent.com</string>
     <string name="delete_account">Delete account</string>
@@ -216,7 +216,6 @@
         
         <item name="android:statusBarColor" ns1:targetApi="l">?attr/colorPrimaryVariant</item>
         
-        <item name="android:fontFamily">@font/montserratlight</item>
     </style>
     <style name="WindowAnimations">
         <item name="android:activityOpenEnterAnimation">

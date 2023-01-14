@@ -25,8 +25,9 @@
         android:layout_marginTop="5dp"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        tools:text="Username"
+        tools:text=""
         style="@style/TextAppearance.AppCompat.Headline"
+        android:textSize="16sp"
         />
 
     <ImageView

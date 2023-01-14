@@ -72,8 +72,8 @@ class MainActivity : AppCompatActivity() {
             }
         }
         sharebtn.setOnClickListener {
-            val s="Checkout this interesting and brain-puzzled application develop during OpenCode-22\n" +
-                    "Here its github repo link:https://github.com/opencodeiiita/SuperQuizzer"
+            val s="Checkout this interesting quiz-taking application developed during OpenCode-22!!\n" +
+                    "https://github.com/opencodeiiita/SuperQuizzer"
             val shareIntent= Intent()
             shareIntent.action=Intent.ACTION_SEND
             shareIntent.type="text/plain"
@@ -142,7 +142,7 @@ class MainActivity : AppCompatActivity() {
     private fun signOutFromApp():Boolean
     {
         auth.signOut()
-        Toast.makeText(this,"Logout Successfully",Toast.LENGTH_LONG).show()
+        Toast.makeText(this,"Logged Out Successfully",Toast.LENGTH_LONG).show()
         return true
     }
     private  fun updateNavHeader()

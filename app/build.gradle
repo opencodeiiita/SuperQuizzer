@@ -56,4 +56,5 @@ dependencies {
     androidTestImplementation 'androidx.test.espresso:espresso-core:3.5.0'
     implementation 'com.github.AtifSayings:Animatoo:1.0.1'
 
+
 }
