@@ -4,151 +4,107 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:fillViewport="true"
-    tools:context=".QuizActivity"
+    android:layout_gravity="center"
     android:background="@drawable/gradient"
-    android:layout_gravity="center">
+    android:fillViewport="true"
+    tools:context=".QuizActivity">
 
-    <LinearLayout
+    <androidx.constraintlayout.widget.ConstraintLayout
         android:id="@+id/linearLayout"
-        android:layout_width="411dp"
-        android:layout_height="536dp"
+        android:layout_width="412dp"
+        android:layout_height="114dp"
         android:layout_marginTop="100dp"
         android:gravity="center"
-        android:orientation="vertical"
-        android:padding="16dp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent">
 
+
         <TextView
             android:id="@+id/tv_question"
-            android:layout_width="match_parent"
+            android:layout_width="360dp"
             android:layout_height="wrap_content"
-            android:layout_margin="10dp"
+            android:layout_marginTop="16dp"
             android:gravity="center"
             android:textColor="#363A43"
             android:textSize="22sp"
             android:textStyle="bold"
+            app:layout_constraintBottom_toTopOf="@+id/progressBar"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.49"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.0"
             tools:text="question text" />
 
-        <LinearLayout
-            android:id="@+id/ll_progress_details"
-            android:layout_width="match_parent"
+        <ProgressBar
+            android:id="@+id/progressBar"
+            style="?android:attr/progressBarStyleHorizontal"
+            android:layout_width="320dp"
             android:layout_height="wrap_content"
-            android:layout_marginTop="16dp"
-            android:gravity="center_vertical"
-            android:orientation="horizontal">
-
-            <ProgressBar
-                android:id="@+id/progressBar"
-                style="?android:attr/progressBarStyleHorizontal"
-                android:layout_width="0dp"
-                android:layout_height="wrap_content"
-                android:layout_weight="1"
-                android:indeterminate="false"
-                android:max="10"
-                android:minHeight="50dp"
-                android:progress="0" />
-
-            <TextView
-                android:id="@+id/tv_progress"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:gravity="center"
-                android:padding="15dp"
-                android:textColor="@color/black"
-                android:textColorHint="#7A8089"
-                android:textSize="14sp"
-                android:textStyle="bold"
-                tools:text="0/10" />
-
-        </LinearLayout>
+            android:layout_marginStart="24dp"
+            android:indeterminate="false"
+            android:max="10"
+            android:minHeight="50dp"
+            android:progress="0"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="1.0" />
 
         <TextView
-            android:id="@+id/tv_option_one"
-            android:layout_width="match_parent"
+            android:id="@+id/tv_progress"
+            android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_margin="10dp"
-            android:background="@drawable/default_option_bg"
             android:gravity="center"
             android:padding="15dp"
-            android:textColor="#7A8089"
-            android:textSize="18sp"
+            android:textColor="@color/black"
+            android:textColorHint="#7A8089"
+            android:textSize="14sp"
             android:textStyle="bold"
-            tools:text="Apple" />
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="1.0"
+            app:layout_constraintStart_toEndOf="@+id/progressBar"
+            app:layout_constraintTop_toBottomOf="@+id/tv_question"
+            app:layout_constraintVertical_bias="0.947"
+            tools:text="0/10" />
 
-        <TextView
-            android:id="@+id/tv_option_two"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:layout_margin="10dp"
-            android:background="@drawable/default_option_bg"
-            android:gravity="center"
-            android:padding="15dp"
-            android:textColor="#7A8089"
-            android:textSize="18sp"
-            android:textStyle="bold"
-            tools:text="Apple" />
-
-        <TextView
-            android:id="@+id/tv_option_three"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:layout_margin="10dp"
-            android:background="@drawable/default_option_bg"
-            android:gravity="center"
-            android:padding="15dp"
-            android:textColor="#7A8089"
-            android:textSize="18sp"
-            android:textStyle="bold"
-            tools:text="Apple" />
-
-        <TextView
-            android:id="@+id/tv_option_four"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:layout_margin="10dp"
-            android:background="@drawable/default_option_bg"
-            android:gravity="center"
-            android:padding="15dp"
-            android:textColor="#7A8089"
-            android:textSize="18sp"
-            android:textStyle="bold"
-            tools:text="Apple" />
-
-    </LinearLayout>
+    </androidx.constraintlayout.widget.ConstraintLayout>
 
     <Button
         android:id="@+id/button"
         android:layout_width="149dp"
         android:layout_height="65dp"
+        android:layout_marginStart="32dp"
+        android:layout_marginTop="64dp"
         android:backgroundTint="#152DB3"
         android:text="Submit"
         android:textColor="@color/white"
         android:textStyle="bold"
         app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.148"
+        app:layout_constraintEnd_toStartOf="@+id/button2"
+        app:layout_constraintHorizontal_bias="0.04"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/linearLayout"
-        app:layout_constraintVertical_bias="0.493" />
+        app:layout_constraintTop_toBottomOf="@+id/tv_option_four"
+        app:layout_constraintVertical_bias="0.052" />
 
     <Button
         android:id="@+id/button2"
         android:layout_width="152dp"
         android:layout_height="64dp"
+        android:layout_marginTop="68dp"
         android:backgroundTint="#152DB3"
         android:text="Next"
         android:textColor="@color/white"
         android:textStyle="bold"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.901"
+        app:layout_constraintHorizontal_bias="0.868"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/linearLayout"
-        app:layout_constraintVertical_bias="0.494" />
+        app:layout_constraintTop_toBottomOf="@+id/tv_option_four"
+        app:layout_constraintVertical_bias="0.0" />
 
     <TextView
         android:id="@+id/score"
@@ -165,7 +121,6 @@
         app:layout_constraintVertical_bias="0.023" />
 
     <ImageButton
-        android:background="@null"
         android:id="@+id/back_btn"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
@@ -173,9 +128,85 @@
         android:layout_marginTop="16dp"
         android:layout_marginEnd="71dp"
         android:layout_marginBottom="60dp"
+        android:background="@null"
         android:src="@drawable/ic_baseline_arrow_back_24"
         app:layout_constraintBottom_toTopOf="@+id/linearLayout"
         app:layout_constraintEnd_toStartOf="@+id/score"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/tv_option_four"
+        android:layout_width="343dp"
+        android:layout_height="60dp"
+        android:background="@drawable/default_option_bg"
+        android:gravity="center"
+        android:padding="15dp"
+        android:textColor="#7A8089"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.573"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/tv_option_one"
+        app:layout_constraintVertical_bias="0.495"
+        tools:text="Apple" />
+
+    <TextView
+        android:id="@+id/tv_option_two"
+        android:layout_width="344dp"
+        android:layout_height="58dp"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/default_option_bg"
+        android:gravity="center"
+        android:padding="15dp"
+        android:textColor="#7A8089"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.535"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/tv_option_one"
+        app:layout_constraintVertical_bias="0.0"
+        tools:text="Apple" />
+
+    <TextView
+        android:id="@+id/tv_option_three"
+        android:layout_width="341dp"
+        android:layout_height="58dp"
+        android:background="@drawable/default_option_bg"
+        android:gravity="center"
+        android:padding="15dp"
+        android:textColor="#7A8089"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.579"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/tv_option_one"
+        app:layout_constraintVertical_bias="0.27"
+        tools:text="Apple" />
+
+    <TextView
+        android:id="@+id/tv_option_one"
+        android:layout_width="343dp"
+        android:layout_height="56dp"
+        android:layout_marginTop="24dp"
+        android:background="@drawable/default_option_bg"
+        android:gravity="center"
+        android:padding="15dp"
+        android:textColor="#7A8089"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.558"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/linearLayout"
+        app:layout_constraintVertical_bias="0.009"
+        tools:text="Apple" />
+
 </androidx.constraintlayout.widget.ConstraintLayout>

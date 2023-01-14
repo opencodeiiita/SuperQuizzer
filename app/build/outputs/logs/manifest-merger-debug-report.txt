@@ -1,9 +1,9 @@
 -- Merging decision tree log ---
 manifest
-ADDED from /home/suhail/Desktop/SuperQuizzer/app/src/main/AndroidManifest.xml:2:1-134:12
-INJECTED from /home/suhail/Desktop/SuperQuizzer/app/src/main/AndroidManifest.xml:2:1-134:12
-INJECTED from /home/suhail/Desktop/SuperQuizzer/app/src/main/AndroidManifest.xml:2:1-134:12
-INJECTED from /home/suhail/Desktop/SuperQuizzer/app/src/main/AndroidManifest.xml:2:1-134:12
+ADDED from /home/suhail/Desktop/SuperQuizzer/app/src/main/AndroidManifest.xml:2:1-129:12
+INJECTED from /home/suhail/Desktop/SuperQuizzer/app/src/main/AndroidManifest.xml:2:1-129:12
+INJECTED from /home/suhail/Desktop/SuperQuizzer/app/src/main/AndroidManifest.xml:2:1-129:12
+INJECTED from /home/suhail/Desktop/SuperQuizzer/app/src/main/AndroidManifest.xml:2:1-129:12
 MERGED from [androidx.databinding:viewbinding:7.3.1] /home/suhail/.gradle/caches/transforms-3/3741b2555c8ce418fda4cf8d25ec3cde/transformed/viewbinding-7.3.1/AndroidManifest.xml:2:1-9:12
 MERGED from [com.google.firebase:firebase-auth-ktx:21.1.0] /home/suhail/.gradle/caches/transforms-3/4ec8f080d2b81a6ef7d86af77ce7150e/transformed/firebase-auth-ktx-21.1.0/AndroidManifest.xml:2:1-17:12
 MERGED from [com.google.firebase:firebase-analytics-ktx:21.2.0] /home/suhail/.gradle/caches/transforms-3/25a5aa4c295b3b6a99143a1c7271aca4/transformed/firebase-analytics-ktx-21.2.0/AndroidManifest.xml:2:1-17:12
@@ -78,27 +78,27 @@ MERGED from [androidx.documentfile:documentfile:1.0.0] /home/suhail/.gradle/cach
 MERGED from [androidx.print:print:1.0.0] /home/suhail/.gradle/caches/transforms-3/c9676425ea1a9ca1bbda00bdc1a0929c/transformed/print-1.0.0/AndroidManifest.xml:17:1-22:12
 MERGED from [de.hdodenhof:circleimageview:3.1.0] /home/suhail/.gradle/caches/transforms-3/40ef4865558aab7830af7d817495d9e2/transformed/circleimageview-3.1.0/AndroidManifest.xml:2:1-11:12
 MERGED from [androidx.annotation:annotation-experimental:1.3.0] /home/suhail/.gradle/caches/transforms-3/60e1cb7fe28bd165051d645f123a700a/transformed/annotation-experimental-1.3.0/AndroidManifest.xml:17:1-22:12
-INJECTED from /home/suhail/Desktop/SuperQuizzer/app/src/main/AndroidManifest.xml:2:1-134:12
-INJECTED from /home/suhail/Desktop/SuperQuizzer/app/src/main/AndroidManifest.xml:2:1-134:12
-INJECTED from /home/suhail/Desktop/SuperQuizzer/app/src/main/AndroidManifest.xml:2:1-134:12
+INJECTED from /home/suhail/Desktop/SuperQuizzer/app/src/main/AndroidManifest.xml:2:1-129:12
+INJECTED from /home/suhail/Desktop/SuperQuizzer/app/src/main/AndroidManifest.xml:2:1-129:12
+INJECTED from /home/suhail/Desktop/SuperQuizzer/app/src/main/AndroidManifest.xml:2:1-129:12
 	package
 		ADDED from /home/suhail/Desktop/SuperQuizzer/app/src/main/AndroidManifest.xml:4:5-39
 		INJECTED from /home/suhail/Desktop/SuperQuizzer/app/src/main/AndroidManifest.xml
 		INJECTED from /home/suhail/Desktop/SuperQuizzer/app/src/main/AndroidManifest.xml
 	android:versionName
 		INJECTED from /home/suhail/Desktop/SuperQuizzer/app/src/main/AndroidManifest.xml
-		ADDED from /home/suhail/Desktop/SuperQuizzer/app/src/main/AndroidManifest.xml:2:1-134:12
+		ADDED from /home/suhail/Desktop/SuperQuizzer/app/src/main/AndroidManifest.xml:2:1-129:12
 		INJECTED from /home/suhail/Desktop/SuperQuizzer/app/src/main/AndroidManifest.xml
 	xmlns:tools
 		ADDED from /home/suhail/Desktop/SuperQuizzer/app/src/main/AndroidManifest.xml:3:5-51
 	android:versionCode
 		INJECTED from /home/suhail/Desktop/SuperQuizzer/app/src/main/AndroidManifest.xml
-		ADDED from /home/suhail/Desktop/SuperQuizzer/app/src/main/AndroidManifest.xml:2:1-134:12
+		ADDED from /home/suhail/Desktop/SuperQuizzer/app/src/main/AndroidManifest.xml:2:1-129:12
 		INJECTED from /home/suhail/Desktop/SuperQuizzer/app/src/main/AndroidManifest.xml
 	xmlns:android
 		ADDED from /home/suhail/Desktop/SuperQuizzer/app/src/main/AndroidManifest.xml:2:11-69
 application
-ADDED from /home/suhail/Desktop/SuperQuizzer/app/src/main/AndroidManifest.xml:6:5-132:19
+ADDED from /home/suhail/Desktop/SuperQuizzer/app/src/main/AndroidManifest.xml:6:5-127:19
 MERGED from [com.google.firebase:firebase-auth-ktx:21.1.0] /home/suhail/.gradle/caches/transforms-3/4ec8f080d2b81a6ef7d86af77ce7150e/transformed/firebase-auth-ktx-21.1.0/AndroidManifest.xml:7:5-15:19
 MERGED from [com.google.firebase:firebase-auth-ktx:21.1.0] /home/suhail/.gradle/caches/transforms-3/4ec8f080d2b81a6ef7d86af77ce7150e/transformed/firebase-auth-ktx-21.1.0/AndroidManifest.xml:7:5-15:19
 MERGED from [com.google.firebase:firebase-analytics-ktx:21.2.0] /home/suhail/.gradle/caches/transforms-3/25a5aa4c295b3b6a99143a1c7271aca4/transformed/firebase-analytics-ktx-21.2.0/AndroidManifest.xml:7:5-15:19
@@ -308,7 +308,7 @@ ADDED from /home/suhail/Desktop/SuperQuizzer/app/src/main/AndroidManifest.xml:11
 	android:name
 		ADDED from /home/suhail/Desktop/SuperQuizzer/app/src/main/AndroidManifest.xml:119:27-74
 activity#com.example.superquizzer.MainActivity
-ADDED from /home/suhail/Desktop/SuperQuizzer/app/src/main/AndroidManifest.xml:122:9-131:20
+ADDED from /home/suhail/Desktop/SuperQuizzer/app/src/main/AndroidManifest.xml:122:9-126:20
 	android:screenOrientation
 		ADDED from /home/suhail/Desktop/SuperQuizzer/app/src/main/AndroidManifest.xml:123:13-49
 	android:exported

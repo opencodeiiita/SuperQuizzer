@@ -24,7 +24,7 @@
 
         <TextView
             android:id="@+id/tv_question"
-            android:layout_width="match_parent"
+            android:layout_width="350dp"
             android:layout_height="wrap_content"
             android:layout_margin="10dp"
             android:gravity="center"
@@ -68,7 +68,7 @@
 
         <TextView
             android:id="@+id/tv_option_one"
-            android:layout_width="match_parent"
+            android:layout_width="300dp"
             android:layout_height="wrap_content"
             android:layout_margin="10dp"
             android:background="@drawable/default_option_bg"
@@ -81,7 +81,7 @@
 
         <TextView
             android:id="@+id/tv_option_two"
-            android:layout_width="match_parent"
+            android:layout_width="300dp"
             android:layout_height="wrap_content"
             android:layout_margin="10dp"
             android:background="@drawable/default_option_bg"
@@ -94,7 +94,7 @@
 
         <TextView
             android:id="@+id/tv_option_three"
-            android:layout_width="match_parent"
+            android:layout_width="300dp"
             android:layout_height="wrap_content"
             android:layout_margin="10dp"
             android:background="@drawable/default_option_bg"
@@ -107,7 +107,7 @@
 
         <TextView
             android:id="@+id/tv_option_four"
-            android:layout_width="match_parent"
+            android:layout_width="300dp"
             android:layout_height="wrap_content"
             android:layout_margin="10dp"
             android:background="@drawable/default_option_bg"
