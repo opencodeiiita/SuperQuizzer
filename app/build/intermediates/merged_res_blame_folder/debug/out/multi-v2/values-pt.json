@@ -4,24 +4,7 @@
             "outputFile": "com.example.superquizzer.app-mergeDebugResources-39:/values-pt/values-pt.xml",
             "map": [
                 {
-                    "source": "/home/suhail/.gradle/caches/transforms-3/44d6f460890717a72af0cec0fcdbb388/transformed/core-1.9.0/res/values-pt/values-pt.xml",
-                    "from": {
-                        "startLines": "2",
-                        "startColumns": "4",
-                        "startOffsets": "55",
-                        "endColumns": "100",
-                        "endOffsets": "151"
-                    },
-                    "to": {
-                        "startLines": "34",
-                        "startColumns": "4",
-                        "startOffsets": "3361",
-                        "endColumns": "100",
-                        "endOffsets": "3457"
-                    }
-                },
-                {
-                    "source": "/home/suhail/.gradle/caches/transforms-3/0c57546b4e9f2760f6204e2c95bb8e35/transformed/appcompat-1.5.1/res/values-pt/values-pt.xml",
+                    "source": "/Users/akshatsingh/.gradle/caches/transforms-3/0c57546b4e9f2760f6204e2c95bb8e35/transformed/appcompat-1.5.1/res/values-pt/values-pt.xml",
                     "from": {
                         "startLines": "2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26,27,28,29",
                         "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4",
@@ -38,7 +21,24 @@
                     }
                 },
                 {
-                    "source": "/home/suhail/.gradle/caches/transforms-3/d223c8c033e8613a3225f1413f36a200/transformed/browser-1.4.0/res/values-pt/values-pt.xml",
+                    "source": "/Users/akshatsingh/.gradle/caches/transforms-3/44d6f460890717a72af0cec0fcdbb388/transformed/core-1.9.0/res/values-pt/values-pt.xml",
+                    "from": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endColumns": "100",
+                        "endOffsets": "151"
+                    },
+                    "to": {
+                        "startLines": "34",
+                        "startColumns": "4",
+                        "startOffsets": "3361",
+                        "endColumns": "100",
+                        "endOffsets": "3457"
+                    }
+                },
+                {
+                    "source": "/Users/akshatsingh/.gradle/caches/transforms-3/d223c8c033e8613a3225f1413f36a200/transformed/browser-1.4.0/res/values-pt/values-pt.xml",
                     "from": {
                         "startLines": "2,3,4,5",
                         "startColumns": "4,4,4,4",

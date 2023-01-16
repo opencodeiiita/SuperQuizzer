@@ -146,7 +146,10 @@ class ScienceActivity : AppCompatActivity() {
     private fun submitQuestion() {
         val question : Question = questionsArray[currentPosition - 1]
         correctOption = question.correctOption
-        if (optionSelected == 0){
+        if(submitted){
+            Toast.makeText(this,"You have already submitted your answer",Toast.LENGTH_LONG).show()
+        }
+        else if (optionSelected == 0){
             submitted = false
             Toast.makeText(this, "Select an option first", Toast.LENGTH_LONG).show()
         }
