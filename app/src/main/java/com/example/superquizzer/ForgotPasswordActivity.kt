@@ -12,6 +12,7 @@ import android.widget.*
 import com.blogspot.atifsoftwares.animatoolib.Animatoo
 import com.example.superquizzer.databinding.ActivityForgotPasswordBinding
 import com.google.firebase.auth.FirebaseAuth
+import com.google.firebase.auth.FirebaseAuth.getInstance
 
 class ForgotPasswordActivity : AppCompatActivity() {
 
@@ -34,7 +35,7 @@ class ForgotPasswordActivity : AppCompatActivity() {
         supportActionBar?.hide()
         window.decorView.systemUiVisibility= View.SYSTEM_UI_FLAG_FULLSCREEN
         setContentView(view)
-        auth= FirebaseAuth.getInstance()
+        auth= getInstance()
         bBack=binding.backBtn
         bSubmit=binding.loginButton
         edtEmail=binding.editTextTextEmailAddress4
